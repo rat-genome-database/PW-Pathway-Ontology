@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: 7.55
-date: 11:07:2020 20:13
+data-version: 7.53
+date: 13:06:2020 20:13
 saved-by: gthayman
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-07-03 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-04-07 --
 default-namespace: pathway
 ontology: pw
 
@@ -278,7 +278,7 @@ is_a: PW:0000033 ! energy metabolic pathway
 [Term]
 id: PW:0000037
 name: sulfur metabolic pathway
-def: "Those metabolic reactions involving sulfur - a component of methionine and cysteine amino acids and of co-enzymes and vitamins. It also serves as electron donor in anaerobic respiration. Microorganisms and plants can incorporate inorganic sulfate into bioinorganic compounds; higher organisms derive them from diet." [http://en.wikipedia.org/wiki/Sulfur_metabolism "Wikipedia", KEGG:map00920, PMID:16143557]
+def: "Those metabolic reactions involving sulfur - a component of methionine and cysteine amino acids and of co-enzymes and vitamins. It also serves as electron donor in anaerobic respiration. Microorganisms and plants can incorporate inorganic sulfate into bioinorganic compounds; higher organisms derive them from diet." [KEGG:map00920, PMID:16143557, http://en.wikipedia.org/wiki/Sulfur_metabolism "Wikipedia"]
 synonym: "KEGG:00920" RELATED []
 is_a: PW:0000033 ! energy metabolic pathway
 
@@ -476,7 +476,7 @@ relationship: part_of PW:0000455 ! excitatory synaptic transmission pathway
 [Term]
 id: PW:0000062
 name: ascorbate and aldarate metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of ascorbate and aldarate, as depicted in the KEGG diagram." [KEGG:map00053, OneLook:www.onelook.com]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of ascorbate and aldarate, as depicted in the KEGG diagram." [KEGG:map00053, OneLook:www\,onelook.com]
 synonym: "KEGG:00053" RELATED []
 is_a: PW:0000005 ! carbohydrate metabolic pathway
 
@@ -490,7 +490,7 @@ is_a: PW:0000005 ! carbohydrate metabolic pathway
 [Term]
 id: PW:0000064
 name: propanoate metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of propanoate - any salt or ester of propanoic or propionic acid. Several propanoates are used in the food industry." [http://dl.clackamas.cc.or.us/ch106-04/nomencla1.htm "Web", KEGG:map00640, OneLook:www.onelook.com]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of propanoate - any salt or ester of propanoic or propionic acid. Several propanoates are used in the food industry." [KEGG:map00640, OneLook:www.onelook.com, http://dl.clackamas.cc.or.us/ch106-04/nomencla1.htm "Web"]
 synonym: "KEGG:00640" RELATED []
 synonym: "SMP:00016" RELATED []
 is_a: PW:0000005 ! carbohydrate metabolic pathway
@@ -824,7 +824,7 @@ is_a: PW:0000282 ! benzoate degradation pathway
 [Term]
 id: PW:0000115
 name: benzoate degradation pathway via CoA ligation
-def: "Those enzymatic reactions involved in the anaerobic pathway of benzoate degradation." [GO:0010128, http://umbbd.ahc.umn.edu/benz/benz_map.html "Online", KEGG:map00632]
+def: "Those enzymatic reactions involved in the anaerobic pathway of benzoate degradation." [GO:0010128, KEGG:map00632, http://umbbd.ahc.umn.edu/benz/benz_map.html "Online"]
 is_a: PW:0000282 ! benzoate degradation pathway
 
 [Term]
@@ -888,7 +888,7 @@ is_a: PW:0000004 ! regulatory pathway
 [Term]
 id: PW:0000125
 name: G protein mediated signaling pathway
-def: "G-proteins act as signal transducers between activated receptors or other incoming signals and downstream effectors.  They comprise the heterotrimeric G proteins downstream of G protein coupled receptors (GPCRs) and the Ras superfamily of small, monomeric G proteins. They function as molecular switches alternating between the GDP-inactive and GTP-active bound state." [GO:0007186, PMID:11152757, PMID:12040175, Reactome:REACT_14797.1]
+def: "G-proteins act as signal transducers between activated receptors or other incoming signals and downstream effectors.  They comprise the heterotrimeric G proteins downstream of G protein coupled receptors (GPCRs) and the Ras superfamily of small, monomeric G proteins. They function as molecular switches alternating between the GDP-inactive and GTP-active bound state." [GO:0007186, PubMed:11152757, PubMed:12040175, Reactome:REACT_14797.1]
 synonym: "heterotrimeric G protein mediated signaling pathway" RELATED []
 is_a: PW:0000003 ! signaling pathway
 
@@ -901,7 +901,7 @@ is_a: PW:0001275 ! eukaryotic RNA polymerase transcription pathway
 [Term]
 id: PW:0000127
 name: RNA polymerase II transcription pathway
-def: "The series of events governing the synthesis of protein-coding messenger RNA (mRNA) precursor and of many classes of non-coding genes." [GO:0006366, http://en.wikipedia.org/wiki/Transcription_%28genetics%29 "Wikipedia", PMID:22365827, PMID:23827673, Reactome:REACT_1366.1]
+def: "The series of events governing the synthesis of protein-coding messenger RNA (mRNA) precursor and of many classes of non-coding genes." [GO:0006366, PMID:22365827, PMID:23827673, Reactome:REACT_1366.1, http://en.wikipedia.org/wiki/Transcription_%28genetics%29 "Wikipedia"]
 is_a: PW:0001275 ! eukaryotic RNA polymerase transcription pathway
 
 [Term]
@@ -936,7 +936,7 @@ is_a: PW:0000002 ! classic metabolic pathway
 [Term]
 id: PW:0000133
 name: selenoamino acid metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of selenoamino acid - an amino acid in which a selenium atom replaces a sulfur atom. Examples include selenocysteine, selenohomocysteine and selenomethionine." [http://morelife.org/glossary/ "Technical glossary", http://pathman.smpdb.ca/pathways/SMP00029/pathway "SMPDB", KEGG:map00450]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of selenoamino acid - an amino acid in which a selenium atom replaces a sulfur atom. Examples include selenocysteine, selenohomocysteine and selenomethionine." [KEGG:map00450, http://pathman.smpdb.ca/pathways/SMP00029/pathway "SMPDB", http://morelife.org/glossary/ "Technical glossary"]
 synonym: "KEGG:00450" RELATED []
 synonym: "selenocompound metabolic pathway" RELATED []
 synonym: "SMP:00029" RELATED []
@@ -1074,7 +1074,7 @@ is_a: PW:0000147 ! metabolic pathway of secondary metabolites
 [Term]
 id: PW:0000151
 name: starch and sucrose metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of starch and sucrose, as depicted in the KEGG diagram. Starch is a polysaccharide produced by all green plants and is an important carbohydrate in the human diet. Sucrose, or the table sugar is a disaccharide of glucose and fructose that is produced by plants and cyanobacteria." [http://www.onelook.com "OneLook", KEGG:map00500]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of starch and sucrose, as depicted in the KEGG diagram. Starch is a polysaccharide produced by all green plants and is an important carbohydrate in the human diet. Sucrose, or the table sugar is a disaccharide of glucose and fructose that is produced by plants and cyanobacteria." [KEGG:map00500, http://www.onelook.com "OneLook"]
 synonym: "KEGG:00500" RELATED []
 synonym: "SMP:00058" RELATED []
 is_a: PW:0000005 ! carbohydrate metabolic pathway
@@ -1119,7 +1119,7 @@ is_a: PW:0001240 ! prostanoid metabolic pathway
 [Term]
 id: PW:0000157
 name: glycosaminoglycan metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or  degradation of glycosaminoglycans - any of several high molecular weight linear polysaccharides of repeating disaccharide units. In many cases, the unit consists of an amino sugar and a uronic acid.  When aggregating with proteins, they form proteoglycans." [GO:0030203, http://en.wikipedia.org/wiki/Glycosaminoglycan "wikipedia", MCW Libraries:QU4 V876f 2008]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or  degradation of glycosaminoglycans - any of several high molecular weight linear polysaccharides of repeating disaccharide units. In many cases, the unit consists of an amino sugar and a uronic acid.  When aggregating with proteins, they form proteoglycans." [GO:0030203, MCW Libraries:QU4 V876f 2008, http://en.wikipedia.org/wiki/Glycosaminoglycan "wikipedia"]
 is_a: PW:0000146 ! glycan metabolic pathway
 
 [Term]
@@ -1206,7 +1206,7 @@ is_a: PW:0000571 ! neurotrophic factor signaling pathway
 [Term]
 id: PW:0000170
 name: epidermal growth factor/neuregulin signaling pathway
-def: "Members of the EGF/neuregulin superfamily are important regulators of tissue development and repair. A characteristic feature is the presence of the EGF module, a 36-40 amino acid sequence with a disulfide-bonded three loop structure necessary for receptor binding." [GO:0007173, KEGG:map04012, MCW e-journal:J. Mol. Evolo.2000\, v50\, p397-412, PMID:12814936, Reactome:REACT_9417.3]
+def: "Members of the EGF/neuregulin superfamily are important regulators of tissue development and repair. A characteristic feature is the presence of the EGF module, a 36-40 amino acid sequence with a disulfide-bonded three loop structure necessary for receptor binding." [GO:0007173, KEGG:map04012, MCW e-journal:J. Mol. Evolo.2000\, v50\, p397-412, PubMed:12814936, Reactome:REACT_9417.3]
 synonym: "EGF/neuregulin signaling pathway" RELATED []
 synonym: "KEGG:04012" RELATED []
 synonym: "PID:200101" RELATED []
@@ -1956,7 +1956,7 @@ is_a: PW:0000651 ! aging pathway
 [Term]
 id: PW:0000278
 name: autophagy pathway
-def: "Autophagic pathway involves the sequestration of misfolded or long-lived proteins and of defective organelles within double membrane vesicles, delivery of the cargo to lysosomes for degradation and recycling. It is also known as the macroautophagy, or bulk autophagy." [https://en.wikipedia.org/wiki/Autophagy "wikipedia", PMID:20034776, PMID:20089931, PMID:20211164]
+def: "Autophagic pathway involves the sequestration of misfolded or long-lived proteins and of defective organelles within double membrane vesicles, delivery of the cargo to lysosomes for degradation and recycling. It is also known as the macroautophagy, or bulk autophagy." [PMID:20034776, PMID:20089931, PMID:20211164, https://en.wikipedia.org/wiki/Autophagy "wikipedia"]
 synonym: "KEGG:04140" RELATED []
 is_a: PW:0002402 ! cellular autophagy pathway
 
@@ -2799,7 +2799,7 @@ relationship: part_of PW:0000398 ! homocysteine metabolic pathway
 [Term]
 id: PW:0000400
 name: transsulfuration pathway of homocysteine metabolism
-def: "The transulfuration pathway is one of the two routes of homocysteine metabolism. It allows for the transfer of sulfur from methionine to cysteine. 70% of cysteine is then converted to glutathione and the remainder ends up as either taurine or pyruvate and sulfate." [https://en.wikipedia.org/wiki/Transsulfuration_pathway "wikipedia", PMID:20162368]
+def: "The transulfuration pathway is one of the two routes of homocysteine metabolism. It allows for the transfer of sulfur from methionine to cysteine. 70% of cysteine is then converted to glutathione and the remainder ends up as either taurine or pyruvate and sulfate." [PMID:20162368, https://en.wikipedia.org/wiki/Transsulfuration_pathway "wikipedia"]
 synonym: "SMP:00455" RELATED []
 relationship: part_of PW:0000398 ! homocysteine metabolic pathway
 
@@ -3073,7 +3073,7 @@ is_a: PW:0000443 ! catecholamine metabolic pathway
 [Term]
 id: PW:0000443
 name: catecholamine metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of catecholamines - chemical compounds derived from tyrosine. Epinephrine, norepinephrine and dopamine are among the most abundant and are produced primarily from the adrenal medulla and the postganglionic fibers of the sympathetic nervous system." [OneLook:www.onelook.com, PMID:19342614]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of catecholamines - chemical compounds derived from tyrosine. Epinephrine, norepinephrine and dopamine are among the most abundant and are produced primarily from the adrenal medulla and the postganglionic fibers of the sympathetic nervous system." [OneLook:www\,onelook.com, PMID:19342614]
 is_a: PW:0000211 ! biogenic amines and polyamines metabolic pathway
 is_a: PW:0000436 ! amine neurotransmitter metabolic pathway
 
@@ -3126,7 +3126,7 @@ is_a: PW:0000447 ! peptide neurotransmitter metabolic pathway
 [Term]
 id: PW:0000452
 name: substance P metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of substance P - a  short-chain polypeptide that acts as a neurotransmitter and a neuromodulator." [OneLook:www.onelook.com]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of substance P - a  short-chain polypeptide that acts as a neurotransmitter and a neuromodulator." [OneLook:www\,onelook.com]
 is_a: PW:0000447 ! peptide neurotransmitter metabolic pathway
 
 [Term]
@@ -3613,7 +3613,7 @@ is_a: PW:0000147 ! metabolic pathway of secondary metabolites
 [Term]
 id: PW:0000523
 name: linoleic acid metabolic pathway
-def: "Those enzymatic reactions involved in the synthesis, utilization or degradation of linoleic acid - an unsaturated omega-6 fatty acid. Linoleic acid is an essential fatty acid that humans and other animals cannot synthesize and must obtain from diet." [GO:0043651, http://www.onelook.com "OneLook", KEGG:map00591]
+def: "Those enzymatic reactions involved in the synthesis, utilization or degradation of linoleic acid - an unsaturated omega-6 fatty acid. Linoleic acid is an essential fatty acid that humans and other animals cannot synthesize and must obtain from diet." [GO:0043651, KEGG:map00591, http://www.onelook.com "OneLook"]
 synonym: "KEGG:00591" RELATED []
 synonym: "SMP:00018" RELATED []
 is_a: PW:0000058 ! fatty acid metabolic pathway
@@ -3816,7 +3816,7 @@ is_a: PW:0000546 ! mRNA decay pathway
 [Term]
 id: PW:0000552
 name: brassinosteroid biosynthetic pathway
-def: "Those metabolic reactions involved in the biosynthesis of brassinosteroids or brassins, a group of plant hormones released in response to low oxygen and sugar, or to root stresses." [GO:0016132\, KEGG, http://www.onelook.com "OneLook", KEGG:map00905]
+def: "Those metabolic reactions involved in the biosynthesis of brassinosteroids or brassins, a group of plant hormones released in response to low oxygen and sugar, or to root stresses." [GO:0016132\, KEGG, KEGG:map00905, http://www.onelook.com "OneLook"]
 is_a: PW:0000147 ! metabolic pathway of secondary metabolites
 
 [Term]
@@ -3960,14 +3960,14 @@ is_a: PW:0000571 ! neurotrophic factor signaling pathway
 [Term]
 id: PW:0000573
 name: pentose phosphate pathway - oxidative phase
-def: "The oxidative (linear) phase of the pentose phosphate pathway involves the oxidation and decarboxylation of glucose-6-phosphate to produce the 5 carbon sugar ribulose-5-phosphate and the generation of NADPH." [GO:0009051, http://www.ncbi.nlm.nih.gov/sites/entrez "PubMed", OneLook:www.oneloook.com]
+def: "The oxidative (linear) phase of the pentose phosphate pathway involves the oxidation and decarboxylation of glucose-6-phosphate to produce the 5 carbon sugar ribulose-5-phosphate and the generation of NADPH." [GO:0009051, OneLook:www.oneloook.com, http://www.ncbi.nlm.nih.gov/sites/entrez "PubMed"]
 is_a: PW:0000556 ! glucose oxidation pathway
 relationship: part_of PW:0000045 ! pentose phosphate pathway
 
 [Term]
 id: PW:0000574
 name: pentose phosphate pathway - non-oxidative phase
-def: "The non-oxidative (circular) phase of the pentose phosphate pathway involves conversion of  ribulose-5-phosphate to ribose-5-phosphate, important in the synthesis of nucleotides and nucleic acid, or to 3 or 6 carbon sugars." [GO:0009052, http://www.ncbi.nlm.nih.gov/sites/entrez "PubMed", OneLook:www.oneloook.com]
+def: "The non-oxidative (circular) phase of the pentose phosphate pathway involves conversion of  ribulose-5-phosphate to ribose-5-phosphate, important in the synthesis of nucleotides and nucleic acid, or to 3 or 6 carbon sugars." [GO:0009052, OneLook:www.oneloook.com, http://www.ncbi.nlm.nih.gov/sites/entrez "PubMed"]
 relationship: part_of PW:0000045 ! pentose phosphate pathway
 
 [Term]
@@ -4557,7 +4557,7 @@ is_a: PW:0000652 ! phosphatase mediated signaling pathway
 [Term]
 id: PW:0000655
 name: glycoconjugated protein signaling pathway
-def: "Those signaling pathways mediated or initiated by oligosaccharide or polysaccharide linked proteins." [OneLook:www.onelook.com]
+def: "Those signaling pathways mediated or initiated by oligosaccharide or polysaccharide linked proteins." [OneLook:www\,onelook.com]
 is_a: PW:0000003 ! signaling pathway
 
 [Term]
@@ -4725,7 +4725,7 @@ is_a: PW:0000287 ! altered apoptotic cell death pathway
 [Term]
 id: PW:0000681
 name: FasL mediated signaling pathway
-def: "Fas ligand binding to its receptor triggers a conformational change that allows the receptor to assemble a signaling complex known as DISC, followed by recruitment of pro-caspase-8 and activation of caspase-3 and -7. It is believed that Fas mediated signaling to elicit apoptosis follows two routes." [PMID:14744432, Reactome:REACT_900.1]
+def: "Fas ligand binding to its receptor triggers a conformational change that allows the receptor to assemble a signaling complex known as DISC, followed by recruitment of pro-caspase-8 and activation of caspase-3 and -7. It is believed that Fas mediated signaling to elicit apoptosis follows two routes." [PubMed:14744432, Reactome:REACT_900.1]
 synonym: "PID:200080" RELATED []
 is_a: PW:0000106 ! extrinsic apoptotic pathway
 is_a: PW:0000236 ! tumor necrosis factor superfamily mediated signaling pathway
@@ -4955,7 +4955,7 @@ creation_date: 2009-10-28T02:45:27Z
 [Term]
 id: PW:0000706
 name: leukemia pathway
-def: "Leukemia is a cancer of the blood or bone marrow. The term covers a broad spectrum of conditions subdivided by proliferation type - acute and chronic, and by cell type - myeloid and lymphocytic leukemia." [OneLook:www.onelook.com]
+def: "Leukemia is a cancer of the blood or bone marrow. The term covers a broad spectrum of conditions subdivided by proliferation type - acute and chronic, and by cell type - myeloid and lymphocytic leukemia." [OneLook:www.onelook..com]
 is_a: PW:0000605 ! cancer pathway
 created_by: vpetri
 creation_date: 2009-10-28T03:34:16Z
@@ -5429,7 +5429,7 @@ creation_date: 2010-03-17T08:04:55Z
 [Term]
 id: PW:0000759
 name: gemcitabine pharmacokinetics pathway
-def: "The pathway of processing - absorption, distribution, metabolism or elimination of gemcitabine. Gemcitabine is a cytidine analogue administered as a prodrug for the treatment of certain cancers. The diphosphate form is an inhibitor of ribonucleotide reductases, essential enzymes of deoxyribonucleotide synthesis. Genetic variations can result in changes in the availability of the drug." [http://pathman.smpdb.ca/pathways/SMP00446/pathway "SMPDB", http://www.pharmgkb.org/do/serve?objId=PA2036 "PharmGKB"]
+def: "The pathway of processing - absorption, distribution, metabolism or elimination of gemcitabine. Gemcitabine is a cytidine analogue administered as a prodrug for the treatment of certain cancers. The diphosphate form is an inhibitor of ribonucleotide reductases, essential enzymes of deoxyribonucleotide synthesis. Genetic variations can result in changes in the availability of the drug." [http://www.pharmgkb.org/do/serve?objId=PA2036 "PharmGKB", http://pathman.smpdb.ca/pathways/SMP00446/pathway "SMPDB"]
 synonym: "SMP:00603" RELATED []
 is_a: PW:0000758 ! gemcitabine pathway
 created_by: VPetri
@@ -5456,7 +5456,7 @@ creation_date: 2010-03-17T08:51:56Z
 [Term]
 id: PW:0000762
 name: celecoxib pharmacokinetics pathway
-def: "The pathway of processing - absorption, distribution, metabolism or elimination of celecoxib - a selective inhibitor of cyclooxygenase 2 used for the treatment of osteoarthritis and rheumatoid arthritis. Genetic variations can result in changes in the availability of the drug." [http://pathman.smpdb.ca/pathways/SMP00096/pathway "SMPDB", http://www.pharmgkb.org/do/serve?objId=PA152241951 "PharmGKB"]
+def: "The pathway of processing - absorption, distribution, metabolism or elimination of celecoxib - a selective inhibitor of cyclooxygenase 2 used for the treatment of osteoarthritis and rheumatoid arthritis. Genetic variations can result in changes in the availability of the drug." [http://www.pharmgkb.org/do/serve?objId=PA152241951 "PharmGKB", http://pathman.smpdb.ca/pathways/SMP00096/pathway "SMPDB"]
 synonym: "celebrex pharmacokinetics pathway" RELATED []
 synonym: "SMP:00644" RELATED []
 is_a: PW:0000761 ! celecoxib drug pathway
@@ -5476,7 +5476,7 @@ creation_date: 2010-03-17T09:14:56Z
 [Term]
 id: PW:0000764
 name: ifosfamide drug pathway
-def: "The pharmacokinetics and pharmacodynamics pathway of ifosfamide, am antitumor agent used in the treatment of certain cancers. It is administered as a prodrug that has to be converted to the active form. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [http://pathman.smpdb.ca/pathways/SMP00448/pathway "SMPDB", http://www.pharmgkb.org/ "PharmGKB"]
+def: "The pharmacokinetics and pharmacodynamics pathway of ifosfamide, am antitumor agent used in the treatment of certain cancers. It is administered as a prodrug that has to be converted to the active form. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [http://www.pharmgkb.org/ "PharmGKB", http://pathman.smpdb.ca/pathways/SMP00448/pathway "SMPDB"]
 is_a: PW:0002367 ! antineoplastic drug pathway
 created_by: VPetri
 creation_date: 2010-03-22T01:04:43Z
@@ -5484,7 +5484,7 @@ creation_date: 2010-03-22T01:04:43Z
 [Term]
 id: PW:0000765
 name: ifosfamide pharmacokinetics pathway
-def: "The pathway of processing - absorption, distribution, metabolism or elimination of ifosfamide, a prodrug used against solid tumors. Genetic variations can result in changes in the availability of the drug." [http://pathman.smpdb.ca/pathways/SMP00448/pathway "SMPFB", http://www.pharmgkb.org/do/serve?objId=PA2037 "PharmGKB"]
+def: "The pathway of processing - absorption, distribution, metabolism or elimination of ifosfamide, a prodrug used against solid tumors. Genetic variations can result in changes in the availability of the drug." [http://www.pharmgkb.org/do/serve?objId=PA2037 "PharmGKB", http://pathman.smpdb.ca/pathways/SMP00448/pathway "SMPFB"]
 synonym: "SMP:00605" RELATED []
 is_a: PW:0000764 ! ifosfamide drug pathway
 created_by: VPetri
@@ -5493,7 +5493,7 @@ creation_date: 2010-03-22T01:13:38Z
 [Term]
 id: PW:0000766
 name: ifosfamide pharmacodynamics pathway
-def: "The pathway of ifosfamide-target interaction and of the biochemical or physiological responses to drug. Ifosfamide is administered as a prodrug and is widely used as an alkylating agent for the treatment of certain cancers. Genetic variations can cause differences in the response of the organism to the drug." [http://pathman.smpdb.ca/pathways/SMP00448/pathway "SMPDB", http://www.pharmgkb.org/search/pathway/ifos/ifos-pd.jsp "PharmGKB"]
+def: "The pathway of ifosfamide-target interaction and of the biochemical or physiological responses to drug. Ifosfamide is administered as a prodrug and is widely used as an alkylating agent for the treatment of certain cancers. Genetic variations can cause differences in the response of the organism to the drug." [http://www.pharmgkb.org/search/pathway/ifos/ifos-pd.jsp "PharmGKB", http://pathman.smpdb.ca/pathways/SMP00448/pathway "SMPDB"]
 synonym: "SMP:00448" RELATED []
 is_a: PW:0000764 ! ifosfamide drug pathway
 created_by: VPetri
@@ -7816,7 +7816,7 @@ creation_date: 2012-07-11T11:08:32Z
 [Term]
 id: PW:0001030
 name: cocaine addiction pathway
-def: "Prolonged use of cocaine results in cardiovascular and brain damage. Cocaine is thought to bind to the dopamine reuptake transporter thus blocking the reuptake of dopamine into nerve terminals. The resulting higher concentration of dopamine in synapses leads to overactivation of dopamine receptors such as D1 and of signaling pathways downstream of it overall believed to be critical in mediating the behavioral responses to cocaine." [http://www.onelook.com "OneLook", KEGG:map05030]
+def: "Prolonged use of cocaine results in cardiovascular and brain damage. Cocaine is thought to bind to the dopamine reuptake transporter thus blocking the reuptake of dopamine into nerve terminals. The resulting higher concentration of dopamine in synapses leads to overactivation of dopamine receptors such as D1 and of signaling pathways downstream of it overall believed to be critical in mediating the behavioral responses to cocaine." [KEGG:map05030, http://www.onelook.com "OneLook"]
 synonym: "KEGG:05030" RELATED []
 is_a: PW:0001029 ! substance dependence pathway
 created_by: VPetri
@@ -7825,7 +7825,7 @@ creation_date: 2012-07-11T11:18:43Z
 [Term]
 id: PW:0001031
 name: amphetamine addiction pathway
-def: "Amphetamine is believed to promote an elevation in extracellular dopamine. Higher and high levels of the drug lead to overactivation of transcription factors and cofactors." [http://www.onelook.com "OneLook", KEGG:map\:05031]
+def: "Amphetamine is believed to promote an elevation in extracellular dopamine. Higher and high levels of the drug lead to overactivation of transcription factors and cofactors." [KEGG:map\:05031, http://www.onelook.com "OneLook"]
 synonym: "KEGG:05031" RELATED []
 is_a: PW:0001029 ! substance dependence pathway
 created_by: VPetri
@@ -7834,7 +7834,7 @@ creation_date: 2012-07-11T11:31:37Z
 [Term]
 id: PW:0001032
 name: morphine addiction pathway
-def: "Morphine, an effective pain killer drug, can also be extremely addictive. Activation of dopamine neurons and reduction of inhibitory synaptic transmission might be associated with the effects or morphine. Changes in neuronal responses and communication may underlie the addictive behavior." [http://www.onelook.com "OneLook", KEGG:map05032]
+def: "Morphine, an effective pain killer drug, can also be extremely addictive. Activation of dopamine neurons and reduction of inhibitory synaptic transmission might be associated with the effects or morphine. Changes in neuronal responses and communication may underlie the addictive behavior." [KEGG:map05032, http://www.onelook.com "OneLook"]
 synonym: "KEGG:05032" RELATED []
 is_a: PW:0001029 ! substance dependence pathway
 created_by: VPetri
@@ -7843,7 +7843,7 @@ creation_date: 2012-07-11T11:41:36Z
 [Term]
 id: PW:0001033
 name: nicotine addiction pathway
-def: "Nicotine, like the other addictive substances, impacts on the dopaminergic and mesolimbic reward circuitries. Nicotine is also a ligand for the nicotinic acetylcholine receptors which are ligand-gated ion channels." [http://www.onelook.com "OneLook", KEGG:map05033]
+def: "Nicotine, like the other addictive substances, impacts on the dopaminergic and mesolimbic reward circuitries. Nicotine is also a ligand for the nicotinic acetylcholine receptors which are ligand-gated ion channels." [KEGG:map05033, http://www.onelook.com "OneLook"]
 synonym: "KEGG:05033" RELATED []
 is_a: PW:0001029 ! substance dependence pathway
 created_by: VPetri
@@ -7852,7 +7852,7 @@ creation_date: 2012-07-11T11:46:55Z
 [Term]
 id: PW:0001034
 name: alcoholism pathway
-def: "The mechanisms of alcohol dependence, or alcoholism, are not well understood. Like in the case of other substances of abuse, alcohol may lead to stimulation of dopamine release and overactivation of dopamine-related circuitries." [http://www.onelook.com "OneLook", KEGG:map05034]
+def: "The mechanisms of alcohol dependence, or alcoholism, are not well understood. Like in the case of other substances of abuse, alcohol may lead to stimulation of dopamine release and overactivation of dopamine-related circuitries." [KEGG:map05034, http://www.onelook.com "OneLook"]
 synonym: "alcohol dependence pathway" EXACT []
 synonym: "KEGG:05034" RELATED []
 is_a: PW:0001029 ! substance dependence pathway
@@ -7862,7 +7862,7 @@ creation_date: 2012-07-11T11:57:05Z
 [Term]
 id: PW:0001035
 name: arrhythmogenic right ventricular cardiomyopathy pathway
-def: "Arrhythmogenic right ventricular cardiomyopathy (ARVC) represents an inherited heart muscle condition leading to arrhythmia and heart failure that could results in death. Mutations in several genes and disruption of associated pathways have been implicated in the condition." [http://www.onelook.com "OneLook", KEGG:map05412]
+def: "Arrhythmogenic right ventricular cardiomyopathy (ARVC) represents an inherited heart muscle condition leading to arrhythmia and heart failure that could results in death. Mutations in several genes and disruption of associated pathways have been implicated in the condition." [KEGG:map05412, http://www.onelook.com "OneLook"]
 synonym: "ARVC pathway" EXACT []
 synonym: "KEGG:05412" RELATED []
 is_a: PW:0000022 ! cardiomyopathy pathway
@@ -7872,7 +7872,7 @@ creation_date: 2012-07-11T12:12:10Z
 [Term]
 id: PW:0001036
 name: dilated cardiomyopathy pathway
-def: "Dilated cardiomyopathy (DCM) is a condition in which the heart is weakened and enlarged resulting in inefficient blood pumping. Although mostly occurring in adults, it can also affect children." [http://www.onelook.com "OneLook", KEGG:map05414]
+def: "Dilated cardiomyopathy (DCM) is a condition in which the heart is weakened and enlarged resulting in inefficient blood pumping. Although mostly occurring in adults, it can also affect children." [KEGG:map05414, http://www.onelook.com "OneLook"]
 synonym: "DCM pathway" EXACT []
 synonym: "KEGG:05414" RELATED []
 is_a: PW:0000022 ! cardiomyopathy pathway
@@ -7882,7 +7882,7 @@ creation_date: 2012-07-11T12:20:46Z
 [Term]
 id: PW:0001037
 name: myocarditis pathway
-def: "Myocarditis is a condition associated with inflammation of the heart muscle that can have both infectious and non-infectious etiologies, with the former being the primary cause. Viral proteins, once inside the host cells, interfere with the function of host gene and they can either avoid or appropriate host pathways." [http://www.onelook.com "OneLook", KEGG:map05416]
+def: "Myocarditis is a condition associated with inflammation of the heart muscle that can have both infectious and non-infectious etiologies, with the former being the primary cause. Viral proteins, once inside the host cells, interfere with the function of host gene and they can either avoid or appropriate host pathways." [KEGG:map05416, http://www.onelook.com "OneLook"]
 synonym: "KEGG:05416" RELATED []
 synonym: "myocardial inflammation pathway" EXACT []
 is_a: PW:0000022 ! cardiomyopathy pathway
@@ -7892,7 +7892,7 @@ creation_date: 2012-07-11T12:29:11Z
 [Term]
 id: PW:0001038
 name: maturity-onset diabetes of the young pathway
-def: "Maturity onset diabetes of the young (MODY) represents any of a number of hereditary, monogenic forms of diabetes caused by mutations in several genes." [http://www.onelook.com "OneLoook", KEGG:map04950]
+def: "Maturity onset diabetes of the young (MODY) represents any of a number of hereditary, monogenic forms of diabetes caused by mutations in several genes." [KEGG:map04950, http://www.onelook.com "OneLoook"]
 synonym: "KEGG:04950" RELATED []
 synonym: "Mason-type diabetes pathway" EXACT []
 synonym: "maturity onset diabetes of the young pathway" EXACT []
@@ -7904,7 +7904,7 @@ creation_date: 2012-07-11T12:37:25Z
 [Term]
 id: PW:0001039
 name: Vibrio cholerae infection pathway
-def: "Vibrio cholerae disease is an infection of the small intestine resulting in dehydration and electrolyte imbalance which in some cases can cause death. Cholera toxin, is one the main virulence factors of the Gram-negative Vibrio cholerae bacterium which, together with other virulence factors can invade the host." [http://www.onelook.com "OneLook", KEGG:map05110]
+def: "Vibrio cholerae disease is an infection of the small intestine resulting in dehydration and electrolyte imbalance which in some cases can cause death. Cholera toxin, is one the main virulence factors of the Gram-negative Vibrio cholerae bacterium which, together with other virulence factors can invade the host." [KEGG:map05110, http://www.onelook.com "OneLook"]
 synonym: "KEGG:05110" RELATED []
 is_a: PW:0001028 ! infectious disease pathway
 created_by: VPetri
@@ -7913,7 +7913,7 @@ creation_date: 2012-07-11T12:46:22Z
 [Term]
 id: PW:0001040
 name: Salmonella infection pathway
-def: "Salmonella, a Gram-negative bacterium of which  many species exist, in humans can cause gastroenteritis or the more severe typhoid fever. Salmonella enters the host via the digestive tract; bacteria that escape the host defense machinery can survive and replicate in Salmonella-containing vacuole (SCV) whose maturation they control." [http://www.onelook.com "OneLook", KEGG:map05132]
+def: "Salmonella, a Gram-negative bacterium of which  many species exist, in humans can cause gastroenteritis or the more severe typhoid fever. Salmonella enters the host via the digestive tract; bacteria that escape the host defense machinery can survive and replicate in Salmonella-containing vacuole (SCV) whose maturation they control." [KEGG:map05132, http://www.onelook.com "OneLook"]
 synonym: "KEGG:05132" RELATED []
 is_a: PW:0001028 ! infectious disease pathway
 created_by: VPetri
@@ -7922,7 +7922,7 @@ creation_date: 2012-07-11T12:59:20Z
 [Term]
 id: PW:0001041
 name: pathogenic Escherichia coli infection pathway
-def: "The pathogenic Escherichia coli strains EPEC and EHEC (enteropathogenic and enterohemorrhagic E. coli, respectively) can cause sever food poisoning in humans. The non-pathogenic strains are part of the gut normal flora with beneficial contributions for the host." [http://www.onelook.com "OneLook", KEGG:map05130]
+def: "The pathogenic Escherichia coli strains EPEC and EHEC (enteropathogenic and enterohemorrhagic E. coli, respectively) can cause sever food poisoning in humans. The non-pathogenic strains are part of the gut normal flora with beneficial contributions for the host." [KEGG:map05130, http://www.onelook.com "OneLook"]
 synonym: "KEGG:05130" RELATED []
 synonym: "pathogenic E. coli infection pathway" EXACT []
 is_a: PW:0001028 ! infectious disease pathway
@@ -7932,7 +7932,7 @@ creation_date: 2012-07-11T01:23:38Z
 [Term]
 id: PW:0001042
 name: Shigella infection pathway
-def: "Shigella, a Gram-negative bacterium that is related to Salmonella and to Escherichia coli, is a disease causing agent in humans and primates. Shigellosis, also known as bacillary dysentery or Marlow syndrome is due to colonization of the intestinal epithelium and the subsequent evasion of the host defense machinery and use of host intracellular pathways by the bacteria." [http://www.onelook.com "OneLook", KEGG:map05131]
+def: "Shigella, a Gram-negative bacterium that is related to Salmonella and to Escherichia coli, is a disease causing agent in humans and primates. Shigellosis, also known as bacillary dysentery or Marlow syndrome is due to colonization of the intestinal epithelium and the subsequent evasion of the host defense machinery and use of host intracellular pathways by the bacteria." [KEGG:map05131, http://www.onelook.com "OneLook"]
 synonym: "bacillary dysentery pathway" RELATED []
 synonym: "KEGG:05131" RELATED []
 synonym: "Marlow syndrome pathway" RELATED []
@@ -7944,7 +7944,7 @@ creation_date: 2012-07-11T01:44:11Z
 [Term]
 id: PW:0001043
 name: Bordetella pertussis infection pathway
-def: "The Gram-negative Bordetella pertusis Gram-negative is the causative agent of pertussis or whooping cough. One of its main virulence factors, pertussis toxin blocks the interaction of Galphai subunit of heterotrimeric G protein with its partner receptors. This results in unrestrained adenylyl cyclase activity and subsequent increased concentration of cAMP which affects normal intracellular signaling." [http://www.onelook.com "OneLook", KEGG:map05133]
+def: "The Gram-negative Bordetella pertusis Gram-negative is the causative agent of pertussis or whooping cough. One of its main virulence factors, pertussis toxin blocks the interaction of Galphai subunit of heterotrimeric G protein with its partner receptors. This results in unrestrained adenylyl cyclase activity and subsequent increased concentration of cAMP which affects normal intracellular signaling." [KEGG:map05133, http://www.onelook.com "OneLook"]
 synonym: "KEGG:05133" RELATED []
 synonym: "pertussis pathway" RELATED []
 is_a: PW:0001028 ! infectious disease pathway
@@ -7954,7 +7954,7 @@ creation_date: 2012-07-11T03:37:54Z
 [Term]
 id: PW:0001044
 name: Legionella infection pathway
-def: "Legionella, a pathogenic Gram-negative bacterium that includes species such as legionella pneumophila, causes several respiratory infections of which Legionnaires' disease is potentially fatal. L. pneumophila can grow within lung macrophages and is known to subvert several host pathways." [http://www.onelook.com "OneLook", KEGG:map05134]
+def: "Legionella, a pathogenic Gram-negative bacterium that includes species such as legionella pneumophila, causes several respiratory infections of which Legionnaires' disease is potentially fatal. L. pneumophila can grow within lung macrophages and is known to subvert several host pathways." [KEGG:map05134, http://www.onelook.com "OneLook"]
 synonym: "KEGG:05134" RELATED []
 is_a: PW:0001028 ! infectious disease pathway
 created_by: VPetri
@@ -7963,7 +7963,7 @@ creation_date: 2012-07-11T04:04:16Z
 [Term]
 id: PW:0001045
 name: Staphylococcus aureus infection pathway
-def: "Staphylococcus aureus, a Gram-positive bacteria of which there are many species, usually colonizes the skin and mucous membranes of humans and other organisms and are mostly harmless. However, they can also cause a range of infections of which some can be extremely severe." [http://www.onelook.com "OneLook", KEGG:map05150]
+def: "Staphylococcus aureus, a Gram-positive bacteria of which there are many species, usually colonizes the skin and mucous membranes of humans and other organisms and are mostly harmless. However, they can also cause a range of infections of which some can be extremely severe." [KEGG:map05150, http://www.onelook.com "OneLook"]
 synonym: "KEGG:05150" RELATED []
 is_a: PW:0001028 ! infectious disease pathway
 created_by: VPetri
@@ -7972,7 +7972,7 @@ creation_date: 2012-07-11T04:18:10Z
 [Term]
 id: PW:0001046
 name: tuberculosis pathway
-def: "Mycobacterium tuberculosis is the causative agent of most forms of tuberculosis. Once in the lung, the bacteria interfere with a number of intracellular pathways and processes." [http://www.onelook.com "OneLook", KEGG:map05152]
+def: "Mycobacterium tuberculosis is the causative agent of most forms of tuberculosis. Once in the lung, the bacteria interfere with a number of intracellular pathways and processes." [KEGG:map05152, http://www.onelook.com "OneLook"]
 synonym: "KEGG:05152" RELATED []
 synonym: "Mycobacterium tuberculosis infection pathway" EXACT []
 is_a: PW:0001028 ! infectious disease pathway
@@ -7982,7 +7982,7 @@ creation_date: 2012-07-11T04:31:42Z
 [Term]
 id: PW:0001047
 name: Leishmaniasis pathway
-def: "Leishmania is a protozoan parasite and a number of its species can infect mammals, including humans. While cutaneous leishmaniasis is the most common form, others such as visceral or mucosal have also been reported. The infection results in alterations in a number of host signaling pathways." [http://www.onelook.com "OneLook", KEGG:map5140]
+def: "Leishmania is a protozoan parasite and a number of its species can infect mammals, including humans. While cutaneous leishmaniasis is the most common form, others such as visceral or mucosal have also been reported. The infection results in alterations in a number of host signaling pathways." [KEGG:map5140, http://www.onelook.com "OneLook"]
 synonym: "KEGG:05140" RELATED []
 synonym: "Leishmania infection pathway" EXACT []
 is_a: PW:0001028 ! infectious disease pathway
@@ -7992,7 +7992,7 @@ creation_date: 2012-07-13T11:53:50Z
 [Term]
 id: PW:0001048
 name: trypanosomiasis pathway
-def: "Trypanosoma is a protozoan parasite of which T brucei and cruzi are responsible for causing the sleeping sickness and Chagas disease, respectively. Several host signaling and regulatory pathways are altered in the infection." [http://www.onelook.com "OneLook", KEGG:map5142]
+def: "Trypanosoma is a protozoan parasite of which T brucei and cruzi are responsible for causing the sleeping sickness and Chagas disease, respectively. Several host signaling and regulatory pathways are altered in the infection." [KEGG:map5142, http://www.onelook.com "OneLook"]
 synonym: "KEGG:05142" RELATED []
 synonym: "Trypanosoma infection pathway" EXACT []
 is_a: PW:0001028 ! infectious disease pathway
@@ -8002,7 +8002,7 @@ creation_date: 2012-07-13T12:03:02Z
 [Term]
 id: PW:0001049
 name: sleeping sickness pathway
-def: "Trypanosoma brucei, a protozoan parasite, is the causative agent of sleeping sickness, also known as the African trypanosomiasis, as its vector is the tsetse fly common to sub-Saharan Africa. Several pro-inflammatory cytokines are overactivated. The neurological damage the infection causes is irreversible and the disease is fatal." [http://www.onelook.com "OneLook", KEGG:map5143]
+def: "Trypanosoma brucei, a protozoan parasite, is the causative agent of sleeping sickness, also known as the African trypanosomiasis, as its vector is the tsetse fly common to sub-Saharan Africa. Several pro-inflammatory cytokines are overactivated. The neurological damage the infection causes is irreversible and the disease is fatal." [KEGG:map5143, http://www.onelook.com "OneLook"]
 synonym: "African sleeping sickness pathway" EXACT []
 synonym: "African trypanosomiasis pathway" EXACT []
 synonym: "KEGG:05143" RELATED []
@@ -8014,7 +8014,7 @@ creation_date: 2012-07-13T12:14:00Z
 [Term]
 id: PW:0001050
 name: Chagas disease pathway
-def: "Trypanosoma cruzi is the causative agent of the Chagas disease, also known as the American trypanosomiasis, as it occurs primarily in poor areas of the Americas, mostly Central and South America. Infection interferes with a number of intracellular pathways and it appears to activate calcium signaling." [http://www.onelook.com "OneLook", KEGG:map05142]
+def: "Trypanosoma cruzi is the causative agent of the Chagas disease, also known as the American trypanosomiasis, as it occurs primarily in poor areas of the Americas, mostly Central and South America. Infection interferes with a number of intracellular pathways and it appears to activate calcium signaling." [KEGG:map05142, http://www.onelook.com "OneLook"]
 synonym: "American trypanosomiasis pathway" EXACT []
 synonym: "Chagas' disease pathway" EXACT []
 synonym: "Chagas-Mazza disease pathway" EXACT []
@@ -8039,7 +8039,7 @@ creation_date: 2012-07-13T12:36:12Z
 [Term]
 id: PW:0001052
 name: toxoplasmosis pathway
-def: "Toxoplasma gondii, whose hosts include various warm-blooded species including humans, is the causative agent of toxoplasmosis. The infection interferes with a number of host pathways; in its most severe manifestations it can be fatal." [http://www.onelook.com "OneLook", KEGG:map05145]
+def: "Toxoplasma gondii, whose hosts include various warm-blooded species including humans, is the causative agent of toxoplasmosis. The infection interferes with a number of host pathways; in its most severe manifestations it can be fatal." [KEGG:map05145, http://www.onelook.com "OneLook"]
 synonym: "KEGG:05145" RELATED []
 synonym: "Toxoplasma gondii infection pathway" EXACT []
 is_a: PW:0001028 ! infectious disease pathway
@@ -8049,7 +8049,7 @@ creation_date: 2012-07-13T01:00:51Z
 [Term]
 id: PW:0001053
 name: Entamoebiasis pathway
-def: "Entamoeba histolyca is a protozoan parasite that is the causative agent of amoebiasis which affects the intestinal tissue leading to severe dysentery and ulcerations. It can also infect other tissues such as the liver and to a lesser extent the brain, lungs and spleen." [http://www.onelook.com "OneLook", KEGG:map5146]
+def: "Entamoeba histolyca is a protozoan parasite that is the causative agent of amoebiasis which affects the intestinal tissue leading to severe dysentery and ulcerations. It can also infect other tissues such as the liver and to a lesser extent the brain, lungs and spleen." [KEGG:map5146, http://www.onelook.com "OneLook"]
 synonym: "amoebiasis infection pathway" EXACT []
 synonym: "Entamoeba histolyca infection pathway" EXACT []
 synonym: "KEGG:05146" RELATED []
@@ -8070,7 +8070,7 @@ creation_date: 2012-07-13T01:21:37Z
 [Term]
 id: PW:0001055
 name: hepatitis C pathway
-def: "The hepatitis C virus is the causative agent of hepatitis C, a chronic liver disease in humans. The virus interferes with several signaling and regulatory pathways in the host cells." [http://www.onelook.com "OneLook", KEGG:map05160]
+def: "The hepatitis C virus is the causative agent of hepatitis C, a chronic liver disease in humans. The virus interferes with several signaling and regulatory pathways in the host cells." [KEGG:map05160, http://www.onelook.com "OneLook"]
 synonym: "chronic hepatitis C pathway" EXACT []
 synonym: "hepatitis C infection pathway" EXACT []
 synonym: "hepatitis C virus infection pathway" EXACT []
@@ -8101,7 +8101,7 @@ creation_date: 2012-07-16T01:26:38Z
 [Term]
 id: PW:0001058
 name: measles pathway
-def: "The measles virus (MV) of the genus Morbillivirus is the causative agent of the condition that bears its name. The condition causes immunosuppression and several MV proteins are thought to interfere with the normal host immune responses." [http://www.onelook.com "OneLook", KEGG:map05162]
+def: "The measles virus (MV) of the genus Morbillivirus is the causative agent of the condition that bears its name. The condition causes immunosuppression and several MV proteins are thought to interfere with the normal host immune responses." [KEGG:map05162, http://wwwonelook.com "OneLook"]
 synonym: "KEGG:05162" RELATED []
 synonym: "measles infection pathway" EXACT []
 synonym: "morbilli pathway" EXACT []
@@ -8123,7 +8123,7 @@ creation_date: 2012-07-18T09:38:02Z
 [Term]
 id: PW:0001060
 name: primary bile acid biosynthetic pathway
-def: "Primary bile acids, cholic and  chenodeoxycholic acids, are derived from cholesterol in the liver. Upon conjugation with glycine or taurine they can be secreted into the intestine." [http://www.onelook.com "OneLook", KEGG:map00120]
+def: "Primary bile acids, cholic and  chenodeoxycholic acids, are derived from cholesterol in the liver. Upon conjugation with glycine or taurine they can be secreted into the intestine." [KEGG:map00120, http://www.onelook.com "OneLook"]
 synonym: "KEGG:00120" RELATED []
 is_a: PW:0000039 ! bile acid biosynthetic pathway
 created_by: VPetri
@@ -8132,7 +8132,7 @@ creation_date: 2012-07-18T10:47:50Z
 [Term]
 id: PW:0001061
 name: secondary bile acid biosynthetic pathway
-def: "Secondary bile acids, deoxycholic and lithocholic acids, are synthesized from the primary ones by intestinal bacteria. like the primary bile acids, they need to be conjugated to glycine or taurine prior to secretion." [http://www.onelook.com "OneLook", KEGG:map00121]
+def: "Secondary bile acids, deoxycholic and lithocholic acids, are synthesized from the primary ones by intestinal bacteria. like the primary bile acids, they need to be conjugated to glycine or taurine prior to secretion." [KEGG:map00121, http://www.onelook.com "OneLook"]
 is_a: PW:0000039 ! bile acid biosynthetic pathway
 created_by: VPetri
 creation_date: 2012-07-18T10:54:59Z
@@ -8140,7 +8140,7 @@ creation_date: 2012-07-18T10:54:59Z
 [Term]
 id: PW:0001062
 name: lacto-series glycosphingolipid metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of lacto-series type of glycosphingolipids." [PMID:17976918]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of lacto-series type of glycosphingolipids." [PMID:1 7976918]
 synonym: "KEGG:00601" RELATED []
 is_a: PW:0000733 ! glycosphingolipid metabolic pathway
 created_by: VPetri
@@ -8223,7 +8223,7 @@ creation_date: 2012-07-30T11:12:02Z
 [Term]
 id: PW:0001071
 name: follicle-stimulating hormone signaling pathway
-def: "Follicle-stimulating hormone signaling is important for the normal development and function of the ovaries and testes. It acts synergistically with the lutenizing hormone." [https://en.wikipedia.org/wiki/Follicle-stimulating_hormone "wikipedia", PMID:21372710]
+def: "Follicle-stimulating hormone signaling is important for the normal development and function of the ovaries and testes. It acts synergistically with the lutenizing hormone." [PMID:21372710, https://en.wikipedia.org/wiki/Follicle-stimulating_hormone "wikipedia"]
 synonym: "FSH signaling pathway" EXACT []
 synonym: "SMP:00333" RELATED []
 is_a: PW:0000467 ! peptide and protein hormone signaling pathway
@@ -8646,7 +8646,7 @@ creation_date: 2012-10-15T08:49:28Z
 [Term]
 id: PW:0001121
 name: bevacizumab pharmacokinetics pathway
-def: "The pathway of processing - absorption, distribution, metabolism or elimination - of bevacizumab, a VEGF inhibitor used in the treatment of several types of  tumors. Genetic variations can result in changes in the availability of the drug." [PMID:22594892]
+def: "The pathway of processing - absorption, distribution, metabolism or elimination - of bevacizumab, a VEGF inhibitor used in the treatment of several types of  tumors. Genetic variations can result in changes in the availability of the drug." [PMID:22594892\:]
 is_a: PW:0001120 ! bevacizumab drug pathway
 created_by: VPetri
 creation_date: 2012-10-15T08:56:41Z
@@ -8827,7 +8827,7 @@ creation_date: 2012-11-07T13:22:52Z
 [Term]
 id: PW:0001142
 name: clathrin-mediated endocytosis pathway
-def: "The clathrin-mediated endocytosis pathway involves clathrin-coated vesicles used for the engulfment of material." [http://en.wikipedia.org/wiki/Endocytosis "Wikipedia", PMID:16985500]
+def: "The clathrin-mediated endocytosis pathway involves clathrin-coated vesicles used for the engulfment of material." [PMID:16985500, http://en.wikipedia.org/wiki/Endocytosis "Wikipedia"]
 is_a: PW:0000281 ! endocytosis pathway
 created_by: VPetri
 creation_date: 2012-11-08T15:18:18Z
@@ -8925,7 +8925,7 @@ creation_date: 2012-11-09T15:05:33Z
 [Term]
 id: PW:0001153
 name: caffeine metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of caffeine, a xanthine alkaloid found in the seeds, leaves, and fruit of certain plants that humans use as a stimulant." [http://en.wikipedia.org/wiki/Caffeine "wikipedia", KEGG:00232]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of caffeine, a xanthine alkaloid found in the seeds, leaves, and fruit of certain plants that humans use as a stimulant." [KEGG:00232, http://en.wikipedia.org/wiki/Caffeine "wikipedia"]
 synonym: "KEGG:00232" RELATED []
 is_a: PW:0000147 ! metabolic pathway of secondary metabolites
 created_by: VPetri
@@ -9902,7 +9902,7 @@ creation_date: 2013-05-08T13:51:53Z
 [Term]
 id: PW:0001265
 name: glycine degradation pathway
-def: "Those metabolic reactions involved in the degradation of glycine. Several routes are available of which the glycine cleavage system is the predominant one. It occurs in the mitochondria and produces 5,10-methylene tetrahydrofolate and as such, is an important component of folate cycle pathway." [http://en.wikipedia.org/wiki/Glycine "wikipedia", PMID:18941301]
+def: "Those metabolic reactions involved in the degradation of glycine. Several routes are available of which the glycine cleavage system is the predominant one. It occurs in the mitochondria and produces 5,10-methylene tetrahydrofolate and as such, is an important component of folate cycle pathway." [PMID:18941301, http://en.wikipedia.org/wiki/Glycine "wikipedia"]
 is_a: PW:0000440 ! glycine metabolic pathway
 is_a: PW:0001258 ! hydrophobic amino acid degradation pathway
 created_by: VPetri
@@ -10029,7 +10029,7 @@ creation_date: 2013-05-13T10:48:43Z
 [Term]
 id: PW:0001280
 name: tryptophan biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of tryptophan, an essential amino acid that human cannot synthesize. Its synthesis takes place in plants and microorganisms. In plants, the synthesis of aromatic amino acids is part of chorismate pathway, the end branch point of shikimate pathway." [http://en.wikipedia.org/wiki/Tryptophan "wiki[pedia", PMID:20817774]
+def: "Those metabolic reactions involved in the synthesis of tryptophan, an essential amino acid that human cannot synthesize. Its synthesis takes place in plants and microorganisms. In plants, the synthesis of aromatic amino acids is part of chorismate pathway, the end branch point of shikimate pathway." [PMID:20817774, http://en.wikipedia.org/wiki/Tryptophan "wiki[pedia"]
 is_a: PW:0000054 ! tryptophan metabolic pathway
 is_a: PW:0001256 ! hydrophobic amino acid biosynthetic pathway
 relationship: part_of PW:0001370 ! chorismate metabolic pathway
@@ -10056,7 +10056,7 @@ creation_date: 2013-05-13T11:34:39Z
 [Term]
 id: PW:0001283
 name: tyrosine biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of tyrosine. In mammals, is derived from phenylalanine or from diet. In plants, is produced as part of chorismate pathway, the end branch point of shikimate pathway." [http://en.wikipedia.org/wiki/Tyrosine "wikipedia", PMID:20817774]
+def: "Those metabolic reactions involved in the synthesis of tyrosine. In mammals, is derived from phenylalanine or from diet. In plants, is produced as part of chorismate pathway, the end branch point of shikimate pathway." [PMID:20817774, http://en.wikipedia.org/wiki/Tyrosine "wikipedia"]
 is_a: PW:0000052 ! tyrosine metabolic pathway
 is_a: PW:0001256 ! hydrophobic amino acid biosynthetic pathway
 relationship: part_of PW:0001370 ! chorismate metabolic pathway
@@ -10383,7 +10383,7 @@ creation_date: 2013-05-22T11:31:27Z
 [Term]
 id: PW:0001322
 name: deoxynivalenol biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of deoxynivalenol, a type B trichothecene produced by members of Fusarium fungi." [http://en.wikipedia.org/wiki/Deoxynivalenol "wikipedia", http://www.genome.jp/dbget-bin/www_bget?cpd\:C09747 "KEGG"]
+def: "Those metabolic reactions involved in the synthesis of deoxynivalenol, a type B trichothecene produced by members of Fusarium fungi." [http://www.genome.jp/dbget-bin/www_bget?cpd:C09747 "KEGG", http://en.wikipedia.org/wiki/Deoxynivalenol "wikipedia"]
 synonym: "DON biosynthetic pathway" EXACT []
 synonym: "vomitoxin biosynthetic pathway" RELATED []
 is_a: PW:0001321 ! trichothecene biosynthetic pathway
@@ -11053,7 +11053,7 @@ creation_date: 2013-06-20T14:27:06Z
 [Term]
 id: PW:0001402
 name: momilactone biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of momilactone - a diterpene produced by rice. Momilactone A and B can act as potent phytoalexins and allelochemicals" [http://en.wikipedia.org/wiki/Momilactone_B "Wikipedia", PMID:21620514]
+def: "Those metabolic reactions involved in the synthesis of momilactone - a diterpene produced by rice. Momilactone A and B can act as potent phytoalexins and allelochemicals" [PMID:21620514, http://en.wikipedia.org/wiki/Momilactone_B "Wikipedia"]
 is_a: PW:0001401 ! diterpene biosynthetic pathway
 created_by: VPetri
 creation_date: 2013-06-20T14:31:15Z
@@ -11200,7 +11200,7 @@ creation_date: 2013-07-01T10:30:56Z
 [Term]
 id: PW:0001418
 name: abciximab drug pathway
-def: "The pharmacokinetics and pharmacodynamics of abciximab, an integrin receptor antagonist used as a platelet aggregation inhibitor. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [http://en.wikipedia.org/wiki/Abciximab "wikipedia", PMID:23580774]
+def: "The pharmacokinetics and pharmacodynamics of abciximab, an integrin receptor antagonist used as a platelet aggregation inhibitor. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [PMID:23580774, http://en.wikipedia.org/wiki/Abciximab "wikipedia"]
 is_a: PW:0002150 ! antiplatelet drug pathway
 created_by: VPetri
 creation_date: 2013-07-01T11:09:26Z
@@ -11208,7 +11208,7 @@ creation_date: 2013-07-01T11:09:26Z
 [Term]
 id: PW:0001419
 name: abciximab pharmacokinetics pathway
-def: "The pathway of processing - absorption, distribution, metabolism or elimination - of abciximab, a platelet aggregation inhibitor. Genetic variations can result in changes in the availability of the drug." [http://en.wikipedia.org/wiki/Abciximab "wikipedia", PMID:23580774]
+def: "The pathway of processing - absorption, distribution, metabolism or elimination - of abciximab, a platelet aggregation inhibitor. Genetic variations can result in changes in the availability of the drug." [PMID:23580774, http://en.wikipedia.org/wiki/Abciximab "wikipedia"]
 is_a: PW:0001418 ! abciximab drug pathway
 created_by: VPetri
 creation_date: 2013-07-01T11:13:54Z
@@ -11216,7 +11216,7 @@ creation_date: 2013-07-01T11:13:54Z
 [Term]
 id: PW:0001420
 name: abciximab pharmacodynamics pathway
-def: "The pathway of abciximab-target interaction and of the biochemical or physiological responses to drug. Abciximab is an antagonist of the integrin alpha2b/beta3 complex found on platelets. Genetic variations can cause differences in the response of the organism to the drug." [http://en.wikipedia.org/wiki/Abciximab "wikipedia", PMID:23580774]
+def: "The pathway of abciximab-target interaction and of the biochemical or physiological responses to drug. Abciximab is an antagonist of the integrin alpha2b/beta3 complex found on platelets. Genetic variations can cause differences in the response of the organism to the drug." [PMID:23580774, http://en.wikipedia.org/wiki/Abciximab "wikipedia"]
 synonym: "SMP:00265" RELATED []
 is_a: PW:0001418 ! abciximab drug pathway
 created_by: VPetri
@@ -11250,7 +11250,7 @@ creation_date: 2013-07-01T12:04:30Z
 [Term]
 id: PW:0001424
 name: neviparine drug pathway
-def: "The pharmacokinetics and pharmacodynamics of neviparine, a non-nucleoside reverse transcriptase inhibitor used in the treatment of HIV type 1. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [http://www.pharmgkb.org/search/pathwaysByCategory.action#pathwayCategories\:981478748 "PharmGKB"]
+def: "The pharmacokinetics and pharmacodynamics of neviparine, a non-nucleoside reverse transcriptase inhibitor used in the treatment of HIV type 1. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [http://www.pharmgkb.org/search/pathwaysByCategory.action#pathwayCategories:981478748 "PharmGKB"]
 is_a: PW:0000996 ! anti-infective drug pathway
 created_by: VPetri
 creation_date: 2013-07-01T12:10:20Z
@@ -11276,7 +11276,7 @@ creation_date: 2013-07-01T12:31:48Z
 [Term]
 id: PW:0001427
 name: amikacin drug pathway
-def: "The pharmacokinetics and pharmacodynamics of amikacin, an aminoglycoside antibiotic that inhibits bacterial protein synthesis. It is used for the treatment of infections induced by Gram-negative bacteria. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [http://en.wikipedia.org/wiki/Amikacin "wikipedia", http://www.whocc.no/atc_ddd_index/?code=J01GB06 "ATC/DDD Index"]
+def: "The pharmacokinetics and pharmacodynamics of amikacin, an aminoglycoside antibiotic that inhibits bacterial protein synthesis. It is used for the treatment of infections induced by Gram-negative bacteria. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [http://www.whocc.no/atc_ddd_index/?code=J01GB06 "ATC/DDD Index", http://en.wikipedia.org/wiki/Amikacin "wikipedia"]
 is_a: PW:0000996 ! anti-infective drug pathway
 created_by: VPetri
 creation_date: 2013-07-01T12:53:28Z
@@ -11301,7 +11301,7 @@ creation_date: 2013-07-01T12:57:16Z
 [Term]
 id: PW:0001430
 name: lamivudine drug pathway
-def: "The pharmacokinetics and pharmacodynamics of lamivudine, a reverse transcriptase enzyme inhibitor used for the treatment of HIV type 1 and 2 and Hepatitis B virus. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [http://www.pharmgkb.org/pathway/PA165860384 "PharmGKB", http://www.whocc.no/atc_ddd_index/?code=J05AF05 "ATC/DDD Index"]
+def: "The pharmacokinetics and pharmacodynamics of lamivudine, a reverse transcriptase enzyme inhibitor used for the treatment of HIV type 1 and 2 and Hepatitis B virus. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [http://www.whocc.no/atc_ddd_index/?code=J05AF05 "ATC/DDD Index", http://www.pharmgkb.org/pathway/PA165860384 "PharmGKB"]
 is_a: PW:0000996 ! anti-infective drug pathway
 created_by: VPetri
 creation_date: 2013-07-01T13:09:51Z
@@ -11466,7 +11466,7 @@ creation_date: 2013-08-26T09:41:48Z
 [Term]
 id: PW:0001449
 name: nicotine pharmacokinetics pathway
-def: "The pathway of processing - absorption, distribution, metabolism or elimination - of nicotine, an agonist of nicotinic acetylcholine receptors. Genetic variations can result in changes in the availability of the drug." [PMID:15734728]
+def: "The pathway of processing - absorption, distribution, metabolism or elimination - of nicotine, an agonist of nicotinic acetylcholine receptors. Genetic variations can result in changes in the availability of the drug." [PubMed:15734728]
 synonym: "SMP:00628" RELATED []
 is_a: PW:0000721 ! nicotine drug pathway
 created_by: VPetri
@@ -11475,7 +11475,7 @@ creation_date: 2013-08-28T13:57:46Z
 [Term]
 id: PW:0001450
 name: nicotine pharmacodynamics pathway
-def: "The pathway of nicotine-target interaction and of the biochemical or physiological responses to drug. Nicotine is an agonist of the nicotinic acetylcholine receptors and exerts stimulatory roles. It is also responsible for tobacco dependence.  Prolonged exposure and high levels of nicotine can have toxic effects. Genetic variations can cause differences in the response of the organism to the drug." [PMID:23933385]
+def: "The pathway of nicotine-target interaction and of the biochemical or physiological responses to drug. Nicotine is an agonist of the nicotinic acetylcholine receptors and exerts stimulatory roles. It is also responsible for tobacco dependence.  Prolonged exposure and high levels of nicotine can have toxic effects. Genetic variations can cause differences in the response of the organism to the drug." [PubMed:23933385]
 synonym: "SMP:00431" RELATED []
 is_a: PW:0000721 ! nicotine drug pathway
 created_by: VPetri
@@ -11484,7 +11484,7 @@ creation_date: 2013-08-28T13:58:07Z
 [Term]
 id: PW:0001451
 name: valproic acid drug pathway
-def: "The pharmacokinetics and pharmacodynamics pathway of valproic acid, a branched short-chain fatty acid derived from valeric acid used as a mood-stabilizing drug and in the treatment of epilepsy. More recently it has also been found to inhibit the proliferation of cancers. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [http://en.wikipedia.org/wiki/Valproic_acid "Wikipedia", PMID:22668241, PMID:23407051]
+def: "The pharmacokinetics and pharmacodynamics pathway of valproic acid, a branched short-chain fatty acid derived from valeric acid used as a mood-stabilizing drug and in the treatment of epilepsy. More recently it has also been found to inhibit the proliferation of cancers. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [PMID:22668241, PMID:23407051, http://en.wikipedia.org/wiki/Valproic_acid "Wikipedia"]
 synonym: "valproate drug pathway" RELATED []
 is_a: PW:0002295 ! antiepileptic drug pathway
 created_by: VPetri
@@ -11749,7 +11749,7 @@ creation_date: 2013-10-31T11:04:45Z
 [Term]
 id: PW:0001480
 name: kinin signaling pathway
-def: "The active kinin peptides generated by the kallikrein-kinin cascade - bradykinin, kallidin and their C-terminal processed metabolites, signal via two G-protein coupled (GPCR) receptors. The two receptors employ similar signaling pathways but also exhibit distinct patterns. Type 1 receptor is inducible, type 2 is ubiquitous and can form heterodimers with angiotensin II receptors." [PMID:16177542]
+def: "The active kinin peptides generated by the kallikrein-kinin cascade - bradykinin, kallidin and their C-terminal processed metabolites, signal via two G-protein coupled (GPCR) receptors. The two receptors employ similar signaling pathways but also exhibit distinct patterns. Type 1 receptor is inducible, type 2 is ubiquitous and can form heterodimers with angiotensin II receptors." [PubMed:16177542]
 relationship: part_of PW:0000526 ! kallikrein-kinin cascade pathway
 created_by: VPetri
 creation_date: 2013-11-05T15:22:08Z
@@ -12103,7 +12103,7 @@ creation_date: 2014-03-20T13:05:32Z
 [Term]
 id: PW:0001523
 name: nicotine response pathway
-def: "A pathway triggered by exposure to nicotine, the alkaloid found in tobacco and other plants. Nicotine can act as a stimulant and is an agonist of the ionotropic acetylcholine receptors, also known as nicotinic. Sustained exposure however has an inhibitory effect resulting in muscular paralysis, seizures, hypotension and respiratory failure. Some of the symptoms are reminiscent of organophosphate poisoning; organophosphates inhibit the enzyme acetylcholinesterase leading to uncensored stimulation of both the  nicotinic and the metabotropic muscarinic acetylcholine receptors." [PMID:19426718]
+def: "A pathway triggered by exposure to nicotine, the alkaloid found in tobacco and other plants. Nicotine can act as a stimulant and is an agonist of the ionotropic acetylcholine receptors, also known as nicotinic. Sustained exposure however has an inhibitory effect resulting in muscular paralysis, seizures, hypotension and respiratory failure. Some of the symptoms are reminiscent of organophosphate poisoning; organophosphates inhibit the enzyme acetylcholinesterase leading to uncensored stimulation of both the  nicotinic and the metabotropic muscarinic acetylcholine receptors." [PubMed:19426718]
 is_a: PW:0001434 ! toxin and toxicant response pathway
 created_by: VPetri
 creation_date: 2014-03-28T10:56:10Z
@@ -12241,7 +12241,7 @@ creation_date: 2014-05-13T14:25:13Z
 [Term]
 id: PW:0001539
 name: heterotrimeric G protein mediated signaling pathway
-def: "The heterotrimer G proteins are transducers of G proteins coupled receptors (GPCRs). Many types of signals are received by the members of the large GPCR superfamily which then activate distinct G-proteins that route the signal to many and distinct intracellular signaling pathways." [PMID:12040175]
+def: "The heterotrimer G proteins are transducers of G proteins coupled receptors (GPCRs). Many types of signals are received by the members of the large GPCR superfamily which then activate distinct G-proteins that route the signal to many and distinct intracellular signaling pathways." [PubMed:12040175]
 is_a: PW:0000125 ! G protein mediated signaling pathway
 created_by: VPetri
 creation_date: 2014-05-13T15:02:07Z
@@ -12327,7 +12327,7 @@ creation_date: 2014-05-15T11:48:28Z
 [Term]
 id: PW:0001550
 name: nervous system and nerve tissue cancer pathway
-def: "A general term grouping neoplastic pathways of the brain, spinal cord or central nervous system and of nerve tissue such as neuroepithelial or neurectodermal." [http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?mode=&term=Neoplasms\,+Nerve+Tissue&field=entry#TreeC04.557.580 "MeSH"]
+def: "A general term grouping neoplastic pathways of the brain, spinal cord or central nervous system and of nerve tissue such as neuroepithelial or neurectodermal." [http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?mode=&term=Neoplasms,+Nerve+Tissue&field=entry#TreeC04.557.580 "MeSH"]
 synonym: "nervous system and nerve tissue neoplasm pathway" RELATED []
 is_a: PW:0000605 ! cancer pathway
 created_by: VPetri
@@ -12966,7 +12966,7 @@ creation_date: 2015-02-12T15:36:24Z
 [Term]
 id: PW:0001620
 name: bisphosphonate drug pathway
-def: "The pharmacokinetics and pharmacodynamics pathway of bisphoshonate drugs that help prevent the loss of bone mass and are used in the treatment of osteoporosis. The two classes - non-nitrogenous and nitrogen-containing drugs, employ different mechanisms to affect osteoclast activity. Bisphosphonates are preferentially taken up by osteoclast cells. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [http://en.wikipedia.org/wiki/Bisphosphonate "wikipedia", PMID:21555003]
+def: "The pharmacokinetics and pharmacodynamics pathway of bisphoshonate drugs that help prevent the loss of bone mass and are used in the treatment of osteoporosis. The two classes - non-nitrogenous and nitrogen-containing drugs, employ different mechanisms to affect osteoclast activity. Bisphosphonates are preferentially taken up by osteoclast cells. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [PMID:21555003, http://en.wikipedia.org/wiki/Bisphosphonate "wikipedia"]
 is_a: PW:0001170 ! musculo-skeletal system drug pathway
 created_by: vpetri
 creation_date: 2015-02-16T10:18:30Z
@@ -12974,7 +12974,7 @@ creation_date: 2015-02-16T10:18:30Z
 [Term]
 id: PW:0001621
 name: nitrogenous bisphosphonate drug pathway
-def: "The pharmacokinetics and pharmacodynamics pathway of nitrogenous bisphosphate drugs, inhibitors of farnesyl diphosphate synthase. The disruption of geranyl and farnesyl pyrophosphate production affects the cell membrane localization of proteins that depend on this lipid modification for proper placement. They include the members of the small G proteins and the impact on Ras, Rho and Rac G proteins is thought to underlie the effect of drugs." [http://en.wikipedia.org/wiki/Bisphosphonate "wikipedia", PMID:21555003]
+def: "The pharmacokinetics and pharmacodynamics pathway of nitrogenous bisphosphate drugs, inhibitors of farnesyl diphosphate synthase. The disruption of geranyl and farnesyl pyrophosphate production affects the cell membrane localization of proteins that depend on this lipid modification for proper placement. They include the members of the small G proteins and the impact on Ras, Rho and Rac G proteins is thought to underlie the effect of drugs." [PMID:21555003, http://en.wikipedia.org/wiki/Bisphosphonate "wikipedia"]
 is_a: PW:0001620 ! bisphosphonate drug pathway
 created_by: vpetri
 creation_date: 2015-02-16T10:25:18Z
@@ -12982,7 +12982,7 @@ creation_date: 2015-02-16T10:25:18Z
 [Term]
 id: PW:0001622
 name: non-nitrogenous bisphosphonate drug pathway
-def: "Non-nitrogenous bisphosphonate drugs are metabolized to compounds that render the ATP molecule non-functional, thus promoting cell death." [http://en.wikipedia.org/wiki/Bisphosphonate "wikipedia", PMID:21555003]
+def: "Non-nitrogenous bisphosphonate drugs are metabolized to compounds that render the ATP molecule non-functional, thus promoting cell death." [PMID:21555003, http://en.wikipedia.org/wiki/Bisphosphonate "wikipedia"]
 is_a: PW:0001620 ! bisphosphonate drug pathway
 created_by: vpetri
 creation_date: 2015-02-16T10:26:05Z
@@ -13274,7 +13274,7 @@ creation_date: 2015-03-04T15:26:01Z
 [Term]
 id: PW:0001653
 name: aminocaproic acid drug pathway
-def: "The pharmacokinetics and pharmacodynamics pathway of aminocaproic acid, an inhibitor of enzymes involved in fibrinolysis and as such, effective in the treatment of certain bleeding disorders. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [https://en.wikipedia.org/wiki/Aminocaproic_acid]
+def: "The pharmacokinetics and pharmacodynamics pathway of aminocaproic acid, an inhibitor of enzymes involved in fibrinolysis and as such, effective in the treatment of certain bleeding disorders. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [wikipedia:<new dbxrefhttps\://en.wikipedia.org/wiki/Aminocaproic_acid]
 synonym: "6-aminohexanoic acid drug pathway" RELATED []
 is_a: PW:0001652 ! antihemorrhagic drug pathway
 created_by: VPetri
@@ -15543,7 +15543,7 @@ creation_date: 2015-09-17T10:55:29Z
 [Term]
 id: PW:0001903
 name: nitrendipine pharmacodynamics pathway
-def: "The pathway of nitrendipine-target interaction and of the biochemical or physiological responses to drug. Genetic variations can cause differences in the response of the organism to the drug." [https://en.wikipedia.org/wiki/Nitrendipine]
+def: "The pathway of nitrendipine-target interaction and of the biochemical or physiological responses to drug. Genetic variations can cause differences in the response of the organism to the drug." [wikipedia:<new dbxrefhttps\://en.wikipedia.org/wiki/Nitrendipine]
 synonym: "SMP:00382" RELATED []
 is_a: PW:0001897 ! nitrendipine drug pathway
 created_by: VPetri
@@ -15987,7 +15987,7 @@ creation_date: 2015-09-22T15:18:58Z
 [Term]
 id: PW:0001954
 name: eukaryotic DNA replication pathway
-def: "Nuclear eukaryotic DNA replication takes place in the context of the cell cycle during the S-phase. The fast and accurate replication of DNA requires the presence and the coordinated function of a complex of proteins known as the replisome. The exact composition of the replisome in higher organisms still has to be fully determined. Mitochondria contain their own DNA. Human mtDNA is a small, circular molecule that resides in the matrix and, depending on cell type, can exist as a few to several thousands copies. mtDNA has its own replicative machinery." [https://en.wikipedia.org/wiki/DNA_replication "wikipedia", https://en.wikipedia.org/wiki/Mitochondrial_DNA "wikipedia", PMID:19665592]
+def: "Nuclear eukaryotic DNA replication takes place in the context of the cell cycle during the S-phase. The fast and accurate replication of DNA requires the presence and the coordinated function of a complex of proteins known as the replisome. The exact composition of the replisome in higher organisms still has to be fully determined. Mitochondria contain their own DNA. Human mtDNA is a small, circular molecule that resides in the matrix and, depending on cell type, can exist as a few to several thousands copies. mtDNA has its own replicative machinery." [PMID:19665592, https://en.wikipedia.org/wiki/DNA_replication "wikipedia", https://en.wikipedia.org/wiki/Mitochondrial_DNA "wikipedia"]
 is_a: PW:0000098 ! DNA replication pathway
 created_by: VPetri
 creation_date: 2015-09-24T12:48:55Z
@@ -16002,7 +16002,7 @@ creation_date: 2015-09-24T12:49:02Z
 [Term]
 id: PW:0001956
 name: nuclear DNA replication pathway
-def: "Nuclear eukaryotic DNA replication takes place in the context of the cell cycle during the S-phase. The fast and accurate replication of DNA requires the presence and the coordinated function of a complex of proteins known as the replisome. The exact composition of the replisome in higher organisms still has to be fully determined." [https://en.wikipedia.org/wiki/DNA_replication "wikipedia", PMID:19665592]
+def: "Nuclear eukaryotic DNA replication takes place in the context of the cell cycle during the S-phase. The fast and accurate replication of DNA requires the presence and the coordinated function of a complex of proteins known as the replisome. The exact composition of the replisome in higher organisms still has to be fully determined." [PMID:19665592, https://en.wikipedia.org/wiki/DNA_replication "wikipedia"]
 is_a: PW:0001954 ! eukaryotic DNA replication pathway
 relationship: part_of PW:0000089 ! S phase pathway
 created_by: VPetri
@@ -16011,7 +16011,7 @@ creation_date: 2015-09-24T13:01:49Z
 [Term]
 id: PW:0001957
 name: mitochondrial DNA replication pathway
-def: "Mitochondria contain their own DNA. Human mtDNA is a small, circular molecule that resides in the matrix and, depending on cell type, can exist as a few to several thousands copies. mtDNA has its own replicative machinery." [https://en.wikipedia.org/wiki/Mitochondrial_DNA "wikipedia", PMID:25499735]
+def: "Mitochondria contain their own DNA. Human mtDNA is a small, circular molecule that resides in the matrix and, depending on cell type, can exist as a few to several thousands copies. mtDNA has its own replicative machinery." [PMID:25499735, https://en.wikipedia.org/wiki/Mitochondrial_DNA "wikipedia"]
 synonym: "mtDNA replication pathway" RELATED []
 is_a: PW:0001954 ! eukaryotic DNA replication pathway
 relationship: part_of PW:0001959 ! mitochondria homeostasis pathway
@@ -18469,7 +18469,7 @@ creation_date: 2015-11-12T10:41:27Z
 [Term]
 id: PW:0002232
 name: atenolol pharmacodynamics pathway
-def: "The pathway of atenolol-target interaction and of the biochemical or physiological responses to drug. The drug is a selective antagonist of beta adrenergic type 1 receptor. Genetic variations can cause differences in the response of the organism to the drug." [https://en.wikipedia.org/wiki/Atenolol]
+def: "The pathway of atenolol-target interaction and of the biochemical or physiological responses to drug. The drug is a selective antagonist of beta adrenergic type 1 receptor. Genetic variations can cause differences in the response of the organism to the drug." [wikipedia:<new dbxrefhttps\://en.wikipedia.org/wiki/Atenolol]
 synonym: "SMP:00298" RELATED []
 is_a: PW:0002230 ! atenolol drug pathway
 created_by: VPetri
@@ -18754,7 +18754,7 @@ creation_date: 2015-11-20T11:08:55Z
 [Term]
 id: PW:0002265
 name: teniposide drug pathway
-def: "The pharmacokinetics and pharmacodynamics pathway of teniposide, a drug used to treat childhood leukemia. The drug inhibits DNA synthesis. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [https://en.wikipedia.org/wiki/Teniposide "wikipedia", PMID:19149581]
+def: "The pharmacokinetics and pharmacodynamics pathway of teniposide, a drug used to treat childhood leukemia. The drug inhibits DNA synthesis. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [PMID:19149581, https://en.wikipedia.org/wiki/Teniposide "wikipedia"]
 is_a: PW:0002367 ! antineoplastic drug pathway
 created_by: VPetri
 creation_date: 2015-11-20T11:41:47Z
@@ -18762,7 +18762,7 @@ creation_date: 2015-11-20T11:41:47Z
 [Term]
 id: PW:0002266
 name: teniposide pharmacokinetics pathway
-def: "The pathway of processing - absorption, distribution, metabolism or elimination - of teniposide. Genetic variations can result in changes in the availability of the drug." [https://en.wikipedia.org/wiki/Teniposide "wikipedia", PMID:19149581]
+def: "The pathway of processing - absorption, distribution, metabolism or elimination - of teniposide. Genetic variations can result in changes in the availability of the drug." [PMID:19149581, https://en.wikipedia.org/wiki/Teniposide "wikipedia"]
 synonym: "SMP:00602" RELATED []
 is_a: PW:0002265 ! teniposide drug pathway
 created_by: VPetri
@@ -18771,7 +18771,7 @@ creation_date: 2015-11-20T11:46:47Z
 [Term]
 id: PW:0002267
 name: teniposide pharmacodynamics pathway
-def: "The pathway of teniposide-target interactions and of the biochemical or physiological responses to drug. The drug is used in the treatment of certain cancers and its mode of action is believed to be inhibition of DNA synthesis. Genetic variations can cause differences in the response of the organism to the drug." [https://en.wikipedia.org/wiki/Teniposide "wikipedia", PMID:19149581]
+def: "The pathway of teniposide-target interactions and of the biochemical or physiological responses to drug. The drug is used in the treatment of certain cancers and its mode of action is believed to be inhibition of DNA synthesis. Genetic variations can cause differences in the response of the organism to the drug." [PMID:19149581, https://en.wikipedia.org/wiki/Teniposide "wikipedia"]
 synonym: "SMP:00443" RELATED []
 is_a: PW:0002265 ! teniposide drug pathway
 created_by: VPetri
@@ -19840,7 +19840,7 @@ creation_date: 2015-12-21T10:00:09Z
 [Term]
 id: PW:0002386
 name: clomipramine pharmacokinetics pathway
-def: "The pathway of processing - absorption, distribution, metabolism or elimination - of clomipramine. Genetic variations can result in changes in the availability of the drug." [https://en.wikipedia.org/wiki/Clomipramine]
+def: "The pathway of processing - absorption, distribution, metabolism or elimination - of clomipramine. Genetic variations can result in changes in the availability of the drug." [wikipedia:dbxrefhttps\://en.wikipedia.org/wiki/Clomipramine]
 synonym: "SMP:00639" RELATED []
 is_a: PW:0002385 ! clomipramine drug pathway
 created_by: VPetri
@@ -19945,7 +19945,7 @@ creation_date: 2016-01-06T11:17:50Z
 [Term]
 id: PW:0002398
 name: regulated exocytosis pathway
-def: "A signal-dependent exocytic pathway employed by particular cell types. For instance, the release of hormones and neurotransmitters by neuroendocrine cells is mediated by regulated exocytosis." [https://en.wikipedia.org/wiki/Exocytosis "wikipedia", PMID:24062727]
+def: "A signal-dependent exocytic pathway employed by particular cell types. For instance, the release of hormones and neurotransmitters by neuroendocrine cells is mediated by regulated exocytosis." [PMID:24062727, https://en.wikipedia.org/wiki/Exocytosis "wikipedia"]
 is_a: PW:0002396 ! exocytosis pathway
 created_by: VPetri
 creation_date: 2016-01-06T11:19:37Z
@@ -21219,7 +21219,7 @@ creation_date: 2016-02-26T09:11:42Z
 [Term]
 id: PW:0002546
 name: acidosis pathway
-def: "Those metabolic changes resulting in an excess of acids in the system causing a decrease in the normal pH range." [https://en.wikipedia.org/wiki/Acid%E2%80%93base_imbalance "wikipedia", MeSH:D000138]
+def: "Those metabolic changes resulting in an excess of acids in the system causing a decrease in the normal pH range." [MeSH:D000138, https://en.wikipedia.org/wiki/Acid%E2%80%93base_imbalance "wikipedia"]
 is_a: PW:0002545 ! acid-base imbalance pathway
 created_by: VPetri
 creation_date: 2016-02-26T09:28:29Z
@@ -21227,7 +21227,7 @@ creation_date: 2016-02-26T09:28:29Z
 [Term]
 id: PW:0002547
 name: alkalosis pathway
-def: "Those metabolic changes resulting in an excess of bases in the system causing an increase in the normal pH range." [https://en.wikipedia.org/wiki/Acid%E2%80%93base_imbalance "wikipedia", MeSH:D000471]
+def: "Those metabolic changes resulting in an excess of bases in the system causing an increase in the normal pH range." [MeSH:D000471, https://en.wikipedia.org/wiki/Acid%E2%80%93base_imbalance "wikipedia"]
 is_a: PW:0002545 ! acid-base imbalance pathway
 created_by: VPetri
 creation_date: 2016-02-26T09:28:55Z
@@ -21513,7 +21513,7 @@ creation_date: 2016-03-29T11:14:20Z
 [Term]
 id: PW:0002576
 name: 3-methylcrotonyl CoA carboxylase 1 deficiency pathway
-def: "An inheritied condition resulting from alterations in the degradation of branched-chain amino acid due to defects in the alpha subunit of methylcrotonyl CoA carboxylase (MCCC1). MCCC is a biotin-requiring enzyme in the mitochondria." [https://en.wikipedia.org/wiki/Methylcrotonyl-CoA_carboxylase "wikipedia", OMIM:210200]
+def: "An inheritied condition resulting from alterations in the degradation of branched-chain amino acid due to defects in the alpha subunit of methylcrotonyl CoA carboxylase (MCCC1). MCCC is a biotin-requiring enzyme in the mitochondria." [OMIM:210200, https://en.wikipedia.org/wiki/Methylcrotonyl-CoA_carboxylase "wikipedia"]
 synonym: "3-methylcrotonyl CoA carboxylase type I deficiency pathway" RELATED []
 synonym: "SMP:00237" RELATED []
 is_a: PW:0002142 ! inborn error of urea cycle pathway
@@ -21523,7 +21523,7 @@ creation_date: 2016-03-31T15:17:59Z
 [Term]
 id: PW:0002577
 name: 3-methylcrotonyl CoA carboxylase 2 deficiency pathway
-def: "An inheritied condition resulting from alterations in the degradation of branched-chain amino acid due to defects in the beta subunit of methylcrotonyl CoA carboxylase (MCCC2). MCCC is a biotin-requiring enzyme in the mitochondria." [https://en.wikipedia.org/wiki/Methylcrotonyl-CoA_carboxylase "wikipedia", OMIM:210210]
+def: "An inheritied condition resulting from alterations in the degradation of branched-chain amino acid due to defects in the beta subunit of methylcrotonyl CoA carboxylase (MCCC2). MCCC is a biotin-requiring enzyme in the mitochondria." [OMIM:210210, https://en.wikipedia.org/wiki/Methylcrotonyl-CoA_carboxylase "wikipedia"]
 synonym: "3-methylcrotonyl CoA carboxylase type II deficiency pathway" RELATED []
 is_a: PW:0002142 ! inborn error of urea cycle pathway
 created_by: vpetri
@@ -21694,7 +21694,7 @@ creation_date: 2016-06-23T13:45:00Z
 [Term]
 id: PW:0002596
 name: direct factors Xa inhibitor drug pathway
-def: "The pharmacokinetics and pharmacodynamics pathway of drugs that reduce or prevent the formation of blood clots by directly inhibiting activated factor X (Xa). Factor X is a serine protease and essential component of coagulation cascade. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [https://en.wikipedia.org/wiki/Direct_Xa_inhibitor "wikipedia", PMID:26150723]
+def: "The pharmacokinetics and pharmacodynamics pathway of drugs that reduce or prevent the formation of blood clots by directly inhibiting activated factor X (Xa). Factor X is a serine protease and essential component of coagulation cascade. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [PMID:26150723, https://en.wikipedia.org/wiki/Direct_Xa_inhibitor "wikipedia"]
 is_a: PW:0002151 ! anticoagulant drug pathway
 created_by: vpetri
 creation_date: 2016-06-23T13:48:18Z

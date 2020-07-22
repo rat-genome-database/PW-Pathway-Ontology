@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.55
-date: 11:07:2020 20:13
+data-version: 7.54
+date: 04:07:2020 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-07-03 --
 default-namespace: pathway
@@ -476,7 +476,7 @@ relationship: part_of PW:0000455 ! excitatory synaptic transmission pathway
 [Term]
 id: PW:0000062
 name: ascorbate and aldarate metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of ascorbate and aldarate, as depicted in the KEGG diagram." [KEGG:map00053, OneLook:www.onelook.com]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of ascorbate and aldarate, as depicted in the KEGG diagram." [KEGG:map00053, OneLook:www\,onelook.com]
 synonym: "KEGG:00053" RELATED []
 is_a: PW:0000005 ! carbohydrate metabolic pathway
 
@@ -888,7 +888,7 @@ is_a: PW:0000004 ! regulatory pathway
 [Term]
 id: PW:0000125
 name: G protein mediated signaling pathway
-def: "G-proteins act as signal transducers between activated receptors or other incoming signals and downstream effectors.  They comprise the heterotrimeric G proteins downstream of G protein coupled receptors (GPCRs) and the Ras superfamily of small, monomeric G proteins. They function as molecular switches alternating between the GDP-inactive and GTP-active bound state." [GO:0007186, PMID:11152757, PMID:12040175, Reactome:REACT_14797.1]
+def: "G-proteins act as signal transducers between activated receptors or other incoming signals and downstream effectors.  They comprise the heterotrimeric G proteins downstream of G protein coupled receptors (GPCRs) and the Ras superfamily of small, monomeric G proteins. They function as molecular switches alternating between the GDP-inactive and GTP-active bound state." [GO:0007186, PubMed:11152757, PubMed:12040175, Reactome:REACT_14797.1]
 synonym: "heterotrimeric G protein mediated signaling pathway" RELATED []
 is_a: PW:0000003 ! signaling pathway
 
@@ -1206,7 +1206,7 @@ is_a: PW:0000571 ! neurotrophic factor signaling pathway
 [Term]
 id: PW:0000170
 name: epidermal growth factor/neuregulin signaling pathway
-def: "Members of the EGF/neuregulin superfamily are important regulators of tissue development and repair. A characteristic feature is the presence of the EGF module, a 36-40 amino acid sequence with a disulfide-bonded three loop structure necessary for receptor binding." [GO:0007173, KEGG:map04012, MCW e-journal:J. Mol. Evolo.2000\, v50\, p397-412, PMID:12814936, Reactome:REACT_9417.3]
+def: "Members of the EGF/neuregulin superfamily are important regulators of tissue development and repair. A characteristic feature is the presence of the EGF module, a 36-40 amino acid sequence with a disulfide-bonded three loop structure necessary for receptor binding." [GO:0007173, KEGG:map04012, MCW e-journal:J. Mol. Evolo.2000\, v50\, p397-412, PubMed:12814936, Reactome:REACT_9417.3]
 synonym: "EGF/neuregulin signaling pathway" RELATED []
 synonym: "KEGG:04012" RELATED []
 synonym: "PID:200101" RELATED []
@@ -3073,7 +3073,7 @@ is_a: PW:0000443 ! catecholamine metabolic pathway
 [Term]
 id: PW:0000443
 name: catecholamine metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of catecholamines - chemical compounds derived from tyrosine. Epinephrine, norepinephrine and dopamine are among the most abundant and are produced primarily from the adrenal medulla and the postganglionic fibers of the sympathetic nervous system." [OneLook:www.onelook.com, PMID:19342614]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of catecholamines - chemical compounds derived from tyrosine. Epinephrine, norepinephrine and dopamine are among the most abundant and are produced primarily from the adrenal medulla and the postganglionic fibers of the sympathetic nervous system." [OneLook:www\,onelook.com, PMID:19342614]
 is_a: PW:0000211 ! biogenic amines and polyamines metabolic pathway
 is_a: PW:0000436 ! amine neurotransmitter metabolic pathway
 
@@ -3126,7 +3126,7 @@ is_a: PW:0000447 ! peptide neurotransmitter metabolic pathway
 [Term]
 id: PW:0000452
 name: substance P metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of substance P - a  short-chain polypeptide that acts as a neurotransmitter and a neuromodulator." [OneLook:www.onelook.com]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of substance P - a  short-chain polypeptide that acts as a neurotransmitter and a neuromodulator." [OneLook:www\,onelook.com]
 is_a: PW:0000447 ! peptide neurotransmitter metabolic pathway
 
 [Term]
@@ -4557,7 +4557,7 @@ is_a: PW:0000652 ! phosphatase mediated signaling pathway
 [Term]
 id: PW:0000655
 name: glycoconjugated protein signaling pathway
-def: "Those signaling pathways mediated or initiated by oligosaccharide or polysaccharide linked proteins." [OneLook:www.onelook.com]
+def: "Those signaling pathways mediated or initiated by oligosaccharide or polysaccharide linked proteins." [OneLook:www\,onelook.com]
 is_a: PW:0000003 ! signaling pathway
 
 [Term]
@@ -4725,7 +4725,7 @@ is_a: PW:0000287 ! altered apoptotic cell death pathway
 [Term]
 id: PW:0000681
 name: FasL mediated signaling pathway
-def: "Fas ligand binding to its receptor triggers a conformational change that allows the receptor to assemble a signaling complex known as DISC, followed by recruitment of pro-caspase-8 and activation of caspase-3 and -7. It is believed that Fas mediated signaling to elicit apoptosis follows two routes." [PMID:14744432, Reactome:REACT_900.1]
+def: "Fas ligand binding to its receptor triggers a conformational change that allows the receptor to assemble a signaling complex known as DISC, followed by recruitment of pro-caspase-8 and activation of caspase-3 and -7. It is believed that Fas mediated signaling to elicit apoptosis follows two routes." [PubMed:14744432, Reactome:REACT_900.1]
 synonym: "PID:200080" RELATED []
 is_a: PW:0000106 ! extrinsic apoptotic pathway
 is_a: PW:0000236 ! tumor necrosis factor superfamily mediated signaling pathway
@@ -4955,7 +4955,7 @@ creation_date: 2009-10-28T02:45:27Z
 [Term]
 id: PW:0000706
 name: leukemia pathway
-def: "Leukemia is a cancer of the blood or bone marrow. The term covers a broad spectrum of conditions subdivided by proliferation type - acute and chronic, and by cell type - myeloid and lymphocytic leukemia." [OneLook:www.onelook.com]
+def: "Leukemia is a cancer of the blood or bone marrow. The term covers a broad spectrum of conditions subdivided by proliferation type - acute and chronic, and by cell type - myeloid and lymphocytic leukemia." [OneLook:www.onelook..com]
 is_a: PW:0000605 ! cancer pathway
 created_by: vpetri
 creation_date: 2009-10-28T03:34:16Z
@@ -8101,7 +8101,7 @@ creation_date: 2012-07-16T01:26:38Z
 [Term]
 id: PW:0001058
 name: measles pathway
-def: "The measles virus (MV) of the genus Morbillivirus is the causative agent of the condition that bears its name. The condition causes immunosuppression and several MV proteins are thought to interfere with the normal host immune responses." [http://www.onelook.com "OneLook", KEGG:map05162]
+def: "The measles virus (MV) of the genus Morbillivirus is the causative agent of the condition that bears its name. The condition causes immunosuppression and several MV proteins are thought to interfere with the normal host immune responses." [http://wwwonelook.com "OneLook", KEGG:map05162]
 synonym: "KEGG:05162" RELATED []
 synonym: "measles infection pathway" EXACT []
 synonym: "morbilli pathway" EXACT []
@@ -8140,7 +8140,7 @@ creation_date: 2012-07-18T10:54:59Z
 [Term]
 id: PW:0001062
 name: lacto-series glycosphingolipid metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of lacto-series type of glycosphingolipids." [PMID:17976918]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of lacto-series type of glycosphingolipids." [PMID:1 7976918]
 synonym: "KEGG:00601" RELATED []
 is_a: PW:0000733 ! glycosphingolipid metabolic pathway
 created_by: VPetri
@@ -11466,7 +11466,7 @@ creation_date: 2013-08-26T09:41:48Z
 [Term]
 id: PW:0001449
 name: nicotine pharmacokinetics pathway
-def: "The pathway of processing - absorption, distribution, metabolism or elimination - of nicotine, an agonist of nicotinic acetylcholine receptors. Genetic variations can result in changes in the availability of the drug." [PMID:15734728]
+def: "The pathway of processing - absorption, distribution, metabolism or elimination - of nicotine, an agonist of nicotinic acetylcholine receptors. Genetic variations can result in changes in the availability of the drug." [PubMed:15734728]
 synonym: "SMP:00628" RELATED []
 is_a: PW:0000721 ! nicotine drug pathway
 created_by: VPetri
@@ -11475,7 +11475,7 @@ creation_date: 2013-08-28T13:57:46Z
 [Term]
 id: PW:0001450
 name: nicotine pharmacodynamics pathway
-def: "The pathway of nicotine-target interaction and of the biochemical or physiological responses to drug. Nicotine is an agonist of the nicotinic acetylcholine receptors and exerts stimulatory roles. It is also responsible for tobacco dependence.  Prolonged exposure and high levels of nicotine can have toxic effects. Genetic variations can cause differences in the response of the organism to the drug." [PMID:23933385]
+def: "The pathway of nicotine-target interaction and of the biochemical or physiological responses to drug. Nicotine is an agonist of the nicotinic acetylcholine receptors and exerts stimulatory roles. It is also responsible for tobacco dependence.  Prolonged exposure and high levels of nicotine can have toxic effects. Genetic variations can cause differences in the response of the organism to the drug." [PubMed:23933385]
 synonym: "SMP:00431" RELATED []
 is_a: PW:0000721 ! nicotine drug pathway
 created_by: VPetri
@@ -11749,7 +11749,7 @@ creation_date: 2013-10-31T11:04:45Z
 [Term]
 id: PW:0001480
 name: kinin signaling pathway
-def: "The active kinin peptides generated by the kallikrein-kinin cascade - bradykinin, kallidin and their C-terminal processed metabolites, signal via two G-protein coupled (GPCR) receptors. The two receptors employ similar signaling pathways but also exhibit distinct patterns. Type 1 receptor is inducible, type 2 is ubiquitous and can form heterodimers with angiotensin II receptors." [PMID:16177542]
+def: "The active kinin peptides generated by the kallikrein-kinin cascade - bradykinin, kallidin and their C-terminal processed metabolites, signal via two G-protein coupled (GPCR) receptors. The two receptors employ similar signaling pathways but also exhibit distinct patterns. Type 1 receptor is inducible, type 2 is ubiquitous and can form heterodimers with angiotensin II receptors." [PubMed:16177542]
 relationship: part_of PW:0000526 ! kallikrein-kinin cascade pathway
 created_by: VPetri
 creation_date: 2013-11-05T15:22:08Z
@@ -12103,7 +12103,7 @@ creation_date: 2014-03-20T13:05:32Z
 [Term]
 id: PW:0001523
 name: nicotine response pathway
-def: "A pathway triggered by exposure to nicotine, the alkaloid found in tobacco and other plants. Nicotine can act as a stimulant and is an agonist of the ionotropic acetylcholine receptors, also known as nicotinic. Sustained exposure however has an inhibitory effect resulting in muscular paralysis, seizures, hypotension and respiratory failure. Some of the symptoms are reminiscent of organophosphate poisoning; organophosphates inhibit the enzyme acetylcholinesterase leading to uncensored stimulation of both the  nicotinic and the metabotropic muscarinic acetylcholine receptors." [PMID:19426718]
+def: "A pathway triggered by exposure to nicotine, the alkaloid found in tobacco and other plants. Nicotine can act as a stimulant and is an agonist of the ionotropic acetylcholine receptors, also known as nicotinic. Sustained exposure however has an inhibitory effect resulting in muscular paralysis, seizures, hypotension and respiratory failure. Some of the symptoms are reminiscent of organophosphate poisoning; organophosphates inhibit the enzyme acetylcholinesterase leading to uncensored stimulation of both the  nicotinic and the metabotropic muscarinic acetylcholine receptors." [PubMed:19426718]
 is_a: PW:0001434 ! toxin and toxicant response pathway
 created_by: VPetri
 creation_date: 2014-03-28T10:56:10Z
@@ -12241,7 +12241,7 @@ creation_date: 2014-05-13T14:25:13Z
 [Term]
 id: PW:0001539
 name: heterotrimeric G protein mediated signaling pathway
-def: "The heterotrimer G proteins are transducers of G proteins coupled receptors (GPCRs). Many types of signals are received by the members of the large GPCR superfamily which then activate distinct G-proteins that route the signal to many and distinct intracellular signaling pathways." [PMID:12040175]
+def: "The heterotrimer G proteins are transducers of G proteins coupled receptors (GPCRs). Many types of signals are received by the members of the large GPCR superfamily which then activate distinct G-proteins that route the signal to many and distinct intracellular signaling pathways." [PubMed:12040175]
 is_a: PW:0000125 ! G protein mediated signaling pathway
 created_by: VPetri
 creation_date: 2014-05-13T15:02:07Z
@@ -13274,7 +13274,7 @@ creation_date: 2015-03-04T15:26:01Z
 [Term]
 id: PW:0001653
 name: aminocaproic acid drug pathway
-def: "The pharmacokinetics and pharmacodynamics pathway of aminocaproic acid, an inhibitor of enzymes involved in fibrinolysis and as such, effective in the treatment of certain bleeding disorders. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [https://en.wikipedia.org/wiki/Aminocaproic_acid]
+def: "The pharmacokinetics and pharmacodynamics pathway of aminocaproic acid, an inhibitor of enzymes involved in fibrinolysis and as such, effective in the treatment of certain bleeding disorders. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug." [wikipedia:<new dbxrefhttps\://en.wikipedia.org/wiki/Aminocaproic_acid]
 synonym: "6-aminohexanoic acid drug pathway" RELATED []
 is_a: PW:0001652 ! antihemorrhagic drug pathway
 created_by: VPetri
@@ -15543,7 +15543,7 @@ creation_date: 2015-09-17T10:55:29Z
 [Term]
 id: PW:0001903
 name: nitrendipine pharmacodynamics pathway
-def: "The pathway of nitrendipine-target interaction and of the biochemical or physiological responses to drug. Genetic variations can cause differences in the response of the organism to the drug." [https://en.wikipedia.org/wiki/Nitrendipine]
+def: "The pathway of nitrendipine-target interaction and of the biochemical or physiological responses to drug. Genetic variations can cause differences in the response of the organism to the drug." [wikipedia:<new dbxrefhttps\://en.wikipedia.org/wiki/Nitrendipine]
 synonym: "SMP:00382" RELATED []
 is_a: PW:0001897 ! nitrendipine drug pathway
 created_by: VPetri
@@ -18469,7 +18469,7 @@ creation_date: 2015-11-12T10:41:27Z
 [Term]
 id: PW:0002232
 name: atenolol pharmacodynamics pathway
-def: "The pathway of atenolol-target interaction and of the biochemical or physiological responses to drug. The drug is a selective antagonist of beta adrenergic type 1 receptor. Genetic variations can cause differences in the response of the organism to the drug." [https://en.wikipedia.org/wiki/Atenolol]
+def: "The pathway of atenolol-target interaction and of the biochemical or physiological responses to drug. The drug is a selective antagonist of beta adrenergic type 1 receptor. Genetic variations can cause differences in the response of the organism to the drug." [wikipedia:<new dbxrefhttps\://en.wikipedia.org/wiki/Atenolol]
 synonym: "SMP:00298" RELATED []
 is_a: PW:0002230 ! atenolol drug pathway
 created_by: VPetri
@@ -19840,7 +19840,7 @@ creation_date: 2015-12-21T10:00:09Z
 [Term]
 id: PW:0002386
 name: clomipramine pharmacokinetics pathway
-def: "The pathway of processing - absorption, distribution, metabolism or elimination - of clomipramine. Genetic variations can result in changes in the availability of the drug." [https://en.wikipedia.org/wiki/Clomipramine]
+def: "The pathway of processing - absorption, distribution, metabolism or elimination - of clomipramine. Genetic variations can result in changes in the availability of the drug." [wikipedia:dbxrefhttps\://en.wikipedia.org/wiki/Clomipramine]
 synonym: "SMP:00639" RELATED []
 is_a: PW:0002385 ! clomipramine drug pathway
 created_by: VPetri
