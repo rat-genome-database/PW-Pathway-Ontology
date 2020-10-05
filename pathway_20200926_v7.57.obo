@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.58
-date: 03:10:2020 20:13
+data-version: 7.57
+date: 26:09:2020 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-07-03 --
 default-namespace: pathway
@@ -68,11 +68,9 @@ is_a: PW:0001194 ! serine/threonine-specific kinase mediated signaling pathway
 [Term]
 id: PW:0000008
 name: Wnt signaling pathway
-alt_id: GO:0016055
-alt_id: KEGG:04310
-alt_id: Reactome:R-HSA-195721
 def: "The secreted glycoproteins of the Wnt family regulate a wide spectrum of developmental processes and they are also playing important roles in the adult organism. Deregulation of Wnt cascades has oncogenic effects and is responsible for tumorigenesis in adults." [PMID:12573432, PMID:15001769, PMID:15041171, Reactome:R-HSA-195721]
-synonym: "Signaling by WNT" RELATED []
+synonym: "KEGG:04310" RELATED []
+synonym: "Signaling by Wnt" RELATED []
 is_a: PW:0000650 ! signaling pathway pertinent to development
 is_a: PW:0000656 ! glycoprotein signaling pathway
 
@@ -108,10 +106,8 @@ is_a: PW:0000002 ! classic metabolic pathway
 [Term]
 id: PW:0000013
 name: disease pathway
-alt_id: Reactome:R-HSA-1643685
 def: "Complex human diseases encompass a spectrum of genetic and environmental attributes that together affect the normal functioning of several molecular and cellular pathways. Their combined and accumulated effect is manifested in the anomalous phenotype of the complex condition." [InHouse:InHouse PW dictionary]
 synonym: "complex human diseases" RELATED []
-synonym: "Disease" RELATED []
 is_a: PW:0000001 ! pathway
 
 [Term]
@@ -664,7 +660,7 @@ is_a: PW:0001317 ! cell cycle pathway
 [Term]
 id: PW:0000087
 name: G1 phase pathway
-def: "The series of events underlying the progression of early cell cycle into the G phase and under the control of D-type cyclins together with Cdk4 and Cdk6. The formation of the pre-initiation replication complex takes place during this phase." [Reactome:REACT_1590.1]
+def: "The series of events underlying the progression of early cell cycle into the G phase and under the control of D-type cyclins together with Cdk4 and Cdk6. The formation of the pre-initiation replication complex takes place during this phase." [Reactome:REACT_1590.1, Reactome:www.reactome.org]
 relationship: part_of PW:0000086 ! cell cycle pathway, mitotic
 
 [Term]
@@ -676,31 +672,31 @@ relationship: part_of PW:0000086 ! cell cycle pathway, mitotic
 [Term]
 id: PW:0000089
 name: S phase pathway
-def: "The series of events underlying duplication of the hereditary material of the cell, formation of two copies of the chromosome." [Reactome:REACT_899.3]
+def: "The series of events underlying duplication of the hereditary material of the cell, formation of two copies of the chromosome." [Reactome:REACT_899.3, Reactome:www.reactome.org]
 relationship: part_of PW:0000086 ! cell cycle pathway, mitotic
 
 [Term]
 id: PW:0000090
 name: G2 phase pathway
-def: "The series of events underlying the second 'gap' phase of the mitotic cell cycle - an interval between the completion of DNA synthesis and the beginning of mitosis and during which protein synthesis occurs." [Reactome:REACT_1915.2]
+def: "The series of events underlying the second 'gap' phase of the mitotic cell cycle - an interval between the completion of DNA synthesis and the beginning of mitosis and during which protein synthesis occurs." [Reactome:REACT_1915.2, Reactome:www.reactome.org]
 relationship: part_of PW:0000086 ! cell cycle pathway, mitotic
 
 [Term]
 id: PW:0000091
 name: G2/M transition pathway
-def: "The series of events underlying the transition from the G2 phase into mitosis." [Reactome:REACT_2203.2]
+def: "The series of events underlying the transition from the G2 phase into mitosis." [Reactome:REACT_2203.2, Reactome:www.reactome.org]
 relationship: part_of PW:0000086 ! cell cycle pathway, mitotic
 
 [Term]
 id: PW:0000092
 name: M phase pathway
-def: "The series of events underlying mitosis (M-phase), in turn comprised of several phases, involving nuclear division and cytokinesis and resulting in the formation of two daughter cells." [Reactome:REACT_910.1]
+def: "The series of events underlying mitosis (M-phase), in turn comprised of several phases, involving nuclear division and cytokinesis and resulting in the formation of two daughter cells." [Reactome:REACT_910.1, Reactome:www.reactome.org]
 relationship: part_of PW:0000086 ! cell cycle pathway, mitotic
 
 [Term]
 id: PW:0000093
 name: M/G1 transition pathway
-def: "The series of events underlying progression out of mitosis and division into two daughter cells. It requires the inactivation of cyclinB-cdc2 by the ubiquitin-dependent proteolysis." [Reactome:REACT_1725.1]
+def: "The series of events underlying progression out of mitosis and division into two daughter cells. It requires the inactivation of cyclinB-cdc2 by the ubiquitin-dependent proteolysis." [Reactome:REACT_1725.1, Reactome:www.reactome.org]
 relationship: part_of PW:0000086 ! cell cycle pathway, mitotic
 
 [Term]
@@ -957,12 +953,10 @@ is_a: PW:0000002 ! classic metabolic pathway
 [Term]
 id: PW:0000133
 name: selenoamino acid metabolic pathway
-alt_id: KEGG:00450
-alt_id: Reactome:R-HSA-2408522
-alt_id: SMP:00029
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of selenoamino acids - amino acids in which a selenium atom replaces a sulfur atom. Examples include selenocysteine, selenohomocysteine and selenomethionine." [http://morelife.org/glossary/ "Technical glossary", http://pathman.smpdb.ca/pathways/SMP00029/pathway "SMPDB", KEGG:map00450]
-synonym: "Selenoamino acid metabolism" RELATED []
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of selenoamino acid - an amino acid in which a selenium atom replaces a sulfur atom. Examples include selenocysteine, selenohomocysteine and selenomethionine." [http://morelife.org/glossary/ "Technical glossary", http://pathman.smpdb.ca/pathways/SMP00029/pathway "SMPDB", KEGG:map00450]
+synonym: "KEGG:00450" RELATED []
 synonym: "selenocompound metabolic pathway" RELATED []
+synonym: "SMP:00029" RELATED []
 is_a: PW:0000132 ! metabolic pathway of other amino acids
 
 [Term]
@@ -985,11 +979,9 @@ is_a: PW:0000002 ! classic metabolic pathway
 [Term]
 id: PW:0000136
 name: thiamine metabolic pathway
-alt_id: KEGG:00730
-alt_id: Reactome:R-HSA-196819
-alt_id: SMP:00076
 def: "Those metabolic reactions involving thiamine, a water-soluble vitamin of the B complex. It is synthesized in bacteria, fungi and plants while animals obtain thiamine from food. Thiamine insufficiency results in a condition called beriberi." [https://en.wikipedia.org/wiki/Thiamine "wikipedia"]
-synonym: "Vitamin B1 (thiamin) metabolism" RELATED []
+synonym: "KEGG:00730" RELATED []
+synonym: "SMP:00076" RELATED []
 synonym: "vitamin B1 metabolic pathway" RELATED []
 is_a: PW:0000135 ! metabolic pathway of cofactors, vitamins, nutrients
 
@@ -1213,11 +1205,9 @@ is_a: PW:0000184 ! terpenoid biosynthetic pathway
 [Term]
 id: PW:0000167
 name: pantothenic acid metabolic pathway
-alt_id: KEGG:00770
-alt_id: Reactome:R-HSA-199220
-alt_id: SMP:00027
 def: "Those metabolic reactions involving pantothenic acid or panthotenate, also known as vitamin B5 - a water-soluble vitamin. Vitamin B5 is the precursor to coenzyme A (CoA) which in turn, plays an essential role in fatty acids and pyruvate metabolism." [https://en.wikipedia.org/wiki/Pantothenic_acid "wikipedia"]
-synonym: "Vitamin B5 (pantothenate) metabolism" RELATED []
+synonym: "KEGG:00770" RELATED []
+synonym: "SMP:00027" RELATED []
 synonym: "vitamin B5 metabolic pathway" RELATED []
 is_a: PW:0000135 ! metabolic pathway of cofactors, vitamins, nutrients
 
@@ -1237,14 +1227,11 @@ is_a: PW:0000571 ! neurotrophic factor signaling pathway
 [Term]
 id: PW:0000170
 name: epidermal growth factor/neuregulin signaling pathway
-alt_id: GO:0007173
-alt_id: KEGG:04012
-alt_id: PID:200101
-alt_id: PID:200159
-alt_id: Reactome:R-HSA-177929
 def: "Members of the EGF/neuregulin superfamily are important regulators of tissue development and repair. A characteristic feature is the presence of the EGF module, a 36-40 amino acid sequence with a disulfide-bonded three loop structure necessary for receptor binding." [GO:0007173, KEGG:map04012, MCW e-journal:J. Mol. Evolo.2000\, v50\, p397-412, PMID:12814936, Reactome:REACT_9417.3]
 synonym: "EGF/neuregulin signaling pathway" RELATED []
-synonym: "Signaling by EGFR" RELATED []
+synonym: "KEGG:04012" RELATED []
+synonym: "PID:200101" RELATED []
+synonym: "PID:200159" RELATED []
 is_a: PW:0000168 ! growth factor signaling pathway
 
 [Term]
@@ -1445,13 +1432,9 @@ is_a: PW:0000733 ! glycosphingolipid metabolic pathway
 [Term]
 id: PW:0000197
 name: sphingolipid metabolic pathway
-alt_id: GO:0006665
-alt_id: KEGG:00600
-alt_id: Reactome:R-HSA-428157
-alt_id: SMP:00034
 def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of sphingolipids - important components of animal and plant membranes. They contain a long chain amino alcohol and a ceramide core. Ceramides are also the precursors of glycolipids, also referred to as glycosphingolipids, which have attached sugar(s)." [GO:0006665, MCW library:QU4 M235b 2009, OneLook:www.onelook.com, PMID:17976918]
-synonym: "sphingolipid metabolic process" RELATED []
-synonym: "Sphingolipid metabolism" RELATED []
+synonym: "KEGG:00600" RELATED []
+synonym: "SMP:00034" RELATED []
 is_a: PW:0000010 ! lipid metabolic pathway
 
 [Term]
@@ -1522,7 +1505,8 @@ is_a: PW:0000171 ! polyglutamine repeat pathway
 [Term]
 id: PW:0000206
 name: transforming growth factor-beta signaling pathway
-def: "The transforming growth factor-beta (TGF-beta) signaling pathway regulates numerous cellular processes such as proliferation, differentiation, migration and cell death. The SMAD dependent pathway represents the core signaling cascade mediated by the TGF-beta superfamily. Mutations in the TGF-beta family are responsible for a number of human diseases." [GO:0007179, PMID:15130563, PMID:16678165, PubMed:TIBS\, 2004\, v29 (5)\, p265-273, Reactome:REACT_6844.5]
+def: "Transforming growth factor-beta (TGF-beta) signaling pathway regulates numerous cellular processes such as proliferation, differentiation, migration and cell death. The SMAD dependent pathway represents the core signaling cascade mediated by the TGF-beta superfamily. Mutations in TGF - beta family are responsible for a number of human diseases." [GO:0007179, PMID:15130563, PMID:16678165, PubMed:TIBS\, 2004\, v29 (5)\, p265-273, Reactome:REACT_6844.5]
+synonym: "TGF- beta signaling pathway - SMAD dependent" RELATED []
 is_a: PW:0000329 ! transforming growth factor-beta superfamily mediated signaling pathway
 
 [Term]
@@ -1578,11 +1562,7 @@ is_a: PW:0001275 ! eukaryotic RNA polymerase transcription pathway
 [Term]
 id: PW:0000214
 name: polyamine metabolic pathway
-alt_id: GO:0006595
-alt_id: Reactome:R-HSA-351202
 def: "Polyamines play important roles in cell growth, proliferation and survival. They can be derived from diet as well as via cellular and intestinal flora mediated biosynthesis." [PMID:19603518]
-synonym: "Metabolism of polyamines" RELATED []
-synonym: "polyamine metabolic process" RELATED []
 is_a: PW:0000211 ! biogenic amines and polyamines metabolic pathway
 relationship: part_of PW:0001693 ! S-adenosylmethionine homeostasis pathway
 
@@ -1609,9 +1589,7 @@ is_a: PW:0000135 ! metabolic pathway of cofactors, vitamins, nutrients
 [Term]
 id: PW:0000218
 name: heme biosynthetic pathway
-alt_id: Reactome:R-HSA-189451
 def: "Those metabolic reactions involved in the biosynthesis of heme - an iron-containing compound where the iron is complexed within a porphyrin heterocyclic ring. There are several kinds of heme depending on the composition of their side chain. Heme serves as a prosthetic group for several classes of proteins that include hemoglobin and myoglobin, cytochromes, peroxidases, catalases and others." [PMID:26785297]
-synonym: "Heme biosynthesis" RELATED []
 is_a: PW:0000221 ! heme metabolic pathway
 is_a: PW:0002633 ! iron utilization pathway
 
@@ -1951,10 +1929,7 @@ is_a: PW:0000019 ! prion disease pathway
 [Term]
 id: PW:0000269
 name: protein folding pathway
-alt_id: GO:0006457
-alt_id: Reactome:R-HSA-391251
 def: "Those reactions and molecular interactions underlying the folding of a protein into its functional three-dimensional structure. Folding takes place in the cytoplasm and, in the case of secreted proteins, in the endoplasmic reticulum. Proteins are checked (quality control) for proper folding and misfolded proteins are targeted for degradation." [GO:0006457, PMID:17686625, PMID:21495850]
-synonym: "Protein folding" RELATED []
 is_a: PW:0000181 ! pathway pertinent to protein folding, sorting, modification, translocation and degradation
 is_a: PW:0001756 ! peptide and protein metabolic process
 relationship: part_of PW:0000280 ! protein secretory pathway
@@ -2004,10 +1979,7 @@ is_a: PW:0001557 ! programmed cell death pathway
 [Term]
 id: PW:0000277
 name: cellular senescence pathway
-alt_id: GO:0090398
-alt_id: Reactome:R-HSA-2559583
 def: "Cellular senescence, also known as replicative senescence, results from cells ceasing to divide. Generally, it is a state of steady cell cycle arrest induced by stresses such as DNA damage, toxins and/or oncogene activation." [PMID:24449267]
-synonym: "Cellular Senescence" RELATED []
 is_a: PW:0000276 ! non-apoptotic cell death pathway
 is_a: PW:0000651 ! aging pathway
 
@@ -2140,13 +2112,11 @@ is_a: PW:0000022 ! cardiomyopathy pathway
 [Term]
 id: PW:0000297
 name: platelet-derived growth factor signaling pathway
-alt_id: PID:200149
-alt_id: PID:200162
-alt_id: PID:200201
-alt_id: Reactome:R-HSA-186797
-def: "The PDGF signaling pathway plays an important role in the regulation of cell growth and survival." [GO:0048008, PMID:14515146, PMID:26153649, Reactome:REACT_16888.1]
+def: "PDGF signaling pathway plays an important role in the regulation of cell growth and survival." [GO:0048008, PMID:14515146, PMID:26153649, Reactome:REACT_16888.1]
 synonym: "PDGF signaling pathway" RELATED []
-synonym: "Signaling by PDGF" RELATED []
+synonym: "PID:200149" RELATED []
+synonym: "PID:200162" RELATED []
+synonym: "PID:200201" RELATED []
 is_a: PW:0000168 ! growth factor signaling pathway
 is_a: PW:0000650 ! signaling pathway pertinent to development
 
@@ -2366,11 +2336,9 @@ is_a: PW:0000269 ! protein folding pathway
 [Term]
 id: PW:0000328
 name: fibroblast growth factor signaling pathway
-alt_id: PID:200220
-alt_id: Reactome:R-HSA-190236
 def: "The family of fibroblast growth factors (FGF) comprises 22 ligands classified into seven phylogenetic subfamilies and three groups by mode of action: the intracellular intracrine and the extracellular paracrine or canonical and endocrine or hormone-like groups. The paracrine subfamilies signal via the fibroblast growth factor receptors (FGFR), receptor tyrosine kinases (RTK). The endocrine subfamily is FGFR-dependent but the affinity towards the receptors is low and it relies on the Klotho family of transmembrane proteins. The intracrine subfamily is FGFR-independent. Overall, the pathway plays important roles during embryonic and postnatal development, neuromodulation, mineral metabolism and homeostasis. Deregulation of the pathway has been associated with neoplastic and metabolic diseases." [GO:0007173, PMID:19379279, PMID:19601767, PMID:20940169, PMID:22298654, Reactome:REACT_9470.2]
 synonym: "FGF signaling pathway" RELATED []
-synonym: "Signaling by FGFR" RELATED []
+synonym: "PID:200220" RELATED []
 is_a: PW:0000168 ! growth factor signaling pathway
 
 [Term]
@@ -2604,11 +2572,7 @@ relationship: part_of PW:0000356 ! oxygen homeostasis pathway
 [Term]
 id: PW:0000363
 name: leptin system pathway
-alt_id: GO:0033210
-alt_id: Reactome:R-HSA-2586552
-def: "Leptin acts on two populations of hypothalamic neurons that express orexigenic (feeding inducing) and anorexigenic genes, respectively. Leptin reduces the expression of genes from the former and enhances the expression of genes from the latter neurons. The leptin mediated response acts primarily via Jak-dependent activation of STAT." [GO:0033210, PMID:11239410, PMID:12079865]
-synonym: "leptin-mediated signaling pathway" RELATED []
-synonym: "Signaling by Leptin" RELATED []
+def: "Leptin acts on two populations of hypothalamic neurons that express orexigenic (feeding inducing) and anorexigenic genes, respectively. Leptin reduces the expression of genes from the former and enhances the expression of genes from the latter neurons. Leptin mediated response acts primarily via Jak-dependent activation of STAT." [GO:0033210, PMID:11239410, PMID:12079865]
 is_a: PW:0000467 ! peptide and protein hormone signaling pathway
 relationship: part_of PW:0000357 ! energy homeostasis pathway
 
@@ -2727,12 +2691,8 @@ is_a: PW:0000237 ! stress response pathway
 [Term]
 id: PW:0000379
 name: endoplasmic reticulum stress  - the unfolded protein response pathway
-alt_id: GO:0030968
-alt_id: Reactome:R-HSA-381119
 def: "Inhibition of protein folding or its disruption by mutant proteins in the endoplasmic reticulum triggers a signal transduction response known as the unfolded protein response (UPR). UPR increases the biosynthetic capacity while decreasing the biosynthetic burden of the secretory pathway through up- and downregulation of gene expression." [GO:0030968, PMID:15603751, PMID:15952902]
-synonym: "endoplasmic reticulum unfolded protein response" RELATED []
 synonym: "ER stress - UPR pathway" RELATED []
-synonym: "Unfolded Protein Response (UPR)" RELATED []
 is_a: PW:0000237 ! stress response pathway
 
 [Term]
@@ -2777,9 +2737,7 @@ is_a: PW:0000096 ! G2/M checkpoint pathway
 [Term]
 id: PW:0000386
 name: Rap1 mediated signaling pathway
-alt_id: Reactome:R-HSA-392517
-def: "A very close relative of Ras, the Rap1 mediated pathway appears to control diverse processes such as modulation of growth and differentiation, secretion, integrin linked cell adhesion and morphogenesis." [PMID:11331911]
-synonym: "Rap1 signalling" RELATED []
+def: "A very close relative of Ras, Rap1 mediated pathway  appears to control diverse processes such as modulation of growth and differentiation, secretion, integrin linked cell adhesion, morphogenesis." [PMID:11331911]
 is_a: PW:0000158 ! Ras family mediated signaling pathway
 
 [Term]
@@ -2858,7 +2816,7 @@ is_a: PW:0000214 ! polyamine metabolic pathway
 [Term]
 id: PW:0000397
 name: cobalamin metabolic pathway
-def: "Those metabolic reactions involving cobalamin, known as vitamin B12 - a water-soluble vitamin. Cobalamin has important roles in a number of metabolic pathways. There are several related compounds whose synthesis occurs in bacteria but whose conversion can be carried out in higher organisms." [https://en.wikipedia.org/wiki/Vitamin_B12 "wikipedia"]
+def: "Those metabolic reactions involving cobalamin, known as vitamin B12 - a water-soluble vitamin. Cobalamin which important roles in a number of metabolic pathways. There are several related compounds whose synthesis occurs in bacteria but whose conversion can be carried out in higher organisms." [https://en.wikipedia.org/wiki/Vitamin_B12 "wikipedia"]
 synonym: "Vitamin B12 metabolic pathway" RELATED []
 is_a: PW:0000135 ! metabolic pathway of cofactors, vitamins, nutrients
 
@@ -2943,11 +2901,7 @@ is_a: PW:0000443 ! catecholamine metabolic pathway
 [Term]
 id: PW:0000410
 name: serotonin metabolic pathway
-alt_id: GO:0042428
-alt_id: Reactome:R-HSA-380612
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of serotonin - an amine neurotransmitter that is believed to play important roles in a number of conditions such as depression, bipolar disorder and anxiety." [OneLook:www.onelook.com]
-synonym: "Metabolism of serotonin" RELATED []
-synonym: "serotonin metabolic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of serotonin - an amine neurotransmitter that is believed to play important roles in a number of conditions such as depression, bipolar disorder, anxiety." [OneLook:www.onelook.com]
 is_a: PW:0000444 ! indoleamine and related compounds metabolic pathway
 
 [Term]
@@ -2968,9 +2922,7 @@ is_a: PW:0000446 ! inhibitory neurotransmitter metabolic pathway
 [Term]
 id: PW:0000413
 name: heme degradation pathway
-alt_id: Reactome:R-HSA-189483
 def: "Those metabolic reactions involved in the degradation of heme - an iron-containing compound where the iron is complexed within a porphyrin heterocyclic ring, There are several kinds of hemes depending on the composition of their side chain. Heme serves as a prosthetic group for a number of proteins." [PMID:24782769]
-synonym: "Heme degradation" RELATED []
 is_a: PW:0000221 ! heme metabolic pathway
 
 [Term]
@@ -2988,12 +2940,8 @@ is_a: PW:0000144 ! ubiquitin/proteasome degradation pathway
 [Term]
 id: PW:0000416
 name: sumoylation pathway
-alt_id: GO:0016925
-alt_id: Reactome:R-HSA-2990846
-def: "A pathway of protein modification via conjugation with SUMO (small ubiquitin-related modifier). SUMOylation does not target proteins to the proteasome, rather it targets proteins to particular cellular compartments." [PMID:10806345, PMID:15808504, PMID:23328396, PMID:23416108]
-synonym: "protein sumoylation" RELATED []
+def: "A pathway of protein modification via conjugation with SUMO (small ubiquitin-related modifier).  SUMOylation does not target proteins to the proteasome, rather it targets proteins to particular cellular compartments." [PMID:10806345, PMID:15808504, PMID:23328396, PMID:23416108]
 synonym: "SUMO modification pathway" RELATED []
-synonym: "SUMOylation" RELATED []
 is_a: PW:0000433 ! protein modification pathway via conjugation with ubiquitin and ubiqutin-like molecules
 
 [Term]
@@ -3271,14 +3219,10 @@ is_a: PW:0000467 ! peptide and protein hormone signaling pathway
 [Term]
 id: PW:0000460
 name: arachidonic acid metabolic pathway
-alt_id: GO:0019369
-alt_id: KEGG:00590
-alt_id: Reactome:R-HSA-2142753
-alt_id: SMP:00075
 def: "Those metabolic reactions involved in the synthesis, utilization and/or conversion of arachidonic acid - a polyunsaturated, omega-6 fatty acid. It is a precursor in the production of eicosanoids and can also be converted to other metabolites, collectively known as the arachidonic acid cascade." [GO:0019369, KEGG:map00590, OneLook:www.onelook.com, PMID:15896353]
 synonym: "arachidonic acid cascade" RELATED []
-synonym: "arachidonic acid metabolic process" RELATED []
-synonym: "Arachidonic acid metabolism" RELATED []
+synonym: "KEGG:00590" RELATED []
+synonym: "SMP:00075" RELATED []
 is_a: PW:0000058 ! fatty acid metabolic pathway
 
 [Term]
@@ -3474,11 +3418,8 @@ is_a: PW:0000168 ! growth factor signaling pathway
 [Term]
 id: PW:0000490
 name: transforming growth factor-beta Smad dependent signaling pathway
-alt_id: PID:200227
-alt_id: Reactome:R-HSA-170834
-def: "Transforming growth factor-beta (TGF-beta) signaling is one of the best characterized modules of the Tgf-b superfamily pathways. Binding to the type II receptor leads to activation of the type I receptor and subsequent activation of the Smad pathway. Nuclear translocation of Smad(s) and interaction with transcription factors leads to activation or repression of many genes." [PMID:16678165]
-synonym: "Signaling by TGF-beta Receptor Complex" RELATED []
-synonym: "TGF- beta signaling pathway - SMAD dependent" RELATED []
+def: "Transforming growth factor-beta (TGF-beta) signaling is one of the best characterized module of the Tgf-b superfamily pathways. Binding to the type II receptor leads to activation of the type I receptor and subsequent activation of Smad pathway. Nuclear translocation of Smad(s) and interaction with transcription factors leads to activation or repression of many genes." [PMID:16678165]
+synonym: "PID:200227" RELATED []
 synonym: "TGF-beta Smad dependent signaling pathway" RELATED []
 is_a: PW:0000206 ! transforming growth factor-beta signaling pathway
 is_a: PW:0000650 ! signaling pathway pertinent to development
@@ -3570,19 +3511,15 @@ is_a: PW:0000500 ! tyrosine-based hormone signaling pathway
 [Term]
 id: PW:0000502
 name: complement system pathway
-alt_id: KEGG:04610
-alt_id: Reactome:R-HSA-166658
 def: "The complement system is an important effector of innate and also of humoral adaptive immunity. It consists of three biochemical cascades that are differently initiated but share similar late steps and effector functions. The complement pathway and the coagulation cascade are connected in a cross talk." [PMID:11287977, PMID:26149013]
-synonym: "Complement cascade" RELATED []
+synonym: "KEGG:04610" RELATED []
 relationship: part_of PW:0000234 ! innate immune response pathway
 relationship: part_of PW:0000823 ! humoral immunity pathway
 
 [Term]
 id: PW:0000503
 name: classical complement pathway
-alt_id: Reactome:R-HSA-173623
 def: "The classical complement pathway is one of the three biochemical pathways of the complement system. It is activated by antigen-bound antibodies." [KEGG:map04610, PMID:11287977]
-synonym: "Classical antibody-mediated complement activation" RELATED []
 synonym: "classical pathway" RELATED []
 is_a: PW:0000502 ! complement system pathway
 
@@ -3645,8 +3582,6 @@ is_a: PW:0000509 ! altered hormone signaling pathway
 [Term]
 id: PW:0000512
 name: Interleukin mediated signaling pathway
-alt_id: Reactome:R-HSA-449147
-synonym: "Signaling by Interleukins" RELATED []
 is_a: PW:0000828 ! cytokine mediated signaling pathway
 
 [Term]
@@ -3722,13 +3657,9 @@ is_a: PW:0000147 ! metabolic pathway of secondary metabolites
 [Term]
 id: PW:0000523
 name: linoleic acid metabolic pathway
-alt_id: GO:0043651
-alt_id: KEGG:00591
-alt_id: Reactome:R-HSA-2046105
-alt_id: SMP:00018
 def: "Those enzymatic reactions involved in the synthesis, utilization or degradation of linoleic acid - an unsaturated omega-6 fatty acid. Linoleic acid is an essential fatty acid that humans and other animals cannot synthesize and must obtain from diet." [GO:0043651, http://www.onelook.com "OneLook", KEGG:map00591]
-synonym: "Linoleic acid (LA) metabolism" RELATED []
-synonym: "linoleic acid metabolic process" RELATED []
+synonym: "KEGG:00591" RELATED []
+synonym: "SMP:00018" RELATED []
 is_a: PW:0000058 ! fatty acid metabolic pathway
 
 [Term]
@@ -3851,7 +3782,7 @@ is_a: PW:0000003 ! signaling pathway
 [Term]
 id: PW:0000542
 name: adenosine monophosphate-activated protein kinase (AMPK) signaling pathway
-def: "AMPK senses changes in cellular energy as an ATP/AMP ratio. AMP binding allosterically activates AMPK; subsequent phosphorylation events lead to repression of energy consuming pathways. One target of AMPK is the mTOR signaling pathway. AMPK activates the inhibitory Tsc2 while inhibiting the mTorc1 complex." [PMID:15509864, PMID:16885148]
+def: "AMPK senses changes in cellular energy as ATP/AMP ratio. AMP binding allosterically activates AMPK; subsequent phosphorylation events lead to repression of energy consuming pathways. One target of AMPK is mTOR signaling pathway. AMPK activates the inhibitory Tsc2 while inhibiting mTorc1 complex." [PMID:15509864, PMID:16885148]
 synonym: "5'AMP-activated protein kinase" RELATED []
 synonym: "AMPK signaling pathway" RELATED []
 is_a: PW:0000541 ! signaling pathway involving second messengers
@@ -3941,9 +3872,7 @@ is_a: PW:0000355 ! homeostasis pathway
 [Term]
 id: PW:0000554
 name: glucose transport pathway
-alt_id: Reactome:R-HSA-189200
 def: "Glucose diffusion into cells requires specific transporter proteins. Two families of hexose transporters facilitate glucose transport down its concentration gradient." [GO:0015758, PMID:15449578, PMID:15466941, Reactome:REACT_212.3]
-synonym: "Cellular hexose transport" RELATED []
 is_a: PW:0000575 ! sugar transport pathway
 relationship: part_of PW:0000553 ! glucose homeostasis pathway
 
@@ -4088,10 +4017,8 @@ relationship: part_of PW:0000045 ! pentose phosphate pathway
 [Term]
 id: PW:0000575
 name: sugar transport pathway
-alt_id: Reactome:R-HSA-189200
-def: "Those pathways that mediate the transport of sugars across the cell membrane. Transport of glucose, one of the major energy sources in the cell, is an important aspect of the sugar transport pathway." [http://www.ncbi.nlm.nih.gov/ "Pubmed"]
+def: "Those pathways that mediate the transport of sugars across the cell membrane. Transport of glucose, one of the major energy sources in the cell, is an important aspect of sugar transport pathway." [http://www.ncbi.nlm.nih.gov/ "Pubmed"]
 synonym: "carbohydrate transport pathway" RELATED []
-synonym: "Cellular hexose transport" RELATED []
 is_a: PW:0000103 ! transport pathway
 
 [Term]
@@ -5647,9 +5574,7 @@ creation_date: 2010-03-22T01:50:32Z
 [Term]
 id: PW:0000770
 name: C19-steroid hormone biosynthetic pathway
-alt_id: Reactome:R-HSA-193048
 def: "Those metabolic reactions involved in the synthesis of C19-steroid hormones. Pregnenolone, a C21 steroid derived from cholesterol, and progesterone, to which pregnenolone can be converted, provide the starting material for the C21, C19 and C18 steroid hormones. The C19 class is represented by androgens such as testosterone." [PMID:17926129, PMID:18720009]
-synonym: "Androgen biosynthesis" RELATED []
 synonym: "androgen biosynthetic pathway" RELATED []
 is_a: PW:0000040 ! steroid hormone biosynthetic pathway
 created_by: VPetri
@@ -5658,9 +5583,7 @@ creation_date: 2010-04-20T03:43:21Z
 [Term]
 id: PW:0000771
 name: mineralocorticoid biosynthetic pathway
-alt_id: Reactome:R-HSA-193993
 def: "Mineralocorticoids are a group of C21 steroid hormones synthesized by the adrenal cortex and so named because of their effects on the concentration of sodium as well as potassium and chloride. The group is best exemplified by aldosterone." [OneLook:www.onelook.com]
-synonym: "Mineralocorticoid biosynthesis" RELATED []
 is_a: PW:0000070 ! C21-steroid hormone biosynthetic pathway
 created_by: VPetri
 creation_date: 2010-04-20T04:01:52Z
@@ -5668,9 +5591,7 @@ creation_date: 2010-04-20T04:01:52Z
 [Term]
 id: PW:0000772
 name: glucocorticoid biosynthetic pathway
-alt_id: Reactome:R-HSA-194002
 def: "Glucocorticoids are a group of C21 steroid hormones synthesized by the adrenal cortex and so named because of their effects on glucose metabolism. They also play a role in developmental processes and the immune system. The group is best exemplified by cortisol." [OneLook:www.onelook.com]
-synonym: "Glucocorticoid biosynthesis" RELATED []
 is_a: PW:0000070 ! C21-steroid hormone biosynthetic pathway
 created_by: VPetri
 creation_date: 2010-04-20T04:31:54Z
@@ -5738,9 +5659,7 @@ creation_date: 2010-05-20T02:25:04Z
 [Term]
 id: PW:0000780
 name: C18-steroid hormone biosynthetic pathway
-alt_id: Reactome:R-HSA-193144
 def: "Those metabolic reactions involved in the synthesis of C18-steroid hormones. Pregnenolone, a C21 steroid derived from cholesterol, and progesterone, to which pregnenolone can be converted, provide the starting material for the C21, C19 and C18 steroid hormones. The C18 class is represented by estrogens. The major natural estrogens are beta-estradiol - the primary estrogen, the estrone of menopause and the estriol of pregnancy." [OneLook:www.onelook.com, PMID:17926129]
-synonym: "Estrogen biosynthesis" RELATED []
 synonym: "estrogen biosynthetic pathway" RELATED []
 is_a: PW:0000040 ! steroid hormone biosynthetic pathway
 created_by: VPetri
@@ -5986,12 +5905,8 @@ creation_date: 2010-10-08T11:40:35Z
 [Term]
 id: PW:0000808
 name: microRNA pathway
-alt_id: GO:0035196
-alt_id: Reactome:R-HSA-203927
 def: "MicroRNAs (miRNAs) are a large family of small RNAs involved in the post transcriptional regulation of gene expression. The biogenesis and function of miRNA is subject to complex control. Deregulation of miRNA expression has been linked to many diseases including cancer." [PMID:20471939, PMID:20661255, PMID:20885409]
-synonym: "MicroRNA (miRNA) biogenesis" RELATED []
 synonym: "miRNA pathway" RELATED []
-synonym: "production of miRNAs involved in gene silencing by miRNA" RELATED []
 is_a: PW:0000809 ! small non-coding RNA pathway
 created_by: VPetri
 creation_date: 2010-10-08T12:35:16Z
@@ -6043,11 +5958,9 @@ creation_date: 2010-10-15T04:05:12Z
 [Term]
 id: PW:0000814
 name: Toll-like receptor signaling pathway
-alt_id: KEGG:04620
-alt_id: Reactome:R-HSA-168898
 def: "Toll-like receptors represent a large and the better understood family of pattern recognition receptors that sense an array of exogenous structures and recent evidence shows they can also recognize defective endogenous molecules. The intracellular signaling cascades they set in motion lead to the expression of inflammatory mediators." [PMID:20303867, PMID:20303872]
+synonym: "KEGG:04620" RELATED []
 synonym: "TLR signaling pathway" RELATED []
-synonym: "Toll-Like Receptors Cascades" RELATED []
 is_a: PW:0000925 ! pattern recognition receptor mediated signaling pathway
 created_by: VPetri
 creation_date: 2010-10-27T11:29:27Z
@@ -6073,11 +5986,9 @@ creation_date: 2010-10-27T11:43:26Z
 [Term]
 id: PW:0000817
 name: NOD-like receptor signaling pathway
-alt_id: KEGG:04621
-alt_id: Reactome:R-HSA-168643
 def: "NOD-like receptors are cytosolic proteins that recognize components of bacterial peptidoglycans. The signaling cascades they set in motion lead to the expression of inflammatory mediators." [PMID:20303867, PMID:20303872]
+synonym: "KEGG:04621" RELATED []
 synonym: "NLR signaling pathway" RELATED []
-synonym: "Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways" RELATED []
 is_a: PW:0000925 ! pattern recognition receptor mediated signaling pathway
 created_by: VPetri
 creation_date: 2010-10-27T11:45:03Z
@@ -6107,11 +6018,8 @@ creation_date: 2010-10-27T03:09:29Z
 [Term]
 id: PW:0000821
 name: T cell receptor signaling pathway
-alt_id: GO:0050852
-alt_id: KEGG:04660
-alt_id: Reactome:R-HSA-202403
-def: "T cell receptor (TCR) signaling in developing thymocytes is important for the establishment of CD4 and CD8 lineages. Mature T cells express either CD4 or CD8 co-receptors which are essential for the interaction with peptide-bound class II or class I MHC complexes to elicit CD4 T helper (Th) or CD8 cytotoxic T lymphocyte responses, respectively. In either case, T cell-initiated signaling activates the expression of genes whose products mediate these responses." [MCW library:Handbook of cellular and molecular immunology, PMID:16448548, PMID:20537906]
-synonym: "TCR signaling" RELATED []
+def: "T cell receptor (TCR) signaling in developing thymocytes is important for the establishment of CD4 and CD8 lineages. Mature T cells express either CD4 or CD8 co-receptors which are essential for the interaction with peptide-bound class II or class I MHC complexes to elicit CD4 T helper (Th) or CD8 cytotoxic T lymphocyte responses, respectively. In either case, T cells initiated signaling activates the expression of genes whose products mediate these responses." [MCW library:Handbook of cellular and molecular immunology, PMID:16448548, PMID:20537906]
+synonym: "KEGG:04660" RELATED []
 synonym: "TCR signaling pathway" RELATED []
 is_a: PW:0000820 ! signaling pathway in the adaptive immune response
 relationship: part_of PW:0000824 ! cell-mediated immunity pathway
@@ -6285,11 +6193,9 @@ creation_date: 2011-03-09T10:02:32Z
 [Term]
 id: PW:0000841
 name: acetylcholine signaling pathway
-alt_id: KEGG:04725
-alt_id: Reactome:R-HSA-181431
-def: "Acetylcholine signaling plays important roles in the central and peripheral nervous systems and exerts both excitatory and inhibitory effects. It is synthesized from acetyl-CoA and choline by choline O-acetyltransferase." [OneLook:www.onelook.com, PMID:17786266]
-synonym: "Acetylcholine binding and downstream events" RELATED []
+def: "Acetylcholine signaling plays important roles in the central and peripheral nervous system and exerts both excitatory and inhibitory effects. It is synthesized from acetyl-CoA and choline by choline O-acetyltransferase." [OneLook:www.onelook.com, PMID:17786266]
 synonym: "ACh signaling pathway" EXACT []
+synonym: "KEGG:04725" RELATED []
 is_a: PW:0000274 ! neuron-to-neuron signaling pathway via the chemical synapse
 is_a: PW:0001162 ! chemical compound signaling pathway
 created_by: VPetri
@@ -6640,10 +6546,8 @@ creation_date: 2011-08-23T09:20:35Z
 [Term]
 id: PW:0000882
 name: interleukin-1 family mediated signaling pathway
-alt_id: Reactome:R-HSA-446652
-def: "Interleukin-1 family mediated signaling plays important roles in innate and adaptive immune responses. The best characterized member of the family is interleukin-1 followed by interleukin-18 and the more recently identified interleukin-33. Other family members are less well characterized." [PMID:20081871]
+def: "The interleukin-1 family mediated signaling plays important roles in innate and adaptive immune responses. The best characterized member of the family is interleukin-1 followed by interleukin-18 and the more recently identified interleukin-33. Other family members are less well characterized." [PMID:20081871]
 synonym: "Il-1 family mediated signaling pathway" RELATED []
-synonym: "Interleukin-1 family signaling" RELATED []
 is_a: PW:0000512 ! Interleukin mediated signaling pathway
 created_by: VPetri
 creation_date: 2011-08-29T11:08:06Z
@@ -6769,10 +6673,8 @@ creation_date: 2011-12-06T11:07:25Z
 [Term]
 id: PW:0000897
 name: interleukin-17 family mediated signaling pathway
-alt_id: Reactome:R-HSA-448424
 def: "The interleukin-17 family mediated signaling plays important roles in inflammation and the development of autoimmunity as well as in the host defense against fungal and bacterial infections." [PMID:21349428]
 synonym: "Il-17 family mediated signaling pathway" RELATED []
-synonym: "Interleukin-17 signaling" RELATED []
 is_a: PW:0000512 ! Interleukin mediated signaling pathway
 created_by: VPetri
 creation_date: 2011-12-06T11:23:23Z
@@ -6909,10 +6811,8 @@ creation_date: 2012-03-23T12:48:51Z
 [Term]
 id: PW:0000913
 name: interleukin-12 family mediated signaling pathway
-alt_id: Reactome:R-HSA-447115
-def: "Interleukin-12 family members are heterodimeric cytokines produced by antigen presenting cells. The signaling they initiate triggers the Jak-Stat intracellular cascade and plays important roles in the regulation of T helper (Th) cell differentiation." [PMID:20885915]
+def: "Interleukin-12 family members of heterodimeric cytokines are produced by antigen presenting cells. The signaling they initiate triggers the Jak-Stat intracellular cascade and plays important roles in the regulation of T helper (Th) cell differentiation." [PMID:20885915]
 synonym: "Il-12 family mediated signaling pathway" RELATED []
-synonym: "Interleukin-12 family signaling" RELATED []
 is_a: PW:0000512 ! Interleukin mediated signaling pathway
 created_by: VPetri
 creation_date: 2012-03-23T03:39:11Z
@@ -7352,11 +7252,9 @@ creation_date: 2012-05-17T01:10:40Z
 [Term]
 id: PW:0000961
 name: ceramide signaling pathway
-alt_id: KEGG:05212
-alt_id: PID:200119
-alt_id: Reactome:R-HSA-193681
 def: "Ceramide signaling can act as a lipid second messenger or as a mediator of various cellular signaling pathways by promoting receptor clustering. The pathway plays important roles in apoptosis." [PMID:20607622]
-synonym: "Ceramide signalling" RELATED []
+synonym: "KEGG:05212" RELATED []
+synonym: "PID:200119" RELATED []
 is_a: PW:0000541 ! signaling pathway involving second messengers
 is_a: PW:0000959 ! lipid signaling pathway
 created_by: VPetri
@@ -7365,12 +7263,8 @@ creation_date: 2012-05-17T01:43:41Z
 [Term]
 id: PW:0000962
 name: visual phototransduction pathway
-alt_id: GO:0007603
-alt_id: KEGG:04744
-alt_id: Reactome:R-HSA-2187338
-def: "The signaling pathway initiated by light-induced isomerization of 11-cis retinal and subsequent activation of its photoreceptors in rods and cones." [PMID:18514002, PMID:22074921]
-synonym: "phototransduction, visible light" RELATED []
-synonym: "Visual phototransduction" RELATED []
+def: "The signaling pathway initiated by light induced isomerization of 11-cis retinal and subsequent activation of its photoreceptors in rods and cones." [PMID:18514002, PMID:22074921]
+synonym: "KEGG:04744" RELATED []
 is_a: PW:0001008 ! photosignal transduction pathway
 is_a: PW:0001116 ! vitamin A and metabolites signaling pathway
 is_a: PW:0001536 ! sensory system signaling pathway
@@ -7783,9 +7677,7 @@ creation_date: 2012-06-05T10:44:24Z
 [Term]
 id: PW:0001009
 name: ascorbic acid metabolic pathway
-alt_id: Reactome:R-HSA-196836
-def: "Those metabolic reactions involving ascorbic acid, known as vitamin C, a water-soluble vitamin. Vitamin C is an essential antioxidant that is derived from glucose. Unlike many animals, humans do not have the ability to produce it." [https://en.wikipedia.org/wiki/Vitamin_C "wikipedia"]
-synonym: "Vitamin C (ascorbate) metabolism" RELATED []
+def: "Those metabolic reactions involving ascorbic acid, known as vitamin C, a water-soluble vitamin. Vitamin C is an essential antioxidant that is derived from glucose. Unlike many animals, humans do not have the ability to produce it. Vitamin C acts as an antioxidant." [https://en.wikipedia.org/wiki/Vitamin_C "wikipedia"]
 synonym: "vitamin C metabolic pathway" RELATED []
 is_a: PW:0000135 ! metabolic pathway of cofactors, vitamins, nutrients
 created_by: VPetri
@@ -7794,11 +7686,9 @@ creation_date: 2012-06-05T11:40:08Z
 [Term]
 id: PW:0001010
 name: niacin metabolic pathway
-alt_id: KEGG:00760
-alt_id: Reactome:R-HSA-196807
-alt_id: SMP:00048
-def: "Those metabolic reactions involving niacin, also known as nicotinate, vitamin B3 or vitamin PP - a water-soluble vitamin. Niacin represents an essential nutrient and is also a precursor of NAD through a salvage pathway. Niacin is among the few vitamins humans can synthesize." [https://en.wikipedia.org/wiki/Niacin "wikipedia"]
-synonym: "Nicotinate metabolism" RELATED []
+def: "Those metabolic reactions involving niacin, also known as vitamin B3 or vitamin PP - a water-soluble vitamin. Niacin represents an essential nutrient and is also a precursor of NAD through a salvage pathway. Niacin is among the few vitamins humans can synthesize." [https://en.wikipedia.org/wiki/Niacin "wikipedia"]
+synonym: "KEGG:00760" RELATED []
+synonym: "SMP:00048" RELATED []
 synonym: "vitamin B3 metabolic pathway" RELATED []
 is_a: PW:0000135 ! metabolic pathway of cofactors, vitamins, nutrients
 created_by: VPetri
@@ -9151,14 +9041,10 @@ creation_date: 2012-11-09T15:51:41Z
 
 [Term]
 id: PW:0001158
-name: alpha-linolenic acid metabolic pathway
-alt_id: GO:0036109
-alt_id: KEGG:00592
-alt_id: Reactome:R-HSA-2046106
-alt_id: SMP:00018
-def: "Those enzymatic reactions involved in the synthesis, utilization or degradation of alpha-linolenic acid - an unsaturated omega-3 fatty acid. Alpha-linolenic acid is an essential fatty acid that humans and other animals cannot synthesize and must obtain from diet." [http://en.wikipedia.org/wiki/Alpha-Linolenic_acid "wikipedia"]
-synonym: "alpha-linolenic acid (ALA) metabolism" RELATED []
-synonym: "alpha-linolenic acid metabolic process" RELATED []
+name: alpha-linoleic acid metabolic pathway
+def: "Those enzymatic reactions involved in the synthesis, utilization or degradation of alpha-linoleic acid - an unsaturated omega-3 fatty acid. Alpha-linoleic acid is an essential fatty acid that humans and other animals cannot synthesize and must obtain from diet." [http://en.wikipedia.org/wiki/Alpha-Linolenic_acid "wikipedia"]
+synonym: "KEGG:00592" RELATED []
+synonym: "SMP:00018" RELATED []
 is_a: PW:0000058 ! fatty acid metabolic pathway
 created_by: VPetri
 creation_date: 2012-11-09T16:06:00Z
@@ -9830,12 +9716,8 @@ creation_date: 2013-05-08T08:31:26Z
 [Term]
 id: PW:0001235
 name: catecholamine biosynthetic pathway
-alt_id: GO:0042423
-alt_id: Reactome:R-HSA-209905
-alt_id: SMP:00012
 def: "Those metabolic reactions involved in the synthesis of catecholamines. Epinephrine, norepinephrine and dopamine are among the most abundant and are produced primarily from the adrenal medulla and the postganglionic fibers of the sympathetic nervous system." [PMID:19342614]
-synonym: "Catecholamine biosynthesis" RELATED []
-synonym: "catecholamine biosynthetic process" RELATED []
+synonym: "SMP:00012" RELATED []
 is_a: PW:0000443 ! catecholamine metabolic pathway
 is_a: PW:0001234 ! biogenic amine biosynthetic pathway
 created_by: VPetri
@@ -10441,9 +10323,7 @@ creation_date: 2013-05-14T14:11:34Z
 [Term]
 id: PW:0001305
 name: steroid hormone metabolic pathway
-alt_id: Reactome:R-HSA-196071
 def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of steroid hormones." []
-synonym: "Metabolism of steroid hormones" RELATED []
 is_a: PW:0001303 ! steroid metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-14T14:14:55Z
@@ -10540,9 +10420,7 @@ creation_date: 2013-05-21T13:48:54Z
 [Term]
 id: PW:0001317
 name: cell cycle pathway
-alt_id: Reactome:R-HSA-1640170
 def: "The series of events, collectively known as the cell cycle, that underlie the replication of the genome and the segregation of chromosomes into daughter cells. The mitotic cell cycle pathway underlies the generation of new cells. The meiotic cell cycle pathway is a special type of cell division that takes place in germ cells." [Handbook:Essential Cell Biology]
-synonym: "Cell Cycle" RELATED []
 is_a: PW:0000085 ! pathway pertinent to DNA replication and repair, cell cycle, maintenance of genomic integrity, RNA and protein biosynthesis
 created_by: VPetri
 creation_date: 2013-05-22T09:56:40Z
@@ -12111,10 +11989,8 @@ creation_date: 2014-01-30T14:22:53Z
 [Term]
 id: PW:0001498
 name: altered retinoid cycle metabolic pathway
-alt_id: Reactome:R-HSA-2453864
-def: "Alteration in the retinoid cycle, or the visual cycle have been associated with retinitis pigmentosa and a few other forms of photoreceptor degeneration." [PMID:20212494, PMID:23684651]
+def: "Alteration in the retinoic cycle, or the visual cycle have been associated with retinitis pigmentosa and a few other forms of photoreceptor degeneration." [PMID:20212494, PMID:23684651]
 synonym: "altered visual cycle metabolic pathway" RELATED []
-synonym: "Retinoid cycle disease events" RELATED []
 is_a: PW:0001005 ! retinoid cycle metabolic pathway
 is_a: PW:0001499 ! altered retinoid metabolic pathway
 created_by: VPetri
@@ -12256,11 +12132,7 @@ creation_date: 2014-02-26T12:14:14Z
 [Term]
 id: PW:0001515
 name: Hippo signaling pathway
-alt_id: GO:0035329
-alt_id: Reactome:R-HSA-2028269
-def: "The Hippo signaling pathway plays important roles in organ development and growth and tumor suppression. The pathway consists of a core of four kinases which once activated by upstream regulators promote the cytoplasmic sequestration of YAP/TAZ transcriptional regulators. Dysregulation of the pathway has been implicated in tumor metastasis." [PMID:23312716, PMID:23431053, PMID:26045258]
-synonym: "hippo signaling" RELATED []
-synonym: "Signaling by Hippo" RELATED []
+def: "Hippo signaling pathway plays important roles in organ development and growth and tumor suppression. The pathway consists of a core of four kinases  which once activate by upstream regulators promote the cytoplasmic sequestration of YAP/TAZ transcriptional regulators. Dysregulation of the pathway has been implicated in tumor metastasis." [PMID:23312716, PMID:23431053, PMID:26045258]
 is_a: PW:0000650 ! signaling pathway pertinent to development
 is_a: PW:0001194 ! serine/threonine-specific kinase mediated signaling pathway
 created_by: VPetri
@@ -12313,9 +12185,7 @@ creation_date: 2014-03-20T12:30:08Z
 [Term]
 id: PW:0001522
 name: dermatan sulfate biosynthetic pathway
-alt_id: Reactome:R-HSA-2022923
 def: "Those metabolic reactions involved in the biosynthesis of dermatan sulfate - a mucopolysaccharide found primarily in skin but also in tendons, lungs, heart valves and blood vessels." [http://en.wikipedia.org/wiki/Dermatan_sulfate "wikipedia"]
-synonym: "Dermatan sulfate biosynthesis" RELATED []
 is_a: PW:0000157 ! glycosaminoglycan metabolic pathway
 created_by: VPetri
 creation_date: 2014-03-20T13:05:32Z
@@ -14444,10 +14314,7 @@ creation_date: 2015-07-14T08:15:56Z
 [Term]
 id: PW:0001758
 name: insulin biosynthetic pathway
-alt_id: GO:0030070
-alt_id: Reactome:R-HSA-264876
-def: "The insulin precursor, preproinsulin is subject to several processing steps in the endoplasmic reticulum and the Golgi apparatus before ending as the mature zinc-insulin hexamer stored in secretory granules. The expression of insulin is confined to the beta cells of the pancreatic islets of Langerhans." [PMID:24843567]
-synonym: "Insulin processing" RELATED []
+def: "The insulin precursor, preproinsulin is subject to a several processing steps in the endoplasmic reticulum and the Golgi apparatus before ending as the mature zinc-insulin hexamer stored in secretory granules. The expression of insulin si confined to the beta cells of the pancreatic islets of Langerhans." [PMID:24843567]
 synonym: "preproinsulin processing pathway" RELATED []
 is_a: PW:0001757 ! peptide and protein hormone metabolic process
 created_by: VPetri
@@ -14863,13 +14730,12 @@ creation_date: 2015-08-19T15:17:47Z
 [Term]
 id: PW:0001805
 name: phenylketonuria pathway
-alt_id: SMP:00206
 def: "A group of autosomal recessive disorders resulting from alterations in amino acid metabolism, mostly due to deficiency of hepatic phenylalanine hydroxylase. The enzyme catalyzes the hydroxylation of phenylalanine to tyrosine." [OMIM:261600]
 synonym: "Følling's disease pathway" EXACT []
 synonym: "phenylalaninemia pathway" EXACT []
-synonym: "Phenylketonuria" RELATED []
 synonym: "phenylketonuria disease pathway" EXACT []
 synonym: "PKU pathway" EXACT []
+synonym: "SMP:00206" RELATED []
 is_a: PW:0001645 ! inborn error of amino acid metabolism pathway
 is_a: PW:0001646 ! inborn error of brain metabolic pathway
 created_by: VPetri
@@ -15011,9 +14877,7 @@ creation_date: 2015-08-20T09:36:31Z
 [Term]
 id: PW:0001818
 name: mucopolysaccharidoses pathway
-alt_id: Reactome:R-HSA-2206281
 def: "A group of lysosomal storage diseases resulting from alterations in the glycosaminoglycans degradation pathway." []
-synonym: "Mucopolysaccharidoses" RELATED []
 synonym: "mucopolysaccharidoses disease pathway" EXACT []
 is_a: PW:0001630 ! lysosomal storage disease pathway
 is_a: PW:0001644 ! inborn error of carbohydrate metabolism pathway
@@ -16562,9 +16426,7 @@ creation_date: 2015-09-28T15:55:26Z
 [Term]
 id: PW:0001991
 name: glycogen storage disease pathway
-alt_id: Reactome:R-HSA-3229121
 def: "A group of inherited metabolic disorders resulting from alterations in the glycogen metabolic pathway." [MeSH:D006008]
-synonym: "Glycogen storage diseases" RELATED []
 is_a: PW:0001644 ! inborn error of carbohydrate metabolism pathway
 created_by: VPetri
 creation_date: 2015-09-29T15:05:20Z
@@ -16572,14 +16434,12 @@ creation_date: 2015-09-29T15:05:20Z
 [Term]
 id: PW:0001992
 name: glycogen storage disease  type Ia pathway
-alt_id: Reactome:R-HSA-3274531
-alt_id: SMP:00374
-alt_id: SMP:00581
 def: "One of the two forms of the type I glycogen storage disease pathway involving glucose-6-phosphate, here due to mutations in glucose-6-phosphatase. It is characterized by the accumulation of glycogen in particular organs and tissues." [OMIM:232200]
 synonym: "glucose-6-phosphatase deficiency pathway" RELATED []
 synonym: "glycogen storage disease pathway, type IA" EXACT []
-synonym: "Glycogen storage disease type Ia (G6PC)" RELATED []
 synonym: "hepatorenal glycogen storage disease pathway" RELATED []
+synonym: "SMP:00374" RELATED []
+synonym: "SMP:00581" RELATED []
 synonym: "Von Gierke disease pathway" RELATED []
 is_a: PW:0001991 ! glycogen storage disease pathway
 created_by: VPetri
@@ -16588,12 +16448,10 @@ creation_date: 2015-09-29T15:12:57Z
 [Term]
 id: PW:0001993
 name: glycogen storage disease type Ib pathway
-alt_id: Reactome:R-HSA-3229133
-alt_id: SMP:00573
 def: "One of the two forms of the type I glycogen storage disease pathway involving glucose-6-phosphate, here due to mutations affecting the glucose-6-phosphate transporter. It is characterized by the accumulation of glycogen in particular organs and tissues." [OMIM:232220]
 synonym: "glucose-6-phosphate transport defect pathway" EXACT []
 synonym: "glycogen storage disease pathway, type IB" EXACT []
-synonym: "Glycogen storage disease type Ib (SLC37A4)" RELATED []
+synonym: "SMP:00573" RELATED []
 is_a: PW:0001991 ! glycogen storage disease pathway
 created_by: VPetri
 creation_date: 2015-09-29T15:19:58Z
@@ -16615,8 +16473,6 @@ creation_date: 2015-09-29T15:37:11Z
 [Term]
 id: PW:0001995
 name: glycogen storage disease type IV pathway
-alt_id: Reactome:R-HSA-3878781
-alt_id: SMP:00554
 def: "A type of glycogen storage disease pathway involving glycogen branching enzyme 1." [OMIM:232500]
 synonym: "amylopectinosis pathway" EXACT []
 synonym: "Andersen disease pathway" RELATED []
@@ -16624,7 +16480,7 @@ synonym: "brancher deficiency glycogenosis pathway" EXACT []
 synonym: "Branching-transferase deficiency glycogenosis pathway" EXACT []
 synonym: "deficiency of 1,4-alpha-glucan branching enzyme pathway" EXACT []
 synonym: "glycogen storage disease pathway, type IV." EXACT []
-synonym: "Glycogen storage disease type IV (GBE1)" RELATED []
+synonym: "SMP:00554" RELATED []
 is_a: PW:0001991 ! glycogen storage disease pathway
 created_by: VPetri
 creation_date: 2015-09-29T15:47:11Z
@@ -19198,10 +19054,8 @@ creation_date: 2015-11-23T11:05:05Z
 [Term]
 id: PW:0002285
 name: porphyrin metabolic pathway
-alt_id: Reactome:R-HSA-189445
-alt_id: SMP:00024
 def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of porphyrin. Porphyrins represent a group of heterocyclic macrocycle organic compounds. Many are naturally occurring and one best example is the red blood cell heme pigment." [https://en.wikipedia.org/wiki/Porphyrin "wikipedia"]
-synonym: "Metabolism of porphyrins" RELATED []
+synonym: "SMP:00024" RELATED []
 is_a: PW:0000190 ! porphyrin and chlorophyll metabolic pathway
 created_by: VPetri
 creation_date: 2015-11-23T11:36:53Z
