@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: 7.61
-date: 03:04:2021 20:13
+data-version: 7.59
+date: 17:10:2020 20:13
 saved-by: gthayman
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2021-01-13 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-07-03 --
 default-namespace: pathway
 ontology: pw
 
@@ -3112,7 +3112,7 @@ is_a: PW:0000433 ! protein modification pathway via conjugation with ubiquitin a
 [Term]
 id: PW:0000435
 name: neddylation pathway
-def: "A pathway of protein modification via conjugation with Nedd8 - a ubiquitin-like protein. All Nedd8 targets appear to be members of the cullin family. Cullins participate in the assembly of various E3 ligase complexes. The neddylation pathway is important for embryogenesis and cell cycle control in metazoa, embryonic development in animals." [PMID:10806345, PMID:15021886]
+def: "A pathway of protein modification via conjugation with Nedd8  - a ubiquitin-like protein. All Nedd8 targets appear to be members of the cullin family. Cullins participate in the assembly of various E3 ligase complexes. Neddylation pathway is important for embryogenesis and cell cycle control in metazoa, embryonic development in animals." [PMID:10806345, PMID:15021886]
 is_a: PW:0000433 ! protein modification pathway via conjugation with ubiquitin and ubiqutin-like molecules
 
 [Term]
@@ -8126,7 +8126,7 @@ creation_date: 2012-07-11T01:44:11Z
 [Term]
 id: PW:0001043
 name: Bordetella pertussis infection pathway
-def: "The Gram-negative Bordetella pertusis is the causative agent of pertussis or whooping cough. One of its main virulence factors, pertussis toxin blocks the interaction of Galphai subunit of heterotrimeric G protein with its partner receptors. This results in unrestrained adenylyl cyclase activity and subsequent increased concentration of cAMP which affects normal intracellular signaling." [http://www.onelook.com "OneLook", KEGG:map05133]
+def: "The Gram-negative Bordetella pertusis Gram-negative is the causative agent of pertussis or whooping cough. One of its main virulence factors, pertussis toxin blocks the interaction of Galphai subunit of heterotrimeric G protein with its partner receptors. This results in unrestrained adenylyl cyclase activity and subsequent increased concentration of cAMP which affects normal intracellular signaling." [http://www.onelook.com "OneLook", KEGG:map05133]
 synonym: "KEGG:05133" RELATED []
 synonym: "pertussis pathway" RELATED []
 is_a: PW:0001028 ! infectious disease pathway
