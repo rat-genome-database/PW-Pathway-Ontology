@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: 7.61
-date: 03:04:2021 20:13
+data-version: 7.62
+date: 17:09:2022 20:13
 saved-by: gthayman
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2021-01-13 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: pathway
 ontology: pw
 
@@ -3571,7 +3571,7 @@ is_a: PW:0000500 ! tyrosine-based hormone signaling pathway
 id: PW:0000502
 name: complement system pathway
 alt_id: KEGG:04610
-alt_id: Reactome:R-HSA-166658
+alt_id: R-HSA-166658
 def: "The complement system is an important effector of innate and also of humoral adaptive immunity. It consists of three biochemical cascades that are differently initiated but share similar late steps and effector functions. The complement pathway and the coagulation cascade are connected in a cross talk." [PMID:11287977, PMID:26149013]
 synonym: "Complement cascade" RELATED []
 relationship: part_of PW:0000234 ! innate immune response pathway
