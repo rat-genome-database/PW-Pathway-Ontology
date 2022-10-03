@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.63
-date: 01:10:2022 20:13
+data-version: 7.62
+date: 17:09:2022 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: pathway
@@ -2014,11 +2014,10 @@ is_a: PW:0000651 ! aging pathway
 [Term]
 id: PW:0000278
 name: autophagy pathway
-alt_id: GO:0006914
 alt_id: KEGG:04140
-alt_id: Reactome:R-HSA-9612973
+alt_id: Reactome:R-HSA-1632852
 def: "The autophagic pathway involves the sequestration of misfolded or long-lived proteins and of defective organelles within double membrane vesicles, and delivery of the cargo to lysosomes for degradation and recycling. It is also known as macroautophagy, or bulk autophagy." [https://en.wikipedia.org/wiki/Autophagy "wikipedia", PMID:20034776, PMID:20089931, PMID:20211164]
-synonym: "Autophagy" RELATED []
+synonym: "Macroautophagy" RELATED []
 is_a: PW:0002402 ! cellular autophagy pathway
 
 [Term]
