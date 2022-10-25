@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.63
-date: 01:10:2022 20:13
+data-version: 7.64
+date: 22:10:2022 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: pathway
@@ -1522,7 +1522,9 @@ is_a: PW:0000171 ! polyglutamine repeat pathway
 [Term]
 id: PW:0000206
 name: transforming growth factor-beta signaling pathway
-def: "The transforming growth factor-beta (TGF-beta) signaling pathway regulates numerous cellular processes such as proliferation, differentiation, migration and cell death. The SMAD dependent pathway represents the core signaling cascade mediated by the TGF-beta superfamily. Mutations in the TGF-beta family are responsible for a number of human diseases." [GO:0007179, PMID:15130563, PMID:16678165, PubMed:TIBS\, 2004\, v29 (5)\, p265-273, Reactome:REACT_6844.5]
+def: "The transforming growth factor-beta (TGF-beta) signaling pathway regulates numerous cellular processes such as proliferation, differentiation, migration and cell death. The SMAD dependent pathway represents the core signaling cascade mediated by the TGF-beta superfamily. Mutations in the TGF-beta family are responsible for a number of human diseases." [GO:0007179, PMID:15130563, PMID:16678165, PubMed:TIBS\, 2004\, v29 (5)\, p265-273, Reactome:R-HSA-170834]
+synonym: "Signaling by TGF-beta Receptor Complex" RELATED []
+synonym: "transforming growth factor beta receptor signaling pathway" RELATED []
 is_a: PW:0000329 ! transforming growth factor-beta superfamily mediated signaling pathway
 
 [Term]
@@ -3478,7 +3480,6 @@ name: transforming growth factor-beta Smad dependent signaling pathway
 alt_id: PID:200227
 alt_id: Reactome:R-HSA-170834
 def: "Transforming growth factor-beta (TGF-beta) signaling is one of the best characterized modules of the Tgf-b superfamily pathways. Binding to the type II receptor leads to activation of the type I receptor and subsequent activation of the Smad pathway. Nuclear translocation of Smad(s) and interaction with transcription factors leads to activation or repression of many genes." [PMID:16678165]
-synonym: "Signaling by TGF-beta Receptor Complex" RELATED []
 synonym: "TGF- beta signaling pathway - SMAD dependent" RELATED []
 synonym: "TGF-beta Smad dependent signaling pathway" RELATED []
 is_a: PW:0000206 ! transforming growth factor-beta signaling pathway
