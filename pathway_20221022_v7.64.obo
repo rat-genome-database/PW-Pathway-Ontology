@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.65
-date: 29:10:2022 20:13
+data-version: 7.64
+date: 22:10:2022 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: pathway
@@ -213,7 +213,7 @@ synonym: "KEGG:00020" RELATED []
 synonym: "Krebs cycle pathway" RELATED []
 synonym: "SMP:00057" RELATED []
 synonym: "TCA cycle pathway" RELATED []
-synonym: "tricarboxylic acid cycle pathway" RELATED []
+synonym: "tricarboxylic cycle pathway" RELATED []
 is_a: PW:0000033 ! energy metabolic pathway
 relationship: part_of PW:0000357 ! energy homeostasis pathway
 
@@ -1698,11 +1698,11 @@ id: PW:0000232
 name: phosphatidylinositol 3-kinase-Akt signaling pathway
 alt_id: KEGG:04151
 alt_id: PID:200197
-alt_id: Reactome:R-HSA-1257604
+alt_id: Reactome:R-HSA-109704
 def: "The phosphatidylinositol 3-kinase-Akt signaling pathway, involving PI3K class I enzymes, particularly class IA, controls various processes such as cell growth, proliferation and survival. Class IA enzymes couple to receptor tyrosine kinases or their adaptors; class IB couple to G-protein coupled receptors mainly via Galphai. The Akt family of protein kinases are activated downstream of class I PI3Ks and collectively (Akt1, 2, and 3) phosphorylate more than 70 cytoplasmic and nuclear substrates. Deregulation of the pathway has been linked to various forms of cancer." [PMID:14737178, PMID:15023437, PMID:15143962]
 synonym: "phosphoinositide 3-kinase-Akt signaling pathway" RELATED []
-synonym: "PI3K/AKT Signaling" RELATED []
 synonym: "PI3K-Akt signaling pathway" RELATED []
+synonym: "PI3K Cascade" RELATED []
 is_a: PW:0000963 ! phosphatidylinositol 3-kinase class I signaling pathway
 is_a: PW:0001194 ! serine/threonine-specific kinase mediated signaling pathway
 
