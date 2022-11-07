@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.66
-date: 05:11:2022 20:13
+data-version: 7.65
+date: 29:10:2022 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: pathway
@@ -2016,8 +2016,11 @@ is_a: PW:0000651 ! aging pathway
 [Term]
 id: PW:0000278
 name: autophagy pathway
+alt_id: GO:0006914
 alt_id: KEGG:04140
+alt_id: Reactome:R-HSA-9612973
 def: "The autophagic pathway involves the sequestration of misfolded or long-lived proteins and of defective organelles within double membrane vesicles, and delivery of the cargo to lysosomes for degradation and recycling. It is also known as macroautophagy, or bulk autophagy." [https://en.wikipedia.org/wiki/Autophagy "wikipedia", PMID:20034776, PMID:20089931, PMID:20211164]
+synonym: "Autophagy" RELATED []
 is_a: PW:0002402 ! cellular autophagy pathway
 
 [Term]
@@ -3570,9 +3573,8 @@ is_a: PW:0000500 ! tyrosine-based hormone signaling pathway
 id: PW:0000502
 name: complement system pathway
 alt_id: KEGG:04610
-alt_id: Reactome:R-HSA-166658
+alt_id: R-HSA-166658
 def: "The complement system is an important effector of innate and also of humoral adaptive immunity. It consists of three biochemical cascades that are differently initiated but share similar late steps and effector functions. The complement pathway and the coagulation cascade are connected in a cross talk." [PMID:11287977, PMID:26149013]
-synonym: "complement activation" RELATED []
 synonym: "Complement cascade" RELATED []
 relationship: part_of PW:0000234 ! innate immune response pathway
 relationship: part_of PW:0000823 ! humoral immunity pathway
@@ -4240,11 +4242,8 @@ is_a: PW:0000594 ! altered glucose homeostasis pathway
 [Term]
 id: PW:0000597
 name: Wnt signaling, non-canonical pathway
-alt_id: GO:0035567
-alt_id: Reactome:R-HSA-3858494
 def: "The non-canonical Wnt signaling pathway groups the various Wnt signaling routes that are beta-catenin independent." [PMID:16019432, PMID:18432252]
 synonym: "beta-catenin independent Wnt signaling pathway" RELATED []
-synonym: "non-canonical Wnt signaling pathway" RELATED []
 synonym: "PID:200020" RELATED []
 is_a: PW:0000008 ! Wnt signaling pathway
 
@@ -14866,7 +14865,6 @@ creation_date: 2015-08-19T15:17:47Z
 [Term]
 id: PW:0001805
 name: phenylketonuria pathway
-alt_id: Reactome:R-HSA-2160456
 alt_id: SMP:00206
 def: "A group of autosomal recessive disorders resulting from alterations in amino acid metabolism, mostly due to deficiency of hepatic phenylalanine hydroxylase. The enzyme catalyzes the hydroxylation of phenylalanine to tyrosine." [OMIM:261600]
 synonym: "Følling's disease pathway" EXACT []
@@ -20237,10 +20235,7 @@ creation_date: 2016-01-12T15:11:02Z
 [Term]
 id: PW:0002402
 name: cellular autophagy pathway
-alt_id: GO:0006914
-alt_id: Reactome:R-HSA-9612973
-def: "Cellular autophagy involves the mechanisms whereby dysfunctional components, proteins or organelles, are targeted to the lysosomes for destruction. Three main pathways are known: macroautophagy generally referred to as autophagy, microautophagy and chaperone-mediated autophagy. A fourth is the autophagy pathway for the removal of damaged mitochondria whose features are both shared with the regular autophagy and distinct." [https://en.wikipedia.org/wiki/Autophagy "wikipedia"]
-synonym: "Autophagy" RELATED []
+def: "Cellular autophagy involves the mechanisms thereby dysfunctional components, proteins or organelles, are targeted to the lysosomes for destruction. Three main pathways are known: macroautophagy generally referred to as autophagy, microautophagy and chaperone-mediated autophagy. A fourth is the autophagy pathway for the removal of damaged mitochondria whose features are both shared with the regular autophagy and distinct." [https://en.wikipedia.org/wiki/Autophagy "wikipedia"]
 is_a: PW:0000276 ! non-apoptotic cell death pathway
 created_by: VPetri
 creation_date: 2016-01-12T15:12:29Z
