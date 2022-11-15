@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.67
-date: 12:11:2022 20:13
+data-version: 7.66
+date: 05:11:2022 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: pathway
@@ -42,12 +42,8 @@ is_a: PW:0000001 ! pathway
 [Term]
 id: PW:0000005
 name: carbohydrate metabolic pathway
-alt_id: GO:0005975
-alt_id: Reactome:R-HSA-71387
 def: "Those metabolic reactions and pathways involved in the oxidation, breakdown and synthesis of carbohydrates in the tissue. The breakdown can be utilized by the body for energy production. The converse synthesis is used for energy storage." [OneLook:www.onelook.com]
-comment: The definition was compiled using the Online Medical dictionary and the Stedman's medical dictionary available at OneLook
-synonym: "carbohydrate metabolic process" RELATED []
-synonym: "Metabolism of carbohydrates" RELATED []
+comment: The definition  was compiled using the Online Medical dictionary and the Stedman's medical dictionary available at OneLook
 is_a: PW:0000002 ! classic metabolic pathway
 
 [Term]
@@ -61,11 +57,9 @@ is_a: PW:0000125 ! G protein mediated signaling pathway
 [Term]
 id: PW:0000007
 name: mitogen activated protein kinase signaling pathway
-alt_id: GO:0000165
 alt_id: Reactome:R-HSA-5683057
-def: "The mitogen-activated protein kinase pathway groups several serine/threonine protein kinase mediated cascades in response to a number of extracellular stimuli. A characteristic feature of these cascades is the presence of at least three kinases in series leading to the activation of a multifunctional MAP kinase." [GO:0000165, KEGG:map04010, PMID:14570565, PMID:14976517, PMID:17229475, PMID:17306385]
+def: "The mitogen-activated protein kinase pathway groups several serine/threonine protein kinases mediated cascades in response to a number of extracellular stimuli. A characteristic feature of these cascades is the presence of at least three kinases in series leading to the activation of a multifunctional MAP kinase." [GO:0000165, KEGG:map04010, PMID:14570565, PMID:14976517, PMID:17229475, PMID:17306385]
 synonym: "KEGG:04010" RELATED []
-synonym: "MAPK cascade" RELATED []
 synonym: "MAPK family signaling cascades" RELATED []
 synonym: "MAPK signaling pathway" RELATED []
 is_a: PW:0000003 ! signaling pathway
@@ -94,11 +88,7 @@ is_a: PW:0001557 ! programmed cell death pathway
 [Term]
 id: PW:0000010
 name: lipid metabolic pathway
-alt_id: GO:0006629
-alt_id: Reactome:R-HSA-556833
-def: "The metabolic reactions involved in the oxidation, utilization and/or synthesis of lipids in tissues." [OneLook:www.onelook.com]
-synonym: "lipid metabolic process" RELATED []
-synonym: "Metabolism of lipids" RELATED []
+def: "The metabolic reactions involved in the oxidation, utilization and/or synthesis of lipids in the tissues." [OneLook:www.onelook.com]
 is_a: PW:0000002 ! classic metabolic pathway
 
 [Term]
@@ -218,14 +208,11 @@ is_a: PW:0000005 ! carbohydrate metabolic pathway
 [Term]
 id: PW:0000026
 name: citric acid cycle pathway
-alt_id: Reactome:R-HSA-71403
 def: "The series of chemical reactions that are central to all aerobic cells and constitute the citric acid cycle. Also known as the tricarboxylic acid cycle (TCA) or Krebs cycle, it is the center of convergence for all molecular fuels." [GO:0006099, KEGG:map00020, OneLook:www.onelook.com, Reactome:REACT_1046.3]
-synonym: "Citric acid cycle (TCA cycle)" RELATED []
 synonym: "KEGG:00020" RELATED []
 synonym: "Krebs cycle pathway" RELATED []
 synonym: "SMP:00057" RELATED []
 synonym: "TCA cycle pathway" RELATED []
-synonym: "tricarboxylic acid cycle" RELATED []
 synonym: "tricarboxylic acid cycle pathway" RELATED []
 is_a: PW:0000033 ! energy metabolic pathway
 relationship: part_of PW:0000357 ! energy homeostasis pathway
@@ -281,12 +268,9 @@ is_a: PW:0000002 ! classic metabolic pathway
 [Term]
 id: PW:0000034
 name: electron transport chain pathway
-alt_id: Reactome:R-HSA-611105
-def: "Those metabolic reactions whereby the electrons, derived from the oxidation of glucose and lipids or the degradation of amino acids, are passed to oxygen via a series of series of spatially separated complexes. The energy derived generates an electrochemical gradient that drives the synthesis of ATP. The coupling between the electron transport chain, also known as the respiratory chain, and the ATP biosynthetic pathway is known as oxidative phosphorylation. Under certain circumstances the two may be uncoupled." [GO:0022904, OneLook:www.onelook.com, PMID:19760284, PMID:21625217]
+def: "Those metabolic reactions thereby the electrons derived from the oxidation of glucose and lipids or the degradation of amino acids, are passed to oxygen via a series of series of spatially separated complexes. The energy derived generates an electrochemical gradient that drives the synthesis of ATP. The coupling between the electron transport chain, also known as the respiratory chain and the ATP biosynthetic pathway is known as oxidative phosphorylation. Under certain circumstances the two may be uncoupled." [GO:0022904, OneLook:www.onelook.com, PMID:19760284, PMID:21625217]
 synonym: "ETC pathway" RELATED []
 synonym: "respiratory chain pathway" RELATED []
-synonym: "Respiratory electron transport" RELATED []
-synonym: "respiratory electron transport chain" RELATED []
 synonym: "SMP:00355" RELATED []
 relationship: part_of PW:0001059 ! oxidative phosphorylation pathway
 
@@ -351,11 +335,8 @@ is_a: PW:0000005 ! carbohydrate metabolic pathway
 [Term]
 id: PW:0000043
 name: pyruvate metabolic pathway
-alt_id: Reactome:R-HSA-70268
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of pyruvate - a salt, ester, or anionic form of pyruvic acid. Pyruvate, which is the end-product of glycolysis, can be converted to lactate under anaerobic conditions, can be further oxidized via the Krebs or citrate cycle or can be converted back to glucose via gluconeogenesis." [GO:0006090, KEGG:00620, OneLook:www.onelook.com, Reactome:REACT_2071.3]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of pyruvate - a salt, ester, or anionic form of pyruvic acid. Pyruvate, which is the end-product of glycolysis can be converted to lactate under anaerobic conditions, can be further oxidized via the Krebs or citrate cycle or can be converted back to glucose via gluconeogenesis." [GO:0006090, KEGG:00620, OneLook:www.onelook.com, Reactome:REACT_2071.3]
 synonym: "KEGG:00620" RELATED []
-synonym: "pyruvate metabolic process" RELATED []
-synonym: "Pyruvate metabolism" RELATED []
 synonym: "SMP:00060" RELATED []
 is_a: PW:0000005 ! carbohydrate metabolic pathway
 is_a: PW:0000556 ! glucose oxidation pathway
@@ -369,7 +350,6 @@ is_obsolete: true
 [Term]
 id: PW:0000045
 name: pentose phosphate pathway
-alt_id: Reactome:R-HSA-71336
 def: "Those metabolic reactions involved in the generation of reducing equivalents and five carbon (pentose) sugars. The oxidative phase is irreversible; the non-oxidative is reversible." [GO:0006098, KEGG:map00030, OneLook:www.oneloook.com, Reactome:REACT_1859.1]
 synonym: "hexose monophosphate pathway (shunt)" RELATED []
 synonym: "KEGG:00030" RELATED []
@@ -573,11 +553,7 @@ is_a: PW:0000040 ! steroid hormone biosynthetic pathway
 [Term]
 id: PW:0000071
 name: valine, leucine and isoleucine degradation pathway
-alt_id: GO:0009083
-alt_id: Reactome:R-HSA-70895
 def: "Those metabolic reactions involved in the degradation of valine, leucine and isoleucine - the three, dietary essential, branched amino acids." [OneLook:www.onelook.com]
-synonym: "branched-chain amino acid catabolic process" RELATED []
-synonym: "Branched-chain amino acid catabolism" RELATED []
 synonym: "KEGG:00280" RELATED []
 synonym: "SMP:00032" RELATED []
 is_a: PW:0001077 ! amino acid metabolic pathway (KEGG)
@@ -592,12 +568,8 @@ is_a: PW:0001077 ! amino acid metabolic pathway (KEGG)
 [Term]
 id: PW:0000073
 name: lysine degradation pathway
-alt_id: GO:0006554
-alt_id: Reactome:R-HSA-71064
 def: "Those metabolic reactions involved in the degradation of lysine. In mammals, lysine is metabolized to acetyl-CoA. A derivative of lysine, allysine, is used in the production of elastin and collagen." [https://en.wikipedia.org/wiki/Lysine "wikipedia"]
 synonym: "KEGG:00310" RELATED []
-synonym: "lysine catabolic process" RELATED []
-synonym: "Lysine catabolism" RELATED []
 synonym: "SMP:00037" RELATED []
 is_a: PW:0001077 ! amino acid metabolic pathway (KEGG)
 
@@ -618,11 +590,8 @@ is_a: PW:0001077 ! amino acid metabolic pathway (KEGG)
 [Term]
 id: PW:0000076
 name: urea cycle pathway
-alt_id: GO:0000050
-alt_id: Reactome:R-HSA-70635
 def: "The series of metabolic reactions, occurring in the liver, by which the ammonia derived from the breakdown of amino acids combines with carbon dioxide to form urea." [PMID:12055339]
 synonym: "SMP:00059" RELATED []
-synonym: "Urea cycle" RELATED []
 is_a: PW:0000011 ! amino acid metabolic pathway
 
 [Term]
@@ -687,97 +656,63 @@ is_a: PW:0000004 ! regulatory pathway
 [Term]
 id: PW:0000086
 name: cell cycle pathway, mitotic
-alt_id: GO:0000278
-alt_id: Reactome:R-HSA-69278
 def: "The series of events, collectively known as the cell cycle, that underlie the replication of the genome and the segregation of chromosomes into daughter cells. The cycle begins with a diploid cell and produces two identical diploid cells." [GO:0000278, Handbook:Essential Cell Biology, KEGG:map04110, Reactome:REACT_152.3]
-comment: Adapted from O'Connell and Walwarth, Genome KnowledgeBase
-synonym: "Cell Cycle, Mitotic" RELATED []
+comment: Adapted from  O'Connell and Walwarth, Genome KnowledgeBase
 synonym: "KEGG:04110" RELATED []
-synonym: "mitotic cell cycle" RELATED []
 is_a: PW:0001317 ! cell cycle pathway
 
 [Term]
 id: PW:0000087
 name: G1 phase pathway
-alt_id: GO:0000080
-alt_id: Reactome:R-HSA-69236
-def: "The series of events underlying the progression of the early cell cycle into the G phase and under the control of D-type cyclins together with Cdk4 and Cdk6. The formation of the pre-initiation replication complex takes place during this phase." [Reactome:REACT_1590.1]
-synonym: "G1 Phase" RELATED []
-synonym: "mitotic G1 phase" RELATED []
+def: "The series of events underlying the progression of early cell cycle into the G phase and under the control of D-type cyclins together with Cdk4 and Cdk6. The formation of the pre-initiation replication complex takes place during this phase." [Reactome:REACT_1590.1]
 relationship: part_of PW:0000086 ! cell cycle pathway, mitotic
 
 [Term]
 id: PW:0000088
 name: G1/S transition pathway
-alt_id: GO:0000082
-alt_id: Reactome:R-HSA-69206
 def: "The series of events underlying the transition from G1 into S phase and under the control of Cyclin E/A - Cdk2 and cyclin D-Cdk4/Cdk6 complexes and their regulators. Genetic alterations of this important transition point are frequent in human cancers." [PMID:10919634, PMID:12200872, PMID:16236519]
-synonym: "G1/S Transition" RELATED []
-synonym: "G1/S transition of mitotic cell cycle" RELATED []
 relationship: part_of PW:0000086 ! cell cycle pathway, mitotic
 
 [Term]
 id: PW:0000089
 name: S phase pathway
-alt_id: GO:0000084
-alt_id: Reactome:R-HSA-69242
-def: "The series of events underlying duplication of the hereditary material of the cell, forming two copies of the chromosome." [Reactome:REACT_899.3]
-synonym: "mitotic S phase" RELATED []
-synonym: "S Phase" RELATED []
+def: "The series of events underlying duplication of the hereditary material of the cell, formation of two copies of the chromosome." [Reactome:REACT_899.3]
 relationship: part_of PW:0000086 ! cell cycle pathway, mitotic
 
 [Term]
 id: PW:0000090
 name: G2 phase pathway
-alt_id: GO:0000085
-def: "The series of events underlying the second 'gap' phase of the mitotic cell cycle - an interval between the completion of DNA synthesis and the beginning of mitosis and during which protein synthesis occurs." [Reactome:R-HSA-68911]
-synonym: "G2 Phase" RELATED []
-synonym: "mitotic G2 phase" RELATED []
+def: "The series of events underlying the second 'gap' phase of the mitotic cell cycle - an interval between the completion of DNA synthesis and the beginning of mitosis and during which protein synthesis occurs." [Reactome:REACT_1915.2]
 relationship: part_of PW:0000086 ! cell cycle pathway, mitotic
 
 [Term]
 id: PW:0000091
 name: G2/M transition pathway
-alt_id: GO:0000086
-alt_id: Reactome:R-HSA-69275
 def: "The series of events underlying the transition from the G2 phase into mitosis." [Reactome:REACT_2203.2]
-synonym: "G2/M Transition" RELATED []
-synonym: "G2/M transition of mitotic cell cycle" RELATED []
 relationship: part_of PW:0000086 ! cell cycle pathway, mitotic
 
 [Term]
 id: PW:0000092
 name: M phase pathway
-alt_id: GO:0000279
-alt_id: Reactome:R-HSA-68886
 def: "The series of events underlying mitosis (M-phase), in turn comprised of several phases, involving nuclear division and cytokinesis and resulting in the formation of two daughter cells." [Reactome:REACT_910.1]
-synonym: "M Phase" RELATED []
 relationship: part_of PW:0000086 ! cell cycle pathway, mitotic
 
 [Term]
 id: PW:0000093
 name: M/G1 transition pathway
-alt_id: Reactome:R-HSA-68874
-def: "The series of events underlying progression out of mitosis and division into two daughter cells. It requires the inactivation of cyclinB-cdc2 by ubiquitin-dependent proteolysis." [Reactome:REACT_1725.1]
-synonym: "M/G1 Transition" RELATED []
+def: "The series of events underlying progression out of mitosis and division into two daughter cells. It requires the inactivation of cyclinB-cdc2 by the ubiquitin-dependent proteolysis." [Reactome:REACT_1725.1]
 relationship: part_of PW:0000086 ! cell cycle pathway, mitotic
 
 [Term]
 id: PW:0000094
 name: cell cycle checkpoint pathway
-alt_id: GO:0000075
-alt_id: Reactome:R-HSA-69620
 def: "Those pathways involved in the control of cell cycle progression as well as its precision and fidelity." [GO:0000075, PMID:14644189, Reactome:REACT_1538.1]
-synonym: "Cell Cycle Checkpoints" RELATED []
-synonym: "cell cycle checkpoint signaling" RELATED []
 relationship: part_of PW:0001317 ! cell cycle pathway
 
 [Term]
 id: PW:0000095
 name: G1/S DNA damage checkpoint pathway
-alt_id: Reactome:R-HSA-69615
 def: "Those pathways of DNA damage response that occur during the G1 phase." [InHouse:PW dictionary, Reactome:REACT_1538.1]
-synonym: "G1/S DNA Damage Checkpoints" RELATED []
 is_a: PW:0000094 ! cell cycle checkpoint pathway
 
 [Term]
@@ -791,28 +726,21 @@ is_a: PW:0000094 ! cell cycle checkpoint pathway
 [Term]
 id: PW:0000097
 name: mitotic spindle checkpoint pathway
-alt_id: GO:0071174
 alt_id: R-HSA-69618
 def: "The pathway prevents cells with mis-aligned chromosomes from dividing. Defects of kinetochore function activate checkpoint proteins to initiate a cascade of events that eventually prevent separation of sister chromatids." [InHouse:PW dictionary]
 synonym: "Mitotic Spindle Checkpoint" RELATED []
-synonym: "mitotic spindle checkpoint signaling" RELATED []
 is_a: PW:0000094 ! cell cycle checkpoint pathway
 
 [Term]
 id: PW:0000098
 name: DNA replication pathway
-alt_id: GO:0006260
-alt_id: Reactome:R-HSA-69306
-synonym: "DNA Replication" RELATED []
 synonym: "KEGG:03030" RELATED []
 is_a: PW:0000085 ! pathway pertinent to DNA replication and repair, cell cycle, maintenance of genomic integrity, RNA and protein biosynthesis
 
 [Term]
 id: PW:0000099
 name: DNA repair pathway
-alt_id: Reactome:R-HSA-73894
-def: "The pathways involved in the repair of damaged DNA. The damage can involve mismatched or damaged bases, distortion of the helix or breaks in the DNA double strand. Repair of DNA lesions along with the upstream lesion detection and signaling its presence are collectively known as the DNA damage response." [GO:0006281, PMID:19847258, Reactome:REACT_216.1]
-synonym: "DNA Repair" RELATED []
+def: "The pathways involved in the repair of damaged DNA. The damage can involve mismatched or damaged bases, distortion of the helix or breaks in the DNA double strand. Repair of DNA lesions along with the upstream lesion  detection and signaling its presence are collectively known as the DNA damage response." [GO:0006281, PMID:19847258, Reactome:REACT_216.1]
 is_a: PW:0000085 ! pathway pertinent to DNA replication and repair, cell cycle, maintenance of genomic integrity, RNA and protein biosynthesis
 relationship: part_of PW:0001360 ! DNA damage response pathway
 
@@ -825,10 +753,8 @@ is_a: PW:0000085 ! pathway pertinent to DNA replication and repair, cell cycle, 
 [Term]
 id: PW:0000101
 name: translation pathway
-alt_id: Reactome:R-HSA-72766
-def: "The series of events governing the processes whereby mRNA is translated into a polypeptide chain. Post-translational modifications often accompany the formation of the final, mature protein. Translation involves initiation, elongation and termination steps and is dependent upon the availability of aminoacyl-tRNA and mature ribosomes." [GO:0006412, PMID:23209153, PMID:23677826]
+def: "The series of events governing the processes thereby mRNA is translated into a polypeptide chain. Post-translational modifications often accompany the formation of the final, mature protein. Translation involves initiation, elongation and termination steps and is dependent upon the availability of aminoacyl-tRNA and mature ribosomes." [GO:0006412, PMID:23209153, PMID:23677826]
 synonym: "protein biosynthesis pathway" RELATED []
-synonym: "Translation" RELATED []
 is_a: PW:0000085 ! pathway pertinent to DNA replication and repair, cell cycle, maintenance of genomic integrity, RNA and protein biosynthesis
 
 [Term]
@@ -959,14 +885,10 @@ is_a: PW:0000107 ! xenobiotics biodegradation pathway
 [Term]
 id: PW:0000122
 name: Hedgehog signaling pathway
-alt_id: GO:0007224
-alt_id: Reactome:R-HSA-5358351
 def: "The Hedgehog signaling pathway (Hh) plays important roles in vertebrate embryogenesis, particularly in the differentiation of the neural tube, in vasculogenesis and angiogenesis. Post-embryonically it is believed to play a homeostatic role in the maintenance of stem cells. Alteration of the pathway has been implicated in a number of human cancers." [GO:0007224, KEGG:map04340, PMID:12495844, PMID:15205520, PMID:15596107]
 synonym: "KEGG:04340" RELATED []
 synonym: "PID:200168" RELATED []
 synonym: "PID:200172" RELATED []
-synonym: "Signaling by Hedgehog" RELATED []
-synonym: "smoothened signaling pathway" RELATED []
 is_a: PW:0000650 ! signaling pathway pertinent to development
 relationship: part_of PW:0000660 ! hematopoiesis pathway
 
@@ -992,20 +914,13 @@ is_a: PW:0000003 ! signaling pathway
 [Term]
 id: PW:0000126
 name: RNA polymerase I transcription pathway
-alt_id: Reactome:R-HSA-73864
 def: "The series of events governing the synthesis of the large ribosomal RNA (rRNA) precursor in the nucleolus." [GO:0006360, PMID:22365827, Reactome:REACT_1309.1]
-synonym: "RNA Polymerase I Transcription" RELATED []
-synonym: "transcription by RNA polymerase I" RELATED []
 is_a: PW:0001275 ! eukaryotic RNA polymerase transcription pathway
 
 [Term]
 id: PW:0000127
 name: RNA polymerase II transcription pathway
-alt_id: GO:0006366
-alt_id: Reactome:R-HSA-73857
-def: "The series of events governing the synthesis of protein-coding messenger RNA (mRNA) precursors and of many classes of non-coding genes." [GO:0006366, http://en.wikipedia.org/wiki/Transcription_%28genetics%29 "Wikipedia", PMID:22365827, PMID:23827673, Reactome:REACT_1366.1]
-synonym: "RNA Polymerase II Transcription" RELATED []
-synonym: "transcription by RNA polymerase II" RELATED []
+def: "The series of events governing the synthesis of protein-coding messenger RNA (mRNA) precursor and of many classes of non-coding genes." [GO:0006366, http://en.wikipedia.org/wiki/Transcription_%28genetics%29 "Wikipedia", PMID:22365827, PMID:23827673, Reactome:REACT_1366.1]
 is_a: PW:0001275 ! eukaryotic RNA polymerase transcription pathway
 
 [Term]
@@ -1017,10 +932,7 @@ is_a: PW:0001275 ! eukaryotic RNA polymerase transcription pathway
 [Term]
 id: PW:0000129
 name: base excision repair pathway
-alt_id: Reactome:R-HSA-73884
-def: "The base excision repair pathway involves the identification and removal of the damaged base followed by its replacement with the correct nucleotide and ligation of the break in the strand." [GO:0006284, KEGG:map03410, OneLook:www.onelook.com, Reactome:REACT_1104.1]
-synonym: "Base Excision Repair" RELATED []
-synonym: "base-excision repair" RELATED []
+def: "Base excision repair pathway involves the identification and removal of the damaged base followed by its replacement with the correct nucleotide and ligation of the break in the strand." [GO:0006284, KEGG:map03410, OneLook:www.onelook.com, Reactome:REACT_1104.1]
 synonym: "BER pathway" RELATED []
 synonym: "KEGG:03410" RELATED []
 is_a: PW:0000661 ! single-strand DNA repair pathway
@@ -1031,7 +943,7 @@ name: nucleotide excision repair pathway
 alt_id: KEGG:03420
 alt_id: Reactome:R-HSA-5696398
 alt_id: SMP:00478
-def: "The nucleotide excision repair pathway is an important mechanism for the detection of helix-distorting base alterations. Unlike the base excision repair pathway that only removes the damaged bases, the NER pathway removes an entire lesion-containing segment. The single-strand gap thus introduced is filled in by DNA polymerase using the undamaged strand as a template. The pathway can be subdivided into two sub-pathways: the transcription-coupled and the global genome repair. They only differ in the lesion recognition step while the core repair component is common." [GO:0006289, KEGG:map03420, OneLook:www.onelook.com, PMID:23046879, PMID:23085398]
+def: "Nucleotide excision repair pathway is an important mechanism for the detection of helix distorting base alterations. Unlike the base excision repair pathway that only removes the damaged bases, the NER pathway removes an entire lesion containing segment. The single-strand gap thus introduced is filled in by DNA polymerase using the undamaged strand as a template. The pathway can be subdivided into two sub-pathways: the transcription-coupled and the global genome repair. They only differ in the lesion recognition step while the core repair component is common." [GO:0006289, KEGG:map03420, OneLook:www.onelook.com, PMID:23046879, PMID:23085398]
 synonym: "NER pathway" RELATED []
 synonym: "Nucleotide Excision Repair" RELATED []
 is_a: PW:0000661 ! single-strand DNA repair pathway
@@ -1574,11 +1486,9 @@ is_a: PW:0000008 ! Wnt signaling pathway
 [Term]
 id: PW:0000202
 name: homologous recombination pathway of double-strand break repair
-alt_id: GO:0000724
 alt_id: KEGG:03440
 alt_id: Reactome:R-HSA-5693538
 def: "A specific pathway for repair of double-strand breaks. It is involved in repair of breaks induced by damaging agents or generated during meiotic recombination." [PMID:24326623]
-synonym: "double-strand break repair via homologous recombination" RELATED []
 synonym: "Homology Directed Repair" RELATED []
 synonym: "homology-directed repair pathway" RELATED []
 synonym: "HR pathway of double-strand break repair" EXACT []
@@ -2285,9 +2195,7 @@ is_a: PW:0000095 ! G1/S DNA damage checkpoint pathway
 [Term]
 id: PW:0000304
 name: p53-independent G1/S DNA damage checkpoint pathway
-alt_id: Reactome:R-HSA-69613
 def: "The p53-independent pathway of G1/S arrest in response to damaged DNA." [InHouse:PW dictionary, Reactome:REACT_1208.1]
-synonym: "p53-Independent G1/S DNA damage checkpoint" RELATED []
 is_a: PW:0000095 ! G1/S DNA damage checkpoint pathway
 
 [Term]
@@ -2857,19 +2765,13 @@ is_a: PW:0000380 ! transport pathway for the elimination of drugs, endogenous or
 [Term]
 id: PW:0000384
 name: G2/M DNA damage checkpoint pathway
-alt_id: GO:0007095
-alt_id: Reactome:R-HSA-69473
-def: "The G2/M checkpoint pathways assure the genome is replicated only once per cell cycle. The checkpoints control for damaged and un-replicated DNA. Various DNA damage checkpoints lead to inhibition of the cyclin-dependent kinases that regulate the next cell cycle point." [InHouse:PW dictionary, Reactome:REACT_897.2]
-synonym: "G2/M DNA damage checkpoint" RELATED []
-synonym: "mitotic G2 DNA damage checkpoint signaling" RELATED []
+def: "The G2M checkpoint pathways assure the genome is replicated only once per cell cycle. The checkpoints control for damaged and un-replicated DNA. Various DNA damage checkpoints lead to inhibition of the cyclin- dependent kinases that regulate the next cell cycle point." [InHouse:PW dictionary, Reactome:REACT_897.2]
 is_a: PW:0000096 ! G2/M checkpoint pathway
 
 [Term]
 id: PW:0000385
 name: G2/M DNA replication checkpoint pathway
-alt_id: Reactome:R-HSA-69478
 def: "Those pathways that assure the genome is replicated only once per cell cycle. The checkpoints control for damaged and un-replicated DNA. Un-replicated DNA signals to block the cell cycle from proceeding. The mechanism by which the cell detects un-replicated DNA is not known." [InHouse:PW dictionary, Reactome:REACT_1846.2]
-synonym: "G2/M DNA replication checkpoint" RELATED []
 is_a: PW:0000096 ! G2/M checkpoint pathway
 
 [Term]
@@ -3005,10 +2907,7 @@ is_a: PW:0000262 ! altered metabolic pathway
 [Term]
 id: PW:0000404
 name: creatine metabolic pathway
-alt_id: Reactome:R-HSA-71288
 def: "Those metabolic reactions involving creatine. Officially methyl guanidino-acetic acid formed from arginine and glycine and the methyl group of methionine, creatine supplies energy to muscle cells." [GO:0006600, Onelook:www.onelook.com, PMID:10893433, Reactome:REACT_813.2]
-synonym: "creatine metabolic process" RELATED []
-synonym: "Creatine metabolism" RELATED []
 is_a: PW:0000033 ! energy metabolic pathway
 is_a: PW:0000132 ! metabolic pathway of other amino acids
 
@@ -3760,21 +3659,16 @@ is_a: PW:0000512 ! Interleukin mediated signaling pathway
 [Term]
 id: PW:0000514
 name: interleukin-6 family mediated signaling pathway
-def: "The interleukin-6 family includes several members involved in a wide range of biological processes such as immune regulation, inflammation, hematopoiesis and oncogenesis. All members share a common signal transducer, gp130, which activates Jak-Stat and Raf/Mek/Erk signaling pathways." [PMID:20410258, PMID:21715184]
+def: "Interleukin-6 family includes several members involved in a wide range of biological processes such as immune regulation, inflammation, hematopoiesis and oncogenesis. All members share a common signal transducer, gp130 which activates Jak-Stat and Raf/Mek/Erk signaling pathways." [PMID:20410258, PMID:21715184]
 synonym: "Il-6 family mediated signaling pathway" RELATED []
-synonym: "Interleukin-6 family signaling" RELATED []
 synonym: "Reactome:R-HSA-6783589" EXACT []
 is_a: PW:0000512 ! Interleukin mediated signaling pathway
 
 [Term]
 id: PW:0000515
 name: Interleukin-10 signaling pathway
-alt_id: GO:0140105
-alt_id: Reactome:R-HSA-6783783
 def: "Interleukin-10 signaling is involved in various immunomodulatory functions. It promotes the release of immune mediators and antigen presentation exerting important anti-inflammatory effects that may primarily characterize this family member. Signaling by Il-10 and the other members of the family activate the intracellular Jak-Stat cascade." [PMID:20454917, PMID:21115385]
 synonym: "Il-10 signaling pathway" RELATED []
-synonym: "interleukin-10-mediated signaling pathway" RELATED []
-synonym: "Interleukin-10 signaling" RELATED []
 is_a: PW:0000513 ! interleukin-10 family mediated signaling pathway
 
 [Term]
@@ -3906,10 +3800,7 @@ is_a: PW:0000005 ! carbohydrate metabolic pathway
 [Term]
 id: PW:0000534
 name: glycogen degradation pathway
-alt_id: Reactome:R-HSA-70221
-def: "Those metabolic reactions involved in the breakdown of glycogen to glucose-6-phosphate. Glucose-6-phosphate can then be dephosphorylated to glucose or it can be utilized via glycolysis for energy production; an alternative pathway of G6P utilization is the oxidative phase of the pentose phosphate shunt. A small percentage of glucose-6-phosphate can be converted to hexosamines." [GO:0005980, OneLook:www.onelook.com, Reactome:REACT_1008.1]
-synonym: "Glycogen breakdown (glycogenolysis)" RELATED []
-synonym: "glycogen catabolic process" RELATED []
+def: "Those metabolic reactions involved in the breakdown of glycogen to glucose-6-phosphate. Glucose-6-phosphate can then be dephosphorylated to glucose or it can be utilized via glycolysis for energy production; an alternative pathways of G6P utilization is the oxidative phase of the pentose phosphate shunt. A small percentage of glucose-6-phosphate can be converted to hexosamines." [GO:0005980, OneLook:www.onelook.com, Reactome:REACT_1008.1]
 synonym: "glycogenolysis" RELATED []
 is_a: PW:0000533 ! glycogen metabolic pathway
 is_a: PW:0000685 ! glucose biosynthesis pathway
@@ -4684,12 +4575,8 @@ is_a: PW:0000560 ! facilitative sugar transporter mediated glucose transport pat
 [Term]
 id: PW:0000640
 name: glycolysis pathway
-alt_id: GO:0006096
-alt_id: Reactome:R-HSA-70171
-def: "The glycolytic pathway converts the six-carbon glucose to two three-carbon pyruvate molecules. The ten reactions of glycolysis can be subdivided into an energy consuming 'stage I' and an energy generating 'stage II'. The net energy yield is two molecules of ATP. Pyruvate can be further oxidized via the citrate cycle, converted to lactose under anaerobic conditions or back to glucose via gluconeogenesis." [PMID:15466941, PMID:3306346]
+def: "The glycolytic pathway converts the six-carbon glucose to two three-carbon pyruvate molecules. The ten reactions of glycolysis can be subdivided into an energy consuming 'stage I' and an energy generating 'stage II'. The net energy yield is two molecules of ATP. Pyruvate can further be oxidized via the citrate cycle, converted to lactose under anaerobic conditions or back to glucose via gluconeogenesis." [PMID:15466941, PMID:3306346]
 synonym: "Embden-Meyerhof-Parnas pathway" RELATED []
-synonym: "Glycolysis" RELATED []
-synonym: "glycolytic process" RELATED []
 synonym: "KEGG:00010" RELATED []
 synonym: "SMP:00040" RELATED []
 is_a: PW:0000025 ! glycolysis/gluconeogenesis pathway
@@ -4698,10 +4585,7 @@ is_a: PW:0000556 ! glucose oxidation pathway
 [Term]
 id: PW:0000641
 name: gluconeogenesis pathway
-alt_id: GO:0006094
-alt_id: Reactome:R-HSA-70263
 def: "The gluconeogenic pathway involves the synthesis of glucose from noncarbohydrate precursors. They include the glycolysis products pyruvate and lactate, citric acid cycle intermediates and the carbon skeletons of many amino acids." [PMID:15466941, PMID:6311081]
-synonym: "Gluconeogenesis" RELATED []
 synonym: "KEGG:00010" RELATED []
 synonym: "SMP:00128" RELATED []
 is_a: PW:0000025 ! glycolysis/gluconeogenesis pathway
@@ -4845,26 +4729,19 @@ is_a: PW:0000099 ! DNA repair pathway
 [Term]
 id: PW:0000662
 name: mismatch repair pathway
-alt_id: GO:0006298
-alt_id: Reactome:R-HSA-5358508
-def: "The mismatch repair pathway assures the maintenance of normal Watson-Crick base pairing. Bases incorrectly matched during DNA replication are removed and replaced with the correct ones." [GO:0006298, KEGG:map03430, OneLook:www.onelook.com]
+def: "Mismatch repair pathway assures the maintenance of normal Watson-Crick base pairing. Bases incorrectly matched during DNA replication are removed and replaced with the correct ones." [GO:0006298, KEGG:map03430, OneLook:www.onelook.com]
 synonym: "KEGG:03430" RELATED []
-synonym: "Mismatch Repair" RELATED []
 synonym: "MMR pathway" RELATED []
 is_a: PW:0000661 ! single-strand DNA repair pathway
 
 [Term]
 id: PW:0000663
 name: double-strand DNA repair pathway
-alt_id: GO:0006302
 alt_id: PW:0000131
 alt_id: PW:0000291
 alt_id: PW:0000664
 alt_id: PW:0000665
-alt_id: Reactome:R-HSA-5693532
-def: "A pathway dealing with repair of double-strand breaks of the DNA or of strand damage such as interstrand cross links." [PMID:23085398, PMID:24326623]
-synonym: "DNA Double-Strand Break Repair" RELATED []
-synonym: "double-strand break repair" RELATED []
+def: "A pathway dealing with repair of double-strand breaks of the DNA or of strand damage such interstrand cross links." [PMID:23085398, PMID:24326623]
 is_a: PW:0000099 ! DNA repair pathway
 
 [Term]
@@ -4884,9 +4761,8 @@ is_a: PW:0000663 ! double-strand DNA repair pathway
 [Term]
 id: PW:0000668
 name: altered mismatch repair pathway
-def: "A mismatch repair pathway that deviates from what its normal course should be. Mutations in several genes in the pathway have been implicated in cases of colorectal cancer, primarily the inherited forms. To a lesser extent they are found in other types of cancer, such as type 1 endometrial cancer." [PubMed:Several articles]
+def: "A mismatch repair pathway that deviates from what its normal course should be. Mutations in several genes in the pathway have been implicated in cases of colorectal cancer, primarily the inherited forms. To a lesser extent they are found in other types of cancer, such as for instance type 1 endometrial." [PubMed:Several articles]
 synonym: "altered MMR pathway" RELATED []
-synonym: "Diseases of Mismatch Repair (MMR)" RELATED []
 is_a: PW:0000662 ! mismatch repair pathway
 is_a: PW:0000666 ! altered single-strand DNA repair pathway
 
@@ -6588,11 +6464,9 @@ creation_date: 2011-04-04T05:12:08Z
 [Term]
 id: PW:0000861
 name: pyrimidine biosynthetic pathway
-alt_id: GO:0019856
 alt_id: Reactome:R-HSA-500753
 def: "Those enzymatic reactions involved in the synthesis of pyrimidine nucleotides. A major route for pyrimidine synthesis is the de novo pathway. However, an alternate pathway, the salvage pathway, converts nucleosides generated by DNA or RNA breakdown back to nucleotide monophosphates which can then re-enter the biosynthetic pathway." [PMID:15096496, PMID:16098809]
 synonym: "Pyrimidine biosynthesis" RELATED []
-synonym: "pyrimidine nucleobase biosynthetic process" RELATED []
 is_a: PW:0000032 ! pyrimidine metabolic pathway
 created_by: vpetri
 creation_date: 2011-06-03T03:33:51Z
@@ -6608,11 +6482,7 @@ creation_date: 2011-06-03T03:58:08Z
 [Term]
 id: PW:0000863
 name: pyrimidine salvage pathway
-alt_id: GO:0008655
-alt_id: Reactome:R-HSA-73614
 def: "The salvage pathway of pyrimidine biosynthesis, mostly used in resting and differentiated cells, allows for the synthesis of pyrimidines from intermediates derived from DNA and RNA degradation pathways." [PMID:15096496, PMID:16098809]
-synonym: "pyrimidine-containing compound salvage" RELATED []
-synonym: "Pyrimidine salvage" RELATED []
 is_a: PW:0000861 ! pyrimidine biosynthetic pathway
 created_by: vpetri
 creation_date: 2011-06-03T04:12:23Z
@@ -6620,11 +6490,9 @@ creation_date: 2011-06-03T04:12:23Z
 [Term]
 id: PW:0000864
 name: pyrimidine degradation pathway
-alt_id: GO:0006208
 alt_id: Reactome:R-HSA-73621
 def: "Those enzymatic reactions involved in the degradation of pyrimidines." [PMID:16098809]
 synonym: "Pyrimidine catabolism" RELATED []
-synonym: "pyrimidine nucleobase catabolic process" RELATED []
 is_a: PW:0000032 ! pyrimidine metabolic pathway
 created_by: vpetri
 creation_date: 2011-06-03T04:46:14Z
@@ -6786,11 +6654,9 @@ creation_date: 2011-08-29T11:08:06Z
 [Term]
 id: PW:0000883
 name: interleukin-1 signaling pathway
-alt_id: GO:0070498
 alt_id: Reactome:R-HSA-9020702
 def: "Interleukin-1 signaling, primarily via interleukin-1beta, plays important roles in innate and adaptive immune responses. Binding of the processed cytokine to its receptor allows for the recruitment of several accessory and adaptor proteins leading to the activation of NF-kappaB and MAPK signaling cascades. A natural receptor antagonist and a decoy receptor act as regulators of interleukin-1alpha and beta." [PMID:20081871, PMID:20303867, PMID:21219179]
 synonym: "Il-1 signaling pathway" RELATED []
-synonym: "interleukin-1-mediated signaling pathway" RELATED []
 synonym: "Interleukin-1 signaling" RELATED []
 synonym: "PID:200089" RELATED []
 is_a: PW:0000882 ! interleukin-1 family mediated signaling pathway
@@ -6906,11 +6772,9 @@ creation_date: 2011-12-06T11:07:25Z
 [Term]
 id: PW:0000897
 name: interleukin-17 family mediated signaling pathway
-alt_id: GO:0097400
 alt_id: Reactome:R-HSA-448424
 def: "The interleukin-17 family mediated signaling plays important roles in inflammation and the development of autoimmunity as well as in the host defense against fungal and bacterial infections." [PMID:21349428]
 synonym: "Il-17 family mediated signaling pathway" RELATED []
-synonym: "interleukin-17-mediated signaling pathway" RELATED []
 synonym: "Interleukin-17 signaling" RELATED []
 is_a: PW:0000512 ! Interleukin mediated signaling pathway
 created_by: VPetri
@@ -6987,10 +6851,8 @@ creation_date: 2012-01-23T04:22:25Z
 [Term]
 id: PW:0000906
 name: interleukin-2 family mediated signaling pathway
-alt_id: Reactome:R-HSA-451927
-def: "The interleukin-2 family of cytokines, also known as the gamma(c) family because of the shared gamma(c) receptor, plays crucial roles in the regulation of T cells." [PMID:19543225, PMID:21889323]
+def: "Interleukin-2 family of cytokines, also known as gamma(c) family because of the shared gamma(c) receptor, plays crucial roles in the regulation of T cells." [PMID:19543225, PMID:21889323]
 synonym: "Il-2 family mediated signaling pathway" RELATED []
-synonym: "Interleukin-2 family signaling" RELATED []
 is_a: PW:0000512 ! Interleukin mediated signaling pathway
 created_by: VPetri
 creation_date: 2012-03-23T12:26:10Z
@@ -6998,12 +6860,10 @@ creation_date: 2012-03-23T12:26:10Z
 [Term]
 id: PW:0000907
 name: interleukin-2 signaling pathway
-alt_id: GO:0038110
 alt_id: PID:200098
 alt_id: Reactome:R-HSA-9020558
 def: "Interleukin-2 is the prototypical member of the interleukin-2 family of cytokines. The signaling pathway initiated by Il-2 and the other family members activates the Jak-Stat intracellular cascade to regulate T cell, innate and adaptive immune responses." [PMID:19543225, PMID:21889323]
 synonym: "Il-2 signaling pathway" RELATED []
-synonym: "interleukin-2-mediated signaling pathway" RELATED []
 synonym: "Interleukin-2 signaling" RELATED []
 is_a: PW:0000906 ! interleukin-2 family mediated signaling pathway
 created_by: VPetri
@@ -7012,9 +6872,7 @@ creation_date: 2012-03-23T12:33:40Z
 [Term]
 id: PW:0000908
 name: interleukin-7 signaling pathway
-alt_id: GO:0038111
 alt_id: Reactome:R-HSA-1266695
-synonym: "interleukin-7-mediated signaling pathway" RELATED []
 synonym: "Interleukin-7 signaling" RELATED []
 is_a: PW:0000906 ! interleukin-2 family mediated signaling pathway
 created_by: VPetri
@@ -7044,10 +6902,8 @@ creation_date: 2012-03-23T12:39:52Z
 [Term]
 id: PW:0000912
 name: interleukin-4 signaling pathway
-alt_id: GO:0035771
-def: "Interleukin-4 is a member of the interleukin 2 family of cytokines whose signaling is important for the differentiation of naive T helper cells." [PMID:21889323]
+def: "Interleukin-4 is a member of interleukin 2 family of cytokine whose signaling is important for the differentiation of naive T helper cells." [PMID:21889323]
 synonym: "Il-4 signaling pathway" EXACT []
-synonym: "interleukin-4-mediated signaling pathway" RELATED []
 synonym: "PID:200022" RELATED []
 is_a: PW:0000906 ! interleukin-2 family mediated signaling pathway
 created_by: VPetri
@@ -7067,12 +6923,8 @@ creation_date: 2012-03-23T03:39:11Z
 [Term]
 id: PW:0000914
 name: interleukin-12 signaling pathway
-alt_id: GO:0035722
-alt_id: Reactome:R-HSA-9020591
 def: "Interleukin-12 signaling activates the Jak-Stat intracellular cascade and promotes the differentiation and proliferation of Th1 cells and the production of interferon-gamma." [PMID:20885915, PMID:21553332]
 synonym: "Il-12 signaling pathway" RELATED []
-synonym: "interleukin-12-mediated signaling pathway" RELATED []
-synonym: "Interleukin-12 signaling" RELATED []
 synonym: "PID:200045" RELATED []
 is_a: PW:0000913 ! interleukin-12 family mediated signaling pathway
 created_by: VPetri
@@ -7564,11 +7416,9 @@ creation_date: 2012-05-18T10:53:38Z
 [Term]
 id: PW:0000967
 name: interleukin-3/interleukin-5/GM-CSF mediated signaling pathway
-alt_id: Reactome:R-HSA-512988
-def: "The interleukin-3, interleukin 5 and granulocyte-macrophage colony-stimulating factor family of hemopoietic cytokines mediate overlapping and distinct signals. Collectively they regulate the production and activation of hemopoietic cells." [PMID:19436055]
+def: "Interleukin-3, interleukin 5 and granulocyte-macrophage colony-stimulating factors family of hemopoietic cytokine mediate overlapping and distinct signals. Collectively they regulate the production and activation of hemopoietic cells." [PMID:19436055]
 synonym: "hemopoietic cytokine family mediated signaling pathway" RELATED []
 synonym: "Il-3/Il-5/GM-CSF family mediated signaling pathway" EXACT []
-synonym: "Interleukin-3, Interleukin-5 and GM-CSF signaling" RELATED []
 is_a: PW:0000512 ! Interleukin mediated signaling pathway
 created_by: VPetri
 creation_date: 2012-05-22T11:30:25Z
@@ -7988,11 +7838,8 @@ creation_date: 2012-06-05T12:13:52Z
 [Term]
 id: PW:0001014
 name: retinoic acid signaling pathway
-alt_id: Reactome:R-HSA-5362517
 def: "Retinoic acid, a vitamin A-derived metabolite plays important roles in development and cell differentiation. all-trans retinoic acid (RA) binds to nuclear RA (RARs) and X (RXRs) receptor subtypes that once activated act as transcription factors." [PMID:22020178, PMID:22318625]
 synonym: "RA signaling pathway" EXACT []
-synonym: "retinoic acid receptor signaling pathway" RELATED []
-synonym: "Signaling by Retinoic Acid" RELATED []
 is_a: PW:0000716 ! transcription factor mediated signaling pathway
 is_a: PW:0001116 ! vitamin A and metabolites signaling pathway
 is_a: PW:0001313 ! transcription pathway via transcription factor mediated signaling
@@ -8012,12 +7859,8 @@ creation_date: 2012-06-11T01:34:39Z
 [Term]
 id: PW:0001016
 name: vitamin K metabolic pathway
-alt_id: GO:0042373
-alt_id: Reactome:R-HSA-6806664
-def: "Those metabolic reactions involving vitamin K - a fat-soluble vitamin which represents a group of related compounds. The K1 form is found in plants; other forms are synthesized by bacteria, including species present in the microflora of the human gut. Vitamin K is an essential cofactor in the modification reaction of vitamin K-dependent proteins." [PMID:24489112]
-synonym: "Metabolism of vitamin K" RELATED []
+def: "Those metabolic reactions involving vitamin K - a fat-soluble vitamin which represents a group of related compounds.  K1 form is found in plants, other forms are synthesized by bacteria, including species present in the microflora of the human gut. Vitamin K is an essential cofactor in the modification reaction of vitamin K-dependent proteins." [PMID:24489112]
 synonym: "SMP:00464" RELATED []
-synonym: "vitamin K metabolic process" RELATED []
 is_a: PW:0000135 ! metabolic pathway of cofactors, vitamins, nutrients
 created_by: VPetri
 creation_date: 2012-06-11T01:46:25Z
@@ -8038,8 +7881,6 @@ creation_date: 2012-07-03T01:03:23Z
 [Term]
 id: PW:0001018
 name: immune system disease pathway
-alt_id: Reactome:R-HSA-5260271
-synonym: "Diseases of Immune System" RELATED []
 is_a: PW:0000013 ! disease pathway
 created_by: VPetri
 creation_date: 2012-07-03T01:17:41Z
@@ -8142,10 +7983,8 @@ creation_date: 2012-07-11T10:56:46Z
 [Term]
 id: PW:0001028
 name: infectious disease pathway
-alt_id: Reactome:R-HSA-5663205
 def: "Infectious diseases are caused by pathogens that have gained access to the host organism and have managed to avoid the host defense mechanisms while taking over some of the host pathways." [http://www.onelook.com "OneLook"]
 synonym: "communicable disease pathway" RELATED []
-synonym: "Infectious disease" RELATED []
 synonym: "transmissible disease pathway" RELATED []
 is_a: PW:0000013 ! disease pathway
 created_by: VPetri
@@ -8512,12 +8351,9 @@ creation_date: 2012-07-23T03:43:37Z
 [Term]
 id: PW:0001065
 name: interstrand cross link repair pathway
-alt_id: GO:0036297
-alt_id: Reactome:R-HSA-6783310
-def: "Interstrand cross links (ICL) of DNA can be induced by both endogenous and exogenous ligands. ICL if not repaired will lead to cell death. The ICL repair pathway, also known as the Fanconi anemia pathway, is the cellular response to this type of DNA damage." [PMID:19061902, PMID:20713514, PMID:21605559]
+def: "Interstrand cross links (ICL) of DNA can be induced by both endogenous and exogenous ligands. ICL if not repaired will lead to cell death. ICL repair pathway, also known as Fanconi anemia pathway is the cellular response to this type of DNA damage." [PMID:19061902, PMID:20713514, PMID:21605559]
 synonym: "Fanconi anemia pathway" EXACT []
 synonym: "ICL repair pathway" EXACT []
-synonym: "interstrand cross-link repair" RELATED []
 synonym: "KEGG:03460" RELATED []
 is_a: PW:0000663 ! double-strand DNA repair pathway
 created_by: VPetri
@@ -10261,11 +10097,7 @@ creation_date: 2013-05-08T13:51:53Z
 [Term]
 id: PW:0001265
 name: glycine degradation pathway
-alt_id: GO:0006546
-alt_id: Reactome:R-HSA-6783984
-def: "Those metabolic reactions involved in the degradation of glycine. Several routes are available, of which the glycine cleavage system is the predominant one. It occurs in the mitochondria and produces 5,10-methylene tetrahydrofolate and as such, is an important component of folate cycle pathway." [http://en.wikipedia.org/wiki/Glycine "wikipedia", PMID:18941301]
-synonym: "glycine catabolic process" RELATED []
-synonym: "Glycine degradation" RELATED []
+def: "Those metabolic reactions involved in the degradation of glycine. Several routes are available of which the glycine cleavage system is the predominant one. It occurs in the mitochondria and produces 5,10-methylene tetrahydrofolate and as such, is an important component of folate cycle pathway." [http://en.wikipedia.org/wiki/Glycine "wikipedia", PMID:18941301]
 is_a: PW:0000440 ! glycine metabolic pathway
 is_a: PW:0001258 ! hydrophobic amino acid degradation pathway
 created_by: VPetri
@@ -10282,11 +10114,7 @@ creation_date: 2013-05-08T14:06:42Z
 [Term]
 id: PW:0001267
 name: histidine degradation pathway
-alt_id: GO:0006548
-alt_id: Reactome:R-HSA-70921
-def: "Those metabolic reactions involved in the degradation of histidine. Histidine degradation provides a source of nitrogen and is carried out in microorganisms." [PMID:24165547, PMID:24728193]
-synonym: "histidine catabolic process" RELATED []
-synonym: "Histidine catabolism" RELATED []
+def: "Those metabolic reactions involved in the degradation of histidine. The histidine degradation provides a source of nitrogen and is carried out in microorganisms." [PMID:24165547, PMID:24728193]
 is_a: PW:0000051 ! histidine metabolic pathway
 is_a: PW:0001259 ! hydrophilic amino acid degradation pathway
 created_by: VPetri
@@ -10410,11 +10238,7 @@ creation_date: 2013-05-13T11:10:00Z
 [Term]
 id: PW:0001281
 name: tryptophan degradation pathway
-alt_id: GO:0006569
-alt_id: Reactome:R-HSA-71240
-def: "Those metabolic reactions involved in the degradation of tryptophan, an essential amino acid. Tryptophan undergoes oxidative catabolism carried out by several hemeprotein enzymes. In plants, tyrosine is the precursor for several secondary metabolites." [PMID:20817774, PMID:22889220]
-synonym: "tryptophan catabolic process" RELATED []
-synonym: "Tryptophan catabolism" RELATED []
+def: "Those metabolic reactions involved in the degradation of tryptophan, an essential amino acid.  Tryptophan undergoes oxidative catabolism carried out by several hemeprotein enzymes. In plants, tyrosine is the precursor for several secondary metabolites." [PMID:20817774, PMID:22889220]
 is_a: PW:0000054 ! tryptophan metabolic pathway
 is_a: PW:0001258 ! hydrophobic amino acid degradation pathway
 created_by: VPetri
@@ -10441,11 +10265,7 @@ creation_date: 2013-05-13T11:48:30Z
 [Term]
 id: PW:0001284
 name: tyrosine degradation pathway
-alt_id: GO:0006572
-alt_id: Reactome:R-HSA-8963684
-def: "Those metabolic reactions involved in the degradation and/or conversion of tyrosine, a non-essential amino acid. Tyrosine is the precursor of several neurotransmitters and hormones. Tyrosine can also be degraded to acetoacetate and fumarate. In plants, tyrosine is the precursor of several families of secondary metabolites." [PMID:20817774]
-synonym: "tyrosine catabolic process" RELATED []
-synonym: "Tyrosine catabolism" RELATED []
+def: "Those metabolic reactions involved in the degradation and/or conversion of tyrosine, a non- essential amino acid. Tyrosine is the precursor of several neurotransmitters and hormones. Tyrosine can also be degraded to acetoacetate and fumarate. In plants, tyrosine is the precursor of several families of secondary metabolites." [PMID:20817774]
 is_a: PW:0000052 ! tyrosine metabolic pathway
 is_a: PW:0001258 ! hydrophobic amino acid degradation pathway
 created_by: VPetri
@@ -10781,9 +10601,6 @@ creation_date: 2013-05-22T11:36:22Z
 id: PW:0001323
 name: mitochondrial translation pathway
 def: "The translation pathway that takes place in the mitochondrion. The mitochondrial translation pathway utilizes 22 tRNAs which are encoded in the mitochondrial genome. The mitochondrial genome also encodes 2 ribosomal genes. A small set of mitochondrially encoded proteins is translated in the mitochondrion. Most others are nuclear genes, synthesized on cytosolic ribosomes and then targeted to the organelle." [PMID:22258151, PMID:22729854]
-synonym: "GO:0032543" RELATED []
-synonym: "Mitochondrial translation" RELATED []
-synonym: "Reactome:R-HSA-5368287" RELATED []
 is_a: PW:0000101 ! translation pathway
 relationship: part_of PW:0001959 ! mitochondria homeostasis pathway
 created_by: VPetri
@@ -10862,11 +10679,9 @@ creation_date: 2013-06-03T09:19:50Z
 [Term]
 id: PW:0001332
 name: RNA polymerase II transcription termination pathway
-alt_id: GO:0006386
 alt_id: Reactome:R-HSA-73856
 def: "Termination of transcription is important for partitioning the genome and maintaining adequate expression of neighboring genes." [PMID:21487437]
 synonym: "RNA Polymerase II Transcription Termination" RELATED []
-synonym: "termination of RNA polymerase III transcription" RELATED []
 relationship: part_of PW:0000127 ! RNA polymerase II transcription pathway
 created_by: VPetri
 creation_date: 2013-06-03T09:39:46Z
@@ -12069,9 +11884,7 @@ creation_date: 2013-10-25T12:14:03Z
 [Term]
 id: PW:0001472
 name: metabolic disease pathway
-alt_id: Reactome:R-HSA-5668914
 def: "Those diseases and disorders that are caused by deregulation of a metabolic pathway. It can be due to an inherited defect in an enzyme function and thus congenital, or acquired, when resulting from the failure or malfunctioning of an important metabolic organ." [MeSH:D008659]
-synonym: "Diseases of metabolism" RELATED []
 is_a: PW:0001583 ! nutritional and metabolic disease pathway
 created_by: VPetri
 creation_date: 2013-10-31T09:47:09Z
@@ -12800,7 +12613,6 @@ creation_date: 2014-07-29T15:51:22Z
 [Term]
 id: PW:0001557
 name: programmed cell death pathway
-alt_id: GO:0012501
 alt_id: Reactome:R-HSA-5357801
 def: "Programmed cell death pathways group together several types that can be described as apoptotic or non-apoptotic, based on morphological characteristics. The common feature is their highly regulated nature, as opposed to accidental, non-programmed cell death." [PMID:11965491, PMID:21760595, PMID:23030059]
 synonym: "Programmed Cell Death" RELATED []
@@ -12837,9 +12649,7 @@ creation_date: 2014-09-11T16:31:44Z
 [Term]
 id: PW:0001561
 name: necroptosis pathway
-alt_id: GO:0070266
-def: "Necroptosis is a programmed or regulated form of necrosis generally triggered by DNA damage and leading to cell swelling and lysis." [PMID:21760595, PMID:23030059]
-synonym: "necroptotic process" RELATED []
+def: "Necroptosis, is a programmed, or regulated form of necrosis generally triggered by DNA damage and leading to cell swelling and lysis." [PMID:21760595, PMID:23030059]
 synonym: "programmed necrosis pathway" RELATED []
 is_a: PW:0000276 ! non-apoptotic cell death pathway
 created_by: VPetri
@@ -12916,11 +12726,9 @@ creation_date: 2014-11-07T15:00:17Z
 [Term]
 id: PW:0001570
 name: RNA polymerase I transcription initiation pathway
-alt_id: GO:0006361
 alt_id: Reactome:R-HSA-73762
 def: "Initiation of transcription from the bipartite rDNA repeats requires the assembly of the Pol I preinitiation complex (PIC) and subsequent recruitment of the polymerase." [PMID:22960599]
 synonym: "RNA Polymerase I Transcription Initiation" RELATED []
-synonym: "transcription initiation at RNA polymerase I promoter" RELATED []
 relationship: part_of PW:0000126 ! RNA polymerase I transcription pathway
 created_by: VPetri
 creation_date: 2014-11-07T15:19:01Z
@@ -12928,11 +12736,7 @@ creation_date: 2014-11-07T15:19:01Z
 [Term]
 id: PW:0001571
 name: RNA polymerase I transcription elongation pathway
-alt_id: GO:0006362
-alt_id: Reactome:R-HSA-73777
 def: "Subunits of Pol I have elongation and hydrolysis capabilities. However, additional trans-acting factors are involved in pol I elongation steps." [PMID:21893173]
-synonym: "RNA Polymerase I Chain Elongation" RELATED []
-synonym: "transcription elongation by RNA polymerase I" RELATED []
 relationship: part_of PW:0000126 ! RNA polymerase I transcription pathway
 created_by: VPetri
 creation_date: 2014-11-07T15:27:41Z
@@ -12940,11 +12744,9 @@ creation_date: 2014-11-07T15:27:41Z
 [Term]
 id: PW:0001572
 name: RNA polymerase I transcription termination pathway
-alt_id: GO:0006363
 alt_id: Reactome:R-HSA-73863
 def: "Termination of transcription by the polymerase I system requires the recruitment of specific factors to particular DNA elements." [PMID:23092677]
 synonym: "RNA Polymerase I Transcription Termination" RELATED []
-synonym: "termination of RNA polymerase I transcription" RELATED []
 relationship: part_of PW:0000126 ! RNA polymerase I transcription pathway
 created_by: VPetri
 creation_date: 2014-11-07T15:39:16Z
@@ -12952,10 +12754,7 @@ creation_date: 2014-11-07T15:39:16Z
 [Term]
 id: PW:0001573
 name: tRNA maturation pathway
-alt_id: GO:0008033
-alt_id: Reactome:R-HSA-72306
-def: "Processing of the initial tRNA transcript, including splicing of intron-containing pre-tRNAs and multiple modifications to produce the mature tRNA molecule that is exported to the cytoplasm." [PMID:21915787, PMID:23545199]
-synonym: "tRNA processing" RELATED []
+def: "Processing of  the initial tRNA transcript, including splicing of intron-containing pre-tRNAs and multiple modifications to produce the mature tRNA molecule that is exported to the cytoplasm." [PMID:21915787, PMID:23545199]
 is_a: PW:0001568 ! RNA maturation pathway
 relationship: part_of PW:0000128 ! RNA polymerase III transcription pathway
 created_by: VPetri
@@ -12964,10 +12763,7 @@ creation_date: 2014-11-07T15:44:37Z
 [Term]
 id: PW:0001574
 name: rRNA maturation pathway
-alt_id: GO:0006364
-alt_id: Reactome:R-HSA-72312
-def: "The reactions involved in processing the primary pol I transcribed rRNA and the 5S pre-rRNA transcribed by pol III. The large pol I transcribed pre-rRNA contains the mature 18S, 5.8S and 25S/28S rRNAs separated by internal (ITS) and flanked by external transcribed spacers (ETS). The nascent pre-rRNA associates co-transcriptionally with various factors, folds and is modified, while endo- and exo-nucleolytic cleavages sequentially remove the spacers. Cleavage at site ITS1 separates the initial 90S pre-ribosome into pre-40S and pre-60S particles whose nucleocytoplasmic processing will follow independent routes." [PMID:17509569, PMID:25346433]
-synonym: "rRNA processing" RELATED []
+def: "The reactions involved in processing the primary pol I transcribed rRNA and the 5S pre-rRNA transcribed by pol III. The large pol I transcribed pre-rRNA contains the mature 18S, 5.8S and 25S/28S rRNAs separated by internal (ITS) and flanked by external transcribed spacers (ETS). The nascent pre-rRNA associates co-transcriptionally with various factors, folds and is modified, while endo- and exo-nucleolytic cleavages sequentially  remove the spacers. Cleavage at site ITS1 separates the initial 90S pre-ribosome into pre-40S and pre-60S particles whose nucleocytoplasmic processing will follow independent routes." [PMID:17509569, PMID:25346433]
 is_a: PW:0001568 ! RNA maturation pathway
 relationship: part_of PW:0000126 ! RNA polymerase I transcription pathway
 created_by: VPetri
@@ -12985,10 +12781,8 @@ creation_date: 2014-11-07T16:04:18Z
 [Term]
 id: PW:0001576
 name: RNA polymerase III transcription elongation pathway
-alt_id: GO:0006385
 alt_id: Reactome:R-HSA-73780
 synonym: "RNA Polymerase III Chain Elongation" RELATED []
-synonym: "transcription elongation by RNA polymerase III promoter" RELATED []
 relationship: part_of PW:0000128 ! RNA polymerase III transcription pathway
 created_by: VPetri
 creation_date: 2014-11-07T16:04:44Z
@@ -15437,10 +15231,7 @@ creation_date: 2015-08-24T16:06:13Z
 [Term]
 id: PW:0001842
 name: mitochondrial autophagy pathway
-alt_id: GO:0000423
-alt_id: Reactome:R-HSA-5205647
-def: "Damage to mitochondria will promote mitophagy, the mitochondrial autophagy pathway. It exhibits features common to macroautophagy or the regular autophagy, and also features that are distinct. Under more sustained stress, the cell will promote apoptosis. Translocation of cardiolipin, the signature phospholipid of the mitochondrial inner membrane, to the outer membrane, provides a signal of mitochondrial dysfunction." [PMID:22743996, PMID:23065344, PMID:25673287, PMID:25840011]
-synonym: "Mitophagy" RELATED []
+def: "Damage to mitochondria will promote mitophagy, the mitochondrial autophagy pathway. It exhibits features common to macroautophagy or the regular autophagy, and also features that are distinct. Under more sustained stress, the cell will promote apoptosis. Translocation of cardiolipin, the signature phospholipid of mitochondrial inner membrane, to the outer membrane, provides a signal of mitochondrial dysfunction." [PMID:22743996, PMID:23065344, PMID:25673287, PMID:25840011]
 synonym: "mitophagy pathway" RELATED []
 is_a: PW:0002402 ! cellular autophagy pathway
 relationship: part_of PW:0001959 ! mitochondria homeostasis pathway
@@ -17517,11 +17308,9 @@ creation_date: 2015-10-13T15:02:49Z
 [Term]
 id: PW:0002072
 name: lactose biosynthetic pathway
-alt_id: GO:0005989
 alt_id: Reactome:R-HSA-5653890
 alt_id: SMP:00444
 def: "Those reactions involved in the synthesis of lactose, the major sugar in milk." [https://en.wikipedia.org/wiki/Lactose "wikipedia"]
-synonym: "lactose biosynthetic process" RELATED []
 synonym: "Lactose synthesis" RELATED []
 is_a: PW:0001363 ! lactose metabolic pathway
 created_by: VPetri
@@ -17695,7 +17484,6 @@ id: PW:0002092
 name: galactosemia pathway
 def: "A galactosemia resulting from defects in the galactose-1-phosphate uridylyltransferase enzyme GALT." [OMIM:230400]
 synonym: "classic galactosemia pathway" EXACT []
-synonym: "Defective GALT can cause Galactosemia" RELATED []
 synonym: "galactose-1-phosphate uridylyl transferase deficiency pathway" EXACT []
 synonym: "GALT deficiency pathway" EXACT []
 synonym: "SMP:00182" RELATED []
@@ -17789,10 +17577,8 @@ creation_date: 2015-10-21T11:29:17Z
 [Term]
 id: PW:0002101
 name: hereditary fructose intolerance syndrome pathway
-alt_id: Reactome:R-HSA-5657560
 def: "An autosomal recessive disorder resulting from alterations in fructose metabolism and due to defects in the fructose-1-phosphate aldolase enzyme." [MeSH:D005633, OMIM:229600]
 synonym: "fructose intolerance pathway" EXACT []
-synonym: "Hereditary fructose intolerance" RELATED []
 synonym: "SMP:00725" RELATED []
 is_a: PW:0002099 ! inborn error of fructose metabolism pathway
 created_by: VPetri
@@ -19486,11 +19272,7 @@ creation_date: 2015-11-23T15:38:05Z
 [Term]
 id: PW:0002292
 name: carnitine biosynthetic pathway
-alt_id: GO:0045329
-alt_id: Reactome:R-HSA-71262
 def: "Those metabolic reactions involved in the synthesis of carnitine. It involves the amino acids lysine and methionine and it largely occurs in the kidney and liver." [https://en.wikipedia.org/wiki/Carnitine "wikipedia"]
-synonym: "carnitine biosynthetic process" RELATED []
-synonym: "Carnitine synthesis" RELATED []
 synonym: "SMP:00465" RELATED []
 is_a: PW:0002291 ! carnitine metabolic pathway
 created_by: VPetri
