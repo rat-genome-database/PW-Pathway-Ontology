@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.70
-date: 03:12:2022 20:13
+data-version: 7.69
+date: 26:11:2022 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: pathway
@@ -2294,9 +2294,8 @@ is_a: PW:0000279 ! necrosis pathway
 [Term]
 id: PW:0000312
 name: stress-regulated MAPK signaling pathway
-def: "MAPK signaling pathways that are responding to stress or injury as well as inflammatory cytokines." [GO:0051403, PMID:10209154, PMID:14570565, PMID:17229475, PMID:17306385]
+def: "MAPK signaling pathways that are responding to stress or injury as well as inflammatory cytokines" [PMID:10209154, PMID:14570565, PMID:17229475, PMID:17306385]
 synonym: "SAPK signaling pathway" RELATED []
-synonym: "stress-activated MAPK cascade" RELATED []
 is_a: PW:0000007 ! mitogen activated protein kinase signaling pathway
 
 [Term]
@@ -2887,8 +2886,7 @@ is_a: PW:0000359 ! altered energy homeostasis pathway
 [Term]
 id: PW:0000394
 name: dopamine signaling pathway
-def: "Dopamine signaling plays important roles in processes such as motivation, learning and movement. It also plays several roles in the periphery as a modulator of renal, cardiovascular and endocrine systems. Dopamine signals to a family of at least 5 receptors that are classified into two subfamilies that couple to distinct G proteins to elicit diverse downstream events. Deregulation of the pathway has been implicated in several neuropsychiatric and neurological disorders." [GO:0007212, KEGG:04728, PMID:17408758, PMID:18353279, Reactome:R-HSA-390651]
-synonym: "Dopamine receptors" RELATED []
+def: "Dopamine signaling plays important roles in processes such as motivation, learning and movement. It also plays several roles in the periphery as a modulator of renal, cardiovascular and endocrine systems. Dopamine signals to a family of at least 5 receptors that are classified into two subfamilies that couple to distinct G proteins to elicit diverse downstream events. Deregulation of the pathway has been implicated in several neuropsychiatric and neurological disorders." [GO:0007212, KEGG:04728, PMID:17408758, PMID:18353279]
 synonym: "dopamine receptor signaling pathway" RELATED []
 synonym: "dopaminergic pathway" RELATED []
 is_a: PW:0000274 ! neuron-to-neuron signaling pathway via the chemical synapse
@@ -3525,9 +3523,7 @@ is_a: PW:0000010 ! lipid metabolic pathway
 [Term]
 id: PW:0000486
 name: class I major histocompatibility complex pathway
-def: "Peptides generated from proteolytic degradation of cytosolic proteins are translocated to the ER where they associate with class I MHC molecules. Peptide-class I MHC complexes move through the Golgi and are transported to the cell surface to be recognized by CD8+ T cells." [GO:0002474, MCW:Handbook on cellular nad molecular immunology, PMID:16181325, Reactome:R-HSA-983169]
-synonym: "antigen processing and presentation of peptide antigen via MHC class I" RELATED []
-synonym: "Class I MHC mediated antigen processing & presentation" RELATED []
+def: "Peptides generated from proteolytic degradation of cytosolic proteins are translocated to the ER where they associate with class I MHC molecules. Peptide-class I MHC complexes move through the Golgi and are transported to the cell surface to be recognized by CD8+ T cells." [MCW:Handbook on cellular nad molecular immunology, PMID:16181325]
 synonym: "class I MHC pathway" RELATED []
 synonym: "MHC class I antigen presentation pathway" RELATED []
 is_a: PW:0000825 ! antigen processing and presentation pathway
@@ -4974,16 +4970,22 @@ is_a: PW:0000287 ! altered apoptotic cell death pathway
 [Term]
 id: PW:0000681
 name: FasL mediated signaling pathway
-def: "Fas ligand binding to its receptor triggers a conformational change that allows the receptor to assemble a signaling complex known as DISC, followed by recruitment of pro-caspase-8 and activation of caspase-3 and -7. It is believed that Fas-mediated signaling to elicit apoptosis follows two routes." [GO:0036337, PID:200080, PMID:14744432, Reactome:R-HSA-75157]
+alt_id: GO:0036337
+alt_id: Reactome:R-HSA-75157
+def: "Fas ligand binding to its receptor triggers a conformational change that allows the receptor to assemble a signaling complex known as DISC, followed by recruitment of pro-caspase-8 and activation of caspase-3 and -7. It is believed that Fas-mediated signaling to elicit apoptosis follows two routes." [PMID:14744432, Reactome:REACT_900.1]
 synonym: "FasL/ CD95L signaling" RELATED []
 synonym: "Fas signaling pathway" RELATED []
+synonym: "PID:200080" RELATED []
 is_a: PW:0000106 ! extrinsic apoptotic pathway
 is_a: PW:0000236 ! tumor necrosis factor superfamily mediated signaling pathway
 
 [Term]
 id: PW:0000682
 name: Trail mediated signaling pathway
-def: "Trail-mediated signaling leads to apoptosis via assembly of the DISC complex (Death-Inducing Signaling Complex) downstream of its receptors." [GO:0036462, PID:200068, PMID:14744432, Reactome:R-HSA-75158]
+alt_id: Reactome:R-HSA-75158
+def: "Trail-mediated signaling leads to apoptosis via assembly of the DISC complex (Death-Inducing Signaling Complex) downstream of its receptors." [PMID:14744432, Reactome:REACT_402.1]
+synonym: "GO:0036462" RELATED []
+synonym: "PID:200068" RELATED []
 synonym: "TRAIL-activated apoptotic signaling pathway" RELATED []
 synonym: "TRAIL signaling" RELATED []
 is_a: PW:0000106 ! extrinsic apoptotic pathway
@@ -5011,8 +5013,7 @@ creation_date: 2009-08-03T02:45:17Z
 [Term]
 id: PW:0000685
 name: glucose biosynthesis pathway
-def: "The metabolic pathways for generating glucose to meet the body's glucose needs. Gluconeogenesis in the liver and to some extent in kidney is the major pathway of glucose production; glycogenolysis is another route for generating glucose in these tissues." [GO:0006094, MCW Libraries:ISBN-13 978-0470-12930-2, Reactome:R-HSA-70263]
-synonym: "Gluconeogenesis" RELATED []
+def: "The metabolic pathways for generating glucose to meet the body's glucose needs. Gluconeogenesis in the liver and to some extent in kidney is the major pathway of glucose production; glycogenolysis is another route for generating glucose in these tissues." [MCW Libraries:ISBN-13 978-0470-12930-2]
 relationship: part_of PW:0000553 ! glucose homeostasis pathway
 created_by: VPetri
 creation_date: 2009-08-05T08:54:36Z
@@ -5085,8 +5086,7 @@ creation_date: 2009-10-07T12:24:18Z
 [Term]
 id: PW:0000693
 name: biphenyl degradation pathway
-def: "Those enzymatic reactions involved in the degradation of biphenyl, an aromatic hydrocarbon used as a starting material for the production of polychlorinated biphenyls or as an intermediate for the production of a variety of organic compounds." [GO:0070980, KEGG:map00621, OneLook:www.onelook.com]
-synonym: "biphenyl catabolic process" RELATED []
+def: "Those enzymatic reactions involved in the degradation of biphenyl, an aromatic hydrocarbon used as a starting material for the production of polychlorinated biphenyls or as an intermediate for the production of a variety of organic compounds." [KEGG:map00621, OneLook:www.onelook.com]
 is_a: PW:0000107 ! xenobiotics biodegradation pathway
 created_by: VPetri
 creation_date: 2009-10-20T08:59:23Z
@@ -5094,8 +5094,7 @@ creation_date: 2009-10-20T08:59:23Z
 [Term]
 id: PW:0000694
 name: geraniol degradation pathway
-def: "Those enzymatic reactions involved in the degradation of geraniol, a monoterpenoid and an alcohol, used in perfumes and in flavors." [GO:1903447, KEGG:map00281, OneLook:www.onelook.com]
-synonym: "geraniol catabolic process" RELATED []
+def: "Those enzymatic reactions involved in the degradation of geraniol, a monoterpenoid and an alcohol, used in perfumes and in flavors." [KEGG:map00281, OneLook:www.onelook.com]
 is_a: PW:0000107 ! xenobiotics biodegradation pathway
 created_by: VPetri
 creation_date: 2009-10-20T09:30:32Z
@@ -5111,7 +5110,6 @@ creation_date: 2009-10-20T10:20:07Z
 id: PW:0000696
 name: zeatin biosynthetic pathway
 def: "Those metabolic reactions involved in the synthesis of zeatin - a plant hormone derived from adenine. It induces plant growth and has been reported to have anti-aging effects on human skin fibroblasts." [GO:0033398, KEGG:map00908, OneLook:www.onelook.com]
-synonym: "zeatin biosynthetic process" RELATED []
 is_a: PW:0000147 ! metabolic pathway of secondary metabolites
 created_by: VPetri
 creation_date: 2009-10-20T10:23:22Z
@@ -5119,8 +5117,7 @@ creation_date: 2009-10-20T10:23:22Z
 [Term]
 id: PW:0000697
 name: carotenoid biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of carotenoids, organic pigments found in plants and other photosynthetic organisms. Some can act as antioxidants." [GO:0016117, KEGG:map00906, OneLook:www.onelook.com]
-synonym: "carotenoid biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of carotenoids, organic pigments found in plants and other photosynthetic organisms. Some can act as antioxidants." [GO:0016120, KEGG:map00906, OneLook:www.onelook.com]
 is_a: PW:0000147 ! metabolic pathway of secondary metabolites
 created_by: VPetri
 creation_date: 2009-10-20T10:29:04Z
@@ -5455,10 +5452,8 @@ creation_date: 2010-02-17T11:26:21Z
 [Term]
 id: PW:0000733
 name: glycosphingolipid metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of glycosphingolipids - glycolipids with sugar(s) attached to the ceramide core. Based on the sequences of the core carbohydrate residues, they are classified into a number of series such as lacto- and neolacto-, globo-, ganglio- or muco-series." [GO:0006687, MCW library:QU4 M235b 2009, PMID:15207828, PMID:17976918, PMID:18845618, Reactome:R-HSA-1660662]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of glycosphingolipids - glycolipids with sugar(s) attached to the ceramide core. Based on the sequences of the core carbohydrate residues, they are classified into a number of series such as lacto- and neolacto-, globo-, ganglio- or muco-series." [GO:0006687, MCW library:QU4 M235b 2009, PMID:15207828, PMID:17976918, PMID:18845618]
 synonym: "glycolipid metabolic pathway" RELATED []
-synonym: "glycosphingolipid metabolic process" RELATED []
-synonym: "Glycosphingolipid metabolism" RELATED []
 synonym: "GSL metabolic pathway" RELATED []
 is_a: PW:0000197 ! sphingolipid metabolic pathway
 created_by: VPetri
@@ -5484,7 +5479,8 @@ creation_date: 2010-02-17T02:08:31Z
 [Term]
 id: PW:0000736
 name: triacylglycerol biosynthetic pathway
-def: "The de novo synthesis of triacylglycerol, the common form of fatty acid transport and storage. Most triacylglycerols are synthesized in the liver and stored in the adipose tissue." [GO:0019432, MCW library:QU4 M235b 2009, Reactome:R-HSA-75109]
+alt_id: Reactome:R-HSA-75109
+def: "The de novo synthesis of triacylglycerol, the common form of fatty acid transport and storage. Most triacylglycerols are synthesized in the liver and stored in the adipose tissue." [GO:0019432, MCW library:QU4 M235b 2009]
 synonym: "lipogenesis pathway" RELATED []
 synonym: "Triglyceride biosynthesis" RELATED []
 synonym: "triglyceride biosynthetic process" RELATED []
@@ -5495,10 +5491,8 @@ creation_date: 2010-02-17T02:15:19Z
 [Term]
 id: PW:0000737
 name: triacylglycerol degradation pathway
-def: "Those enzymatic reactions involved in the degradation of triacylglycerols when energy reserves are low, such as in the fasting state, during exercise or in response to stress. Triacylglycerols are the common form of fatty acid transport and storage." [GO:0019433, MCW library:QU4 M235b 2009, Reactome:R-HSA-163560]
+def: "The degradation pathway of triacylglycerols when the energy reserves are low such as in the fasting state, during exercise or in response to stress. Triacylglycerols are the common form of fatty acid transport and storage." [GO:0019433, MCW library:QU4 M235b 2009]
 synonym: "lipolysis pathway" RELATED []
-synonym: "triglyceride catabolic process" RELATED []
-synonym: "Triglyceride catabolism" RELATED []
 is_a: PW:0000153 ! triacylglycerol metabolic pathway
 created_by: VPetri
 creation_date: 2010-02-17T02:19:06Z
@@ -5571,7 +5565,6 @@ creation_date: 2010-02-18T01:15:47Z
 id: PW:0000745
 name: sphingomyelin metabolic pathway
 def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of sphingomyelin - a sphingolipid found abundantly in the myelin sheath of nerve cells." [GO:0006684, MCW library:QU4 M235b 2009]
-synonym: "sphingomyelin metabolic process" RELATED []
 is_a: PW:0000197 ! sphingolipid metabolic pathway
 created_by: vpetri
 creation_date: 2010-02-18T01:28:17Z
@@ -5642,7 +5635,7 @@ creation_date: 2010-02-23T03:18:14Z
 [Term]
 id: PW:0000753
 name: sterol regulatory element-binding protein signaling pathway
-def: "The sterol regulatory element-binding protein (SREBP) pathway has important roles in the control of lipid and cholesterol metabolism. SREBPs are sterol-regulated transcription factors that belong to the bHLH family." [GO:0032933, PMID:17303406]
+def: "The sterol regulatory element-binding protein (SREBP) pathway has important roles in the control of lipid and cholesterol metabolism. SREBPs are sterol regulated transcription factors that belong to the bHLH family." [PMID:17303406]
 synonym: "SREBP signaling pathway" RELATED []
 is_a: PW:0001313 ! transcription pathway via transcription factor mediated signaling
 is_a: PW:0001371 ! basic helix-loop-helix signaling pathway
@@ -5791,10 +5784,10 @@ creation_date: 2010-03-22T01:50:32Z
 [Term]
 id: PW:0000770
 name: C19-steroid hormone biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of C19-steroid hormones. Pregnenolone, a C21 steroid derived from cholesterol, and progesterone, to which pregnenolone can be converted, provide the starting material for the C21, C19 and C18 steroid hormones. The C19 class is represented by androgens such as testosterone." [GO:0006702, PMID:17926129, PMID:18720009, Reactome:R-HSA-193048]
+alt_id: Reactome:R-HSA-193048
+def: "Those metabolic reactions involved in the synthesis of C19-steroid hormones. Pregnenolone, a C21 steroid derived from cholesterol, and progesterone, to which pregnenolone can be converted, provide the starting material for the C21, C19 and C18 steroid hormones. The C19 class is represented by androgens such as testosterone." [PMID:17926129, PMID:18720009]
 synonym: "Androgen biosynthesis" RELATED []
 synonym: "androgen biosynthetic pathway" RELATED []
-synonym: "androgen biosynthetic process" RELATED []
 is_a: PW:0000040 ! steroid hormone biosynthetic pathway
 created_by: VPetri
 creation_date: 2010-04-20T03:43:21Z
@@ -5802,9 +5795,9 @@ creation_date: 2010-04-20T03:43:21Z
 [Term]
 id: PW:0000771
 name: mineralocorticoid biosynthetic pathway
-def: "Mineralocorticoids are a group of C21 steroid hormones synthesized by the adrenal cortex and so named because of their effects on the concentration of sodium as well as potassium and chloride. The group is best exemplified by aldosterone." [GO:0006705, OneLook:www.onelook.com, Reactome:R-HSA-193993]
+alt_id: Reactome:R-HSA-193993
+def: "Mineralocorticoids are a group of C21 steroid hormones synthesized by the adrenal cortex and so named because of their effects on the concentration of sodium as well as potassium and chloride. The group is best exemplified by aldosterone." [OneLook:www.onelook.com]
 synonym: "Mineralocorticoid biosynthesis" RELATED []
-synonym: "mineralocorticoid biosynthetic process" RELATED []
 is_a: PW:0000070 ! C21-steroid hormone biosynthetic pathway
 created_by: VPetri
 creation_date: 2010-04-20T04:01:52Z
@@ -5812,9 +5805,9 @@ creation_date: 2010-04-20T04:01:52Z
 [Term]
 id: PW:0000772
 name: glucocorticoid biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of glucocorticoids, a group of C21 steroid hormones synthesized by the adrenal cortex and so named because of their effects on glucose metabolism. They also play a role in developmental processes and the immune system. The group is best exemplified by cortisol." [GO:0006704, OneLook:www.onelook.com, Reactome:R-HSA-194002]
+alt_id: Reactome:R-HSA-194002
+def: "Glucocorticoids are a group of C21 steroid hormones synthesized by the adrenal cortex and so named because of their effects on glucose metabolism. They also play a role in developmental processes and the immune system. The group is best exemplified by cortisol." [OneLook:www.onelook.com]
 synonym: "Glucocorticoid biosynthesis" RELATED []
-synonym: "glucocorticoid biosynthetic process" RELATED []
 is_a: PW:0000070 ! C21-steroid hormone biosynthetic pathway
 created_by: VPetri
 creation_date: 2010-04-20T04:31:54Z
@@ -5822,8 +5815,7 @@ creation_date: 2010-04-20T04:31:54Z
 [Term]
 id: PW:0000773
 name: aldosterone biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of aldosterone, a C21 mineralocorticoid produced in the outer zone, the zona glomerulosa, of the adrenal cortex from cholesterol as the precursor. It plays important roles in the regulation of water and salt balance." [GO:0032342, PMID:17926129]
-synonym: "aldosterone biosynthetic process" RELATED []
+def: "Aldosterone is a C21 mineralocorticoid produced in the outer zone, the zona glomerulosa, of the adrenal cortex from the cholesterol precursor. It plays important roles in the regulation of water and salt balance." [PMID:17926129]
 is_a: PW:0000771 ! mineralocorticoid biosynthetic pathway
 created_by: VPetri
 creation_date: 2010-04-20T04:49:31Z
@@ -5831,8 +5823,7 @@ creation_date: 2010-04-20T04:49:31Z
 [Term]
 id: PW:0000774
 name: cortisol biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of cortisol, a C21 glucocorticoid produced in the middle zone, the zona fasciculata, of the adrenal cortex from cholesterol as the precursor. It plays important roles in the metabolism of carbohydrates and other nutrients." [GO:0034651, PMID:17926129]
-synonym: "cortisol biosynthetic process" RELATED []
+def: "Cortisol is a C21 glucocorticoid produced in the middle zone, the zona fasciculata, of the adrenal cortex from the cholesterol precursor. It plays important roles in carbohydrate and other nutrients metabolism." [PMID:17926129]
 is_a: PW:0000772 ! glucocorticoid biosynthetic pathway
 created_by: VPetri
 creation_date: 2010-04-20T04:49:53Z
@@ -5849,9 +5840,7 @@ creation_date: 2010-04-26T10:53:15Z
 [Term]
 id: PW:0000776
 name: ketone bodies biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of acetoacetate and beta-hydroxybutyrate, also known as ketone bodies, although only acetoacetate is a ketone. Generally, the acetyl-CoA derived from fatty acid oxidation enters the citrate cycle. In the liver, a substantial fraction of acetyl-CoA is converted to ketone bodies which are then released into the bloodstream to supply peripheral tissues." [GO:0042181, KEGG:map00072, MCW Libraries:QU4 V876f 2008, Reactome:R-HSA-77111]
-synonym: "ketone biosynthetic process" RELATED []
-synonym: "Synthesis of Ketone Bodies" RELATED []
+def: "Those metabolic reactions involved in the synthesis of acetoacetate and beta-hydroxybutyrate also known as ketone bodies although only acetoacetate is a ketone. Generally, the acetyl-CoA derived from fatty acids oxidation enters the citrate cycle. In the liver, a substantial fraction of acetyl-CoA is converted to ketone bodies which are then released into the blood stream for supply to peripheral tissues." [GO:0042181, KEGG:map00072, MCW Libraries:QU4 V876f 2008, Reactome:REACT_1464.3]
 is_a: PW:0000069 ! ketone bodies metabolic pathway
 created_by: VPetri
 creation_date: 2010-05-20T01:06:48Z
@@ -5859,8 +5848,8 @@ creation_date: 2010-05-20T01:06:48Z
 [Term]
 id: PW:0000777
 name: ketone bodies degradation pathway
-def: "Those metabolic reactions that convert acetoacetate and beta-hydroxybutyrate back to acetyl-CoA, which then can enter the citrate cycle for energy production. Ketone bodies are synthesized in the liver and released into the bloodstream to supply fuel to peripheral tissues, heart and skeletal muscle in particular and during starvation, the brain." [GO:0046952, KEGG:map00072, MCW Libraries:QU4 V876f 2008, Reactome:R-HSA-77108]
-synonym: "ketone body catabolic process" RELATED []
+alt_id: Reactome:R-HSA-77108
+def: "Those metabolic reactions that convert acetoacetate and beta-hydroxybutyrate back to acetyl-CoA which then can enter the citrate cycle for energy production. The ketone bodies are synthesized in the liver and released into the blood stream to supply fuel to peripheral tissues, heart and skeletal muscle in particular and during starvation, the brain." [GO:0046952, KEGG:map00072, MCW Libraries:QU4 V876f 2008]
 synonym: "Utilization of Ketone Bodies" RELATED []
 is_a: PW:0000069 ! ketone bodies metabolic pathway
 created_by: VPetri
@@ -5869,8 +5858,7 @@ creation_date: 2010-05-20T01:23:02Z
 [Term]
 id: PW:0000778
 name: testosterone biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of testosterone, a C19-steroid hormone secreted primarily in the testes and ovaries and to a lesser extend by the adrenal glands." [GO:0061370, OneLook:www.onelook.com]
-synonym: "testosterone biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of testosterone, a C19-steroid hormone secreted primarily in the testes and ovaries and to a lesser extend by the adrenal glands." [OneLook:www.onelook.com]
 is_a: PW:0000770 ! C19-steroid hormone biosynthetic pathway
 created_by: VPetri
 creation_date: 2010-05-20T02:21:52Z
@@ -5887,10 +5875,10 @@ creation_date: 2010-05-20T02:25:04Z
 [Term]
 id: PW:0000780
 name: C18-steroid hormone biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of C18-steroid hormones. Pregnenolone, a C21 steroid derived from cholesterol, and progesterone, to which pregnenolone can be converted, provide the starting material for the C21, C19 and C18 steroid hormones. The C18 class is represented by estrogens. The major natural estrogens are beta-estradiol - the primary estrogen, the estrone of menopause and the estriol of pregnancy." [GO:0006703, OneLook:www.onelook.com, PMID:17926129, Reactome:R-HSA-193144]
+alt_id: Reactome:R-HSA-193144
+def: "Those metabolic reactions involved in the synthesis of C18-steroid hormones. Pregnenolone, a C21 steroid derived from cholesterol, and progesterone, to which pregnenolone can be converted, provide the starting material for the C21, C19 and C18 steroid hormones. The C18 class is represented by estrogens. The major natural estrogens are beta-estradiol - the primary estrogen, the estrone of menopause and the estriol of pregnancy." [OneLook:www.onelook.com, PMID:17926129]
 synonym: "Estrogen biosynthesis" RELATED []
 synonym: "estrogen biosynthetic pathway" RELATED []
-synonym: "estrogen biosynthetic process" RELATED []
 is_a: PW:0000040 ! steroid hormone biosynthetic pathway
 created_by: VPetri
 creation_date: 2010-05-20T02:42:49Z
@@ -6004,7 +5992,8 @@ creation_date: 2010-06-18T03:54:56Z
 [Term]
 id: PW:0000793
 name: epinephrine signaling pathway via adrenergic receptor alpha 2
-def: "Epinephrine acts as a hormone and a neurotransmitter. It promotes various actions by signaling via various adrenergic receptors, of the G-protein coupled receptor type. The alpha 2 receptors couple to the Galphai subunit." [OneLook:www.onelook.com, Reactome:R-HSA-392023]
+alt_id: Reactome:R-HSA-392023
+def: "Epinephrine acts as a hormone and a neurotransmitter. It promotes various actions by signaling via various adrenergic receptors, G-protein coupled receptor type. The alpha 2 receptors couple to the Galphai subunit." [OneLook:www.onelook.com]
 synonym: "Adrenaline signalling through Alpha-2 adrenergic receptor" RELATED []
 is_a: PW:0000790 ! epinephrine signaling pathway
 created_by: VPetri
@@ -6080,8 +6069,7 @@ creation_date: 2010-07-01T09:12:37Z
 [Term]
 id: PW:0000802
 name: dopamine biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of dopamine." [GO:0042416, PMID:19342614]
-synonym: "dopamine biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of dopamine." [PMID:19342614]
 is_a: PW:0000409 ! dopamine metabolic pathway
 is_a: PW:0001235 ! catecholamine biosynthetic pathway
 created_by: VPetri
@@ -6090,8 +6078,7 @@ creation_date: 2010-08-13T02:17:38Z
 [Term]
 id: PW:0000803
 name: epinephrine biosynthetic pathway
-def: "Those metabolic reactions involved in the biosynthesis of epinephrine. Epinephrine is primarily synthesized in adrenal chromaffin cells in response to specific stresses that activate the sympatho-adreno-medullary system." [GO:0042418, PMID:19342614]
-synonym: "epinephrine biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the biosynthesis of epinephrine. Epinephrine is primarily synthesized in adrenal chromaffin cells in response to specific stresses that activate the sympatho-adreno-medullary system." [PMID:19342614]
 is_a: PW:0000441 ! epinephrine metabolic pathway
 is_a: PW:0001235 ! catecholamine biosynthetic pathway
 created_by: VPetri
@@ -6100,8 +6087,7 @@ creation_date: 2010-08-13T02:18:06Z
 [Term]
 id: PW:0000804
 name: norepinephrine biosynthetic pathway
-def: "Those metabolic reactions involved in the biosynthesis of norepinephrine. Norepinephrine is primarily synthesized in sympathetic neurons in response to stresses such as cold or pain." [GO:0042421, PMID:19342614]
-synonym: "norepinephrine biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the biosynthesis of norepinephrine. Norepinephrine is primarily synthesized in sympathetic neurons in response to stresses such as cold or pain." [PMID:19342614]
 is_a: PW:0000442 ! norepinephrine metabolic pathway
 is_a: PW:0001235 ! catecholamine biosynthetic pathway
 created_by: VPetri
@@ -6137,7 +6123,9 @@ creation_date: 2010-10-08T11:40:35Z
 [Term]
 id: PW:0000808
 name: microRNA pathway
-def: "MicroRNAs (miRNAs) are a large family of small RNAs involved in the post-transcriptional regulation of gene expression. The biogenesis and function of miRNA is subject to complex control. Deregulation of miRNA expression has been linked to many diseases including cancer." [GO:0035196, PMID:20471939, PMID:20661255, PMID:20885409, Reactome:R-HSA-203927]
+alt_id: GO:0035196
+alt_id: Reactome:R-HSA-203927
+def: "MicroRNAs (miRNAs) are a large family of small RNAs involved in the post transcriptional regulation of gene expression. The biogenesis and function of miRNA is subject to complex control. Deregulation of miRNA expression has been linked to many diseases including cancer." [PMID:20471939, PMID:20661255, PMID:20885409]
 synonym: "MicroRNA (miRNA) biogenesis" RELATED []
 synonym: "miRNA pathway" RELATED []
 synonym: "production of miRNAs involved in gene silencing by miRNA" RELATED []
@@ -6192,7 +6180,9 @@ creation_date: 2010-10-15T04:05:12Z
 [Term]
 id: PW:0000814
 name: Toll-like receptor signaling pathway
-def: "Toll-like receptors represent a large and the better understood family of pattern recognition receptors that sense an array of exogenous structures, and recent evidence shows they can also recognize defective endogenous molecules. The intracellular signaling cascades they set in motion lead to the expression of inflammatory mediators." [GO:0002224, KEGG:04620, PMID:20303867, PMID:20303872, Reactome:R-HSA-168898]
+alt_id: KEGG:04620
+alt_id: Reactome:R-HSA-168898
+def: "Toll-like receptors represent a large and the better understood family of pattern recognition receptors that sense an array of exogenous structures and recent evidence shows they can also recognize defective endogenous molecules. The intracellular signaling cascades they set in motion lead to the expression of inflammatory mediators." [PMID:20303867, PMID:20303872]
 synonym: "TLR signaling pathway" RELATED []
 synonym: "Toll-Like Receptors Cascades" RELATED []
 is_a: PW:0000925 ! pattern recognition receptor mediated signaling pathway
@@ -6210,8 +6200,8 @@ creation_date: 2010-10-27T11:38:01Z
 [Term]
 id: PW:0000816
 name: Retinoic acid-inducible gene (RIG) I-like receptor signaling pathway
-def: "This family of pattern recognition receptors are cytoplasmic proteins that recognize exogenous cytoplasmic DNA. The signaling cascades they set in motion lead to the expression of inflammatory mediators." [GO:0039529, KEGG:04622, PMID:20303867, PMID:20303872]
-synonym: "RIG-I signaling pathway" RELATED []
+def: "This family of pattern recognition receptors are cytoplasmic proteins that recognize exogenous cytoplasmic DNA. The signaling cascades they set in motion lead to the expression of inflammatory mediators." [PMID:20303867, PMID:20303872]
+synonym: "KEGG:04622" RELATED []
 synonym: "RLR signaling pathway" RELATED []
 is_a: PW:0000925 ! pattern recognition receptor mediated signaling pathway
 created_by: VPetri
@@ -6220,10 +6210,11 @@ creation_date: 2010-10-27T11:43:26Z
 [Term]
 id: PW:0000817
 name: NOD-like receptor signaling pathway
-def: "NOD-like receptors are cytosolic proteins that recognize components of bacterial peptidoglycans. The signaling cascades they set in motion lead to the expression of inflammatory mediators." [GO:0035872, KEGG:04621, PMID:20303867, PMID:20303872, Reactome:R-HSA-168643]
+alt_id: KEGG:04621
+alt_id: Reactome:R-HSA-168643
+def: "NOD-like receptors are cytosolic proteins that recognize components of bacterial peptidoglycans. The signaling cascades they set in motion lead to the expression of inflammatory mediators." [PMID:20303867, PMID:20303872]
 synonym: "NLR signaling pathway" RELATED []
 synonym: "Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways" RELATED []
-synonym: "nucleotide-binding domain, leucine rich repeat containing receptor signaling pathway" RELATED []
 is_a: PW:0000925 ! pattern recognition receptor mediated signaling pathway
 created_by: VPetri
 creation_date: 2010-10-27T11:45:03Z
@@ -6253,7 +6244,10 @@ creation_date: 2010-10-27T03:09:29Z
 [Term]
 id: PW:0000821
 name: T cell receptor signaling pathway
-def: "T cell receptor (TCR) signaling in developing thymocytes is important for the establishment of CD4 and CD8 lineages. Mature T cells express either CD4 or CD8 co-receptors which are essential for the interaction with peptide-bound class II or class I MHC complexes to elicit CD4 T helper (Th) or CD8 cytotoxic T lymphocyte responses, respectively. In either case, T cell-initiated signaling activates the expression of genes whose products mediate these responses." [GO:0050852, KEGG:04660, MCW library:Handbook of cellular and molecular immunology, PMID:16448548, PMID:20537906, Reactome:R-HSA-202403]
+alt_id: GO:0050852
+alt_id: KEGG:04660
+alt_id: Reactome:R-HSA-202403
+def: "T cell receptor (TCR) signaling in developing thymocytes is important for the establishment of CD4 and CD8 lineages. Mature T cells express either CD4 or CD8 co-receptors which are essential for the interaction with peptide-bound class II or class I MHC complexes to elicit CD4 T helper (Th) or CD8 cytotoxic T lymphocyte responses, respectively. In either case, T cell-initiated signaling activates the expression of genes whose products mediate these responses." [MCW library:Handbook of cellular and molecular immunology, PMID:16448548, PMID:20537906]
 synonym: "TCR signaling" RELATED []
 synonym: "TCR signaling pathway" RELATED []
 is_a: PW:0000820 ! signaling pathway in the adaptive immune response
@@ -6264,9 +6258,9 @@ creation_date: 2010-10-27T03:28:43Z
 [Term]
 id: PW:0000822
 name: B cell receptor signaling pathway
-def: "Antigen recognition by B cell receptors initiates signaling cascades that activate the expression of genes whose products are important for B cell functional responses." [GO:0050853, KEGG:04662, MCW library:Handbook on cellular and molecular immunology, PMID:19827951, PMID:20591989, Reactome:R-HSA-983705]
+def: "Antigen recognition by B cell receptors initiates signaling cascades that activate the expression of genes whose products are important for B cell functional responses." [MCW library:Handbook on cellular and molecular immunology, PMID:19827951, PMID:20591989]
 synonym: "BCR signaling pathway" RELATED []
-synonym: "Signaling by the B Cell Receptor (BCR)" RELATED []
+synonym: "KEGG:04662" RELATED []
 is_a: PW:0000820 ! signaling pathway in the adaptive immune response
 relationship: part_of PW:0000823 ! humoral immunity pathway
 created_by: VPetri
@@ -6291,8 +6285,8 @@ creation_date: 2010-11-01T01:49:42Z
 [Term]
 id: PW:0000825
 name: antigen processing and presentation pathway
-def: "The pathways of antigen processing and presentation assure the generation of peptides that have the structural attributes necessary for the association with and their placement near major histocompatibility complex (MHC) molecules. Protein antigens present in vesicular compartments generate class II peptides, those in cytosol, class I." [GO:0019882, KEGG:04612, MCW library:Handbook on cellular and molecular immunology]
-synonym: "antigen processing and presentation" RELATED []
+def: "The pathways of antigen processing and presentation assure the generation of peptides that have the structural attributes necessary for the association with and their placement near major histocompatibility complex (MHC) molecules. Protein antigen present in vesicular compartments generate class II peptides, those in cytosol class I." [MCW library:Handbook on cellular and molecular immunology]
+synonym: "KEGG:04612" RELATED []
 relationship: part_of PW:0000824 ! cell-mediated immunity pathway
 created_by: VPetri
 creation_date: 2010-11-01T05:17:15Z
@@ -6316,9 +6310,8 @@ creation_date: 2010-11-03T10:44:22Z
 [Term]
 id: PW:0000828
 name: cytokine mediated signaling pathway
-def: "Cytokine-initiated signaling pathways play important roles in innate and adaptive immunity, as well as cell proliferation and apoptosis." [GO:0019221, KEGG:04060, MCW library:Handbook on molecular and cellular immunology, Reactome:R-HSA-1280215]
-synonym: "cytokine-mediated signaling pathway" RELATED []
-synonym: "Cytokine Signaling in Immune system" RELATED []
+def: "Cytokine initiated signaling pathways play important roles in innate and adaptive immunity, as well as cell proliferation and apoptosis." [MCW library:Handbook on molecular and cellular immunology]
+synonym: "KEGG:04060" RELATED []
 is_a: PW:0000577 ! cytokine and chemokine mediated signaling pathway
 is_a: PW:0000818 ! signaling pathway pertinent to immunity
 created_by: VPetri
@@ -6327,9 +6320,8 @@ creation_date: 2010-11-03T03:48:57Z
 [Term]
 id: PW:0000829
 name: chemokine mediated signaling pathway
-def: "Chemokine-initiated pathways play important roles in innate and adaptive immunity. They are also involved in development and tissue maintenance. The presence and localization of four cysteines is important for structural folding and is also the basis for chemokine classification. The spacing between the first two cysteine residues divides the family members into four groups. Most mammalian chemokines belong to the CC and CXC families. Chemokines signal via G-protein-coupled receptors to engage distinct G-protein signaling and downstream cascades." [GO:0070098, KEGG:04062, MCW library:Handbook on molecular and cellular immunology, PMID:15062643, Reactome:R-HSA-380108]
-synonym: "chemokine-mediated signaling pathway" RELATED []
-synonym: "Chemokine receptors bind chemokines" RELATED []
+def: "Chemokine initiated pathways play important roles in the innate and adaptive immunity. They are also involved in development and tissue maintenance. The presence and localization of four cysteines is important for structural folding and is also the basis for chemokine classification. The spacing between the first two cysteine residues divides the family members into four groups. Most mammalian chemokines belong to the CC and CXC families. Chemokines signal via G-protein coupled receptors to engage distinct G protein signaling and downstream cascades." [MCW library:Handbook on molecular and cellular immunology, PMID:15062643]
+synonym: "KEGG:04062" RELATED []
 is_a: PW:0000577 ! cytokine and chemokine mediated signaling pathway
 is_a: PW:0000818 ! signaling pathway pertinent to immunity
 created_by: VPetri
@@ -6421,8 +6413,7 @@ creation_date: 2011-01-17T01:06:59Z
 [Term]
 id: PW:0000840
 name: protein kinase C (PKC) signaling pathway
-def: "Protein kinase C constitutes a family of serine/threonine kinases activated by diacylglycerol (DAG) and calcium whose signal transduction plays important roles in many cellular processes. Ligand-activated G protein-coupled receptors, via the Galphaq pathway, stimulate phospholipase C, which cleaves PIP2 into DAG and IP3. IP3 promotes calcium release." [GO:0070528, PMID:19934406]
-synonym: "protein kinase C signaling" RELATED []
+def: "Protein kinase C constitutes a family of serine/threonine kinases activated by diacylglycerol (DAG) and calcium whose signal transduction plays important roles in many cellular processes. Ligand activated G protein-coupled receptors, via Galphaq pathway, stimulate phospholipase C which cleaves PIP2 into DAG and IP3. IP3 promotes calcium release." [GO:0070528, PMID:19934406]
 is_a: PW:0000541 ! signaling pathway involving second messengers
 is_a: PW:0001194 ! serine/threonine-specific kinase mediated signaling pathway
 created_by: VPetri
@@ -6431,9 +6422,10 @@ creation_date: 2011-03-09T10:02:32Z
 [Term]
 id: PW:0000841
 name: acetylcholine signaling pathway
-def: "Acetylcholine signaling plays important roles in the central and peripheral nervous systems and exerts both excitatory and inhibitory effects. It is synthesized from acetyl-CoA and choline by choline O-acetyltransferase." [GO:0095500, KEGG:04725, OneLook:www.onelook.com, PMID:17786266, Reactome:R-HSA-181431]
+alt_id: KEGG:04725
+alt_id: Reactome:R-HSA-181431
+def: "Acetylcholine signaling plays important roles in the central and peripheral nervous systems and exerts both excitatory and inhibitory effects. It is synthesized from acetyl-CoA and choline by choline O-acetyltransferase." [OneLook:www.onelook.com, PMID:17786266]
 synonym: "Acetylcholine binding and downstream events" RELATED []
-synonym: "acetylcholine receptor signaling pathway" RELATED []
 synonym: "ACh signaling pathway" EXACT []
 is_a: PW:0000274 ! neuron-to-neuron signaling pathway via the chemical synapse
 is_a: PW:0001162 ! chemical compound signaling pathway
@@ -6451,8 +6443,7 @@ creation_date: 2011-03-09T11:18:32Z
 [Term]
 id: PW:0000843
 name: acetylcholine signaling pathway via muscarinic acetylcholine receptor
-def: "Acetylcholine signaling via the metabotropic muscarinic receptors exerts important roles in the central and peripheral nervous system, the autonomic nervous system and also in non-neuronal cells. The five G protein-coupled receptors can be classified according to the G proteins they engage. Receptors M1, M3 and M5 predominantly couple to Galphaq whereas receptors M2 and M4 predominantly couple to Galphai-mediated pathways. The signaling effects can be either excitatory or inhibitory." [GO:0007213, OneLook:www.onelook.com, PMID:17786266, PMID:18082893, PMID:23759942]
-synonym: "G protein-coupled acetylcholine receptor signaling pathway" RELATED []
+def: "Acetylcholine signaling via the metabotropic muscarinic receptors exerts important roles in the central and peripheral nervous system, the autonomic nervous system and also in non-neuronal cells. The five G protein-coupled receptors can be classified according to the G proteins they engage. Receptors M1, M3 and M5 predominantly couple to Galphaq whereas receptors M2 and M4 predominantly couple to Galphai mediated pathways. The signaling effects can be either excitatory or inhibitory." [GO:0007213, OneLook:www.onelook.com, PMID:17786266, PMID:18082893, PMID:23759942]
 is_a: PW:0000841 ! acetylcholine signaling pathway
 created_by: VPetri
 creation_date: 2011-03-09T11:29:22Z
@@ -6460,8 +6451,8 @@ creation_date: 2011-03-09T11:29:22Z
 [Term]
 id: PW:0000844
 name: glutamate signaling pathway
-def: "Glutamate signaling via the ionotropic AMPA or NMDA and several metabotropic receptors plays important roles in the modulation of synaptic plasticity, long term depression or potentiation, and in learning and memory." [GO:0007215, KEGG:04724, OneLook:www.onelook.com]
-synonym: "glutamate receptor signaling pathway" RELATED []
+def: "Glutamate signaling via the ionotropic AMPA or NMDA and several metabotropic receptors plays important roles in the modulation of synaptic plasticity, long term depression or potentiation, and in learning and memory." [GO:0007215, OneLook:www.onelook.com]
+synonym: "KEGG:04724" RELATED []
 is_a: PW:0000455 ! excitatory synaptic transmission pathway
 created_by: VPetri
 creation_date: 2011-03-09T11:57:08Z
@@ -6469,9 +6460,7 @@ creation_date: 2011-03-09T11:57:08Z
 [Term]
 id: PW:0000845
 name: glutamate signaling pathway via NMDA receptor
-def: "Glutamate signaling via the ionotropic NMDA glutamate receptor plays important roles in synaptic plasticity and in learning and memory. The receptor is ligand-gated and voltage-dependent and requires glycine as a co-agonist." [GO:0035235, OneLook:www.onelook.com, Reactome:R-HSA-442755]
-synonym: "Activation of NMDA receptors and postsynaptic events" RELATED []
-synonym: "ionotropic glutamate receptor signaling pathway" RELATED []
+def: "Glutamate signaling via the ionotropic NMDA glutamate receptor plays important roles in synaptic plasticity and in learning and memory. The receptor is ligand-gated and voltage-dependent and requires glycine as a co-agonist." [GO:0035235, OneLook:www.onelook.com]
 is_a: PW:0000844 ! glutamate signaling pathway
 created_by: VPetri
 creation_date: 2011-03-09T12:10:19Z
@@ -6479,9 +6468,7 @@ creation_date: 2011-03-09T12:10:19Z
 [Term]
 id: PW:0000846
 name: glutamate signaling pathway via AMPA receptor
-def: "Glutamate signaling via the ionotropic AMPA receptor plays important roles in long-term potentiation (LTP). The AMPA receptors are both receptors and cation channels." [GO:0035235, OneLook:www.onelook.com, Reactome:R-HSA-399721]
-synonym: "Glutamate binding, activation of AMPA receptors and synaptic plasticity" RELATED []
-synonym: "ionotropic glutamate receptor signaling pathway" RELATED []
+def: "Glutamate signaling via the ionotropic AMPA receptor plays important roles in long-term potentiation (LTP). The AMPA receptors are both receptors and cation channels." [GO:0035235, OneLook:www.onelook.com]
 is_a: PW:0000844 ! glutamate signaling pathway
 created_by: VPetri
 creation_date: 2011-03-09T12:24:02Z
@@ -6489,9 +6476,7 @@ creation_date: 2011-03-09T12:24:02Z
 [Term]
 id: PW:0000847
 name: glutamate signaling pathway via metabotropic glutamate receptor
-def: "Glutamate signaling via the various metabotropic, G protein-coupled receptors plays important roles in both the central and peripheral nervous systems. Based on their structure and physiological function, the receptors have been classified into three groups. Group I receptors couple to Galphaq, group II and III couple to Galphai" [GO:0007216, OneLook:www.onelook.com, Reactome:R-HSA-420499]
-synonym: "Class C/3 (Metabotropic glutamate/pheromone receptors)" RELATED []
-synonym: "G protein-coupled glutamate receptor signaling pathway" RELATED []
+def: "Glutamate signaling via the various metabotropic, G protein-coupled receptors plays important roles in both the central and peripheral nervous systems. Based on their structure and physiological function, the receptors have been classified into three groups. Group I receptors couple to Galphaq, group II and III couple to Galphai" [GO:0007216, OneLook:www.onelook.com]
 is_a: PW:0000844 ! glutamate signaling pathway
 created_by: VPetri
 creation_date: 2011-03-09T01:06:26Z
@@ -6499,8 +6484,8 @@ creation_date: 2011-03-09T01:06:26Z
 [Term]
 id: PW:0000848
 name: gamma-aminobutyric acid signaling pathway
-def: "Gamma-aminobutyric acid signals at inhibitory synapses via the type A receptor, which is part of a ligand-gated ion channel, and the type B receptors, which are metabotropic G protein-coupled receptors." [GO:0007214, KEGG:04727, OneLook:www.onelook.com, Reactome:R-HSA-977443]
-synonym: "GABA receptor activation" RELATED []
+def: "Gamma-aminobutyric acid signals at inhibitory synapses via the type A receptor, which is part of a ligand-gated ion channel and the type B receptors which are metabotropic, G protein-coupled receptors." [GO:0007214, OneLook:www.onelook.com]
+synonym: "KEGG:04727" RELATED []
 is_a: PW:0000456 ! Inhibitory synaptic transmission pathway
 created_by: VPetri
 creation_date: 2011-03-09T02:10:16Z
@@ -6575,8 +6560,7 @@ creation_date: 2011-04-01T11:01:32Z
 [Term]
 id: PW:0000857
 name: phase I biotransformation pathway
-def: "The phase I biotransformation pathway involves the conversion of exogenous substances to more polar metabolites. Members of the cytochrome P450 superfamily and to a lesser extent, flavin-containing monooxygenases mediate the reactions." [PMID:19835560, Reactome:R-HSA-211945]
-synonym: "Phase I - Functionalization of compounds" RELATED []
+def: "Phase I biotransformation pathway involves the conversion of exogenous substances to more polar metabolites. Members of the cytochrome P450 superfamily and to a lesser extent, flavin containing monooxygenases mediate the reactions." [PMID:19835560]
 is_a: PW:0000124 ! cellular detoxification pathway
 is_a: PW:0001229 ! xenobiotic metabolic pathway
 created_by: VPetri
@@ -6585,7 +6569,8 @@ creation_date: 2011-04-04T04:25:01Z
 [Term]
 id: PW:0000858
 name: phase II biotransformation pathway
-def: "The phase II biotransformation pathway involves the conjugation of phase I products to various hydrophilic moieties that renders them more suitable for excretion. Various enzyme superfamilies are involved in carrying out the specific conjugation of metabolites." [PMID:19835560, PMID:20668491, Reactome:R-HSA-156580]
+alt_id: Reactome:R-HSA-156580
+def: "The phase II biotransformation pathway involves the conjugation of phase I products to various hydrophilic moieties that renders them more suitable for excretion. Various enzyme superfamilies are involved in carrying out the specific conjugation of metabolites." [PMID:19835560, PMID:20668491]
 synonym: "Phase II - Conjugation of compounds" RELATED []
 is_a: PW:0000124 ! cellular detoxification pathway
 is_a: PW:0001229 ! xenobiotic metabolic pathway
@@ -6595,8 +6580,8 @@ creation_date: 2011-04-04T04:37:36Z
 [Term]
 id: PW:0000859
 name: glucuronidation conjugation pathway
-def: "Glucuronidation of phase I products by members of the UDP-glucuronosyltranferase superfamily represents the major phase II conjugation pathway." [GO:0052695, PMID:20668491, Reactome:R-HSA-156588]
-synonym: "cellular glucuronidation" RELATED []
+alt_id: Reactome:R-HSA-156588
+def: "Glucuronidation of phase I products by members of the UDP-glucuronosyltranferase superfamily represents the major phase II conjugation pathway." [PMID:20668491]
 synonym: "Glucuronidation" RELATED []
 is_a: PW:0000858 ! phase II biotransformation pathway
 created_by: VPetri
@@ -6613,7 +6598,9 @@ creation_date: 2011-04-04T05:12:08Z
 [Term]
 id: PW:0000861
 name: pyrimidine biosynthetic pathway
-def: "Those enzymatic reactions involved in the synthesis of pyrimidine nucleotides. A major route for pyrimidine synthesis is the de novo pathway. However, an alternate pathway, the salvage pathway, converts nucleosides generated by DNA or RNA breakdown back to nucleotide monophosphates which can then re-enter the biosynthetic pathway." [GO:0019856, PMID:15096496, PMID:16098809, Reactome:R-HSA-500753]
+alt_id: GO:0019856
+alt_id: Reactome:R-HSA-500753
+def: "Those enzymatic reactions involved in the synthesis of pyrimidine nucleotides. A major route for pyrimidine synthesis is the de novo pathway. However, an alternate pathway, the salvage pathway, converts nucleosides generated by DNA or RNA breakdown back to nucleotide monophosphates which can then re-enter the biosynthetic pathway." [PMID:15096496, PMID:16098809]
 synonym: "Pyrimidine biosynthesis" RELATED []
 synonym: "pyrimidine nucleobase biosynthetic process" RELATED []
 is_a: PW:0000032 ! pyrimidine metabolic pathway
@@ -6623,8 +6610,7 @@ creation_date: 2011-06-03T03:33:51Z
 [Term]
 id: PW:0000862
 name: de novo pyrimidine biosynthetic pathway
-def: "In the de novo biosynthetic pathway, pyrimidines are synthesized from simple precursors. Six reactions carried out by three enzymes in higher eukaryotes result in the formation of UMP, the precursor of all other pyrimidine nucleotides." [GO:0006207, PMID:15096496, PMID:16098809]
-synonym: "'de novo' pyrimidine nucleobase biosynthetic process" RELATED []
+def: "In the de novo biosynthetic pathway, pyrimidines are synthesized from simple precursors. Six reactions carried out by three genes in higher eukaryotes result in the formation of UMP, the precursor of all other pyrimidine nucleotides." [PMID:15096496, PMID:16098809]
 is_a: PW:0000861 ! pyrimidine biosynthetic pathway
 created_by: vpetri
 creation_date: 2011-06-03T03:58:08Z
@@ -6632,7 +6618,9 @@ creation_date: 2011-06-03T03:58:08Z
 [Term]
 id: PW:0000863
 name: pyrimidine salvage pathway
-def: "The salvage pathway of pyrimidine biosynthesis, mostly used in resting and differentiated cells, allows for the synthesis of pyrimidines from intermediates derived from DNA and RNA degradation pathways." [GO:0008655, PMID:15096496, PMID:16098809, Reactome:R-HSA-73614]
+alt_id: GO:0008655
+alt_id: Reactome:R-HSA-73614
+def: "The salvage pathway of pyrimidine biosynthesis, mostly used in resting and differentiated cells, allows for the synthesis of pyrimidines from intermediates derived from DNA and RNA degradation pathways." [PMID:15096496, PMID:16098809]
 synonym: "pyrimidine-containing compound salvage" RELATED []
 synonym: "Pyrimidine salvage" RELATED []
 is_a: PW:0000861 ! pyrimidine biosynthetic pathway
@@ -6642,7 +6630,9 @@ creation_date: 2011-06-03T04:12:23Z
 [Term]
 id: PW:0000864
 name: pyrimidine degradation pathway
-def: "Those enzymatic reactions involved in the degradation of pyrimidines." [GO:0006208, PMID:16098809, Reactome:R-HSA-73621]
+alt_id: GO:0006208
+alt_id: Reactome:R-HSA-73621
+def: "Those enzymatic reactions involved in the degradation of pyrimidines." [PMID:16098809]
 synonym: "Pyrimidine catabolism" RELATED []
 synonym: "pyrimidine nucleobase catabolic process" RELATED []
 is_a: PW:0000032 ! pyrimidine metabolic pathway
@@ -6660,7 +6650,9 @@ creation_date: 2011-06-06T04:49:00Z
 [Term]
 id: PW:0000866
 name: purine degradation pathway
-def: "Those enzymatic reactions involved in the degradation pathway of purines. Several enzymes are involved in the breakdown of adenine and guanine to uric acid. Primates, birds and other animal excrete uric acid. In other species uric acid is further metabolized to allantoin." [GO:0006145, OneLook:www.onelook.com, Reactome:R-HSA-74259, RGD library:Lehringer Principles of Biochemistry]
+alt_id: GO:0006145
+alt_id: Reactome:R-HSA-74259
+def: "Those enzymatic reactions involved in the degradation pathway of purines. Several enzymes are involved in the breakdown of adenine and guanine to uric acid. Primates, birds and other animal excrete uric acid. In other species uric acid is further metabolized to allantoin." [OneLook:www.onelook.com, RGD library:Lehringer Principles of Biochemistry]
 synonym: "Purine catabolism" RELATED []
 synonym: "purine nucleobase catabolic process" RELATED []
 is_a: PW:0000031 ! purine metabolic pathway
@@ -6678,7 +6670,8 @@ creation_date: 2011-06-06T04:50:02Z
 [Term]
 id: PW:0000868
 name: purine salvage pathway
-def: "The salvage pathway of purine biosynthesis allows for the synthesis of purines from intermediates derived from DNA and RNA degradation pathways. This is important because some tissues are unable to synthesize purines de novo." [GO:0043101, Reactome:R-HSA-74217]
+alt_id: GO:0043101
+alt_id: Reactome:R-HSA-74217
 synonym: "purine-containing compound salvage" RELATED []
 synonym: "Purine salvage" RELATED []
 is_a: PW:0000865 ! purine biosynthetic pathway
@@ -6738,8 +6731,7 @@ creation_date: 2011-06-14T03:34:08Z
 [Term]
 id: PW:0000875
 name: deoxyribonucleotide metabolic pathway
-def: "Deoxyribonucleotide synthesis occurs via the de novo pathway mediated by ribonucleotide reductase or via the salvage pathway. The de novo pathway is responsible for the bulk of dNTP during the S phase of the cell cycle, whereas the salvage pathway mostly operates in the quiescent state of the cell. Several cytosolic and mitochondrial enzymes are responsible for the initial steps of the salvage pathway in the two compartments and for the reverse reactions that control the size of the dNTP pool." [GO:0009262, PMID:15158709, PMID:16756507, PMID:17525869, PMID:20561600]
-synonym: "deoxyribonucleotide metabolic process" RELATED []
+def: "Deoxyribonucleotide synthesis occurs via the de novo pathway mediated by ribonucleotide reductase or via the salvage pathway. The de novo pathway is responsible for the bulk of dNTP during the S phase of cell cycle whereas the salvage pathway mostly operates in the quiescent state of the cell. Several cytosolic and mitochondrial enzymes are responsible for the initial steps of the salvage pathway in the two compartments and for the reverse reactions that control the size of the dNTP pool." [PMID:15158709, PMID:16756507, PMID:17525869, PMID:20561600]
 is_a: PW:0000012 ! nucleotide metabolic pathway
 created_by: VPetri
 creation_date: 2011-07-01T10:58:55Z
@@ -6763,8 +6755,8 @@ creation_date: 2011-07-11T10:29:49Z
 [Term]
 id: PW:0000878
 name: phosphatidylcholine biosynthetic pathway
-def: "Phosphatidylcholine is the predominant phospholipid of eukaryotic membranes. Of the three known biosynthetic pathways, two are found in eukaryotes and one, the CDP-choline pathway, is the best characterized." [GO:0006656, PMID:15749057, Reactome:R-HSA-1483191]
-synonym: "phosphatidylcholine biosynthetic process" RELATED []
+alt_id: Reactome:R-HSA-1483191
+def: "Phosphatidylcholine is the predominant phospholipid of eukaryotic membranes. Of the three known biosynthetic pathways, two are found in eukaryotes and one, the CDP-choline, is the best characterized." [PMID:15749057]
 synonym: "Synthesis of PC" RELATED []
 is_a: PW:0001307 ! phosphatidylcholine metabolic pathway
 created_by: VPetri
@@ -6799,7 +6791,8 @@ creation_date: 2011-08-23T09:20:35Z
 [Term]
 id: PW:0000882
 name: interleukin-1 family mediated signaling pathway
-def: "Interleukin-1 family mediated signaling plays important roles in innate and adaptive immune responses. The best characterized member of the family is interleukin-1, followed by interleukin-18 and the more recently identified interleukin-33. Other family members are less well characterized." [PMID:20081871, Reactome:R-HSA-446652]
+alt_id: Reactome:R-HSA-446652
+def: "Interleukin-1 family mediated signaling plays important roles in innate and adaptive immune responses. The best characterized member of the family is interleukin-1 followed by interleukin-18 and the more recently identified interleukin-33. Other family members are less well characterized." [PMID:20081871]
 synonym: "Il-1 family mediated signaling pathway" RELATED []
 synonym: "Interleukin-1 family signaling" RELATED []
 is_a: PW:0000512 ! Interleukin mediated signaling pathway
@@ -6922,9 +6915,9 @@ creation_date: 2011-12-06T10:58:32Z
 [Term]
 id: PW:0000896
 name: type II interferon signaling pathway
-def: "Type II interferon, of which there is only one in humans, binds to distinct receptors that activate the Jak-Stat signaling pathway. It is known as interferon gamma signaling." [GO:0060333, PID:200129, PMID:17502369]
+def: "Type II interferon, of which there is only one in humans, binds to distinct receptors that activate Jak-Stat signaling pathway. It is known as the interferon gamma signaling." [PMID:17502369]
 synonym: "interferon gamma signaling" RELATED []
-synonym: "type II interferon-mediated signaling pathway" RELATED []
+synonym: "PID:200129" RELATED []
 is_a: PW:0000894 ! interferon mediated signaling pathway
 created_by: VPetri
 creation_date: 2011-12-06T11:07:25Z
@@ -6932,7 +6925,9 @@ creation_date: 2011-12-06T11:07:25Z
 [Term]
 id: PW:0000897
 name: interleukin-17 family mediated signaling pathway
-def: "The interleukin-17 family-mediated signaling plays important roles in inflammation and in the development of autoimmunity as well as in the host defense against fungal and bacterial infections." [GO:0097400, PMID:21349428, Reactome:R-HSA-448424]
+alt_id: GO:0097400
+alt_id: Reactome:R-HSA-448424
+def: "The interleukin-17 family mediated signaling plays important roles in inflammation and the development of autoimmunity as well as in the host defense against fungal and bacterial infections." [PMID:21349428]
 synonym: "Il-17 family mediated signaling pathway" RELATED []
 synonym: "interleukin-17-mediated signaling pathway" RELATED []
 synonym: "Interleukin-17 signaling" RELATED []
@@ -6953,9 +6948,8 @@ creation_date: 2011-12-06T02:31:33Z
 [Term]
 id: PW:0000899
 name: interleukin-17A signaling pathway
-def: "Of the six family members of the interleukin-17 family, interleukin-17A is the founding member and the better-characterized system. While interleukin-17A binds the same receptor as interleukin-17F and can also heterodimerize with it, its signaling elicits distinct and broader responses." [GO:0038173, PMID:21349428]
+def: "Of the six family members of interleukin-17 family, interleukin-17A is the founding member and the better characterized system. While interleukin-17A binds the same receptor as interleukin-17F and can also heterodimerize with it, its signaling elicits distinct and broader responses." [PMID:21349428]
 synonym: "Il-17A signaling pathway" RELATED []
-synonym: "interleukin-17A-mediated signaling pathway" RELATED []
 is_a: PW:0000897 ! interleukin-17 family mediated signaling pathway
 created_by: VPetri
 creation_date: 2011-12-06T02:31:40Z
@@ -6987,8 +6981,6 @@ creation_date: 2012-01-23T04:17:23Z
 [Term]
 id: PW:0000903
 name: leukemia inhibitory factor signaling pathway
-def: "Leukemia inhibitory factor, an interleukin-6 family member, inhibits cell differentiation, affecting cell growth." [GO:0048861]
-synonym: "leukemia inhibitory factor signaling pathway" RELATED []
 synonym: "LIF signaling pathway" RELATED []
 is_a: PW:0000514 ! interleukin-6 family mediated signaling pathway
 created_by: vpetri
@@ -7006,8 +6998,6 @@ creation_date: 2012-01-23T04:21:01Z
 [Term]
 id: PW:0000905
 name: oncostatin M signaling pathway
-def: "Oncostatin M, an interleukin-6 family member, has roles in bone formation and destruction, and has activities affecting inflammation, development and hematopoiesis." [GO:0038165]
-synonym: "oncostatin-M-mediated signaling pathway" RELATED []
 synonym: "OSM signaling pathway" RELATED []
 is_a: PW:0000514 ! interleukin-6 family mediated signaling pathway
 created_by: vpetri
@@ -7016,7 +7006,8 @@ creation_date: 2012-01-23T04:22:25Z
 [Term]
 id: PW:0000906
 name: interleukin-2 family mediated signaling pathway
-def: "The interleukin-2 family of cytokines, also known as the gamma(c) family because of the shared gamma(c) receptor, play crucial roles in the regulation of T cells." [PMID:19543225, PMID:21889323, Reactome:R-HSA-451927]
+alt_id: Reactome:R-HSA-451927
+def: "The interleukin-2 family of cytokines, also known as the gamma(c) family because of the shared gamma(c) receptor, plays crucial roles in the regulation of T cells." [PMID:19543225, PMID:21889323]
 synonym: "Il-2 family mediated signaling pathway" RELATED []
 synonym: "Interleukin-2 family signaling" RELATED []
 is_a: PW:0000512 ! Interleukin mediated signaling pathway
@@ -7037,7 +7028,8 @@ creation_date: 2012-03-23T12:33:40Z
 [Term]
 id: PW:0000908
 name: interleukin-7 signaling pathway
-def: "Interleukin-7, an interleukin-2 family member, is secreted by several cell types and is involved in leukemia progression." [GO:0038111, Reactome:R-HSA-1266695]
+alt_id: GO:0038111
+alt_id: Reactome:R-HSA-1266695
 synonym: "interleukin-7-mediated signaling pathway" RELATED []
 synonym: "Interleukin-7 signaling" RELATED []
 is_a: PW:0000906 ! interleukin-2 family mediated signaling pathway
@@ -7047,7 +7039,6 @@ creation_date: 2012-03-23T12:38:11Z
 [Term]
 id: PW:0000909
 name: interleukin-9 signaling pathway
-def: "Interleukin-9, an interleukin-2 family member, is produced by a variety of cell types; it stimulates hematopoietic cell proliferation and prevents apoptosis." [GO:0038113, Reactome:R-HSA-8985947]
 synonym: "interleukin-9-mediated signaling pathway" RELATED []
 synonym: "Interleukin-9 signaling" RELATED []
 is_a: PW:0000906 ! interleukin-2 family mediated signaling pathway
@@ -7057,7 +7048,6 @@ creation_date: 2012-03-23T12:39:11Z
 [Term]
 id: PW:0000910
 name: interleukin-15 signaling pathway
-def: "Interleukin-15, an interleukin-2 family member, induces natural killer cell proliferation and plays roles in adaptive and innate immunity." [GO:0035723, Reactome:R-HSA-8983432]
 synonym: "interleukin-15-mediated signaling pathway" RELATED []
 synonym: "Interleukin-15 signaling" RELATED []
 is_a: PW:0000906 ! interleukin-2 family mediated signaling pathway
@@ -7067,7 +7057,6 @@ creation_date: 2012-03-23T12:39:32Z
 [Term]
 id: PW:0000911
 name: interleukin-21 signaling pathway
-def: "Interleukin-21, an interleukin-2 family member, induces proliferation of immune system cells and has roles in cancer, allergies and viral infections." [GO:0038114, Reactome:R-HSA-9020958]
 synonym: "interleukin-21-mediated signaling pathway" RELATED []
 synonym: "Interleukin-21 signaling" RELATED []
 is_a: PW:0000906 ! interleukin-2 family mediated signaling pathway
@@ -7077,9 +7066,11 @@ creation_date: 2012-03-23T12:39:52Z
 [Term]
 id: PW:0000912
 name: interleukin-4 signaling pathway
-def: "Interleukin-4 is a member of the interleukin 2 family of cytokines whose signaling is important for the differentiation of naive T helper cells." [GO:0035771, PID:200022, PMID:21889323]
+alt_id: GO:0035771
+def: "Interleukin-4 is a member of the interleukin 2 family of cytokines whose signaling is important for the differentiation of naive T helper cells." [PMID:21889323]
 synonym: "Il-4 signaling pathway" EXACT []
 synonym: "interleukin-4-mediated signaling pathway" RELATED []
+synonym: "PID:200022" RELATED []
 is_a: PW:0000906 ! interleukin-2 family mediated signaling pathway
 created_by: VPetri
 creation_date: 2012-03-23T12:48:51Z
@@ -7087,7 +7078,8 @@ creation_date: 2012-03-23T12:48:51Z
 [Term]
 id: PW:0000913
 name: interleukin-12 family mediated signaling pathway
-def: "Interleukin-12 family members are heterodimeric cytokines produced by antigen-presenting cells. The signaling they initiate triggers the Jak-Stat intracellular cascade and plays important roles in the regulation of T helper (Th) cell differentiation." [PMID:20885915, Reactome:R-HSA-447115]
+alt_id: Reactome:R-HSA-447115
+def: "Interleukin-12 family members are heterodimeric cytokines produced by antigen presenting cells. The signaling they initiate triggers the Jak-Stat intracellular cascade and plays important roles in the regulation of T helper (Th) cell differentiation." [PMID:20885915]
 synonym: "Il-12 family mediated signaling pathway" RELATED []
 synonym: "Interleukin-12 family signaling" RELATED []
 is_a: PW:0000512 ! Interleukin mediated signaling pathway
@@ -7108,7 +7100,6 @@ creation_date: 2012-03-23T03:43:43Z
 [Term]
 id: PW:0000915
 name: interleukin-23 signaling pathway
-def: "Interleukin-23, an interleukin-12 family member, is a heterodimeric, inflammatory cytokine important in T helper cell effector cytokine secretion and proliferation; it also stimulates angiogenesis." [GO:0038155, PID:200154, Reactome:R-HSA-9020933]
 synonym: "Il-23 signaling pathway" EXACT []
 synonym: "interleukin-23-mediated signaling pathway" RELATED []
 synonym: "Interleukin-23 signaling" RELATED []
@@ -7119,7 +7110,6 @@ creation_date: 2012-03-23T03:49:27Z
 [Term]
 id: PW:0000916
 name: interleukin-27 signaling pathway
-def: "Interleukin-27, an interleukin-12 family member, it induces various T cell populations to differentiate and stimulates them to produce interleukin-10." [GO:0070106, PID:200028, Reactome:R-HSA-9020956]
 synonym: "Il-27 signaling pathway" EXACT []
 synonym: "interleukin-27-mediated signaling pathway" RELATED []
 synonym: "Interleukin-27 signaling" RELATED []
@@ -7130,7 +7120,6 @@ creation_date: 2012-03-23T03:49:45Z
 [Term]
 id: PW:0000917
 name: interleukin-35 signaling pathway
-def: "Interleukin-35, an interleukin-12 family member, plays a role in suppressing the immune system; it obstructs development of certain T cell subsets by restricting early cell proliferation." [GO:0070757, Reactome:R-HSA-8984722]
 synonym: "interleukin-35-mediated signaling pathway" RELATED []
 synonym: "Interleukin-35 Signalling" RELATED []
 is_a: PW:0000913 ! interleukin-12 family mediated signaling pathway
@@ -7310,9 +7299,8 @@ creation_date: 2012-05-01T02:12:50Z
 [Term]
 id: PW:0000937
 name: chemokine (C-C motif) ligand 2 signaling pathway
-def: "Chemokine ligand 2 signaling engages the chemokine (C-C motif) receptor 2 (Ccr2) and together with other CC chemokines is classified as a member of the allergenic subgroup." [GO:0038148, PMID:15062643]
+def: "Chemokine ligand 1 signaling engages the chemokine (C-C motif) receptor 2 (Ccr2) and together with other CC chemokines is classified as a member of the allergenic subgroup." [PMID:15062643]
 synonym: "Ccl2 signaling pathway" RELATED []
-synonym: "chemokine (C-C motif) ligand 2 signaling pathway" RELATED []
 is_a: PW:0000831 ! CC chemokine mediated signaling pathway
 created_by: vpetri
 creation_date: 2012-05-01T02:20:28Z
@@ -7338,9 +7326,8 @@ creation_date: 2012-05-01T02:34:32Z
 [Term]
 id: PW:0000940
 name: chemokine (C-C motif) ligand 5 signaling pathway
-def: "Chemokine ligand 5 signaling engages chemokine (C-C motif) receptors 1, 3 and 5 (Ccr1, Ccr3 and Ccr5) and together with other chemokines is classified as a member of the pro-inflammatory subgroup." [GO:0035689, PMID:15062643]
+def: "Chemokine ligand 5 signaling engages chemokine (C-C motif) receptors 1, 3 and 5 (Ccr1, Ccr3 and Ccr5) and together with other chemokines is classified as a member of the pro-inflammatory subgroup." [PMID:15062643]
 synonym: "Ccl5 signaling pathway" RELATED []
-synonym: "chemokine (C-C motif) ligand 5 signaling pathway" RELATED []
 is_a: PW:0000831 ! CC chemokine mediated signaling pathway
 created_by: vpetri
 creation_date: 2012-05-01T02:39:00Z
@@ -7523,9 +7510,14 @@ creation_date: 2012-05-17T01:09:58Z
 [Term]
 id: PW:0000960
 name: sphingosine 1-phosphate signaling pathway
-def: "Sphingosine 1-phosphate (S1P), a sphingolipid metabolite, can signal intracellularly as a second messenger or extracellularly as a ligand for five G-protein-coupled receptors. The S1P pathway plays important roles in processes such as cell migration, proliferation and survival. The five receptors engage similar G-proteins but their expression varies." [GO:0003376, PID:200046, PID:200054, PID:200076, PID:200085, PID:200123, PID:200211, PMID:18552276, PMID:22159476]
+def: "Sphingosine 1-phosphate (S1P), a sphingolipid metabolite, can signal intracellularly as a second messenger or extracellularly as a ligand for five G protein coupled receptors. S1P pathway plays important roles in processes such as cell migration, proliferation and survival. The five receptors engage similar G proteins but their expression varies." [PMID:18552276, PMID:22159476]
+synonym: "PID:200046" RELATED []
+synonym: "PID:200054" RELATED []
+synonym: "PID:200076" RELATED []
+synonym: "PID:200085" RELATED []
+synonym: "PID:200123" RELATED []
+synonym: "PID:200211" RELATED []
 synonym: "S1P signaling pathway" RELATED []
-synonym: "sphingosine-1-phosphate receptor signaling pathway" RELATED []
 is_a: PW:0000541 ! signaling pathway involving second messengers
 is_a: PW:0000959 ! lipid signaling pathway
 created_by: VPetri
@@ -7534,7 +7526,10 @@ creation_date: 2012-05-17T01:10:40Z
 [Term]
 id: PW:0000961
 name: ceramide signaling pathway
-def: "Ceramide signaling can act as a lipid second messenger or as a mediator of various cellular signaling pathways by promoting receptor clustering. The pathway plays important roles in apoptosis." [KEGG:05212, PID:200119, PMID:20607622, Reactome:R-HSA-193681]
+alt_id: KEGG:05212
+alt_id: PID:200119
+alt_id: Reactome:R-HSA-193681
+def: "Ceramide signaling can act as a lipid second messenger or as a mediator of various cellular signaling pathways by promoting receptor clustering. The pathway plays important roles in apoptosis." [PMID:20607622]
 synonym: "Ceramide signalling" RELATED []
 is_a: PW:0000541 ! signaling pathway involving second messengers
 is_a: PW:0000959 ! lipid signaling pathway
@@ -7544,7 +7539,10 @@ creation_date: 2012-05-17T01:43:41Z
 [Term]
 id: PW:0000962
 name: visual phototransduction pathway
-def: "The signaling pathway initiated by light-induced isomerization of 11-cis retinal and subsequent activation of its photoreceptors in rods and cones." [GO:0007603, KEGG:04744, PMID:18514002, PMID:22074921, Reactome:R-HSA-2187338]
+alt_id: GO:0007603
+alt_id: KEGG:04744
+alt_id: Reactome:R-HSA-2187338
+def: "The signaling pathway initiated by light-induced isomerization of 11-cis retinal and subsequent activation of its photoreceptors in rods and cones." [PMID:18514002, PMID:22074921]
 synonym: "phototransduction, visible light" RELATED []
 synonym: "Visual phototransduction" RELATED []
 is_a: PW:0001008 ! photosignal transduction pathway
@@ -7589,7 +7587,8 @@ creation_date: 2012-05-18T10:53:38Z
 [Term]
 id: PW:0000967
 name: interleukin-3/interleukin-5/GM-CSF mediated signaling pathway
-def: "The interleukin-3, interleukin 5 and granulocyte-macrophage colony-stimulating factor family of hemopoietic cytokines mediate overlapping and distinct signals. Collectively they regulate the production and activation of hemopoietic cells." [PMID:19436055, Reactome:R-HSA-512988]
+alt_id: Reactome:R-HSA-512988
+def: "The interleukin-3, interleukin 5 and granulocyte-macrophage colony-stimulating factor family of hemopoietic cytokines mediate overlapping and distinct signals. Collectively they regulate the production and activation of hemopoietic cells." [PMID:19436055]
 synonym: "hemopoietic cytokine family mediated signaling pathway" RELATED []
 synonym: "Il-3/Il-5/GM-CSF family mediated signaling pathway" EXACT []
 synonym: "Interleukin-3, Interleukin-5 and GM-CSF signaling" RELATED []
@@ -7620,8 +7619,9 @@ creation_date: 2012-05-22T11:44:14Z
 [Term]
 id: PW:0000970
 name: granulocyte-macrophage colony-stimulating factor signaling pathway
-def: "GM-CSF signaling, like the other hemopoietic cytokines, is involved in the production and activation of hemopoietic cells. The GM-CSF pathway acts on monocytes, macrophages and granulocytes and is also involved in the regulation of T and dendritic cells functions." [GO:0038157, PID:200019, PMID:19436055]
+def: "GM-CSF signaling, like the other hemopoietic cytokines, is involved in the production and activation of hemopoietic cells. The GM-CSF pathway acts on monocytes, macrophages and granulocytes and is also involved in the regulation of T and dendritic cells functions." [PMID:19436055]
 synonym: "GM-CSF signaling pathway" EXACT []
+synonym: "PID:200019" RELATED []
 is_a: PW:0000967 ! interleukin-3/interleukin-5/GM-CSF mediated signaling pathway
 created_by: VPetri
 creation_date: 2012-05-22T11:44:40Z
@@ -7739,7 +7739,6 @@ creation_date: 2012-05-22T04:10:07Z
 [Term]
 id: PW:0000983
 name: chemokine (C-X-C motif) ligand 12 signaling pathway
-def: "Chemokine (C-X-C motif) ligand 12, a member of the intercrine chemokine family, has roles in many cell functions, including inflammation, immune surveillance, embryogenesis and tumor growth." [GO:0038146]
 is_a: PW:0000972 ! CXC chemokine ELR(-) subgroup mediated signaling pathway
 created_by: VPetri
 creation_date: 2012-05-22T05:01:33Z
@@ -7899,8 +7898,6 @@ creation_date: 2012-05-30T02:32:59Z
 [Term]
 id: PW:0001002
 name: copper homeostasis pathway
-def: "Those pathways involved in the proper balance of copper levels, uptake and transport, utilization and storage as needed by cells, tissues and organs. Copper is a cofactor in proteins mediating electron transfer reactions and is required by plants as a micronutrient." [GO:0006878]
-synonym: "cellular copper ion homeostasis" RELATED []
 is_a: PW:0000589 ! metal homeostasis pathway
 created_by: VPetri
 creation_date: 2012-05-31T04:20:42Z
@@ -7921,9 +7918,8 @@ creation_date: 2012-06-04T10:52:32Z
 [Term]
 id: PW:0001004
 name: retinoic acid metabolic pathway
-def: "The reactions involved in deriving retinoic acid (RA) from retinal and its further processing to more polar derivatives. Retinoic acid engages several retinoic acid receptors; its actions are important for neurological and immune system functions and for energy balance. Deregulation of proper RA activity has been associated with obesity and cancer." [GO:0042573, PMID:21621639]
+def: "The reactions involved in deriving retinoic acid (RA) from retinal and its further processing to more polar derivatives. Retinoic acid engages several retinoic acid receptors; its actions are important for the neuro and immune system functions and energy balance. Deregulation of proper RA activity has been associated with obesity and cancer." [PMID:21621639]
 synonym: "RA metabolic pathway" EXACT []
-synonym: "retinoic acid metabolic process" RELATED []
 is_a: PW:0001003 ! retinoid metabolic pathway
 created_by: VPetri
 creation_date: 2012-06-04T11:05:02Z
@@ -7956,9 +7952,6 @@ creation_date: 2012-06-04T01:30:04Z
 [Term]
 id: PW:0001008
 name: photosignal transduction pathway
-def: "The series of reactions within a cell required to convert absorbed photons into molecular signals." [GO:0007602, Reactome:R-HSA-2514856]
-synonym: "phototransduction " RELATED []
-synonym: "The phototransduction cascade" RELATED []
 is_a: PW:0000003 ! signaling pathway
 created_by: VPetri
 creation_date: 2012-06-05T10:44:24Z
@@ -7966,8 +7959,8 @@ creation_date: 2012-06-05T10:44:24Z
 [Term]
 id: PW:0001009
 name: ascorbic acid metabolic pathway
-def: "Those metabolic reactions involving ascorbic acid, known as vitamin C, a water-soluble vitamin. Vitamin C is an essential antioxidant that is derived from glucose. Unlike many animals, humans do not have the ability to produce it." [GO:0019852, https://en.wikipedia.org/wiki/Vitamin_C "wikipedia", Reactome:R-HSA-196836]
-synonym: "L-ascorbic acid metabolic process" RELATED []
+alt_id: Reactome:R-HSA-196836
+def: "Those metabolic reactions involving ascorbic acid, known as vitamin C, a water-soluble vitamin. Vitamin C is an essential antioxidant that is derived from glucose. Unlike many animals, humans do not have the ability to produce it." [https://en.wikipedia.org/wiki/Vitamin_C "wikipedia"]
 synonym: "Vitamin C (ascorbate) metabolism" RELATED []
 synonym: "vitamin C metabolic pathway" RELATED []
 is_a: PW:0000135 ! metabolic pathway of cofactors, vitamins, nutrients
@@ -7977,8 +7970,10 @@ creation_date: 2012-06-05T11:40:08Z
 [Term]
 id: PW:0001010
 name: niacin metabolic pathway
-def: "Those metabolic reactions involving niacin, also known as nicotinate, vitamin B3 or vitamin PP - a water-soluble vitamin. Niacin represents an essential nutrient and is also a precursor of NAD through a salvage pathway. Niacin is among the few vitamins humans can synthesize." [GO:1901847, https://en.wikipedia.org/wiki/Niacin "wikipedia", KEGG:00760, Reactome:R-HSA-196807, SMP:00048]
-synonym: "nicotinate metabolic process" RELATED []
+alt_id: KEGG:00760
+alt_id: Reactome:R-HSA-196807
+alt_id: SMP:00048
+def: "Those metabolic reactions involving niacin, also known as nicotinate, vitamin B3 or vitamin PP - a water-soluble vitamin. Niacin represents an essential nutrient and is also a precursor of NAD through a salvage pathway. Niacin is among the few vitamins humans can synthesize." [https://en.wikipedia.org/wiki/Niacin "wikipedia"]
 synonym: "Nicotinate metabolism" RELATED []
 synonym: "vitamin B3 metabolic pathway" RELATED []
 is_a: PW:0000135 ! metabolic pathway of cofactors, vitamins, nutrients
@@ -7988,9 +7983,9 @@ creation_date: 2012-06-05T11:44:25Z
 [Term]
 id: PW:0001011
 name: vitamin D metabolic pathway
-def: "Those metabolic reactions involving vitamin D - a fat-soluble vitamin. Vitamin D represents a group of fat-soluble compounds that can be synthesized from cholesterol and exposure to sunlight. In view of the latter source, it is not considered a true vitamin. One of its metabolites, calcitriol, acts in a hormone-like manner as a signaling molecule." [GO:0042359, https://en.wikipedia.org/wiki/Vitamin_D "wikipedia", Reactome:R-HSA-196791]
+alt_id: Reactome:R-HSA-196791
+def: "Those metabolic reactions involving vitamin D - a fat-soluble vitamin. Vitamin D represents a group of fat-soluble compounds that can be synthesized from cholesterol and exposure to sunlight. In view of the latter source, it is not considered a true vitamin. One of its metabolites, calcitriol, acts in a hormone-like manner as a signaling molecule." [https://en.wikipedia.org/wiki/Vitamin_D "wikipedia"]
 synonym: "Vitamin D (calciferol) metabolism" RELATED []
-synonym: "vitamin D metabolic process" RELATED []
 is_a: PW:0000135 ! metabolic pathway of cofactors, vitamins, nutrients
 created_by: VPetri
 creation_date: 2012-06-05T12:01:10Z
@@ -8016,7 +8011,8 @@ creation_date: 2012-06-05T12:13:52Z
 [Term]
 id: PW:0001014
 name: retinoic acid signaling pathway
-def: "Retinoic acid, a vitamin A-derived metabolite, plays important roles in development and cell differentiation. All-trans retinoic acid (RA) binds to nuclear RA (RARs) and X (RXRs) receptor subtypes that once activated act as transcription factors." [GO:0048384, PMID:22020178, PMID:22318625, Reactome:R-HSA-5362517]
+alt_id: Reactome:R-HSA-5362517
+def: "Retinoic acid, a vitamin A-derived metabolite plays important roles in development and cell differentiation. all-trans retinoic acid (RA) binds to nuclear RA (RARs) and X (RXRs) receptor subtypes that once activated act as transcription factors." [PMID:22020178, PMID:22318625]
 synonym: "RA signaling pathway" EXACT []
 synonym: "retinoic acid receptor signaling pathway" RELATED []
 synonym: "Signaling by Retinoic Acid" RELATED []
@@ -8030,9 +8026,8 @@ creation_date: 2012-06-05T12:22:48Z
 [Term]
 id: PW:0001015
 name: vitamin E metabolic pathway
-def: "Those metabolic reactions involving vitamin E - a fat-soluble vitamin which represents a class of chemical compounds known as tocopherols. The alpha- and gamma-tocopherols appear to be the main dietary forms. Vitamin E is best known for its antioxidant properties." [GO:0042360, PMID:15256801]
+def: "Those metabolic reactions involving vitamin E - a fat-soluble vitamin which represents a class of chemical compounds known as tocopherols. The alpha- and gamma-tocopherols appear to be the main dietary forms. Vitamin E is best known for its antioxidant properties." [PMID:15256801]
 synonym: "tocopherol metabolic pathway" RELATED []
-synonym: "vitamin E metabolic process" RELATED []
 is_a: PW:0000135 ! metabolic pathway of cofactors, vitamins, nutrients
 created_by: VPetri
 creation_date: 2012-06-11T01:34:39Z
@@ -8040,8 +8035,11 @@ creation_date: 2012-06-11T01:34:39Z
 [Term]
 id: PW:0001016
 name: vitamin K metabolic pathway
-def: "Those metabolic reactions involving vitamin K - a fat-soluble vitamin which represents a group of related compounds. The K1 form is found in plants; other forms are synthesized by bacteria, including species present in the microflora of the human gut. Vitamin K is an essential cofactor in the modification reaction of vitamin K-dependent proteins." [GO:0042373, PMID:24489112, Reactome:R-HSA-6806664, SMP:00464]
+alt_id: GO:0042373
+alt_id: Reactome:R-HSA-6806664
+def: "Those metabolic reactions involving vitamin K - a fat-soluble vitamin which represents a group of related compounds. The K1 form is found in plants; other forms are synthesized by bacteria, including species present in the microflora of the human gut. Vitamin K is an essential cofactor in the modification reaction of vitamin K-dependent proteins." [PMID:24489112]
 synonym: "Metabolism of vitamin K" RELATED []
+synonym: "SMP:00464" RELATED []
 synonym: "vitamin K metabolic process" RELATED []
 is_a: PW:0000135 ! metabolic pathway of cofactors, vitamins, nutrients
 created_by: VPetri
@@ -8063,7 +8061,7 @@ creation_date: 2012-07-03T01:03:23Z
 [Term]
 id: PW:0001018
 name: immune system disease pathway
-def: "Altered immune system responses can be grouped into four categories: malignancy, immunodeficiency, hypersensitivity and autoimmunity." [Reactome:R-HSA-5260271]
+alt_id: Reactome:R-HSA-5260271
 synonym: "Diseases of Immune System" RELATED []
 is_a: PW:0000013 ! disease pathway
 created_by: VPetri
@@ -8167,7 +8165,8 @@ creation_date: 2012-07-11T10:56:46Z
 [Term]
 id: PW:0001028
 name: infectious disease pathway
-def: "Infectious diseases are caused by pathogens that have gained access to the host organism and have managed to avoid the host defense mechanisms while taking over some of the host pathways." [http://www.onelook.com "OneLook", Reactome:R-HSA-5663205]
+alt_id: Reactome:R-HSA-5663205
+def: "Infectious diseases are caused by pathogens that have gained access to the host organism and have managed to avoid the host defense mechanisms while taking over some of the host pathways." [http://www.onelook.com "OneLook"]
 synonym: "communicable disease pathway" RELATED []
 synonym: "Infectious disease" RELATED []
 synonym: "transmissible disease pathway" RELATED []
@@ -8483,8 +8482,8 @@ creation_date: 2012-07-16T01:37:38Z
 [Term]
 id: PW:0001059
 name: oxidative phosphorylation pathway
-def: "Oxidative phosphorylation is the coupling of the electron transport chain and the ATP biosynthetic pathways. The electron transfer chain generates an electrochemical gradient that drives the phosphorylation of ADP. Under certain circumstances the two may be uncoupled." [GO:0006119, KEGG:00190, KEGG:map00190, PMID:19760284, PMID:21625217]
-synonym: "oxidative phosphorylation" RELATED []
+def: "Oxidative phosphorylation is the coupling of the electron transport chain and the ATP biosynthetic pathways. The electron transfer chain generates an electrochemical gradient that drives the phosphorylation of ADP. Under certain circumstances the two may be uncoupled." [GO:0006119, KEGG:map00190, PMID:19760284, PMID:21625217]
+synonym: "KEGG:00190" RELATED []
 is_a: PW:0000033 ! energy metabolic pathway
 relationship: part_of PW:0000357 ! energy homeostasis pathway
 created_by: VPetri
@@ -8519,8 +8518,8 @@ creation_date: 2012-07-19T01:18:59Z
 [Term]
 id: PW:0001063
 name: lipoic acid metabolic pathway
-def: "The metabolic reactions involving lipoic acid, a compound derived from octanoic acid that contains two sulfur centers. Lipoic acid is a co-factor for the pyruvate dehydrogenase complex responsible for the irreversible decarboxylation of pyruvate to acetyl-CoA." [GO:0009106, KEGG:00785, PMID:17052205]
-synonym: "lipoate metabolic process" RELATED []
+def: "The metabolic reactions involving lipoic acid, a compound derived from octanoic acid that contains two sulfur centers. Lipoic acid is a co-factor for the pyruvate dehydrogenase complex responsible for the irreversible decarboxylation of pyruvate to acetyl-CoA." [PMID:17052205]
+synonym: "KEGG:00785" RELATED []
 is_a: PW:0000135 ! metabolic pathway of cofactors, vitamins, nutrients
 created_by: VPetri
 creation_date: 2012-07-19T01:37:53Z
@@ -8536,10 +8535,13 @@ creation_date: 2012-07-23T03:43:37Z
 [Term]
 id: PW:0001065
 name: interstrand cross link repair pathway
-def: "Interstrand cross links (ICL) of DNA can be induced by both endogenous and exogenous ligands. ICL if not repaired will lead to cell death. The ICL repair pathway, also known as the Fanconi anemia pathway, is the cellular response to this type of DNA damage." [GO:0036297, KEGG:03460, PMID:19061902, PMID:20713514, PMID:21605559, Reactome:R-HSA-6783310]
+alt_id: GO:0036297
+alt_id: Reactome:R-HSA-6783310
+def: "Interstrand cross links (ICL) of DNA can be induced by both endogenous and exogenous ligands. ICL if not repaired will lead to cell death. The ICL repair pathway, also known as the Fanconi anemia pathway, is the cellular response to this type of DNA damage." [PMID:19061902, PMID:20713514, PMID:21605559]
 synonym: "Fanconi anemia pathway" EXACT []
 synonym: "ICL repair pathway" EXACT []
 synonym: "interstrand cross-link repair" RELATED []
+synonym: "KEGG:03460" RELATED []
 is_a: PW:0000663 ! double-strand DNA repair pathway
 created_by: VPetri
 creation_date: 2012-07-24T09:31:12Z
@@ -8547,8 +8549,8 @@ creation_date: 2012-07-24T09:31:12Z
 [Term]
 id: PW:0001066
 name: ribosome biogenesis pathway
-def: "The pathway of ribosome biogenesis starts with the transcription of rRNA precursors, and involves the co-transciptional events of pre-rRNA processing and the assembly of pre-ribosomal particles. The maturation of pre-40S and pre-60S particles follows independent routes. Once in the cytoplasm, additional steps yield the mature, translation-competent ribosome. Alterations in the pathway result in specific phenotypes collectively known as ribosomopathies." [GO:0042254, KEGG:03008, PMID:20194897, PMID:20875629]
-synonym: "ribosome biogenesis" RELATED []
+def: "The pathway of ribosome biogenesis starts with the transcription of rRNA precursors, involves the co-transciptional events of pre-rRNA processing and the assembly of pre-ribosomal particles. The maturation of pre-40S and pre-60S particles follows independent routes.  Once in the cytoplasm, additional steps yield the mature, translation competent, ribosome. Alterations in the pathway result in specific phenotypes collectively known as ribosomopathies." [PMID:20194897, PMID:20875629]
+synonym: "KEGG:03008" RELATED []
 relationship: part_of PW:0000101 ! translation pathway
 created_by: VPetri
 creation_date: 2012-07-25T03:15:38Z
@@ -8584,7 +8586,8 @@ creation_date: 2012-07-30T11:02:37Z
 [Term]
 id: PW:0001070
 name: luteinizing hormone signaling pathway
-def: "Lutenizing hormone signaling is important for the normal development and function of the ovaries and testes. It acts synergistically with the follicle-stimulating hormone." [GO:0042700, https://en.wikipedia.org/wiki/Luteinizing_hormone "wikipedia", SMP:00338]
+def: "Lutenizing hormone signaling is important for the normal development and function of the ovaries and testes. It acts synergistically with the follicle-stimulating hormone." [https://en.wikipedia.org/wiki/Luteinizing_hormone "wikipedia"]
+synonym: "SMP:00338" RELATED []
 is_a: PW:0000467 ! peptide and protein hormone signaling pathway
 created_by: VPetri
 creation_date: 2012-07-30T11:12:02Z
@@ -8592,8 +8595,9 @@ creation_date: 2012-07-30T11:12:02Z
 [Term]
 id: PW:0001071
 name: follicle-stimulating hormone signaling pathway
-def: "Follicle-stimulating hormone signaling is important for the normal development and function of the ovaries and testes. It acts synergistically with the lutenizing hormone." [GO:0042699, https://en.wikipedia.org/wiki/Follicle-stimulating_hormone "wikipedia", PMID:21372710, SMP:00333]
+def: "Follicle-stimulating hormone signaling is important for the normal development and function of the ovaries and testes. It acts synergistically with the lutenizing hormone." [https://en.wikipedia.org/wiki/Follicle-stimulating_hormone "wikipedia", PMID:21372710]
 synonym: "FSH signaling pathway" EXACT []
+synonym: "SMP:00333" RELATED []
 is_a: PW:0000467 ! peptide and protein hormone signaling pathway
 created_by: VPetri
 creation_date: 2012-07-30T11:13:34Z
@@ -8660,8 +8664,7 @@ creation_date: 2012-07-31T11:04:19Z
 [Term]
 id: PW:0001079
 name: proline metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of proline, a non-essential amino acid that could be essential in certain cases. Its side chain bends to form a ring and its rigidity limits the folding abilities of proteins around proline residues." [GO:0006560, http://www.onelook.com "OneLook"]
-synonym: "proline metabolic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of proline, a non-essential amino acid that could be essential in certain cases. Its side chain bends to form a ring and its rigidity limits the folding abilities of proteins around proline residues." [http://www.onelook.com "OneLook"]
 is_a: PW:0001074 ! hydrophobic amino acid metabolic pathway
 created_by: VPetri
 creation_date: 2012-07-31T11:05:36Z
@@ -8669,8 +8672,7 @@ creation_date: 2012-07-31T11:05:36Z
 [Term]
 id: PW:0001080
 name: valine metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of valine, an essential amino acid. Valine, along with leucine and isoleucine is a branched-chain amino acid." [GO:0006573, http://en.wikipedia.org/wiki/Valine "wikipedia"]
-synonym: "valine metabolic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of valine, an essential amino acid. Valine, along with leucine and isoleucine is a branched-chain amino acid." [http://en.wikipedia.org/wiki/Valine "wikipedia"]
 is_a: PW:0001074 ! hydrophobic amino acid metabolic pathway
 created_by: VPetri
 creation_date: 2012-07-31T11:06:01Z
@@ -8678,8 +8680,7 @@ creation_date: 2012-07-31T11:06:01Z
 [Term]
 id: PW:0001081
 name: lysine metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of lysine, an essential amino acid." [GO:0006553, http://www.onelook.com "OneLook"]
-synonym: "lysine metabolic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of lysine, an essential amino acid." [http://www.onelook.com "OneLook"]
 is_a: PW:0001075 ! hydrophilic amino acid metabolic pathway
 created_by: VPetri
 creation_date: 2012-07-31T11:07:54Z
@@ -8687,8 +8688,7 @@ creation_date: 2012-07-31T11:07:54Z
 [Term]
 id: PW:0001082
 name: arginine metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of arginine, a non-essential amino acid that could be essential in certain cases." [GO:0006525, http://www.onelook.com "OneLook"]
-synonym: "arginine metabolic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of arginine, a non-essential amino acid that could be essential in certain cases." [http://www.onelook.com "OneLook"]
 is_a: PW:0001075 ! hydrophilic amino acid metabolic pathway
 created_by: VPetri
 creation_date: 2012-07-31T11:08:11Z
@@ -8696,8 +8696,7 @@ creation_date: 2012-07-31T11:08:11Z
 [Term]
 id: PW:0001083
 name: asparagine metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of asparagine, a non-essential amino acid." [GO:0006528, http://www.onelook.com "OneLook"]
-synonym: "asparagine metabolic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of asparagine, a non-essential amino acid." [http://www.onelook.com "OneLook"]
 is_a: PW:0001075 ! hydrophilic amino acid metabolic pathway
 created_by: VPetri
 creation_date: 2012-07-31T11:08:57Z
@@ -8713,8 +8712,7 @@ creation_date: 2012-07-31T11:10:13Z
 [Term]
 id: PW:0001085
 name: threonine metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of threonine, an essential amino acid." [GO:0006566, http://www.onelook.com "OneLook"]
-synonym: "threonine metabolic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of threonine, an essential amino acid." [http://www.onelook.com "OneLook"]
 is_a: PW:0001075 ! hydrophilic amino acid metabolic pathway
 created_by: VPetri
 creation_date: 2012-07-31T11:11:19Z
@@ -8722,8 +8720,7 @@ creation_date: 2012-07-31T11:11:19Z
 [Term]
 id: PW:0001086
 name: glutamine metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of glutamine, a non-essential amino acid that could be essential in certain cases." [GO:0006541, http://www.onelook.com "OneLook"]
-synonym: "glutamine metabolic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of glutamine, a non-essential amino acid that could be essential in certain cases." [http://www.onelook.com "OneLook"]
 is_a: PW:0001075 ! hydrophilic amino acid metabolic pathway
 created_by: VPetri
 creation_date: 2012-07-31T11:12:05Z
@@ -8731,8 +8728,7 @@ creation_date: 2012-07-31T11:12:05Z
 [Term]
 id: PW:0001087
 name: isoleucine metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of isoleucine, an essential, branched-chain amino acid." [GO:0006549, http://www.onelook.com "OneLook"]
-synonym: "isoleucine metabolic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of isoleucine, an essential amino acid." [http://www.onelook.com "OneLook"]
 is_a: PW:0001074 ! hydrophobic amino acid metabolic pathway
 created_by: VPetri
 creation_date: 2012-07-31T11:18:29Z
@@ -8740,8 +8736,7 @@ creation_date: 2012-07-31T11:18:29Z
 [Term]
 id: PW:0001088
 name: leucine metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of leucine, an essential, branched-chain amino acid." [GO:0006551, http://www.onelook.com "OneLook"]
-synonym: "leucine metabolic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of leucine, an essential amino acid." [http://www.onelook.com "OneLook"]
 is_a: PW:0001074 ! hydrophobic amino acid metabolic pathway
 created_by: VPetri
 creation_date: 2012-07-31T11:18:56Z
@@ -8784,7 +8779,7 @@ creation_date: 2012-08-01T03:33:01Z
 [Term]
 id: PW:0001093
 name: bile acid signaling pathway
-def: "Bile acid binds to and activates several nuclear receptors such as the farnesoid X and liver X receptors as well as a cell surface G-protein- coupled receptor." [GO:0038183, PMID:22414897, PMID:22521118]
+def: "Bile acid binds to and activates several nuclear receptors such as the farnesoid X and liver X receptors as well as a cell surface G-protein coupled receptor." [PMID:22414897, PMID:22521118]
 is_a: PW:0000716 ! transcription factor mediated signaling pathway
 is_a: PW:0000959 ! lipid signaling pathway
 is_a: PW:0001313 ! transcription pathway via transcription factor mediated signaling
@@ -9148,8 +9143,9 @@ creation_date: 2012-11-01T09:32:46Z
 [Term]
 id: PW:0001136
 name: fatty acid elongation pathway
-def: "The C16 palmitate product of the fatty acid biosynthetic pathway can be esterifed to triacylglycerol or converted to longer chain saturated and unsaturated fatty acid molecules by elongases and desaturases, depending on the needs of the cell. The elongation pathway takes place in the endoplasmic reticulum or in the mitochondrion. Longer chain fatty acids are present in certain specialized tissues; for instance, myelin contains large amounts of C22 and C24 molecules." [GO:0030497, KEGG:00062, PMID:22984005, SMP:00054]
-synonym: "fatty acid elongation" RELATED []
+def: "The C16 palmitate product of fatty acid biosynthetic pathway can be esterifed to triacylglycerol or converted to longer chain saturated and unsaturated fatty acid molecules by elongases and desaturases, depending on the needs of the cell. The elongation pathway takes place in the endoplasmic reticulum or in the mitochondrion. Longer chain fatty acids are present in certain specialized tissues; for instance, myelin contains large amounts of C22 and C24 molecules." [PMID:22984005]
+synonym: "KEGG:00062" RELATED []
+synonym: "SMP:00054" RELATED []
 is_a: PW:0000029 ! fatty acid biosynthetic pathway
 created_by: VPetri
 creation_date: 2012-11-02T15:26:41Z
@@ -9157,8 +9153,8 @@ creation_date: 2012-11-02T15:26:41Z
 [Term]
 id: PW:0001137
 name: unsaturated fatty acid biosynthetic pathway
-def: "The C16 palmitate product of the fatty acid biosynthetic pathway can be esterifed to triacylglycerol or converted to longer chain saturated and unsaturated fatty acid molecules by elongases and desaturases, depending on the needs of the cell. Unsaturated fatty acids are essential membrane components." [GO:0006636, KEGG:map01040]
-synonym: "unsaturated fatty acid biosynthetic process" RELATED []
+def: "The C16 palmitate product of fatty acid biosynthetic pathway can be esterifed to triacylglycerol or converted to longer chain saturated and unsaturated fatty acid molecules by elongases and desaturases, depending on the needs of the cell. Unsaturated fatty acids are essential membrane components." [KEGG:map01040]
+synonym: "KEGG:01040" RELATED []
 is_a: PW:0000029 ! fatty acid biosynthetic pathway
 created_by: VPetri
 creation_date: 2012-11-02T15:40:42Z
@@ -9167,8 +9163,8 @@ creation_date: 2012-11-02T15:40:42Z
 id: PW:0001138
 name: ether lipid metabolic pathway
 alt_id: PW:0001157
-def: "Those metabolic reactions involving ether lipids, lipid molecules in which one or several of the carbons on glycerol has an ether linkage to an alkyl chain. Ether lipids are constituents of cell membrane; some metabolites could act as signaling second messengers or carry out antioxidant functions." [GO:0046485, https://en.wikipedia.org/wiki/Ether_lipid "wikipedia", KEGG:00565]
-synonym: "ether lipid metabolic process" RELATED []
+def: "Those metabolic reactions involving ether lipids, lipid molecules in which one or several of the carbons on glycerol has an ether linkage to an alkyl chain. Ether lipids are constituents of cell membrane; some metabolites could act as signaling second messengers or carry out antioxidant functions." [https://en.wikipedia.org/wiki/Ether_lipid "wikipedia"]
+synonym: "KEGG:00565" RELATED []
 is_a: PW:0000010 ! lipid metabolic pathway
 created_by: VPetri
 creation_date: 2012-11-02T16:17:56Z
@@ -9176,8 +9172,7 @@ creation_date: 2012-11-02T16:17:56Z
 [Term]
 id: PW:0001139
 name: calcium transport pathway
-def: "Calcium is pumped into organelles or out of the cell by pumps and exchangers to maintain the low calcium concentration necessary for cell viability. Many type of channels, some calcium-selective, others of lower selectivity or calcium-permeant, allow for the flow of calcium from external sources or internal stores into the cell to initiate many signaling events. The movement of calcium ions, which controls and maintains the calcium gradient, and calcium signaling, which the gradient promotes, are inextricably connected in the fabric of calcium homeostasis." [GO:0006816, PMID:12838335, PMID:18083096]
-synonym: "calcium ion transport" RELATED []
+def: "Calcium is pumped into organelles or outside the cell by pumps and exchangers to maintain the low calcium concentration necessary for cell viability. Many type of channels, some calcium-selective, others of lower selectivity or calcium-permeant, allow for the flow of calcium from external sources or internal stores into the cell to initiate many signaling events. The movement of calcium ions, which controls and maintains the calcium gradient, and calcium signaling, which the gradient promotes, are inextricably connected in the fabric of calcium homeostasis." [PMID:12838335, PMID:18083096]
 is_a: PW:0000593 ! metal ion transport pathway
 relationship: part_of PW:0000371 ! calcium homeostasis pathway
 created_by: VPetri
@@ -9204,9 +9199,7 @@ creation_date: 2012-11-07T13:22:52Z
 [Term]
 id: PW:0001142
 name: clathrin-mediated endocytosis pathway
-def: "The clathrin-mediated endocytosis pathway involves clathrin-coated vesicles used for the engulfment of material." [GO:0072583, http://en.wikipedia.org/wiki/Endocytosis "Wikipedia", PMID:16985500, Reactome:R-HSA-8856828]
-synonym: "clathrin-dependent endocytosis" RELATED []
-synonym: "Clathrin-mediated endocytosis" RELATED []
+def: "The clathrin-mediated endocytosis pathway involves clathrin-coated vesicles used for the engulfment of material." [http://en.wikipedia.org/wiki/Endocytosis "Wikipedia", PMID:16985500]
 is_a: PW:0000281 ! endocytosis pathway
 created_by: VPetri
 creation_date: 2012-11-08T15:18:18Z
@@ -9214,8 +9207,6 @@ creation_date: 2012-11-08T15:18:18Z
 [Term]
 id: PW:0001143
 name: caveolae-mediated endocytosis pathway
-def: "Caveolar endocytosis is a ligand-triggered uptake mechanism functioning in parallel with the clathrin-mediated pathway." [GO:0072584]
-synonym: "caveolin-mediated endocytosis" RELATED []
 is_a: PW:0000281 ! endocytosis pathway
 created_by: VPetri
 creation_date: 2012-11-08T15:40:59Z
@@ -9223,8 +9214,6 @@ creation_date: 2012-11-08T15:40:59Z
 [Term]
 id: PW:0001144
 name: micropinocytosis pathway
-def: "The incorporation of macromolecules or other chemical substances into cells by membrane invagination and the pinching off of relatively small vesicles." [GO:0044350]
-synonym: "micropinocytosis" RELATED []
 is_a: PW:0000281 ! endocytosis pathway
 created_by: VPetri
 creation_date: 2012-11-08T15:41:28Z
@@ -9232,8 +9221,8 @@ creation_date: 2012-11-08T15:41:28Z
 [Term]
 id: PW:0001145
 name: phagocytosis pathway
-def: "The phagocytosis pathway is used for the removal of unwanted material such as dying cells and also of foreign material. As such it is also part of the immune response. Various receptors on the surface of a phagocytic cell will recognize/bind material and induce signaling cascades." [GO:0006909, KEGG:04145, PMID:16985500, PMID:9039775]
-synonym: "phagocytosis" RELATED []
+def: "Phagocytosis pathway is used for the removal of unwanted material such as dying cells and also of foreign material. As such is also part of the immune response. Various receptors on the surface of a phagocytic cell will recognize/bind material and induce signaling cascades." [PMID:16985500, PMID:9039775]
+synonym: "KEGG:04145" RELATED []
 is_a: PW:0000281 ! endocytosis pathway
 created_by: VPetri
 creation_date: 2012-11-08T15:41:47Z
@@ -9298,8 +9287,8 @@ creation_date: 2012-11-09T11:02:34Z
 [Term]
 id: PW:0001152
 name: steroid biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of steroids. Notable examples include cholesterol and steroid hormones." [GO:0006694, http://en.wikipedia.org/wiki/Steroid "wikipedia", KEGG:00100]
-synonym: "steroid biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of steroids. Notable examples include cholesterol and steroid hormones." [http://en.wikipedia.org/wiki/Steroid "wikipedia"]
+synonym: "KEGG:00100" RELATED []
 is_a: PW:0000453 ! isoprenoid biosynthetic pathway
 is_a: PW:0001303 ! steroid metabolic pathway
 created_by: VPetri
@@ -9317,8 +9306,8 @@ creation_date: 2012-11-09T15:14:24Z
 [Term]
 id: PW:0001154
 name: glycosaminoglycan degradation pathway
-def: "Those metabolic reactions involved in the degradation of glycosaminoglycans." [GO:0006027, KEGG:00531]
-synonym: "glycosaminoglycan catabolic process" RELATED []
+def: "Those metabolic reactions involved in the degradation of glycosaminoglycans." [KEGG:00531]
+synonym: "KEGG:00531" RELATED []
 is_a: PW:0000157 ! glycosaminoglycan metabolic pathway
 created_by: VPetri
 creation_date: 2012-11-09T15:21:46Z
@@ -9353,7 +9342,11 @@ creation_date: 2012-11-09T15:51:41Z
 [Term]
 id: PW:0001158
 name: alpha-linolenic acid metabolic pathway
-def: "Those enzymatic reactions involved in the synthesis, utilization or degradation of alpha-linolenic acid - an unsaturated omega-3 fatty acid. Alpha-linolenic acid is an essential fatty acid that humans and other animals cannot synthesize and must obtain from diet." [GO:0036109, http://en.wikipedia.org/wiki/Alpha-Linolenic_acid "wikipedia", KEGG:00592, Reactome:R-HSA-2046106, SMP:00018]
+alt_id: GO:0036109
+alt_id: KEGG:00592
+alt_id: Reactome:R-HSA-2046106
+alt_id: SMP:00018
+def: "Those enzymatic reactions involved in the synthesis, utilization or degradation of alpha-linolenic acid - an unsaturated omega-3 fatty acid. Alpha-linolenic acid is an essential fatty acid that humans and other animals cannot synthesize and must obtain from diet." [http://en.wikipedia.org/wiki/Alpha-Linolenic_acid "wikipedia"]
 synonym: "alpha-linolenic acid (ALA) metabolism" RELATED []
 synonym: "alpha-linolenic acid metabolic process" RELATED []
 is_a: PW:0000058 ! fatty acid metabolic pathway
@@ -9363,8 +9356,8 @@ creation_date: 2012-11-09T16:06:00Z
 [Term]
 id: PW:0001159
 name: aminoacyl-tRNA biosynthetic pathway
-def: "Aminoacyl-tRNA, or transfer RNA (tRNA) carries amino acids to ribosomes and is part of the translation pathway. tRNAs are specific for the amino acids with which they are associated. Their synthesis involves adenylation of the amino acid followed by its transfer; both steps require ATP." [GO:0043039, http://en.wikipedia.org/wiki/Aminoacyl-tRNA "wikipedia", KEGG:00970, Reaactome:R-HSA-379724]
-synonym: "tRNA Aminoacylation" RELATED []
+def: "Aminoacyl-tRNA, or transfer RNA (tRNA) carries amino acids to ribosomes and is part of the translation pathway. tRNAs are specific for the amino acids with which they are associated. Their synthesis involves adenylation of the amino acid followed by its transfer; both steps require ATP." [http://en.wikipedia.org/wiki/Aminoacyl-tRNA "wikipedia"]
+synonym: "KEGG:00970" RELATED []
 relationship: part_of PW:0000101 ! translation pathway
 created_by: VPetri
 creation_date: 2012-11-09T16:13:47Z
@@ -9372,8 +9365,8 @@ creation_date: 2012-11-09T16:13:47Z
 [Term]
 id: PW:0001160
 name: RNA transport pathway
-def: "The pathway whereby various RNA molecules synthesized in the nucleus are exported to the cytoplasm to be further processed such as protein-coding mRNA or to fulfill particular functions." [GO:0050658, KEGG:03013, PMID:15519698, PMID:21776079]
-synonym: "RNA transport" RELATED []
+def: "The pathway whereby various RNA molecules synthesized in the nucleus are exported to the cytoplasm to be further processed such as protein-coding mRNA or to fulfill particular functions." [PMID:15519698, PMID:21776079]
+synonym: "KEGG:03013" RELATED []
 is_a: PW:0000085 ! pathway pertinent to DNA replication and repair, cell cycle, maintenance of genomic integrity, RNA and protein biosynthesis
 is_a: PW:0000103 ! transport pathway
 created_by: VPetri
@@ -9382,8 +9375,8 @@ creation_date: 2012-11-12T15:25:17Z
 [Term]
 id: PW:0001161
 name: RNA degradation pathway
-def: "The turnover of RNA molecules produced by the three eukaryotic polymerases and those resulting from their processing and/or assembly. It includes the degradation of defective molecules, of excess molecules, or of defective components by the RNA surveillance or decay pathway." [GO:0006401, KEGG:03018, PMID:19239894]
-synonym: "RNA catabolic process" RELATED []
+def: "The turnover of RNA molecules produced by the three eukaryotic polymerases and those resulting from their processing and/or assembly. It includes the degradation of defective molecules, of excess molecules, or of defective components by the RNA surveillance or decay pathway." [PMID:19239894]
+synonym: "KEGG:03018" RELATED []
 is_a: PW:0001567 ! RNA processing pathway
 created_by: VPetri
 creation_date: 2012-11-12T15:38:14Z
@@ -9399,7 +9392,7 @@ creation_date: 2012-11-13T09:02:24Z
 [Term]
 id: PW:0001163
 name: cannabinoid signaling pathway
-def: "Cannabinoids are a class of rather diverse chemical compounds of which some, like endocannabinoids, are naturally produced by the body in humans and other animals, while others are found in plants or are synthesized. Signaling is mediated by the cannabinoid receptors that are G-protein-coupled (GPCR) receptors. The endogenous cannabinoids are lipids and the signaling route is referred to as retrograde as it travels 'backwards' from the postsynaptic to the presynaptic cell." [GO:0038171, http://en.wikipedia.org/wiki/Cannabinoid "wikipedia"]
+def: "Cannabinoids are a class of rather diverse chemical compounds of which some, like endocannabinoids are naturally produced by the body in humans and other animals, while others are found in plants or are synthesized. Signaling is mediated by the cannabinoid receptors that are G protein coupled (GPCR) receptors. The endogenous cannabinoids are lipids and the signaling route is referred to as retrograde as it  travels 'backwards' from the postsynaptic to the presynaptic cell." [http://en.wikipedia.org/wiki/Cannabinoid "wikipedia"]
 is_a: PW:0001162 ! chemical compound signaling pathway
 created_by: VPetri
 creation_date: 2012-11-13T09:02:41Z
@@ -9407,7 +9400,8 @@ creation_date: 2012-11-13T09:02:41Z
 [Term]
 id: PW:0001164
 name: endocannabinoid signaling pathway
-def: "The signaling pathway initiated by the endogenous cannabinoids that activate the G-protein-coupled (GPCR) cannabinoid receptors and utilize a retrograde route from the postsynaptic to the presynaptic neuron." [GO:0071926, KEGG:04723, PMID:21531987]
+def: "The signaling pathway initiated by the endogenous cannabinoids that activate the G protein coupled (GPCR) cannabinoid receptors and utilize a retrograde route from the postsynaptic to the presynaptic neuron." [PMID:21531987]
+synonym: "KEGG:04723" RELATED []
 synonym: "retrograde endocannabinoid signaling pathway" RELATED []
 is_a: PW:0000959 ! lipid signaling pathway
 is_a: PW:0001163 ! cannabinoid signaling pathway
@@ -9587,8 +9581,7 @@ creation_date: 2013-02-04T10:04:15Z
 [Term]
 id: PW:0001183
 name: phosphate transport pathway
-def: "The pathway that assures the proper transport of phosphate in the body. The kidney plays a major role in the filtration and reabsorption of phosphate while bone is a principal form of storage. Several types of sodium phosphate cotransporters are involved; the role of type 2 and 3 has been established. Renal phosphate transport is under the control of parathyroid hormone (PTH) and fibroblast growth factor 23 (FGF23) signaling." [GO:0006817, PMID:21778753]
-synonym: "phosphate ion transport" RELATED []
+def: "The pathway that assures the proper transport of phosphate in the body. Kidney plays a major role in the filtration and reabsorption of phosphate while the bone is a principal form of storage. Several types of sodium phosphate cotransporters are involved; the role of type 2 and 3 has been established. Renal phosphate transport is under the control of parathyroid hormone (PTH) and fibroblast growth factor 23 (FGF23) signaling." [PMID:21778753]
 is_a: PW:0000103 ! transport pathway
 relationship: part_of PW:0001182 ! phosphate homeostasis pathway
 created_by: VPetri
@@ -9728,7 +9721,7 @@ creation_date: 2013-03-12T12:10:08Z
 [Term]
 id: PW:0001200
 name: thyroid-stimulating hormone signaling pathway
-def: "Thyroid-stimulating hormone (TSH) signaling stimulates the secretion of thyroid hormone. Its own secretion is dependent upon activation of thyrotropin-releasing hormone (TRH) in the hypothalamus by low levels of thyroid hormone (TH). TRH, TSH and TH signaling pathways are part of the hypothalamic-pituitary-thyroid (HPT) axis for which TH itself provides a negative regulatory loop." [GO:0038194, PMID:22759379]
+def: "Thyroid-stimulating hormone (TSH) signaling stimulates the secretion of thyroid hormone. Its own secretion is dependent upon activation of thyrotropin-releasing hormone (TRH) in the hypothalamus by low levels of thyroid hormone (TH). TRH, TSH and TH signaling pathways are part of the hypothalamic-pituitary-thyroid (HPT) axis for which TH itself provides a negative regulatory loop." [PMID:22759379]
 synonym: "thyrotropin signaling pathway" EXACT []
 synonym: "TSH signaling pathway" EXACT []
 is_a: PW:0000467 ! peptide and protein hormone signaling pathway
