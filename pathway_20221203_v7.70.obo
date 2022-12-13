@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.71
-date: 10:12:2022 20:13
+data-version: 7.70
+date: 03:12:2022 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: pathway
@@ -7310,7 +7310,7 @@ creation_date: 2012-05-01T02:12:50Z
 [Term]
 id: PW:0000937
 name: chemokine (C-C motif) ligand 2 signaling pathway
-def: "Chemokine ligand 2 signaling engages the chemokine (C-C motif) receptor 2 (Ccr2) and together with other CC chemokines it is classified as a member of the allergenic subgroup." [GO:0038148, PMID:15062643]
+def: "Chemokine ligand 2 signaling engages the chemokine (C-C motif) receptor 2 (Ccr2) and together with other CC chemokines is classified as a member of the allergenic subgroup." [GO:0038148, PMID:15062643]
 synonym: "Ccl2 signaling pathway" RELATED []
 synonym: "chemokine (C-C motif) ligand 2 signaling pathway" RELATED []
 is_a: PW:0000831 ! CC chemokine mediated signaling pathway
@@ -7338,7 +7338,7 @@ creation_date: 2012-05-01T02:34:32Z
 [Term]
 id: PW:0000940
 name: chemokine (C-C motif) ligand 5 signaling pathway
-def: "Chemokine ligand 5 signaling engages chemokine (C-C motif) receptors 1, 3 and 5 (Ccr1, Ccr3 and Ccr5) and together with other chemokines it is classified as a member of the pro-inflammatory subgroup." [GO:0035689, PMID:15062643]
+def: "Chemokine ligand 5 signaling engages chemokine (C-C motif) receptors 1, 3 and 5 (Ccr1, Ccr3 and Ccr5) and together with other chemokines is classified as a member of the pro-inflammatory subgroup." [GO:0035689, PMID:15062643]
 synonym: "Ccl5 signaling pathway" RELATED []
 synonym: "chemokine (C-C motif) ligand 5 signaling pathway" RELATED []
 is_a: PW:0000831 ! CC chemokine mediated signaling pathway
@@ -7620,7 +7620,7 @@ creation_date: 2012-05-22T11:44:14Z
 [Term]
 id: PW:0000970
 name: granulocyte-macrophage colony-stimulating factor signaling pathway
-def: "GM-CSF signaling, like the other hemopoietic cytokines, is involved in the production and activation of hemopoietic cells. The GM-CSF pathway acts on monocytes, macrophages and granulocytes and is also involved in the regulation of T and dendritic cell functions." [GO:0038157, PID:200019, PMID:19436055]
+def: "GM-CSF signaling, like the other hemopoietic cytokines, is involved in the production and activation of hemopoietic cells. The GM-CSF pathway acts on monocytes, macrophages and granulocytes and is also involved in the regulation of T and dendritic cells functions." [GO:0038157, PID:200019, PMID:19436055]
 synonym: "GM-CSF signaling pathway" EXACT []
 is_a: PW:0000967 ! interleukin-3/interleukin-5/GM-CSF mediated signaling pathway
 created_by: VPetri
@@ -9335,8 +9335,9 @@ creation_date: 2012-11-09T15:34:08Z
 [Term]
 id: PW:0001156
 name: glycerolipid metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of glycerolipids, which are composed of mono-, di-, and tri-substituted glycerols. Triacylglycerol, or triglyceride, is the best known example." [GO:0046486, http://www.onelook.com "OneLook", KEGG:00561, SMP:00039]
-synonym: "glycerolipid metabolic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of glycerolipids which are composed of mono-, di-, and tri-substituted glycerols. Triacylglycerol, or triglyceride, is the best known example." [http://www.onelook.com "OneLook"]
+synonym: "KEGG:00561" RELATED []
+synonym: "SMP:00039" RELATED []
 is_a: PW:0000010 ! lipid metabolic pathway
 created_by: VPetri
 creation_date: 2012-11-09T15:42:02Z
@@ -9961,10 +9962,8 @@ creation_date: 2013-05-03T10:59:18Z
 [Term]
 id: PW:0001227
 name: Stem Cell Factor signaling pathway
-def: "The Stem Cell Factor (SCF) signaling pathway plays important roles in cell migration, proliferation and survival. SCF activates the KIT receptor tyrosine kinase which then prompts several intracellular signaling pathways. Deregulation of the pathway has been associated with several conditions including cancer." [GO:0038109, PMID:23073628, Reactome:R-HSA-1433557]
-synonym: "Kit signaling pathway" RELATED []
+def: "The Stem Cell Factor (SCF) signaling plays important roles in cell migration, proliferation and survival. SCF activates the KIT receptor tyrosine kinase which then prompts several intracellular signaling pathways. Deregulation of the pathway has been associated with several conditions including cancer." [PMID:23073628]
 synonym: "SCF signaling pathway" EXACT []
-synonym: "Signaling by SCF-KIT" RELATED []
 synonym: "Steel factor signaling pathway" EXACT []
 is_a: PW:0000168 ! growth factor signaling pathway
 created_by: VPetri
@@ -9981,8 +9980,7 @@ creation_date: 2013-05-03T11:54:00Z
 [Term]
 id: PW:0001229
 name: xenobiotic metabolic pathway
-def: "Those metabolic reactions involved in the uptake, modification and elimination of chemical compounds that are foreign to the biological system. This includes the biotransformation pathways organisms use to detoxify the system and the degradation of toxic pollutants by microorganisms. Many of the compounds that enter the cell are inactive and the transformation pathways aim to increase their hydrophilicity and ease elimination. In the process, some of the intermediates may give rise to toxic metabolites and effects. The transformation pathways are also important for the pharmacokinetics aspect of drug metabolism. The distinction is that a drug is a foreign compound intentionally administered. In the case of the degradation pathway, microoganismal enzymes have the ability to degrade otherwise resistant compounds." [GO:0006805]
-synonym: "xenobiotic metabolic process" RELATED []
+def: "Those metabolic reactions involved in the uptake, modification and elimination of chemical compounds that are foreign to the biological system. This includes the biotransformation pathways organisms use to detoxify the system and the degradation of toxic pollutants by microorganisms. Many of the compounds that enter the cell are inactive and the transformation pathways aim to increase their hydrophilicity and ease the elimination.  In the process, some of the intermediates may give rise to toxic metabolites and effects. The transformation pathways are also important for the pharmacokinetics aspect of drug metabolism.  The distinction is that a drug is a foreign compound intentionally administered. In the case of the degradation pathway, microoganismal  enzymes have the ability to degrade otherwise resistant compounds." []
 is_a: PW:0000002 ! classic metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-03T15:29:08Z
@@ -10021,8 +10019,7 @@ creation_date: 2013-05-07T16:24:12Z
 [Term]
 id: PW:0001234
 name: biogenic amine biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of biogenic amines." [GO:0042401, PMID:12641342]
-synonym: "cellular biogenic amine biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of biogenic amines." [PMID:12641342]
 is_a: PW:0000211 ! biogenic amines and polyamines metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-08T08:31:26Z
@@ -10030,7 +10027,10 @@ creation_date: 2013-05-08T08:31:26Z
 [Term]
 id: PW:0001235
 name: catecholamine biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of catecholamines. Epinephrine, norepinephrine and dopamine are among the most abundant and are produced primarily from the adrenal medulla and the postganglionic fibers of the sympathetic nervous system." [GO:0042423, PMID:19342614, Reactome:R-HSA-209905, SMP:00012]
+alt_id: GO:0042423
+alt_id: Reactome:R-HSA-209905
+alt_id: SMP:00012
+def: "Those metabolic reactions involved in the synthesis of catecholamines. Epinephrine, norepinephrine and dopamine are among the most abundant and are produced primarily from the adrenal medulla and the postganglionic fibers of the sympathetic nervous system." [PMID:19342614]
 synonym: "Catecholamine biosynthesis" RELATED []
 synonym: "catecholamine biosynthetic process" RELATED []
 is_a: PW:0000443 ! catecholamine metabolic pathway
@@ -10041,8 +10041,7 @@ creation_date: 2013-05-08T08:33:31Z
 [Term]
 id: PW:0001236
 name: histamine biosynthetic pathway
-def: "Histamine is derived from the amino acid histidine via a decarboxylation reaction carried out by the enzyme L-histidine decarboxylase." [GO:0001694, http://en.wikipedia.org/wiki/Histamine "wikipedia"]
-synonym: "histamine biosynthetic process" RELATED []
+def: "Histamine is derived from the amino acid histidine via a decarboxylation reaction carried out by the enzyme L-histidine decarboxylase." [http://en.wikipedia.org/wiki/Histamine "wikipedia"]
 is_a: PW:0000051 ! histidine metabolic pathway
 is_a: PW:0000411 ! histamine metabolic pathway
 is_a: PW:0001238 ! indoleamine and related compounds biosynthetic pathway
@@ -10052,8 +10051,6 @@ creation_date: 2013-05-08T08:38:25Z
 [Term]
 id: PW:0001237
 name: serotonin biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of serotonin, a monoamine neurotransmitter involved in modulating mood, memory and other biological processes." [GO:0042427]
-synonym: "serotonin biosynthetic process" RELATED []
 is_a: PW:0000410 ! serotonin metabolic pathway
 is_a: PW:0001238 ! indoleamine and related compounds biosynthetic pathway
 created_by: VPetri
@@ -10070,8 +10067,7 @@ creation_date: 2013-05-08T08:39:39Z
 [Term]
 id: PW:0001239
 name: eicosanoid biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of eicosanoids, molecules that play important roles in the immune and vascular systems. They are derived from either omega-3 or omega-6 fatty acids, with the route via the conversion of arachidonic acid being better known." [GO:0046456, PMID:15896353]
-synonym: "icosanoid biosynthetic process" RELATED []
+def: "Those metabolic reaction involved in the synthesis of eicosanoids, molecules that play important roles in the immune and vascular systems. They are derived from either omega-3 or omega-6 fatty acids, with the route provided by the conversion of arachidonic acid, better known." [PMID:15896353]
 is_a: PW:0000485 ! eicosanoid metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-08T09:54:38Z
@@ -10079,8 +10075,7 @@ creation_date: 2013-05-08T09:54:38Z
 [Term]
 id: PW:0001240
 name: prostanoid metabolic pathway
-def: "Those enzymatic reactions involved in the synthesis, utilization or degradation of prostanoids, a class of eicosanoids that contains the prostaglandins, the thromboxanes and prostacycline." [GO:0006692, PMID:15896353]
-synonym: "prostanoid metabolic process" RELATED []
+def: "Prostanoids are a class of eicosanoids that contains the prostaglandins, the thromboxanes and prostacycline." [PMID:15896353]
 is_a: PW:0000485 ! eicosanoid metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-08T10:04:12Z
@@ -10096,8 +10091,7 @@ creation_date: 2013-05-08T10:09:06Z
 [Term]
 id: PW:0001242
 name: leukotriene biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of leukotrienes, a class of eicosanoids, molecules exerting important roles in the immune and vascular systems." [GO:0019370, PMID:15896353]
-synonym: "leukotriene biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of leukotriene, a class of eicosanoids, molecules exerting important roles in the immune and vascular systems." [PMID:15896353]
 is_a: PW:0000464 ! leukotriene metabolic pathway
 is_a: PW:0001239 ! eicosanoid biosynthetic pathway
 created_by: VPetri
@@ -10106,8 +10100,7 @@ creation_date: 2013-05-08T10:16:22Z
 [Term]
 id: PW:0001243
 name: prostanoid biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of prostanoids, a class of eicosanoids that includes several families and which has important roles in the immune and vascular systems." [GO:0046457, PMID:15896353, PMID:23063076]
-synonym: "prostanoid biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of prostanoids, a class of eicosanoids that includes several families and which exert important roles in the immune and vascular systems." [PMID:15896353, PMID:23063076]
 is_a: PW:0001239 ! eicosanoid biosynthetic pathway
 is_a: PW:0001240 ! prostanoid metabolic pathway
 created_by: VPetri
@@ -10171,9 +10164,8 @@ creation_date: 2013-05-08T11:18:25Z
 [Term]
 id: PW:0001250
 name: monoamine transport pathway
-def: "The pathway responsible for the transport of monoamines, biogenic amines representing various neurotransmitters. The reuptake of neurotransmitters following their release is a key element determining the duration and intensity of their signaling and is thus essential for the proper functioning of the nervous system." [GO:0015844, PMID:12511858, PMID:16024510]
+def: "The pathway responsible for the transport of monoamines, biogenic amines representing various neurotransmitters. The reuptake of neurotransmitters following their release is a key element determining the duration and intensity of their signaling and is thus essential for the proper functioning of the nervous system." [PMID:12511858, PMID:16024510]
 synonym: "biogenic amine neurotransmitter transport pathway" RELATED []
-synonym: "monoamine transport" RELATED []
 is_a: PW:0000103 ! transport pathway
 is_a: PW:0001251 ! regulatory pathway pertinent to the brain
 created_by: VPetri
@@ -10189,7 +10181,8 @@ creation_date: 2013-05-08T12:07:10Z
 [Term]
 id: PW:0001252
 name: prolactin signaling pathway
-def: "The prolactin signaling pathway is important for normal reproduction. Prolactin is a peptide hormone whose signaling activates several intracellular cascades." [GO:0038161, PMID:21664429, PMID:22684822, Reactome:R-HSA-1170546]
+alt_id: Reactome:R-HSA-1170546
+def: "The prolactin signaling pathway is important for normal reproduction. Prolactin is a peptide hormone whose signaling activates several intracellular cascades." [PMID:21664429, PMID:22684822]
 synonym: "Prolactin receptor signaling" RELATED []
 is_a: PW:0000467 ! peptide and protein hormone signaling pathway
 created_by: VPetri
@@ -10207,8 +10200,6 @@ creation_date: 2013-05-08T12:38:21Z
 [Term]
 id: PW:0001254
 name: amino acid biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of amino acids, the building blocks for proteins." [GO:0008652]
-synonym: "amino acid biosynthetic process" RELATED []
 is_a: PW:0000011 ! amino acid metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-08T12:55:19Z
@@ -10232,8 +10223,6 @@ creation_date: 2013-05-08T12:55:59Z
 [Term]
 id: PW:0001257
 name: amino acid degradation pathway
-def: "Those metabolic reactions involved in the degradation of amino acids." [GO:0009063]
-synonym: "cellular amino acid catabolic process" RELATED []
 is_a: PW:0000011 ! amino acid metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-08T12:56:23Z
@@ -10257,8 +10246,7 @@ creation_date: 2013-05-08T12:57:01Z
 [Term]
 id: PW:0001260
 name: arginine biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of arginine. Although primarily a non-essential amino acid, its synthesis from citrulline may be insufficient and it is also energetically costly. Diet-derived arginine can circumvent these aspects." [GO:0006526, http://en.wikipedia.org/wiki/Arginine "Wikipedia"]
-synonym: "arginine biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of arginine. Although primarily a non-essential amino acid, its synthesis from citrulline may be insufficient and it is also energetically costly. Diet derived arginine can circumvent these aspects." [http://en.wikipedia.org/wiki/Arginine "Wikipedia"]
 is_a: PW:0001082 ! arginine metabolic pathway
 is_a: PW:0001255 ! hydrophilic amino acid biosynthetic pathway
 created_by: VPetri
@@ -10267,8 +10255,7 @@ creation_date: 2013-05-08T13:06:34Z
 [Term]
 id: PW:0001261
 name: arginine degradation pathway
-def: "Those metabolic reactions involved in the degradation of arginine. Higher organisms do not possess the enzymes involved in this catabolic pathway." [GO:0006527, http://www.biocyc.org/META/NEW-IMAGE?type=PATHWAY&object=AST-PWY "MetaCyc"]
-synonym: "arginine catabolic process" RELATED []
+def: "Those metabolic reactions involved in the degradation of arginine. Higher organisms do not possess the enzymes involved in this catabolic pathway." [http://www.biocyc.org/META/NEW-IMAGE?type=PATHWAY&object=AST-PWY "MetaCyc"]
 is_a: PW:0001082 ! arginine metabolic pathway
 is_a: PW:0001259 ! hydrophilic amino acid degradation pathway
 created_by: VPetri
@@ -10295,8 +10282,7 @@ creation_date: 2013-05-08T13:46:32Z
 [Term]
 id: PW:0001264
 name: glycine biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of glycine, a major inhibitory neurotransmitter." [GO:0006545, http://en.wikipedia.org/wiki/Glycine "Wikipedia"]
-synonym: "glycine biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of glycine, a major inhibitory neurotransmitter." [http://en.wikipedia.org/wiki/Glycine "Wikipedia"]
 is_a: PW:0000440 ! glycine metabolic pathway
 is_a: PW:0001256 ! hydrophobic amino acid biosynthetic pathway
 created_by: VPetri
@@ -10305,7 +10291,9 @@ creation_date: 2013-05-08T13:51:53Z
 [Term]
 id: PW:0001265
 name: glycine degradation pathway
-def: "Those metabolic reactions involved in the degradation of glycine. Several routes are available, of which the glycine cleavage system is the predominant one. It occurs in the mitochondria and produces 5,10-methylene tetrahydrofolate and as such, is an important component of the folate cycle pathway." [GO:0006546, http://en.wikipedia.org/wiki/Glycine "wikipedia", PMID:18941301, Reactome:R-HSA-6783984]
+alt_id: GO:0006546
+alt_id: Reactome:R-HSA-6783984
+def: "Those metabolic reactions involved in the degradation of glycine. Several routes are available, of which the glycine cleavage system is the predominant one. It occurs in the mitochondria and produces 5,10-methylene tetrahydrofolate and as such, is an important component of folate cycle pathway." [http://en.wikipedia.org/wiki/Glycine "wikipedia", PMID:18941301]
 synonym: "glycine catabolic process" RELATED []
 synonym: "Glycine degradation" RELATED []
 is_a: PW:0000440 ! glycine metabolic pathway
@@ -10316,8 +10304,7 @@ creation_date: 2013-05-08T13:54:02Z
 [Term]
 id: PW:0001266
 name: histidine biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of histidine, an essential amino acid for humans. The biosynthesis of histidine has been extensively studied in E. coli and S. typhimurium." [GO:0000105, PMID:8852895]
-synonym: "histidine biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of histidine, an essential amino acid for humans. The biosynthesis of histidine has been extensively studied in E. coli and S. typhimurium." [PMID:8852895]
 is_a: PW:0000051 ! histidine metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-08T14:06:42Z
@@ -10325,7 +10312,9 @@ creation_date: 2013-05-08T14:06:42Z
 [Term]
 id: PW:0001267
 name: histidine degradation pathway
-def: "Those metabolic reactions involved in the degradation of histidine. Histidine degradation provides a source of nitrogen and is carried out in microorganisms." [GO:0006548, PMID:24165547, PMID:24728193, Reactome:R-HSA-70921]
+alt_id: GO:0006548
+alt_id: Reactome:R-HSA-70921
+def: "Those metabolic reactions involved in the degradation of histidine. Histidine degradation provides a source of nitrogen and is carried out in microorganisms." [PMID:24165547, PMID:24728193]
 synonym: "histidine catabolic process" RELATED []
 synonym: "Histidine catabolism" RELATED []
 is_a: PW:0000051 ! histidine metabolic pathway
@@ -10336,8 +10325,7 @@ creation_date: 2013-05-08T14:13:58Z
 [Term]
 id: PW:0001268
 name: isoleucine biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of isoleucine, an essential amino acid for humans. Its synthesis in plants and microorganisms proceeds via several steps." [GO:0009097, http://en.wikipedia.org/wiki/Isoleucine "wikipedia"]
-synonym: "isoleucine biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of isoleucine, an essential amino acid for humans. Its synthesis in plants and microorganisms proceeds via several steps." [http://en.wikipedia.org/wiki/Isoleucine "wikipedia"]
 is_a: PW:0001087 ! isoleucine metabolic pathway
 is_a: PW:0001256 ! hydrophobic amino acid biosynthetic pathway
 created_by: VPetri
@@ -10346,8 +10334,7 @@ creation_date: 2013-05-08T14:24:37Z
 [Term]
 id: PW:0001269
 name: isoleucine degradation pathway
-def: "Those metabolic reactions involved in the degradation of isoleucine." [GO:0006550]
-synonym: "isoleucine catabolic process" RELATED []
+def: "Those metabolic reactions involved in the degradation of isoleucine." []
 is_a: PW:0001087 ! isoleucine metabolic pathway
 is_a: PW:0001258 ! hydrophobic amino acid degradation pathway
 created_by: VPetri
@@ -10356,8 +10343,7 @@ creation_date: 2013-05-08T14:37:44Z
 [Term]
 id: PW:0001270
 name: leucine biosynthetic pathway
-def: "Those metabolic reactions involved in the biosynthesis of leucine, an essential amino acid for humans. In plants and microorganisms its synthesis proceeds via a number of steps." [GO:0009098, http://en.wikipedia.org/wiki/Leucine "Wikipedia"]
-synonym: "leucine biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the biosynthesis of leucine, an essential amino acid for humans. In plants and microorganisms its synthesis proceeds via a number of steps." [http://en.wikipedia.org/wiki/Leucine "Wikipedia"]
 is_a: PW:0001088 ! leucine metabolic pathway
 is_a: PW:0001256 ! hydrophobic amino acid biosynthetic pathway
 created_by: VPetri
@@ -10366,8 +10352,7 @@ creation_date: 2013-05-08T14:40:17Z
 [Term]
 id: PW:0001271
 name: leucine degradation pathway
-def: "Those metabolic reactions involved in the degradation of leucine." [GO:0006552, http://en.wikipedia.org/wiki/Leucine "Wikipedia"]
-synonym: "leucine catabolic process" RELATED []
+def: "Those metabolic reactions involved in the degradation of leucine." [http://en.wikipedia.org/wiki/Leucine "Wikipedia"]
 is_a: PW:0001088 ! leucine metabolic pathway
 is_a: PW:0001258 ! hydrophobic amino acid degradation pathway
 created_by: VPetri
@@ -10392,7 +10377,9 @@ creation_date: 2013-05-13T08:58:26Z
 [Term]
 id: PW:0001274
 name: RNA polymerase II transcription initiation pathway
-def: "RNA polymerase II and a set of general and specific transcription factors assemble as a large pre-initiation complex which undergoes a series of transformations before transcription proceeds. Promoter recognition and subsequent initiation of transcription are dependent upon the presence of these transcription factors. Activators and repressors impact upon transcription at these early stages." [GO:0006367, PMID:23000482, Reactome:R-HSA-75953]
+alt_id: GO:0006367
+alt_id: Reactome:R-HSA-75953
+def: "RNA polymerase II and a set of general and specific transcription factors assemble as a large pre-initiation complex which undergoes a series of transformations before transcription proceeds. Promoter recognition and subsequent initiation of transcription are dependent upon the presence of these transcription factors. Activators and repressors impact upon transcription at these early stages." [PMID:23000482]
 synonym: "RNA Polymerase II Transcription Initiation" RELATED []
 synonym: "transcription initiation at RNA polymerase II promoter" RELATED []
 relationship: part_of PW:0000127 ! RNA polymerase II transcription pathway
@@ -10402,8 +10389,8 @@ creation_date: 2013-05-13T09:10:45Z
 [Term]
 id: PW:0001275
 name: eukaryotic RNA polymerase transcription pathway
-def: "The pathway of DNA transcription carried out by the eukaryotic polymerases." [GO:0006351, http://en.wikipedia.org/wiki/Transcription_%28genetics%29 "wikipedia", Reactome:R-HSA-212436]
-synonym: "DNA-templated transcription" RELATED []
+alt_id: Reactome:R-HSA-212436
+def: "The pathway of DNA transcription carried out by the eukaryotic polymerases." [http://en.wikipedia.org/wiki/Transcription_%28genetics%29 "wikipedia"]
 synonym: "Generic Transcription Pathway" RELATED []
 is_a: PW:0001272 ! RNA polymerase transcription pathway
 created_by: VPetri
@@ -10412,8 +10399,7 @@ creation_date: 2013-05-13T09:13:57Z
 [Term]
 id: PW:0001276
 name: de novo nicotinamide adenine dinucleotide biosynthetic pathway
-def: "Those metabolic reactions involved in the de novo synthesis of nicotinamide adenine dinucleotide (NAD), downstream of kynurenine metabolism of tryptophan degradation." [GO:0034627, PMID:18020963, PMID:20007326, PMID:26785480]
-synonym: "'de novo' NAD biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the de novo synthesis of nicotinamide adenine dinucleotide (NAD), downstream of kynurenine metabolism of tryptophan degradation." [PMID:18020963, PMID:20007326, PMID:26785480]
 synonym: "de novo NAD biosynthetic pathway" EXACT []
 is_a: PW:0000219 ! nicotinamide adenine dinucleotide biosynthetic pathway
 created_by: VPetri
@@ -10422,9 +10408,7 @@ creation_date: 2013-05-13T09:35:26Z
 [Term]
 id: PW:0001277
 name: glutathione biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of glutathione. Glutathione is a tripeptide that exerts important functions as an antioxidant and in the conjugation of xenobiotics and drugs by phase II biotransformation enzymes." [GO:0006750, PMID:22998389, PMID:23201762, Reactome:R-HSA-174403]
-synonym: "glutathione biosynthetic process" RELATED []
-synonym: "Glutathione synthesis and recycling" RELATED []
+def: "Those metabolic reactions involved in the synthesis of glutathione. Glutathione is a tripeptide that exerts important functions as an antioxidant and in the conjugation of xenobiotics and drugs by phase II biotransformation enzymes." [PMID:22998389, PMID:23201762]
 is_a: PW:0000134 ! glutathione metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-13T09:49:41Z
@@ -10432,8 +10416,7 @@ creation_date: 2013-05-13T09:49:41Z
 [Term]
 id: PW:0001278
 name: threonine biosynthetic pathway
-def: "Those metabolic reaction involved in the synthesis of threonine. Threonine is an essential amino acid that humans cannot synthesize. Its synthesis takes place in plants and microorganisms." [GO:0009088, http://en.wikipedia.org/wiki/Threonine "wikipedia"]
-synonym: "threonine biosynthetic process" RELATED []
+def: "Those metabolic reaction involved in the synthesis of threonine. Threonine is an essential amino acid that human cannot synthesize. Its synthesis takes place in plants and microorganisms." [http://en.wikipedia.org/wiki/Threonine "wikipedia"]
 is_a: PW:0001085 ! threonine metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-13T10:35:40Z
@@ -10441,7 +10424,9 @@ creation_date: 2013-05-13T10:35:40Z
 [Term]
 id: PW:0001279
 name: threonine degradation pathway
-def: "Those metabolic reactions involved in the degradation of threonine, an essential amino acid for humans. There are several routes for the degradation of threonine." [GO:0006567, Reactome:R-HSA-8849175]
+alt_id: GO:0006567
+alt_id: Reactome:R-HSA-8849175
+def: "Those metabolic reactions involved in the degradation of threonine, an essential amino acid for humans. There are several routes for the degradation of threonine." []
 synonym: "threonine catabolic process" RELATED []
 synonym: "Threonine catabolism" RELATED []
 is_a: PW:0001085 ! threonine metabolic pathway
@@ -10451,8 +10436,7 @@ creation_date: 2013-05-13T10:48:43Z
 [Term]
 id: PW:0001280
 name: tryptophan biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of tryptophan, an essential amino acid that humans cannot synthesize. Its synthesis takes place in plants and microorganisms. In plants, the synthesis of aromatic amino acids is part of the chorismate pathway, the end branch point of the shikimate pathway." [GO:0000162, http://en.wikipedia.org/wiki/Tryptophan "wiki[pedia", PMID:20817774]
-synonym: "tryptophan biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of tryptophan, an essential amino acid that human cannot synthesize. Its synthesis takes place in plants and microorganisms. In plants, the synthesis of aromatic amino acids is part of chorismate pathway, the end branch point of shikimate pathway." [http://en.wikipedia.org/wiki/Tryptophan "wiki[pedia", PMID:20817774]
 is_a: PW:0000054 ! tryptophan metabolic pathway
 is_a: PW:0001256 ! hydrophobic amino acid biosynthetic pathway
 relationship: part_of PW:0001370 ! chorismate metabolic pathway
@@ -10462,7 +10446,9 @@ creation_date: 2013-05-13T11:10:00Z
 [Term]
 id: PW:0001281
 name: tryptophan degradation pathway
-def: "Those metabolic reactions involved in the degradation of tryptophan, an essential amino acid. Tryptophan undergoes oxidative catabolism carried out by several hemeprotein enzymes. In plants, tyrosine is the precursor for several secondary metabolites." [GO:0006569, PMID:20817774, PMID:22889220, Reactome:R-HSA-71240]
+alt_id: GO:0006569
+alt_id: Reactome:R-HSA-71240
+def: "Those metabolic reactions involved in the degradation of tryptophan, an essential amino acid. Tryptophan undergoes oxidative catabolism carried out by several hemeprotein enzymes. In plants, tyrosine is the precursor for several secondary metabolites." [PMID:20817774, PMID:22889220]
 synonym: "tryptophan catabolic process" RELATED []
 synonym: "Tryptophan catabolism" RELATED []
 is_a: PW:0000054 ! tryptophan metabolic pathway
@@ -10473,8 +10459,7 @@ creation_date: 2013-05-13T11:18:16Z
 [Term]
 id: PW:0001282
 name: kynurenine metabolic pathway
-def: "Those enzymatic reactions involved in the synthesis, utilization or degradation of kynurenine, a product of tryptophan degradation pathway. Kynurenine and its metabolites play important roles in the nervous system and also in immunity." [GO:0070189, PMID:21744051, PMID:22139324]
-synonym: "kynurenine metabolic process" RELATED []
+def: "Those metabolic reactions involved in the production of kynurenine, a product of tryptophan degradation pathway. Kynurenine and its metabolites play important roles in the nervous system and also in immunity." [PMID:21744051, PMID:22139324]
 is_a: PW:0001281 ! tryptophan degradation pathway
 created_by: VPetri
 creation_date: 2013-05-13T11:34:39Z
@@ -10482,8 +10467,7 @@ creation_date: 2013-05-13T11:34:39Z
 [Term]
 id: PW:0001283
 name: tyrosine biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of tyrosine. In mammals, it is derived from phenylalanine or from diet. In plants, it is produced as part of the chorismate pathway, the end branch point of the shikimate pathway." [GO:0006571, http://en.wikipedia.org/wiki/Tyrosine "wikipedia", PMID:20817774]
-synonym: "tyrosine biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of tyrosine. In mammals, is derived from phenylalanine or from diet. In plants, is produced as part of chorismate pathway, the end branch point of shikimate pathway." [http://en.wikipedia.org/wiki/Tyrosine "wikipedia", PMID:20817774]
 is_a: PW:0000052 ! tyrosine metabolic pathway
 is_a: PW:0001256 ! hydrophobic amino acid biosynthetic pathway
 relationship: part_of PW:0001370 ! chorismate metabolic pathway
@@ -10493,7 +10477,9 @@ creation_date: 2013-05-13T11:48:30Z
 [Term]
 id: PW:0001284
 name: tyrosine degradation pathway
-def: "Those metabolic reactions involved in the degradation and/or conversion of tyrosine, a non-essential amino acid. Tyrosine is the precursor of several neurotransmitters and hormones. Tyrosine can also be degraded to acetoacetate and fumarate. In plants, tyrosine is the precursor of several families of secondary metabolites." [GO:0006572, PMID:20817774, Reactome:R-HSA-8963684]
+alt_id: GO:0006572
+alt_id: Reactome:R-HSA-8963684
+def: "Those metabolic reactions involved in the degradation and/or conversion of tyrosine, a non-essential amino acid. Tyrosine is the precursor of several neurotransmitters and hormones. Tyrosine can also be degraded to acetoacetate and fumarate. In plants, tyrosine is the precursor of several families of secondary metabolites." [PMID:20817774]
 synonym: "tyrosine catabolic process" RELATED []
 synonym: "Tyrosine catabolism" RELATED []
 is_a: PW:0000052 ! tyrosine metabolic pathway
@@ -10504,8 +10490,7 @@ creation_date: 2013-05-13T12:01:22Z
 [Term]
 id: PW:0001285
 name: valine biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of valine, an essential amino acid for humans. Plants synthesize valine from pyruvic acid via a number of steps." [GO:0009099, http://en.wikipedia.org/wiki/Valine "wikipedia"]
-synonym: "valine biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of valine, an essential amino acid for humans. Plants synthesize valine from pyruvic acid via a number of steps." [http://en.wikipedia.org/wiki/Valine "wikipedia"]
 is_a: PW:0001080 ! valine metabolic pathway
 is_a: PW:0001256 ! hydrophobic amino acid biosynthetic pathway
 created_by: VPetri
@@ -10514,8 +10499,6 @@ creation_date: 2013-05-13T12:36:05Z
 [Term]
 id: PW:0001286
 name: valine degradation pathway
-def: "Those metabolic reactions involved in the degradation of valine, a branched-chain essential amino acid." [GO:0006574]
-synonym: "valine catabolic process" RELATED []
 is_a: PW:0001080 ! valine metabolic pathway
 is_a: PW:0001258 ! hydrophobic amino acid degradation pathway
 created_by: VPetri
@@ -10524,8 +10507,7 @@ creation_date: 2013-05-13T12:40:08Z
 [Term]
 id: PW:0001287
 name: phenylalanine biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of phenylalanine, an essential amino acid for humans. In plants, the synthesis of aromatic amino acids is part of the chorismate pathway, the end branch point of the shikimate pathway." [GO:0009094, PMID:20817774]
-synonym: "L-phenylalanine biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of phenylalanine, an essential amino acid for humans. In plants, the synthesis of aromatic amino acids is part of chorismate pathway, the end branch point of shikimate pathway." [PMID:20817774]
 is_a: PW:0000053 ! phenylalanine metabolic pathway
 is_a: PW:0001256 ! hydrophobic amino acid biosynthetic pathway
 relationship: part_of PW:0001370 ! chorismate metabolic pathway
@@ -10535,8 +10517,7 @@ creation_date: 2013-05-13T12:42:31Z
 [Term]
 id: PW:0001288
 name: phenylalanine degradation pathway
-def: "Those metabolic reactions involved in the degradation and/or conversion of phenylalanine. Phenylalanine is the precursor of tyrosine, which is in turn a precursor for a number of neurotransmitters and hormones. In plants, phenylalanine serves as a precursor for a large number of functional secondary metabolites." [GO:0006559, PMID:20817774]
-synonym: "L-phenylalanine catabolic process" RELATED []
+def: "Those metabolic reactions involved in the degradation and/or conversion of phenylalanine. Phenylalanine is the precursor of tyrosine, in turn a precursor for a number of neurotransmitters and hormones. In plants, phenylalanine serve as a precursor for a large number of functional secondary metabolites." [PMID:20817774]
 is_a: PW:0000053 ! phenylalanine metabolic pathway
 is_a: PW:0001258 ! hydrophobic amino acid degradation pathway
 created_by: VPetri
@@ -10545,8 +10526,7 @@ creation_date: 2013-05-13T12:42:59Z
 [Term]
 id: PW:0001289
 name: carotene metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of carotenes, collectively referring to several related unsaturated hydrocarbon compounds that are synthesized by plants. Some are vitamin precursors, such as the beta-carotene precursor of vitamin A." [GO:0016119, https://en.wikipedia.org/wiki/Carotene "wikipedia"]
-synonym: "carotene metabolic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of carotene collectively referring to several related unsaturated hydrocarbon compounds that are synthesized by plants. Some are vitamin precursors, such as the beta-carotene precursor of vitamin A." [https://en.wikipedia.org/wiki/Carotene "wikipedia"]
 is_a: PW:0000005 ! carbohydrate metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-13T12:52:07Z
@@ -10554,8 +10534,7 @@ creation_date: 2013-05-13T12:52:07Z
 [Term]
 id: PW:0001290
 name: lycopene metabolic pathway
-def: "Those metabolic reactions involved ion the synthesis, utilization and/or degradation of lycopene - a carotene and phytochemical found in red fruits and vegetables." [GO:1901175, https://en.wikipedia.org/wiki/Lycopene "wikipedia"]
-synonym: "lycopene metabolic process" RELATED []
+def: "Those metabolic reactions involved ion the synthesis, utilization and/or degradation of lycopene - a carotene and phytochemical found in red fruits and vegetables." [https://en.wikipedia.org/wiki/Lycopene "wikipedia"]
 is_a: PW:0001289 ! carotene metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-13T13:00:59Z
@@ -10563,8 +10542,7 @@ creation_date: 2013-05-13T13:00:59Z
 [Term]
 id: PW:0001291
 name: lycopene biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of lycopene, a carotene and phytochemical found in red fruits and vegetables. Plants and bacteria have the ability to synthesize lycopene." [GO:1901177, http://biocyc.org/META/NEW-IMAGE?object=Lycopene-Biosynthesis "MetaCyc"]
-synonym: "lycopene biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of lycopene, a carotene and phytochemical found in red fruits and vegetables. Plants and bacteria have the ability to synthesize lycopene." [http://biocyc.org/META/NEW-IMAGE?object=Lycopene-Biosynthesis "MetaCyc"]
 is_a: PW:0001290 ! lycopene metabolic pathway
 is_a: PW:0001292 ! carotene biosynthetic pathway
 created_by: VPetri
@@ -10573,8 +10551,6 @@ creation_date: 2013-05-13T13:03:31Z
 [Term]
 id: PW:0001292
 name: carotene biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of carotenes, several related unsaturated hydrocarbon compounds that are synthesized by plants. Some are vitamin precursors, such as the beta-carotene precursor of vitamin A." [GO:0016120]
-synonym: "carotene biosynthetic process" RELATED []
 is_a: PW:0001289 ! carotene metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-13T13:07:34Z
@@ -10582,8 +10558,6 @@ creation_date: 2013-05-13T13:07:34Z
 [Term]
 id: PW:0001293
 name: carotene degradation pathway
-def: "Those metabolic reactions involved in the degradation of carotenes." [GO:0016121]
-synonym: "carotene catabolic process" RELATED []
 is_a: PW:0001289 ! carotene metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-13T13:07:52Z
@@ -10599,7 +10573,7 @@ creation_date: 2013-05-13T13:46:40Z
 [Term]
 id: PW:0001295
 name: leukotriene signaling pathway
-def: "Leukotriene are eicosanoids derived from omega-3 or omega-6 fatty acids. One such source is arachidonic acid metabolism via the 5-lipoxygenase-mediated route. Leukotriene signaling plays a major role in inflammation." [GO:0061737, PMID:12955468, PMID:17132851]
+def: "Leukotriene are eicosanoids derived from omega-3 or omega-6 fatty acids. One such source is the arachidonic metabolism via the 5-lipoxygenase mediated route." [PMID:12955468, PMID:17132851]
 is_a: PW:0000565 ! eicosanoid signaling pathway
 created_by: VPetri
 creation_date: 2013-05-14T11:35:27Z
@@ -10623,9 +10597,8 @@ creation_date: 2013-05-14T12:40:57Z
 [Term]
 id: PW:0001298
 name: trehalose metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of trehalose - a disaccharide synthesized by bacteria, fungi, plants and invertebrates. It has important roles in plant development and it represents the energy storage that insects use for flight. It is believed to be involved in the ability of plants and animals to withstand long periods of desiccation or anhydrobiosis." [GO:0005991, PMID:22140246]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of trehalose - a disaccharide synthesized by bacteria, fungi, plants and invertebrates. It has important roles in plant development and it represents the energy storage that insects use for flight. It is believed to be involved in the ability of plants and animals to withstand long periods of desiccation or anhydrobiosis." [PMID:22140246]
 synonym: "mycose metabolic pathway" RELATED []
-synonym: "trehalose metabolic process" RELATED []
 synonym: "tremalose metabolic pathway" RELATED []
 is_a: PW:0000005 ! carbohydrate metabolic pathway
 created_by: VPetri
@@ -10634,9 +10607,8 @@ creation_date: 2013-05-14T12:52:29Z
 [Term]
 id: PW:0001299
 name: trehalose biosynthetic pathway
-def: "Those metabolic reactions involved on the synthesis of trehalose, a disaccharide found in bacteria, fungi, plants and invertebrates." [GO:0005992, PMID:22140246]
+def: "Those metabolic reactions involved on the synthesis of trehalose, a disaccharide found in bacteria, fungi, plants and invertebrates." [PMID:22140246]
 synonym: "mycose biosynthetic pathway" RELATED []
-synonym: "trehalose biosynthetic process" RELATED []
 synonym: "tremalose biosynthetic pathway" RELATED []
 is_a: PW:0001298 ! trehalose metabolic pathway
 created_by: VPetri
@@ -10645,9 +10617,9 @@ creation_date: 2013-05-14T13:14:46Z
 [Term]
 id: PW:0001300
 name: trehalose degradation pathway
-def: "Those metabolic reactions involved in the degradation of trehalose. While the synthesis of trehalose does not take place in vertebrates, the catabolic route of its metabolism does occur." [GO:0005993, http://pathman.smpdb.ca/pathways/SMP00467/pathway "SMPDB", SMP:00467]
+def: "Those metabolic reactions involved in the degradation of trehalose. While the synthesis of trehalose does not take place in vertebrates, the catabolic route of its metabolism does occur." [http://pathman.smpdb.ca/pathways/SMP00467/pathway "SMPDB"]
 synonym: "mycose degradation pathway" RELATED []
-synonym: "trehalose catabolic process" RELATED []
+synonym: "SMP:00467" RELATED []
 synonym: "tremalose degradation pathway" RELATED []
 is_a: PW:0001298 ! trehalose metabolic pathway
 created_by: VPetri
@@ -10656,8 +10628,7 @@ creation_date: 2013-05-14T13:20:57Z
 [Term]
 id: PW:0001301
 name: methionine biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of methionine. As an essential amino acid, methionine can not be synthesized by humans. Its synthesis takes place in plants and microorganisms." [GO:0009086, http://en.wikipedia.org/wiki/Methionine "wikipedia"]
-synonym: "methionine biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of methionine. As an essential amino acid, methionine can not be synthesized by humans. Its synthesis takes place in plants and microorganisms." [http://en.wikipedia.org/wiki/Methionine "wikipedia"]
 is_a: PW:0000048 ! methionine cycle/metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-14T13:45:19Z
@@ -10665,8 +10636,7 @@ creation_date: 2013-05-14T13:45:19Z
 [Term]
 id: PW:0001302
 name: methionine degradation pathway
-def: "Those metabolic reactions involved in the degradation of methionine. In higher organisms methionine is either recycled via the remethylation pathways or is converted to cysteine via the transsulfuration pathway of homocysteine metabolism. In fungi, plants and bacteria, methionine can be processed to compounds such as methionol and/or 2-oxobutanoate." [GO:0009087, http://biocyc.org/META/NEW-IMAGE?object=METHIONINE-DEG "MetaCyc"]
-synonym: "methionine catabolic process" RELATED []
+def: "Those metabolic reactions involved in the degradation of methionine. In higher organisms methionine is either recycled via the remethylation pathways or is converted to cysteine via the transsulfuration pathway of homocysteine metabolism. In fungi, plants and bacteria, methionine can be processed to compounds such as methionol and/or 2-oxobutanoate." [http://biocyc.org/META/NEW-IMAGE?object=METHIONINE-DEG "MetaCyc"]
 is_a: PW:0000048 ! methionine cycle/metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-14T13:56:22Z
@@ -10684,8 +10654,7 @@ creation_date: 2013-05-14T14:10:01Z
 [Term]
 id: PW:0001304
 name: cholesterol metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of cholesterol, an essential component of cell membranes and lipid rafts and the precursor for the synthesis of steroid hormones and bile acids." [GO:0008203]
-synonym: "cholesterol metabolic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of cholesterol, an essential component of cell membranes and lipid rafts and the precursor for the synthesis of steroid hormones and bile acids." []
 is_a: PW:0001303 ! steroid metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-14T14:11:34Z
@@ -10693,7 +10662,8 @@ creation_date: 2013-05-14T14:11:34Z
 [Term]
 id: PW:0001305
 name: steroid hormone metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of steroid hormones." [Reactome:R-HSA-196071]
+alt_id: Reactome:R-HSA-196071
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of steroid hormones." []
 synonym: "Metabolism of steroid hormones" RELATED []
 is_a: PW:0001303 ! steroid metabolic pathway
 created_by: VPetri
@@ -10710,8 +10680,7 @@ creation_date: 2013-05-14T14:34:13Z
 [Term]
 id: PW:0001307
 name: phosphatidylcholine metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of phosphatidylcholine, an essential component of membranes." [GO:0046470, PMID:15749057, PMID:18204095]
-synonym: "phosphatidylcholine metabolic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of phosphatidylcholine, an essential component of the membrane." [PMID:15749057, PMID:18204095]
 is_a: PW:0000354 ! glycerophospholipid metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-14T15:31:03Z
@@ -10726,8 +10695,7 @@ creation_date: 2013-05-14T15:42:25Z
 [Term]
 id: PW:0001309
 name: abscisic acid metabolic pathway
-def: "Abscisic acid is a plant isoprenoid hormone important for development and stress responses." [GO:0009687, PMID:22442388]
-synonym: "abscisic acid metabolic process" RELATED []
+def: "Abscisic acid is a plant isoprenoid hormone important for development and stress responses." [PMID:22442388]
 is_a: PW:0000248 ! isoprenoid metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-20T11:34:20Z
@@ -10735,8 +10703,7 @@ creation_date: 2013-05-20T11:34:20Z
 [Term]
 id: PW:0001310
 name: abscisic acid biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of abscisic acid, an important plant isoprenoid hormone." [GO:0009688, PMID:22442388]
-synonym: "abscisic acid biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of abscisic acid, an important plant isoprenoid hormone." [PMID:22442388]
 is_a: PW:0001309 ! abscisic acid metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-20T11:45:49Z
@@ -10744,8 +10711,7 @@ creation_date: 2013-05-20T11:45:49Z
 [Term]
 id: PW:0001311
 name: sulfate assimilation pathway
-def: "Sulfur, mostly found as inorganic sulfate, can be taken up by plants, microorganisms and algae. Upon reduction to sulfide, it is then incorporated into bioinorganic compounds. The underlying reactions and interactions constitute the sulfate assimilation pathway, best characterized in plants." [GO:0000103, PMID:19876632]
-synonym: "sulfate assimilation" RELATED []
+def: "Sulfur, mostly found as inorganic sulfate can be taken up by plants, microorganisms and algae. Upon reduction to sulfide, is then incorporated into bioinorganic compounds. The underlying reactions and interactions constitute the sulfate assimilation pathway, best characterized in plants." [PMID:19876632]
 is_a: PW:0000037 ! sulfur metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-20T12:47:08Z
@@ -10753,7 +10719,8 @@ creation_date: 2013-05-20T12:47:08Z
 [Term]
 id: PW:0001312
 name: Nodal signaling pathway
-def: "Nodal of the Nodal signaling pathway belongs to the transforming growth factor-beta superfamily and plays important roles during vertebrate embryogenesis, where it is involved in pattern formation and differentiation." [GO:0038092, PMID:16838294, Reactome:R-HSA-1181150]
+alt_id: Reactome:R-HSA-1181150
+def: "The Nodal signaling pathway belongs to the transforming growth factor-beta superfamily and plays important roles during vertebrate embryogenesis where is involved in pattern formation and differentiation." [PMID:16838294]
 synonym: "Signaling by NODAL" RELATED []
 is_a: PW:0000329 ! transforming growth factor-beta superfamily mediated signaling pathway
 is_a: PW:0000650 ! signaling pathway pertinent to development
@@ -10778,8 +10745,7 @@ creation_date: 2013-05-21T12:54:31Z
 [Term]
 id: PW:0001315
 name: ascaroside metabolic pathway
-def: "Those metabolic reactions involving ascaroside, a glycolipid containing the sugar ascarylose, found in nematodes." [GO:1904069]
-synonym: "ascaroside metabolic process" RELATED []
+def: "Those metabolic reactions involving ascaroside, a glycolipid containing the sugar ascarylose, found in nematodes." []
 is_a: PW:0000733 ! glycosphingolipid metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-21T13:47:21Z
@@ -10787,8 +10753,7 @@ creation_date: 2013-05-21T13:47:21Z
 [Term]
 id: PW:0001316
 name: ascaroside biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of ascaroside - a glycolipid containing the sugar ascarylose, found in nematodes." [GO:1904070]
-synonym: "ascaroside biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of ascaroside - a glycolipid containing the sugar ascarylose found in nematodes." []
 is_a: PW:0001315 ! ascaroside metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-21T13:48:54Z
@@ -10796,7 +10761,8 @@ creation_date: 2013-05-21T13:48:54Z
 [Term]
 id: PW:0001317
 name: cell cycle pathway
-def: "The series of events, collectively known as the cell cycle, that underlie the replication of the genome and the segregation of chromosomes into daughter cells. The mitotic cell cycle pathway underlies the generation of new cells. The meiotic cell cycle pathway is a special type of cell division that takes place in germ cells." [GO:0007049, Handbook:Essential Cell Biology, Reactome:R-HSA-1640170]
+alt_id: Reactome:R-HSA-1640170
+def: "The series of events, collectively known as the cell cycle, that underlie the replication of the genome and the segregation of chromosomes into daughter cells. The mitotic cell cycle pathway underlies the generation of new cells. The meiotic cell cycle pathway is a special type of cell division that takes place in germ cells." [Handbook:Essential Cell Biology]
 synonym: "Cell Cycle" RELATED []
 is_a: PW:0000085 ! pathway pertinent to DNA replication and repair, cell cycle, maintenance of genomic integrity, RNA and protein biosynthesis
 created_by: VPetri
@@ -10805,9 +10771,9 @@ creation_date: 2013-05-22T09:56:40Z
 [Term]
 id: PW:0001318
 name: cell cycle pathway, meiotic
-def: "The series of events that take place in the germ cells resulting in the production of four non-identical haploid cells from each diploid cell that enters the cycle. Meiosis involves chromosomal pairing and exchange of DNA segments or recombination." [GO:1903046, Handbook:Essential cell Biology, Reactome:R-HSA-1500620]
+alt_id: Reactome:R-HSA-1500620
+def: "The series of events that take place in the germ cells resulting in the production of four non-identical haploid cells from each diploid cell that enters the cycle. Meiosis involves chromosomal pairing and exchange of DNA segments or recombination." [Handbook:Essential cell Biology]
 synonym: "Meiosis" RELATED []
-synonym: "meiotic cell cycle process" RELATED []
 is_a: PW:0001317 ! cell cycle pathway
 created_by: VPetri
 creation_date: 2013-05-22T10:19:26Z
@@ -10815,7 +10781,7 @@ creation_date: 2013-05-22T10:19:26Z
 [Term]
 id: PW:0001319
 name: toxic secondary metabolite biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of toxic secondary metabolites, known as mycotoxins, produced by some fungi, such as Fusarium. The mycotoxins they produce in cereal crops, such as species of fumonisins and trichothecenes, can affect humans and animals if present in food." [GO:0043386, http://en.wikipedia.org/wiki/Mycotoxin "wikipedia"]
+def: "Those metabolic reactions involved in the synthesis of toxic secondary metabolite, known as mycotoxins, produced by some fungi, such as Fusarium. The mycotoxins they produce in cereal crops, such as species of fumonisins and trichothecenes, can affect humans and animals if present in food." [http://en.wikipedia.org/wiki/Mycotoxin "wikipedia"]
 synonym: "mycotoxin biosynthetic pathway" RELATED []
 is_a: PW:0001365 ! toxic secondary metabolite metabolic pathway
 created_by: VPetri
@@ -10824,8 +10790,7 @@ creation_date: 2013-05-22T11:17:23Z
 [Term]
 id: PW:0001320
 name: fumonisin biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of fumonisins, mycotoxins produced by members of the fungal genus Fusarium." [GO:1900541, http://en.wikipedia.org/wiki/Fusarium "wikipedia"]
-synonym: "fumonisin biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of fumonisin mycotoxins by members of Fusarium fungi." [http://en.wikipedia.org/wiki/Fusarium "wikipedia"]
 is_a: PW:0001319 ! toxic secondary metabolite biosynthetic pathway
 is_a: PW:0001367 ! fumonisin metabolic pathway
 created_by: VPetri
@@ -10843,10 +10808,9 @@ creation_date: 2013-05-22T11:31:27Z
 [Term]
 id: PW:0001322
 name: deoxynivalenol biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of deoxynivalenol, a type B trichothecene produced by members of the fungal genus Fusarium." [GO:0106110, http://en.wikipedia.org/wiki/Deoxynivalenol "wikipedia", http://www.genome.jp/dbget-bin/www_bget?cpd\:C09747 "KEGG"]
+def: "Those metabolic reactions involved in the synthesis of deoxynivalenol, a type B trichothecene produced by members of Fusarium fungi." [http://en.wikipedia.org/wiki/Deoxynivalenol "wikipedia", http://www.genome.jp/dbget-bin/www_bget?cpd\:C09747 "KEGG"]
 synonym: "DON biosynthetic pathway" EXACT []
 synonym: "vomitoxin biosynthetic pathway" RELATED []
-synonym: "vomitoxin biosynthetic process" RELATED []
 is_a: PW:0001321 ! trichothecene biosynthetic pathway
 created_by: VPetri
 creation_date: 2013-05-22T11:36:22Z
@@ -10854,8 +10818,10 @@ creation_date: 2013-05-22T11:36:22Z
 [Term]
 id: PW:0001323
 name: mitochondrial translation pathway
-def: "The translation pathway that takes place in the mitochondrion. The mitochondrial translation pathway utilizes 22 tRNAs which are encoded in the mitochondrial genome. The mitochondrial genome also encodes 2 ribosomal genes. A small set of mitochondrially-encoded proteins is translated in the mitochondrion. Most others are nuclear genes, synthesized on cytosolic ribosomes and then targeted to the organelle." [GO:0032543, PMID:22258151, PMID:22729854, Reactome:R-HSA-5368287]
+def: "The translation pathway that takes place in the mitochondrion. The mitochondrial translation pathway utilizes 22 tRNAs which are encoded in the mitochondrial genome. The mitochondrial genome also encodes 2 ribosomal genes. A small set of mitochondrially encoded proteins is translated in the mitochondrion. Most others are nuclear genes, synthesized on cytosolic ribosomes and then targeted to the organelle." [PMID:22258151, PMID:22729854]
+synonym: "GO:0032543" RELATED []
 synonym: "Mitochondrial translation" RELATED []
+synonym: "Reactome:R-HSA-5368287" RELATED []
 is_a: PW:0000101 ! translation pathway
 relationship: part_of PW:0001959 ! mitochondria homeostasis pathway
 created_by: VPetri
@@ -10864,9 +10830,7 @@ creation_date: 2013-05-22T13:11:07Z
 [Term]
 id: PW:0001324
 name: mitochondrial aminoacyl-tRNA biosynthetic pathway
-def: "Aminoacyl-tRNA, or transfer RNA (tRNA) carries amino acids to ribosomes and is part of the translation pathway. tRNAs are specific for the amino acids with which they are associated. Their synthesis involves adenylation of the amino acid followed by its transfer; both steps require ATP. There are 22 tRNA genes encoded by the mitochondrial genome. Mutations in these genes have been implicated in a number of disorders and may affect various steps of tRNA biosynthesis." [GO:0070127, PMID:22258151, Reactome:R-HSA-379726]
-synonym: "Mitochondrial tRNA aminoacylation" RELATED []
-synonym: "tRNA aminoacylation for mitochondrial protein translation " RELATED []
+def: "Aminoacyl-tRNA, or transfer RNA (tRNA) carries amino acids to ribosomes and is part of the translation pathway. tRNAs are specific for the amino acids with which they are associated. Their synthesis involves adenylation of the amino acid followed by its transfer; both steps require ATP. there are 22 tRNA genes encoded by the mitochondrial genome. Mutations in these genes have been implicated in a number of disorders and may affect various steps of tRNA biosynthesis." [PMID:22258151]
 relationship: part_of PW:0001323 ! mitochondrial translation pathway
 created_by: VPetri
 creation_date: 2013-05-22T13:16:35Z
@@ -10899,9 +10863,8 @@ creation_date: 2013-05-22T14:01:41Z
 [Term]
 id: PW:0001328
 name: uridine diphosphate glucose metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of uridine diphosphate glucose, a nucleotide sugar." [GO:0006011, http://en.wikipedia.org/wiki/UDP-glucose "wikipedia"]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of uridine diphosphate glucose, a nucleotide sugar." [http://en.wikipedia.org/wiki/UDP-glucose "wikipedia"]
 synonym: "UDP-glucose metabolic pathway" EXACT []
-synonym: "UDP-glucose metabolic process" RELATED []
 is_a: PW:0000055 ! nucleotide sugar metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-22T14:27:01Z
@@ -10927,7 +10890,9 @@ creation_date: 2013-05-22T14:54:54Z
 [Term]
 id: PW:0001331
 name: RNA polymerase II transcription elongation pathway
-def: "RNA polymerase II transcription elongation commences when the nascent transcript reaches about 25 residues. Some general transcription factors are released and the RNA polymerase II carries out elongation of the pre-mRNA transcript and proofreading. Various regulators control early elongation, proximal promoter pausing and full elongation proceedings. Nascent mRNA processing, splicing and alternative splicing are co-occurring." [GO:0006368, PMID:22975042, PMID:23000482, PMID:23046879, Reactome:R-HSA-75955]
+alt_id: GO:0006368
+alt_id: Reactome:R-HSA-75955
+def: "RNA polymerase II transcription elongation commences when the nascent transcript reaches about 25 residues. Some general transcription factors are released and the RNA polymerase II carries out elongation of the pre-mRNA transcript and proofreading. Various regulators control early elongation, proximal promoter pausing and full elongation proceedings. Nascent mRNA processing, splicing and alternative splicing are co-occurring." [PMID:22975042, PMID:23000482, PMID:23046879]
 synonym: "RNA Polymerase II Transcription Elongation" RELATED []
 synonym: "transcription elongation by RNA polymerase II promoter" RELATED []
 relationship: part_of PW:0000127 ! RNA polymerase II transcription pathway
@@ -10937,7 +10902,9 @@ creation_date: 2013-06-03T09:19:50Z
 [Term]
 id: PW:0001332
 name: RNA polymerase II transcription termination pathway
-def: "Termination of transcription is important for partitioning the genome and maintaining adequate expression of neighboring genes." [GO:0006386, PMID:21487437, Reactome:R-HSA-73856]
+alt_id: GO:0006386
+alt_id: Reactome:R-HSA-73856
+def: "Termination of transcription is important for partitioning the genome and maintaining adequate expression of neighboring genes." [PMID:21487437]
 synonym: "RNA Polymerase II Transcription Termination" RELATED []
 synonym: "termination of RNA polymerase II transcription" RELATED []
 relationship: part_of PW:0000127 ! RNA polymerase II transcription pathway
@@ -10947,7 +10914,9 @@ creation_date: 2013-06-03T09:39:46Z
 [Term]
 id: PW:0001333
 name: mitochondrial transcription pathway
-def: "The transcription of mitochondrial DNA which encodes several genes involved in the oxidative phosphorylation pathway as well as the ribosomal and transfer RNA genes involved in their translation." [GO:0006390, PMID:23632312, Reactome:R-HSA-75944]
+alt_id: GO:0006390
+alt_id: Reactome:R-HSA-75944
+def: "The transcription of mitochondrial DNA which encodes several genes involved in the oxidative phosphorylation pathway as well as the ribosomal and transfer RNA genes involved in their translation." [PMID:23632312]
 synonym: "mitochondrial transcription" RELATED []
 synonym: "Transcription from mitochondrial promoters" RELATED []
 is_a: PW:0000100 ! transcription pathway
@@ -10974,8 +10943,7 @@ creation_date: 2013-06-03T10:15:04Z
 [Term]
 id: PW:0001336
 name: CDP-choline pathway of phosphatidylcholine biosynthesis
-def: "CDP-choline is one of the three distinct pathways of phosphatidylcholine biosynthesis. A second has been better studied in yeast while the third has only been identified in certain bacteria." [GO:0006657, PMID:15749057]
-synonym: "CDP-choline pathway" RELATED []
+def: "CDP-choline is one of the three distinct pathways of phosphatidylcholine biosynthesis. A second has been better studied in yeast while the third has only been identified in certain bacteria." [PMID:15749057]
 synonym: "Kennedy pathway" RELATED []
 is_a: PW:0000878 ! phosphatidylcholine biosynthetic pathway
 created_by: VPetri
@@ -10995,8 +10963,7 @@ creation_date: 2013-06-03T13:05:36Z
 [Term]
 id: PW:0001338
 name: histone modification pathway
-def: "The tails of histone proteins are subject to a wide array of modifications of which methylation and acetylation have been more thoroughly documented. The modified residues are recognized by particular proteins or readers, in turn acting upon their targets. The modifications are rendered reversible by the enzymes that carry out the reaction in the opposite direction, also referred to as erasers." [GO:0016570, PMID:21655945, PMID:22203491, PMID:23085398]
-synonym: "histone modification" RELATED []
+def: "The tails of histone proteins are subject to a wide array of modifications of which methylation and acetylation have been more thoroughly documented. The modified residues are recognized by particular proteins or readers, in turn acting upon their targets. The modifications are rendered reversible by the enzymes that carry out the reaction in the opposite direction, also referred to as erasers." [PMID:21655945, PMID:22203491, PMID:23085398]
 is_a: PW:0001403 ! chromatin modification pathway
 relationship: part_of PW:0001693 ! S-adenosylmethionine homeostasis pathway
 created_by: VPetri
@@ -11005,8 +10972,7 @@ creation_date: 2013-06-03T14:06:55Z
 [Term]
 id: PW:0001339
 name: chromatin remodeling pathway
-def: "Chromatin remodelers are large complexes that use the energy derived from ATP hydrolysis to promote nucleosome sliding, ejection or repositioning, and histone exchange. Currently, there are four different families of chromatin remodeling complexes." [GO:0006338, PMID:19355820, PMID:21655945, PMID:22203491, PMID:23085398, PMID:23524488]
-synonym: "chromatin remodeling" RELATED []
+def: "Chromatin remodelers are large complexes that use the energy derived from ATP hydrolysis to promote nucleosome sliding, ejection or repositioning, histone exchange. Currently, there are four different families of chromatin remodeling complexes." [PMID:19355820, PMID:21655945, PMID:22203491, PMID:23085398, PMID:23524488]
 is_a: PW:0001337 ! chromatin modification/remodeling pathway
 created_by: VPetri
 creation_date: 2013-06-03T14:14:26Z
@@ -11014,8 +10980,7 @@ creation_date: 2013-06-03T14:14:26Z
 [Term]
 id: PW:0001340
 name: DNA modification pathway
-def: "DNA modification is a component of the chromatin modification pathway. At least four DNA modification types are known. The modifications are recognized by specific readers and removed by eraser enzymes." [GO:0006304, PMID:22894577]
-synonym: "DNA modification" RELATED []
+def: "DNA modification is a component of chromatin modification pathway. At least four DNA modification types are known. The modifications are recognized by specific readers and removed by eraser enzymes." [PMID:22894577]
 is_a: PW:0001403 ! chromatin modification pathway
 relationship: part_of PW:0001693 ! S-adenosylmethionine homeostasis pathway
 created_by: VPetri
@@ -11033,8 +10998,7 @@ creation_date: 2013-06-03T15:02:51Z
 [Term]
 id: PW:0001342
 name: sucrose biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of sucrose. The disaccharide is synthesized by plants and cyanobacteria." [GO:0005986, http://en.wikipedia.org/wiki/Sucrose "wikipedia"]
-synonym: "sucrose biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of sucrose. The disaccharide is synthesized by plants and cyanobacteria." [http://en.wikipedia.org/wiki/Sucrose "wikipedia"]
 is_a: PW:0000151 ! starch and sucrose metabolic pathway
 created_by: VPetri
 creation_date: 2013-06-04T11:18:11Z
@@ -11042,8 +11006,7 @@ creation_date: 2013-06-04T11:18:11Z
 [Term]
 id: PW:0001343
 name: phosphatidylglycerol metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of phosphatidylglycerol. The molecule is a glycerophospholipid found in pulmonary surfactant." [GO:0046471, PMID:21382416]
-synonym: "phosphatidylglycerol metabolic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of phosphatidylglycerol. The molecule is a glycerophospholipid found in pulmonary surfactant." [PMID:21382416]
 is_a: PW:0000354 ! glycerophospholipid metabolic pathway
 created_by: VPetri
 creation_date: 2013-06-04T11:47:01Z
@@ -11051,8 +11014,7 @@ creation_date: 2013-06-04T11:47:01Z
 [Term]
 id: PW:0001344
 name: cardiolipin metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of cardiolipin. The molecule is derived from phosphatidylglycerol as an immature cardiolipin, and further remodeled by phospholipases. Cardiolipin is important for a range of mitochondrial functions." [GO:0032048, PMID:22014644]
-synonym: "cardiolipin metabolic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of cardiolipin. The molecule is derived from phosphatidylglycerol as an immature cardiolipin, further remodeled by phospholipases. Cardiolipin is important for a range of mitochondrial functions." [PMID:22014644]
 is_a: PW:0001343 ! phosphatidylglycerol metabolic pathway
 created_by: VPetri
 creation_date: 2013-06-04T12:16:45Z
@@ -11060,8 +11022,8 @@ creation_date: 2013-06-04T12:16:45Z
 [Term]
 id: PW:0001345
 name: cardiolipin biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of cardiolipin, a molecule important for mitochondrial function." [GO:0032049, PMID:22014644, Reactome:R-HSA-1483076]
-synonym: "cardiolipin biosynthetic process" RELATED []
+alt_id: Reactome:R-HSA-1483076
+def: "Those metabolic reactions involved in the synthesis of cardiolipin, a molecule important for mitochondrial function." [PMID:22014644]
 synonym: "Synthesis of CL" RELATED []
 is_a: PW:0001344 ! cardiolipin metabolic pathway
 created_by: VPetri
@@ -11070,8 +11032,7 @@ creation_date: 2013-06-04T12:31:05Z
 [Term]
 id: PW:0001346
 name: cholesterol transport pathway
-def: "The pathways involved in the absorption and efflux of cholesterol." [GO:0030301, PMID:17495606, PMID:20809793]
-synonym: "cholesterol transport" RELATED []
+def: "The pathways involved in the absorption and efflux of cholesterol." [PMID:17495606, PMID:20809793]
 is_a: PW:0000103 ! transport pathway
 created_by: VPetri
 creation_date: 2013-06-04T12:45:55Z
@@ -11087,8 +11048,6 @@ creation_date: 2013-06-04T12:49:29Z
 [Term]
 id: PW:0001348
 name: ion transport pathway
-def: "Those pathways that mediate the uptake and transport of ions. Ion transport can be passive (facilitated) or active." [GO:0006811]
-synonym: "ion transport" RELATED []
 is_a: PW:0000103 ! transport pathway
 created_by: VPetri
 creation_date: 2013-06-04T12:59:08Z
@@ -11143,8 +11102,7 @@ creation_date: 2013-06-04T13:39:34Z
 [Term]
 id: PW:0001355
 name: peroxisome proliferator-activated receptor signaling pathway
-def: "Peroxisome proliferator-activated receptor signaling is initiated in response to binding several compounds within classes of lipids such as the eicosanoids, leukotrienes and prostagladins, among others. The receptors form heterodimers with the retinoid X receptor, bind to specific DNA elements and regulate the expression of target genes. Deregulation of the pathway has been implicated in several conditions." [GO:0035357, PMID:17132851, PMID:17317294]
-synonym: "peroxisome proliferator activated receptor signaling pathway" RELATED []
+def: "Peroxisome proliferator-activated receptor signaling is initiated in response to binding several compounds within classes of lipids such as the eicosanoid, leukotriene, prostagladin, among others. The receptors form heterodimers with the retinoid X receptor, bind to specific DNA elements and regulate the expression of target genes. Deregulation of the pathway has been implicated in several conditions." [PMID:17132851, PMID:17317294]
 synonym: "PPAR signaling pathway" EXACT []
 is_a: PW:0000716 ! transcription factor mediated signaling pathway
 is_a: PW:0001313 ! transcription pathway via transcription factor mediated signaling
@@ -11165,8 +11123,7 @@ creation_date: 2013-06-05T09:29:37Z
 [Term]
 id: PW:0001357
 name: coenzyme A metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of coenzyme A, important for fatty acid, pyruvate and citric acid metabolic pathways." [GO:0015936, http://en.wikipedia.org/wiki/Coenzyme_A "wikipedia"]
-synonym: "coenzyme A metabolic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of coenzyme A, an  important for fatty acids, pyruvate and citric acid metabolic pathways." [http://en.wikipedia.org/wiki/Coenzyme_A "wikipedia"]
 is_a: PW:0000167 ! pantothenic acid metabolic pathway
 created_by: VPetri
 creation_date: 2013-06-06T10:13:36Z
@@ -11174,9 +11131,9 @@ creation_date: 2013-06-06T10:13:36Z
 [Term]
 id: PW:0001358
 name: coenzyme A biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of coenzyme A. The five-step reaction pathway requires pantothenate (vitamin B5) and cysteine as precursors." [GO:0015937, PMID:11923312, Reactome:R-HSA-196783]
+alt_id: Reactome:R-HSA-196783
+def: "Those metabolic reactions involved in the synthesis of coenzyme A. The five step reaction pathway requires pantothenate (vitamin B5) and cysteine as precursors." [PMID:11923312]
 synonym: "Coenzyme A biosynthesis" RELATED []
-synonym: "coenzyme A biosynthetic process" RELATED []
 is_a: PW:0001357 ! coenzyme A metabolic pathway
 created_by: VPetri
 creation_date: 2013-06-06T10:18:42Z
@@ -11223,8 +11180,7 @@ creation_date: 2013-06-11T11:25:59Z
 [Term]
 id: PW:0001363
 name: lactose metabolic pathway
-def: "Those metabolic reactions involving lactose, a disaccharide found in milk." [GO:0005988, http://en.wikipedia.org/wiki/Lactose "Wikipedia"]
-synonym: "lactose metabolic process" RELATED []
+def: "Those metabolic reactions involving lactose, a disaccharide found in milk." [http://en.wikipedia.org/wiki/Lactose "Wikipedia"]
 is_a: PW:0000005 ! carbohydrate metabolic pathway
 created_by: VPetri
 creation_date: 2013-06-11T13:14:11Z
@@ -11232,8 +11188,8 @@ creation_date: 2013-06-11T13:14:11Z
 [Term]
 id: PW:0001364
 name: lactose degradation pathway
-def: "The breaking down of lactose to its constituent sugars." [GO:0005990, http://en.wikipedia.org/wiki/Lactose "Wikipedia", SMP:00457]
-synonym: "lactose catabolic process" RELATED []
+def: "The breaking down of lactose to its constituent sugars." [http://en.wikipedia.org/wiki/Lactose "Wikipedia"]
+synonym: "SMP:00457" RELATED []
 is_a: PW:0001363 ! lactose metabolic pathway
 created_by: VPetri
 creation_date: 2013-06-11T13:17:06Z
@@ -11241,9 +11197,8 @@ creation_date: 2013-06-11T13:17:06Z
 [Term]
 id: PW:0001365
 name: toxic secondary metabolite metabolic pathway
-def: "Toxic secondary metabolites, also known as mycotoxins, are natural toxins produced by organisms that belong to the fungi kingdom. They can contaminate crops and if ingested, they can cause sickness or death." [GO:0043385, PMID:18258326]
+def: "Toxic secondary metabolites, also known as mycotoxins, are natural toxins produced by organisms that belong to the fungi kingdom. They can contaminate crops and if ingested, they can cause sickness or death." [PMID:18258326]
 synonym: "mycotoxin metabolic pathway" RELATED []
-synonym: "mycotoxin metabolic process" RELATED []
 is_a: PW:0000147 ! metabolic pathway of secondary metabolites
 created_by: VPetri
 creation_date: 2013-06-11T13:37:37Z
@@ -11251,8 +11206,7 @@ creation_date: 2013-06-11T13:37:37Z
 [Term]
 id: PW:0001366
 name: aflatoxin metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, transport and/or degradation of aflatoxins. Aflatoxins are potent toxic secondary metabolites that contaminate grain and nut crops. Of the four types, aflatoxin B1 is the most toxic one." [GO:0046222, PMID:19010433]
-synonym: "aflatoxin metabolic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis, transport and/or degradation of aflatoxins. Aflatoxins are potent toxic secondary metabolites that contaminate grain and nut crops. Of the four types, aflatoxin B1 is the most toxic one." [PMID:19010433]
 is_a: PW:0001365 ! toxic secondary metabolite metabolic pathway
 created_by: VPetri
 creation_date: 2013-06-11T13:46:23Z
@@ -11260,8 +11214,6 @@ creation_date: 2013-06-11T13:46:23Z
 [Term]
 id: PW:0001367
 name: fumonisin metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, transport and/or degradation of fumonisins. These are mycotoxins produced by the fungal genus Fusarium that contaminate crops worldwide, mainly corn." [GO:1900539]
-synonym: "fumonisin metabolic process" RELATED []
 is_a: PW:0001365 ! toxic secondary metabolite metabolic pathway
 created_by: VPetri
 creation_date: 2013-06-11T14:09:22Z
@@ -11276,8 +11228,7 @@ creation_date: 2013-06-11T14:09:45Z
 [Term]
 id: PW:0001369
 name: shikimate metabolic pathway
-def: "The shikimate pathway is the metabolic route for the production of aromatic amino acids in plants. Seven reactions catalyzed by six enzymes result in the production of chorismate, the major branch point metabolite. Chorismate is the precursor for the biosynthesis of phenylalanine, tryptophan and tyrosine." [GO:0019632, PMID:20817774]
-synonym: "shikimate metabolic process" RELATED []
+def: "The shikimate pathway is the  metabolic route for the production of aromatic amino acids in plants. Seven reactions catalyzed by six enzymes result in the production of chorismate, the major branch point metabolite. Chorismate is the precursor for the biosynthesis of phenylalanine, tryptophan and tyrosine." [PMID:20817774]
 is_a: PW:0001074 ! hydrophobic amino acid metabolic pathway
 created_by: VPetri
 creation_date: 2013-06-19T09:13:02Z
@@ -11285,8 +11236,7 @@ creation_date: 2013-06-19T09:13:02Z
 [Term]
 id: PW:0001370
 name: chorismate metabolic pathway
-def: "Chorismate, the major branch point metabolite of the shikimate pathway, is the precursor for the biosynthesis of aromatic amino acids phenylalanine, tryptophan and tyrosine in plants." [GO:0046417, PMID:20817774]
-synonym: "chorismate metabolic process" RELATED []
+def: "Chorismate, the major branch point metabolite of shikimate pathway is the precursor for the biosynthesis of aromatic amino acids phenylalanine, tryptophan and tyrosine in plants." [PMID:20817774]
 is_a: PW:0001369 ! shikimate metabolic pathway
 created_by: VPetri
 creation_date: 2013-06-19T09:31:50Z
@@ -11331,10 +11281,8 @@ creation_date: 2013-06-19T12:21:30Z
 [Term]
 id: PW:0001375
 name: nicotinamide adenine dinucleotide biosynthesis, the salvage pathway
-def: "Those metabolic reactions involved in the synthesis of nicotinamide adenine dinucleotide (NAD) from precursors such as nicotinamide, nicotinic acid or nicotinamide riboside, collectively known as vitamin B3 or niacin." [GO:0034356, PMID:18020963, PMID:20007326, PMID:26785480, Reactome:R-HSA-197264]
+def: "Those metabolic reactions involved in the synthesis of nicotinamide adenine dinucleotide (NAD) from precursors such as nicotinamide, nicotinic acid or nicotinamide riboside, collectively known as vitamin B3 or niacin." [PMID:18020963, PMID:20007326, PMID:26785480]
 synonym: "NAD biosynthesis, the salvage pathway" EXACT []
-synonym: "NAD biosynthesis via nicotinamide riboside salvage pathway" RELATED []
-synonym: "Nicotinamide salvaging" RELATED []
 is_a: PW:0000219 ! nicotinamide adenine dinucleotide biosynthetic pathway
 created_by: VPetri
 creation_date: 2013-06-19T12:47:03Z
@@ -11342,8 +11290,7 @@ creation_date: 2013-06-19T12:47:03Z
 [Term]
 id: PW:0001376
 name: formaldehyde assimilation pathway
-def: "Methane oxidation by methanotrophs produces formaldehyde which is assimilated to form metabolites subsequently used for the biosynthesis of multi-carbon compounds. Two pathways of formaldehyde assimilation are known. Both pathways are cyclic." [GO:0019649, http://www.biocyc.org/META/NEW-IMAGE?type=PATHWAY&object=PWY-1861 "BioCyc"]
-synonym: "formaldehyde assimilation" RELATED []
+def: "Methane oxidation by metanotrophs produces formaldehyde which is assimilated to form metabolite subsequently used for the biosynthesis of multi-carbon compounds. Two pathways of formaldehyde assimilation are known. Both pathways are cyclic." [http://www.biocyc.org/META/NEW-IMAGE?type=PATHWAY&object=PWY-1861 "BioCyc"]
 is_a: PW:0000068 ! methane metabolic pathway
 created_by: VPetri
 creation_date: 2013-06-19T12:54:29Z
@@ -11417,8 +11364,7 @@ creation_date: 2013-06-19T14:35:18Z
 [Term]
 id: PW:0001385
 name: glutamate fermentation pathway
-def: "Certain anaerobic bacteria are capable of fermenting amino acids. While at least one fermentation pathway is known for every amino acid, several have been reported for glutamate." [GO:0019670, PMID:11759672]
-synonym: "anaerobic glutamate catabolic process" RELATED []
+def: "Certain anaerobic bacteria are capable of fermenting amino acids. While at least one fermentation pathway is known for every amino acid, several have been reported for glutamate." [PMID:11759672]
 is_a: PW:0001263 ! glutamic acid/glutamate degradation pathway
 created_by: VPetri
 creation_date: 2013-06-19T15:15:10Z
@@ -11457,8 +11403,7 @@ creation_date: 2013-06-19T15:55:54Z
 [Term]
 id: PW:0001390
 name: starch biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of starch, a carbohydrate produced by all green plants as an energy store." [GO:0019252, http://en.wikipedia.org/wiki/Starch "Wikipedia"]
-synonym: "starch biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of starch, a carbohydrate produced by all green plants as an energy store." [http://en.wikipedia.org/wiki/Starch "Wikipedia"]
 is_a: PW:0000151 ! starch and sucrose metabolic pathway
 is_a: PW:0001391 ! starch and cellulose metabolic pathway
 created_by: VPetri
@@ -11475,8 +11420,7 @@ creation_date: 2013-06-20T09:24:14Z
 [Term]
 id: PW:0001392
 name: cellulose biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of cellulose, an important structural component of cell walls of green plants, many forms of algae and some fungus-like microorganisms." [GO:0030244, http://en.wikipedia.org/wiki/Cellulose "Wikipedia"]
-synonym: "cellulose biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of cellulose, an important structural components of cell wall of green plants, many forms of algae and some fungus-like microorganisms." [http://en.wikipedia.org/wiki/Cellulose "Wikipedia"]
 is_a: PW:0001391 ! starch and cellulose metabolic pathway
 created_by: VPetri
 creation_date: 2013-06-20T09:32:33Z
@@ -11500,8 +11444,7 @@ creation_date: 2013-06-20T14:12:23Z
 [Term]
 id: PW:0001395
 name: terpene biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of terpenes, a large class or organic compounds produced by a variety of plants and some insects." [GO:0046246, http://en.wikipedia.org/wiki/Terpene "Wikipedia"]
-synonym: "terpene biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of terpene, a large class or organic compounds produced by a variety of plants and some insects." [http://en.wikipedia.org/wiki/Terpene "Wikipedia"]
 is_a: PW:0001394 ! terpene and terpenoid biosynthetic pathway
 created_by: VPetri
 creation_date: 2013-06-20T14:16:34Z
@@ -11509,8 +11452,7 @@ creation_date: 2013-06-20T14:16:34Z
 [Term]
 id: PW:0001396
 name: monoterpene biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of monoterpenes, a class of terpenes composed of two isoprene units." [GO:0043693, http://en.wikipedia.org/wiki/Terpene "Wikipedia"]
-synonym: "monoterpene biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of monoterpene, a class of terpene composed of two isoprene units." [http://en.wikipedia.org/wiki/Terpene "Wikipedia"]
 is_a: PW:0001395 ! terpene biosynthetic pathway
 created_by: VPetri
 creation_date: 2013-06-20T14:18:52Z
@@ -11533,8 +11475,6 @@ creation_date: 2013-06-20T14:23:32Z
 [Term]
 id: PW:0001399
 name: terpene degradation pathway
-def: "Those metabolic reactions involved in the degradation of terpenes, a large class or organic compounds produced by a variety of plants and some insects." [GO:0046247]
-synonym: "terpene catabolic process" RELATED []
 is_a: PW:0001398 ! terpene and terpenoid degradation pathway
 created_by: VPetri
 creation_date: 2013-06-20T14:24:06Z
@@ -11542,8 +11482,6 @@ creation_date: 2013-06-20T14:24:06Z
 [Term]
 id: PW:0001400
 name: terpenoid degradation pathway
-def: "Those metabolic reactions involved in the degradation of terpenoids, a large class or organic compounds produced by a variety of plants and some insects." [GO:0016115]
-synonym: "terpenoid catabolic process" RELATED []
 is_a: PW:0001398 ! terpene and terpenoid degradation pathway
 created_by: VPetri
 creation_date: 2013-06-20T14:24:24Z
@@ -11551,8 +11489,7 @@ creation_date: 2013-06-20T14:24:24Z
 [Term]
 id: PW:0001401
 name: diterpene biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of diterpenes, a class of terpenes composed of four isoprene units." [GO:0016102, http://en.wikipedia.org/wiki/Terpene "Wikipedia"]
-synonym: "diterpenoid biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of diterpene, a class of terpene composed of four isoprene units." [http://en.wikipedia.org/wiki/Terpene "Wikipedia"]
 is_a: PW:0001395 ! terpene biosynthetic pathway
 created_by: VPetri
 creation_date: 2013-06-20T14:27:06Z
@@ -12176,7 +12113,8 @@ creation_date: 2013-10-25T12:14:03Z
 [Term]
 id: PW:0001472
 name: metabolic disease pathway
-def: "Those diseases and disorders that are caused by deregulation of a metabolic pathway. It can be due to an inherited defect in an enzyme function and thus congenital, or acquired, when resulting from the failure or malfunctioning of an important metabolic organ." [MeSH:D008659, Reactome:R-HSA-5668914]
+alt_id: Reactome:R-HSA-5668914
+def: "Those diseases and disorders that are caused by deregulation of a metabolic pathway. It can be due to an inherited defect in an enzyme function and thus congenital, or acquired, when resulting from the failure or malfunctioning of an important metabolic organ." [MeSH:D008659]
 synonym: "Diseases of metabolism" RELATED []
 is_a: PW:0001583 ! nutritional and metabolic disease pathway
 created_by: VPetri
@@ -12381,8 +12319,7 @@ creation_date: 2014-01-29T16:19:19Z
 [Term]
 id: PW:0001495
 name: altered visual phototransduction pathway
-def: "Alterations in the visual phototransduction signaling have been linked to a number conditions such as retinits pigmentosa (RP), Bardet-Biedl syndrome (BBS), macular degeneration and others. More than 200 point mutations in rhodopsin account for ~25% of the autosomal dominant type of RP." [PMID:20212494, PMID:23684651, Reactome:R-HSA-2474795]
-synonym: "Diseases associated with visual transduction" RELATED []
+def: "Alterations in the visual phototransduction signaling have been linked to a number conditions such as retinits pigmentosa (RP), Bardet-Biedl syndrome (BBS), macular degeneration and others. More than 200 point mutations in rhodopsin account for ~25% of the autosomal dominant type of RP." [PMID:20212494, PMID:23684651]
 is_a: PW:0000962 ! visual phototransduction pathway
 is_a: PW:0001492 ! altered photosignal transduction pathway
 is_a: PW:0001494 ! altered vitamin A and metabolites signaling pathway
@@ -12408,7 +12345,8 @@ creation_date: 2014-01-30T14:22:53Z
 [Term]
 id: PW:0001498
 name: altered retinoid cycle metabolic pathway
-def: "Alteration in the retinoid cycle, or the visual cycle, have been associated with retinitis pigmentosa and a few other forms of photoreceptor degeneration." [PMID:20212494, PMID:23684651, Reactome:R-HSA-2453864]
+alt_id: Reactome:R-HSA-2453864
+def: "Alteration in the retinoid cycle, or the visual cycle have been associated with retinitis pigmentosa and a few other forms of photoreceptor degeneration." [PMID:20212494, PMID:23684651]
 synonym: "altered visual cycle metabolic pathway" RELATED []
 synonym: "Retinoid cycle disease events" RELATED []
 is_a: PW:0001005 ! retinoid cycle metabolic pathway
@@ -17629,7 +17567,10 @@ creation_date: 2015-10-13T15:02:49Z
 [Term]
 id: PW:0002072
 name: lactose biosynthetic pathway
-def: "Those reactions involved in the synthesis of lactose, the major sugar in milk." [GO:0005989, https://en.wikipedia.org/wiki/Lactose "wikipedia", Reactome:R-HSA-5653890, SMP:00444]
+alt_id: GO:0005989
+alt_id: Reactome:R-HSA-5653890
+alt_id: SMP:00444
+def: "Those reactions involved in the synthesis of lactose, the major sugar in milk." [https://en.wikipedia.org/wiki/Lactose "wikipedia"]
 synonym: "lactose biosynthetic process" RELATED []
 synonym: "Lactose synthesis" RELATED []
 is_a: PW:0001363 ! lactose metabolic pathway
