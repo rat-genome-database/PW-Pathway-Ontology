@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.72
-date: 17:12:2022 20:13
+data-version: 7.71
+date: 10:12:2022 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: pathway
@@ -12419,8 +12419,7 @@ creation_date: 2014-01-30T14:32:56Z
 [Term]
 id: PW:0001499
 name: altered retinoid metabolic pathway
-def: "A retinoid metabolic pathway that deviates from what its normal course should be." [Reactome:R-HSA-6809583]
-synonym: "Retinoid metabolism disease events" RELATED []
+def: "A retinoid metabolic pathway that deviates from what its normal course should be." []
 is_a: PW:0000429 ! altered metabolic pathway of cofactors, vitamins, nutrients
 is_a: PW:0001003 ! retinoid metabolic pathway
 is_a: PW:0001501 ! altered vitamin A homeostasis
@@ -12512,8 +12511,7 @@ creation_date: 2014-02-26T10:23:49Z
 [Term]
 id: PW:0001510
 name: cisplatin response pathway
-def: "A pathway triggered by exposure to cisplatin, a widely used and very potent anti-cancer platinum containing drug. It is also the one with the most toxic side effects. Nephorotoxicity and ototoxicity are among the primary toxic side effects." [GO:0072718, PMID:17084534, PMID:22986709]
-synonym: "response to cisplatin" RELATED []
+def: "A pathway triggered by exposure to cisplatin, a widely used and very potent anti-cancer platinum containing drug. It is also the one with the most toxic side effects.  Nephorotoxicity and ototoxicity are among the primary toxic side effects." [PMID:17084534, PMID:22986709]
 is_a: PW:0001509 ! platinum (Pt) containing drug response pathway
 created_by: vpetri
 creation_date: 2014-02-26T10:28:43Z
@@ -12521,9 +12519,8 @@ creation_date: 2014-02-26T10:28:43Z
 [Term]
 id: PW:0001511
 name: bisphenol A response pathway
-def: "A pathway triggered by exposure to bisphenol A - a synthetic compound used in the production of plastics and certain resins. It mimics estrogen and has negative health effects with the early developmental stages being the more sensitive to its effects. It may be implicated in the etiology of several chronic diseases." [GO:1903925, PMID:24382480]
+def: "A pathway triggered by exposure to bisphenol A - a synthetic compound used  in the production of plastics and certain resins. It mimics estrogen and has negative health effects with the early developmental stages being the more sensitive to its effects. It may be implicated in the etiology of several chronic diseases." [PMID:24382480]
 synonym: "BPA response pathway" RELATED []
-synonym: "response to bisphenol A " RELATED []
 is_a: PW:0001434 ! toxin and toxicant response pathway
 created_by: vpetri
 creation_date: 2014-02-26T10:36:07Z
@@ -12547,8 +12544,7 @@ creation_date: 2014-02-26T12:00:08Z
 [Term]
 id: PW:0001514
 name: carboplatin response pathway
-def: "A pathway triggered by exposure to carboplatin, a platinum containing drug used in the treatment of solid tumor. It is less potent than cisplatin but it can have serious toxic side effects such as myelosuppression and thrombocytopenia." [GO:0097328, PMID:17084534, PMID:22986709]
-synonym: "response to carboplatin" RELATED []
+def: "A pathway triggered by exposure to carboplatin, a platinum containing drug used in the treatment of solid tumor. It is less potent than cisplatin but it can have serious toxic side effects such as myelosuppression and thrombocytopenia." [PMID:17084534, PMID:22986709]
 is_a: PW:0001509 ! platinum (Pt) containing drug response pathway
 created_by: vpetri
 creation_date: 2014-02-26T12:14:14Z
@@ -12556,7 +12552,9 @@ creation_date: 2014-02-26T12:14:14Z
 [Term]
 id: PW:0001515
 name: Hippo signaling pathway
-def: "The Hippo signaling pathway plays important roles in organ development and growth and tumor suppression. The pathway consists of a core of four kinases which once activated by upstream regulators promote the cytoplasmic sequestration of YAP/TAZ transcriptional regulators. Dysregulation of the pathway has been implicated in tumor metastasis." [GO:0035329, PMID:23312716, PMID:23431053, PMID:26045258, Reactome:R-HSA-2028269]
+alt_id: GO:0035329
+alt_id: Reactome:R-HSA-2028269
+def: "The Hippo signaling pathway plays important roles in organ development and growth and tumor suppression. The pathway consists of a core of four kinases which once activated by upstream regulators promote the cytoplasmic sequestration of YAP/TAZ transcriptional regulators. Dysregulation of the pathway has been implicated in tumor metastasis." [PMID:23312716, PMID:23431053, PMID:26045258]
 synonym: "hippo signaling" RELATED []
 synonym: "Signaling by Hippo" RELATED []
 is_a: PW:0000650 ! signaling pathway pertinent to development
@@ -12611,9 +12609,9 @@ creation_date: 2014-03-20T12:30:08Z
 [Term]
 id: PW:0001522
 name: dermatan sulfate biosynthetic pathway
-def: "Those metabolic reactions involved in the biosynthesis of dermatan sulfate - a mucopolysaccharide found primarily in skin but also in tendons, lungs, heart valves and blood vessels." [GO:0030208, http://en.wikipedia.org/wiki/Dermatan_sulfate "wikipedia", Reactome:R-HSA-2022923]
+alt_id: Reactome:R-HSA-2022923
+def: "Those metabolic reactions involved in the biosynthesis of dermatan sulfate - a mucopolysaccharide found primarily in skin but also in tendons, lungs, heart valves and blood vessels." [http://en.wikipedia.org/wiki/Dermatan_sulfate "wikipedia"]
 synonym: "Dermatan sulfate biosynthesis" RELATED []
-synonym: "dermatan sulfate biosynthetic process" RELATED []
 is_a: PW:0000157 ! glycosaminoglycan metabolic pathway
 created_by: VPetri
 creation_date: 2014-03-20T13:05:32Z
@@ -12658,9 +12656,7 @@ creation_date: 2014-04-17T11:46:33Z
 [Term]
 id: PW:0001527
 name: thromboxane A2 signaling pathway
-def: "Thromboxane is one of several families of prostanoids, eicosanoids derived from omega-3 or omega-6 fatty acids. Of the two thromboxane molecules, only A2 has activity. Thromboxane A2 signaling exerts vasoconstrictor and platelet aggregation roles. Its actions oppose those of prostaglandin I2, the other important prostanoid for cardiovascular system homeostasis." [GO:0038193, PMID:12955468, PMID:23063076, Reactome:R-HSA-428930]
-synonym: "thromboxane A2 signaling pathway" RELATED []
-synonym: "Thromboxane signalling through TP receptor" RELATED []
+def: "Thromboxane is one of several families of prostanoids, eicosanoids derived from omega-3 or omega-6 fatty acids. Of the two thromboxane molecules, only A2 has activity. Thromboxane A2 signaling exerts vasoconstrictor and platelet aggregation roles. Its actions oppose those of prostaglandin I2, the other important prostanoid for the cardiovascular system homeostasis." [PMID:12955468, PMID:23063076]
 is_a: PW:0001296 ! prostanoid signaling pathway
 created_by: VPetri
 creation_date: 2014-04-18T11:05:02Z
@@ -12703,8 +12699,7 @@ creation_date: 2014-04-22T16:59:22Z
 [Term]
 id: PW:0001532
 name: prostaglandin biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of prostaglandins - a class of eicosanoid prostanoids with several members, exerting a range of important functions in the immune and cardiovascular systems." [GO:0001516, PMID:23063076]
-synonym: "prostaglandin biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of prostaglandins - a class of eicosanoid prostanoids with several members and exerting a range of important functions in the immune and cardiovascular systems." [PMID:23063076]
 is_a: PW:0000156 ! prostaglandin metabolic pathway
 is_a: PW:0001243 ! prostanoid biosynthetic pathway
 created_by: VPetri
@@ -12911,7 +12906,9 @@ creation_date: 2014-07-29T15:51:22Z
 [Term]
 id: PW:0001557
 name: programmed cell death pathway
-def: "Programmed cell death pathways group together several types that can be described as apoptotic or non-apoptotic, based on morphological characteristics. The common feature is their highly regulated nature, as opposed to accidental, non-programmed cell death." [GO:0012501, PMID:11965491, PMID:21760595, PMID:23030059, Reactome:R-HSA-5357801]
+alt_id: GO:0012501
+alt_id: Reactome:R-HSA-5357801
+def: "Programmed cell death pathways group together several types that can be described as apoptotic or non-apoptotic, based on morphological characteristics. The common feature is their highly regulated nature, as opposed to accidental, non-programmed cell death." [PMID:11965491, PMID:21760595, PMID:23030059]
 synonym: "Programmed Cell Death" RELATED []
 is_a: PW:0000275 ! cell death pathway
 created_by: VPetri
@@ -12937,8 +12934,7 @@ creation_date: 2014-09-11T16:09:22Z
 [Term]
 id: PW:0001560
 name: pyroptosis pathway
-def: "The pyroptosis pathway is a form of programmed cell death triggered by microbial infection and release of cytokines. It can also occur independently of microbial virulence. Pyroptosis can have either apoptotic or necrotic morphological features." [GO:0070269, PMID:20201017, PMID:21760595, Reactome:R-HSA-5620971]
-synonym: "Pyroptosis" RELATED []
+def: "Pyroptosis pathway is a form of programmed cell death triggered by microbial infection and release of cytokines. It can also occur independently of microbial virulence. Pyroptosis can have either apoptotic or necrotic morphological features." [PMID:20201017, PMID:21760595]
 is_a: PW:0000009 ! apoptotic cell death pathway
 is_a: PW:0000276 ! non-apoptotic cell death pathway
 created_by: VPetri
@@ -12947,7 +12943,8 @@ creation_date: 2014-09-11T16:31:44Z
 [Term]
 id: PW:0001561
 name: necroptosis pathway
-def: "Necroptosis is a programmed or regulated form of necrosis generally triggered by DNA damage, leading to cell swelling and lysis." [GO:0070266, PMID:21760595, PMID:23030059]
+alt_id: GO:0070266
+def: "Necroptosis is a programmed or regulated form of necrosis generally triggered by DNA damage and leading to cell swelling and lysis." [PMID:21760595, PMID:23030059]
 synonym: "necroptotic process" RELATED []
 synonym: "programmed necrosis pathway" RELATED []
 is_a: PW:0000276 ! non-apoptotic cell death pathway
@@ -12975,8 +12972,7 @@ creation_date: 2014-09-12T09:46:55Z
 [Term]
 id: PW:0001564
 name: anoikis pathway
-def: "Anoikis is a form of apoptotic programmed cell death triggered by the absence of cell-matrix interactions." [GO:0043276, PMID:21760595]
-synonym: "anoikis" RELATED []
+def: "Anoikis is a form of apoptotic programmed cell death triggered by the absence of cell-matrix interactions." [PMID:21760595]
 is_a: PW:0000009 ! apoptotic cell death pathway
 created_by: VPetri
 creation_date: 2014-09-12T09:54:41Z
@@ -13001,8 +12997,7 @@ creation_date: 2014-11-07T13:28:02Z
 [Term]
 id: PW:0001567
 name: RNA processing pathway
-def: "The various pathways whereby initial RNA transcripts are processed into their mature, functional forms and those involved in removing excess or erroneous RNA." [GO:0006396, PMID:23545199]
-synonym: "RNA processing" RELATED []
+def: "The various pathways whereby initial RNA transcripts are processed into their mature, functional form and those involved in removing excess or erroneous RNA." [PMID:23545199]
 is_a: PW:0000085 ! pathway pertinent to DNA replication and repair, cell cycle, maintenance of genomic integrity, RNA and protein biosynthesis
 created_by: VPetri
 creation_date: 2014-11-07T13:56:05Z
@@ -13018,8 +13013,7 @@ creation_date: 2014-11-07T14:43:00Z
 [Term]
 id: PW:0001569
 name: mRNA maturation pathway
-def: "mRNA maturation involves 5'-capping and 3' processing of pre-mRNA, splicing and alternative splicing to produce the mature mRNA molecule(s)." [GO:0006397, PMID:23545199]
-synonym: "mRNA processing" RELATED []
+def: "mRNA maturation involves 5'-capping and 3' processing of pre-mRNA,  splicing and alternative splicing to produce the mature mRNA molecule(s)." [PMID:23545199]
 is_a: PW:0001568 ! RNA maturation pathway
 relationship: part_of PW:0000127 ! RNA polymerase II transcription pathway
 created_by: VPetri
@@ -13028,7 +13022,9 @@ creation_date: 2014-11-07T15:00:17Z
 [Term]
 id: PW:0001570
 name: RNA polymerase I transcription initiation pathway
-def: "Initiation of transcription from the bipartite rDNA repeats requires the assembly of the Pol I preinitiation complex (PIC) and subsequent recruitment of the polymerase." [GO:0006361, PMID:22960599, Reactome:R-HSA-73762]
+alt_id: GO:0006361
+alt_id: Reactome:R-HSA-73762
+def: "Initiation of transcription from the bipartite rDNA repeats requires the assembly of the Pol I preinitiation complex (PIC) and subsequent recruitment of the polymerase." [PMID:22960599]
 synonym: "RNA Polymerase I Transcription Initiation" RELATED []
 synonym: "transcription initiation at RNA polymerase I promoter" RELATED []
 relationship: part_of PW:0000126 ! RNA polymerase I transcription pathway
@@ -13038,7 +13034,9 @@ creation_date: 2014-11-07T15:19:01Z
 [Term]
 id: PW:0001571
 name: RNA polymerase I transcription elongation pathway
-def: "Subunits of Pol I have elongation and hydrolysis capabilities. However, additional trans-acting factors are involved in Pol I elongation steps." [GO:0006362, PMID:21893173, Reactome:R-HSA-73777]
+alt_id: GO:0006362
+alt_id: Reactome:R-HSA-73777
+def: "Subunits of Pol I have elongation and hydrolysis capabilities. However, additional trans-acting factors are involved in pol I elongation steps." [PMID:21893173]
 synonym: "RNA Polymerase I Chain Elongation" RELATED []
 synonym: "transcription elongation by RNA polymerase I" RELATED []
 relationship: part_of PW:0000126 ! RNA polymerase I transcription pathway
@@ -13048,7 +13046,9 @@ creation_date: 2014-11-07T15:27:41Z
 [Term]
 id: PW:0001572
 name: RNA polymerase I transcription termination pathway
-def: "Termination of transcription by the polymerase I system requires the recruitment of specific factors to particular DNA elements." [GO:0006363, PMID:23092677, Reactome:R-HSA-73863]
+alt_id: GO:0006363
+alt_id: Reactome:R-HSA-73863
+def: "Termination of transcription by the polymerase I system requires the recruitment of specific factors to particular DNA elements." [PMID:23092677]
 synonym: "RNA Polymerase I Transcription Termination" RELATED []
 synonym: "termination of RNA polymerase I transcription" RELATED []
 relationship: part_of PW:0000126 ! RNA polymerase I transcription pathway
@@ -13058,7 +13058,9 @@ creation_date: 2014-11-07T15:39:16Z
 [Term]
 id: PW:0001573
 name: tRNA maturation pathway
-def: "Processing of the initial tRNA transcript, including splicing of intron-containing pre-tRNAs and multiple modifications to produce the mature tRNA molecule that is exported to the cytoplasm." [GO:0008033, PMID:21915787, PMID:23545199, Reactome:R-HSA-72306]
+alt_id: GO:0008033
+alt_id: Reactome:R-HSA-72306
+def: "Processing of the initial tRNA transcript, including splicing of intron-containing pre-tRNAs and multiple modifications to produce the mature tRNA molecule that is exported to the cytoplasm." [PMID:21915787, PMID:23545199]
 synonym: "tRNA processing" RELATED []
 is_a: PW:0001568 ! RNA maturation pathway
 relationship: part_of PW:0000128 ! RNA polymerase III transcription pathway
@@ -13068,7 +13070,9 @@ creation_date: 2014-11-07T15:44:37Z
 [Term]
 id: PW:0001574
 name: rRNA maturation pathway
-def: "The reactions involved in processing the primary Pol I-transcribed rRNA and the 5S pre-rRNA transcribed by Pol III. The large Pol I transcribed pre-rRNA contains the mature 18S, 5.8S and 25S/28S rRNAs separated by internal (ITS) and flanked by external transcribed spacers (ETS). The nascent pre-rRNA associates co-transcriptionally with various factors, folds and is modified, while endo- and exo-nucleolytic cleavages sequentially remove the spacers. Cleavage at site ITS1 separates the initial 90S pre-ribosome into pre-40S and pre-60S particles whose nucleocytoplasmic processing will follow independent routes." [GO:0006364, PMID:17509569, PMID:25346433, Reactome:R-HSA-72312]
+alt_id: GO:0006364
+alt_id: Reactome:R-HSA-72312
+def: "The reactions involved in processing the primary pol I transcribed rRNA and the 5S pre-rRNA transcribed by pol III. The large pol I transcribed pre-rRNA contains the mature 18S, 5.8S and 25S/28S rRNAs separated by internal (ITS) and flanked by external transcribed spacers (ETS). The nascent pre-rRNA associates co-transcriptionally with various factors, folds and is modified, while endo- and exo-nucleolytic cleavages sequentially remove the spacers. Cleavage at site ITS1 separates the initial 90S pre-ribosome into pre-40S and pre-60S particles whose nucleocytoplasmic processing will follow independent routes." [PMID:17509569, PMID:25346433]
 synonym: "rRNA processing" RELATED []
 is_a: PW:0001568 ! RNA maturation pathway
 relationship: part_of PW:0000126 ! RNA polymerase I transcription pathway
@@ -13281,7 +13285,8 @@ creation_date: 2015-02-10T13:29:05Z
 [Term]
 id: PW:0001596
 name: abacavir pharmacokinetics pathway
-def: "The pathway of processing - absorption, distribution, metabolism or elimination - of abacavir, a drug used for the treatment of HIV. Genetic variations can result in changes in the availability of the drug." [PMID:18479171, Reactome:R-HSA-2161522]
+alt_id: Reactome:R-HSA-2161522
+def: "The pathway of processing - absorption, distribution, metabolism or elimination - of abacavir, a drug used for the treatment of HIV. Genetic variations can result in changes in the availability of the drug." [PMID:18479171]
 synonym: "Abacavir transport and metabolism" RELATED []
 is_a: PW:0001595 ! abacavir drug pathway
 created_by: vpetri
@@ -13985,9 +13990,8 @@ creation_date: 2015-03-10T15:15:08Z
 [Term]
 id: PW:0001671
 name: no-go mRNA decay pathway
-def: "The no-go mRNA decay pathway degrades mRNA that causes ribosomes to stall during the elongation phase of translation. It can be due to the presence of pseudoknots, stem loop structures, rare codons, other features." [GO:0070966, PMID:22664987, PMID:23072885]
+def: "The no-go mRNA decay pathway degrades mRNA that causes ribosomes to stall during the elongation phase of translation. It can be due to the presence of pseudoknots, stem loop structures, rare codons, other features." [PMID:22664987, PMID:23072885]
 synonym: "NGD pathway" RELATED []
-synonym: "nuclear-transcribed mRNA catabolic process, no-go decay" RELATED []
 is_a: PW:0000546 ! mRNA decay pathway
 created_by: VPetri
 creation_date: 2015-05-08T08:46:07Z
@@ -14759,7 +14763,9 @@ creation_date: 2015-07-14T08:15:56Z
 [Term]
 id: PW:0001758
 name: insulin biosynthetic pathway
-def: "The insulin precursor, preproinsulin is subject to several processing steps in the endoplasmic reticulum and the Golgi apparatus before ending as the mature zinc-insulin hexamer stored in secretory granules. The expression of insulin is confined to the beta cells of the pancreatic islets of Langerhans." [GO:0030070, PMID:24843567, Reactome:R-HSA-264876]
+alt_id: GO:0030070
+alt_id: Reactome:R-HSA-264876
+def: "The insulin precursor, preproinsulin is subject to several processing steps in the endoplasmic reticulum and the Golgi apparatus before ending as the mature zinc-insulin hexamer stored in secretory granules. The expression of insulin is confined to the beta cells of the pancreatic islets of Langerhans." [PMID:24843567]
 synonym: "Insulin processing" RELATED []
 synonym: "preproinsulin processing pathway" RELATED []
 is_a: PW:0001757 ! peptide and protein hormone metabolic pathway
@@ -15176,7 +15182,9 @@ creation_date: 2015-08-19T15:17:47Z
 [Term]
 id: PW:0001805
 name: phenylketonuria pathway
-def: "A group of autosomal recessive disorders resulting from alterations in amino acid metabolism, mostly due to deficiency of hepatic phenylalanine hydroxylase. The enzyme catalyzes the hydroxylation of phenylalanine to tyrosine." [OMIM:261600, Reactome:R-HSA-2160456, SMP:00206]
+alt_id: Reactome:R-HSA-2160456
+alt_id: SMP:00206
+def: "A group of autosomal recessive disorders resulting from alterations in amino acid metabolism, mostly due to deficiency of hepatic phenylalanine hydroxylase. The enzyme catalyzes the hydroxylation of phenylalanine to tyrosine." [OMIM:261600]
 synonym: "Følling's disease pathway" EXACT []
 synonym: "phenylalaninemia pathway" EXACT []
 synonym: "Phenylketonuria" RELATED []
@@ -15323,7 +15331,8 @@ creation_date: 2015-08-20T09:36:31Z
 [Term]
 id: PW:0001818
 name: mucopolysaccharidoses pathway
-def: "A group of lysosomal storage diseases resulting from alterations in the glycosaminoglycans degradation pathway." [Reactome:R-HSA-2206281]
+alt_id: Reactome:R-HSA-2206281
+def: "A group of lysosomal storage diseases resulting from alterations in the glycosaminoglycans degradation pathway." []
 synonym: "Mucopolysaccharidoses" RELATED []
 synonym: "mucopolysaccharidoses disease pathway" EXACT []
 is_a: PW:0001630 ! lysosomal storage disease pathway
@@ -15538,7 +15547,9 @@ creation_date: 2015-08-24T16:06:13Z
 [Term]
 id: PW:0001842
 name: mitochondrial autophagy pathway
-def: "Damage to mitochondria will promote mitophagy, the mitochondrial autophagy pathway. It exhibits features common to macroautophagy or the regular autophagy, and also features that are distinct. Under more sustained stress, the cell will promote apoptosis. Translocation of cardiolipin, the signature phospholipid of the mitochondrial inner membrane, to the outer membrane, provides a signal of mitochondrial dysfunction." [GO:0000423, PMID:22743996, PMID:23065344, PMID:25673287, PMID:25840011, Reactome:R-HSA-5205647]
+alt_id: GO:0000423
+alt_id: Reactome:R-HSA-5205647
+def: "Damage to mitochondria will promote mitophagy, the mitochondrial autophagy pathway. It exhibits features common to macroautophagy or the regular autophagy, and also features that are distinct. Under more sustained stress, the cell will promote apoptosis. Translocation of cardiolipin, the signature phospholipid of the mitochondrial inner membrane, to the outer membrane, provides a signal of mitochondrial dysfunction." [PMID:22743996, PMID:23065344, PMID:25673287, PMID:25840011]
 synonym: "Mitophagy" RELATED []
 synonym: "mitophagy pathway" RELATED []
 is_a: PW:0002402 ! cellular autophagy pathway
@@ -15867,8 +15878,10 @@ creation_date: 2015-09-01T15:50:36Z
 [Term]
 id: PW:0001877
 name: plasmalogen biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of plasmalogen." [https://en.wikipedia.org/wiki/Plasmalogen "wikipedia", Reactome:R-HSA-75896, SMP:00479]
+alt_id: Reactome:R-HSA-75896
+def: "Those metabolic reactions involved in the synthesis of plasmalogen." [https://en.wikipedia.org/wiki/Plasmalogen "wikipedia"]
 synonym: "Plasmalogen biosynthesis" RELATED []
+synonym: "SMP:00479" RELATED []
 is_a: PW:0001876 ! plasmalogen metabolic pathway
 created_by: VPetri
 creation_date: 2015-09-01T15:54:44Z
@@ -16539,9 +16552,7 @@ creation_date: 2015-09-22T15:18:58Z
 [Term]
 id: PW:0001954
 name: eukaryotic DNA replication pathway
-def: "Nuclear eukaryotic DNA replication takes place in the context of the cell cycle during the S-phase. The fast and accurate replication of DNA requires the presence and the coordinated function of a complex of proteins known as the replisome. The exact composition of the replisome in higher organisms still has to be fully determined. Mitochondria contain their own DNA. Human mtDNA is a small, circular molecule that resides in the matrix and, depending on cell type, can exist as a few to several thousands copies. mtDNA has its own replicative machinery." [GO:0044786, https://en.wikipedia.org/wiki/DNA_replication "wikipedia", https://en.wikipedia.org/wiki/Mitochondrial_DNA "wikipedia", PMID:19665592, Reactome:R-HSA-69306]
-synonym: "cell cycle DNA replication" RELATED []
-synonym: "DNA Replication" RELATED []
+def: "Nuclear eukaryotic DNA replication takes place in the context of the cell cycle during the S-phase. The fast and accurate replication of DNA requires the presence and the coordinated function of a complex of proteins known as the replisome. The exact composition of the replisome in higher organisms still has to be fully determined. Mitochondria contain their own DNA. Human mtDNA is a small, circular molecule that resides in the matrix and, depending on cell type, can exist as a few to several thousands copies. mtDNA has its own replicative machinery." [https://en.wikipedia.org/wiki/DNA_replication "wikipedia", https://en.wikipedia.org/wiki/Mitochondrial_DNA "wikipedia", PMID:19665592]
 is_a: PW:0000098 ! DNA replication pathway
 created_by: VPetri
 creation_date: 2015-09-24T12:48:55Z
@@ -16556,8 +16567,7 @@ creation_date: 2015-09-24T12:49:02Z
 [Term]
 id: PW:0001956
 name: nuclear DNA replication pathway
-def: "Nuclear eukaryotic DNA replication takes place in the context of the cell cycle during the S-phase. The fast and accurate replication of DNA requires the presence and the coordinated function of a complex of proteins known as the replisome. The exact composition of the replisome in higher organisms still has to be fully determined." [GO:0033260, https://en.wikipedia.org/wiki/DNA_replication "wikipedia", PMID:19665592]
-synonym: "nuclear DNA replication" RELATED []
+def: "Nuclear eukaryotic DNA replication takes place in the context of the cell cycle during the S-phase. The fast and accurate replication of DNA requires the presence and the coordinated function of a complex of proteins known as the replisome. The exact composition of the replisome in higher organisms still has to be fully determined." [https://en.wikipedia.org/wiki/DNA_replication "wikipedia", PMID:19665592]
 is_a: PW:0001954 ! eukaryotic DNA replication pathway
 relationship: part_of PW:0000089 ! S phase pathway
 created_by: VPetri
@@ -16566,8 +16576,7 @@ creation_date: 2015-09-24T13:01:49Z
 [Term]
 id: PW:0001957
 name: mitochondrial DNA replication pathway
-def: "Mitochondria contain their own DNA. Human mtDNA is a small, circular molecule that resides in the matrix and, depending on cell type, can exist as a few to several thousands copies. mtDNA has its own replicative machinery." [GO:0006264, https://en.wikipedia.org/wiki/Mitochondrial_DNA "wikipedia", PMID:25499735]
-synonym: "mitochondrial DNA replication" RELATED []
+def: "Mitochondria contain their own DNA. Human mtDNA is a small, circular molecule that resides in the matrix and, depending on cell type, can exist as a few to several thousands copies. mtDNA has its own replicative machinery." [https://en.wikipedia.org/wiki/Mitochondrial_DNA "wikipedia", PMID:25499735]
 synonym: "mtDNA replication pathway" RELATED []
 is_a: PW:0001954 ! eukaryotic DNA replication pathway
 relationship: part_of PW:0001959 ! mitochondria homeostasis pathway
@@ -16614,9 +16623,9 @@ creation_date: 2015-09-24T13:45:12Z
 [Term]
 id: PW:0001962
 name: mitochondrial protein import pathway
-def: "Mitochondria are essential organelles that provide most of the ATP fuel for the cell, are the site of several important metabolic pathways and play essential roles in calcium storage, signaling and apoptosis. Of the many proteins involved, only 13 are encoded in the mammalian mitochondrial DNA. The remaining ~99% of mitochondrial proteins are translocated from the cytosol via a complex, multicomponent pathway system. Mitochondria-encoded proteins are translocated from the mitochondrial matrix into the inner mitochondrial membrane by a single system." [GO:0006626, PMID:22178138, PMID:24561263, PMID:25633533, Reactome:R-HSA-1268020]
+alt_id: Reactome:R-HSA-1268020
+def: "Mitochondria are essential organelles that provide most of the ATP fuel for the cell, are the site of several important metabolic pathways and play essential roles in calcium storage, signaling and apoptosis. Of the many proteins involved, only 13 are encoded in the mammalian mitochondrial DNA. The remaining ~99% of mitochondrial proteins are translocated from the cytosol via a complex, multicomponent pathway system. Mitochondria-encoded proteins are translocated from the mitochondrial matrix into the inner mitochondrial membrane by a single system." [PMID:22178138, PMID:24561263, PMID:25633533]
 synonym: "Mitochondrial protein import" RELATED []
-synonym: "protein targeting to mitochondrion" RELATED []
 is_a: PW:0000535 ! protein transport pathway
 relationship: part_of PW:0001959 ! mitochondria homeostasis pathway
 created_by: VPetri
@@ -16727,8 +16736,7 @@ creation_date: 2015-09-24T15:46:34Z
 [Term]
 id: PW:0001975
 name: mitochondrial unfolded protein response pathway
-def: "A stress response pathway to mitochondrial DNA depletion or accumulation of misfolded protein in the matrix or intermembrane space. Mitochondrial-to-nucleus signaling results in the increased expression of genes important for mitochondrial protein homeostasis. UPRmt can promote increased lifespan but the mechanisms are not well understood. Mitochondrial dysfunction contributes to normal aging, but mild distress can extend lifespan by almost 50% in organisms ranging from yeast to worms, flies and mice." [GO:0034514, PMID:22445420, PMID:25857997]
-synonym: "mitochondrial unfolded protein response" RELATED []
+def: "A stress response pathway to mitochondrial DNA depletion or accumulation of misfolded protein in the matrix or intermembrane space. Mitochondrial-to-nucleus signaling results in the increased expression of genes important for mitochondrial protein homeostasis. UPRmt can promote increased lifespan but the mechanisms are not well understood. Mitchondrial dysfunction contributes to normal aging. Yet, mild distress can extent life span by almost 50% in organisms ranging from yeast to worms, flies, and mice." [PMID:22445420, PMID:25857997]
 synonym: "UPRmt pathway" RELATED []
 is_a: PW:0000237 ! stress response pathway
 relationship: part_of PW:0001959 ! mitochondria homeostasis pathway
@@ -16879,7 +16887,8 @@ creation_date: 2015-09-28T15:55:26Z
 [Term]
 id: PW:0001991
 name: glycogen storage disease pathway
-def: "A group of inherited metabolic disorders resulting from alterations in the glycogen metabolic pathway." [MeSH:D006008, Reactome:R-HSA-3229121]
+alt_id: Reactome:R-HSA-3229121
+def: "A group of inherited metabolic disorders resulting from alterations in the glycogen metabolic pathway." [MeSH:D006008]
 synonym: "Glycogen storage diseases" RELATED []
 is_a: PW:0001644 ! inborn error of carbohydrate metabolism pathway
 created_by: VPetri
@@ -16888,7 +16897,10 @@ creation_date: 2015-09-29T15:05:20Z
 [Term]
 id: PW:0001992
 name: glycogen storage disease  type Ia pathway
-def: "One of the two forms of the type I glycogen storage disease pathway involving glucose-6-phosphate, here due to mutations in glucose-6-phosphatase. It is characterized by the accumulation of glycogen in particular organs and tissues." [OMIM:232200, Reactome:R-HSA-3274531, SMP:00374, SMP:00581]
+alt_id: Reactome:R-HSA-3274531
+alt_id: SMP:00374
+alt_id: SMP:00581
+def: "One of the two forms of the type I glycogen storage disease pathway involving glucose-6-phosphate, here due to mutations in glucose-6-phosphatase. It is characterized by the accumulation of glycogen in particular organs and tissues." [OMIM:232200]
 synonym: "glucose-6-phosphatase deficiency pathway" RELATED []
 synonym: "glycogen storage disease pathway, type IA" EXACT []
 synonym: "Glycogen storage disease type Ia (G6PC)" RELATED []
@@ -16901,7 +16913,9 @@ creation_date: 2015-09-29T15:12:57Z
 [Term]
 id: PW:0001993
 name: glycogen storage disease type Ib pathway
-def: "One of the two forms of the type I glycogen storage disease pathway involving glucose-6-phosphate, here due to mutations affecting the glucose-6-phosphate transporter. It is characterized by the accumulation of glycogen in particular organs and tissues." [OMIM:232220, Reactome:R-HSA-3229133, SMP:00573]
+alt_id: Reactome:R-HSA-3229133
+alt_id: SMP:00573
+def: "One of the two forms of the type I glycogen storage disease pathway involving glucose-6-phosphate, here due to mutations affecting the glucose-6-phosphate transporter. It is characterized by the accumulation of glycogen in particular organs and tissues." [OMIM:232220]
 synonym: "glucose-6-phosphate transport defect pathway" EXACT []
 synonym: "glycogen storage disease pathway, type IB" EXACT []
 synonym: "Glycogen storage disease type Ib (SLC37A4)" RELATED []
@@ -16926,7 +16940,9 @@ creation_date: 2015-09-29T15:37:11Z
 [Term]
 id: PW:0001995
 name: glycogen storage disease type IV pathway
-def: "A type of glycogen storage disease pathway involving glycogen branching enzyme 1." [OMIM:232500, Reactome:R-HSA-3878781, SMP:00554]
+alt_id: Reactome:R-HSA-3878781
+alt_id: SMP:00554
+def: "A type of glycogen storage disease pathway involving glycogen branching enzyme 1." [OMIM:232500]
 synonym: "amylopectinosis pathway" EXACT []
 synonym: "Andersen disease pathway" RELATED []
 synonym: "brancher deficiency glycogenosis pathway" EXACT []
@@ -17786,11 +17802,12 @@ creation_date: 2015-10-21T10:18:44Z
 [Term]
 id: PW:0002092
 name: galactosemia pathway
-def: "A galactosemia resulting from defects in the galactose-1-phosphate uridylyltransferase enzyme GALT." [OMIM:230400, Reactome:R-HSA-5609978, SMP:00182]
+def: "A galactosemia resulting from defects in the galactose-1-phosphate uridylyltransferase enzyme GALT." [OMIM:230400]
 synonym: "classic galactosemia pathway" EXACT []
-synonym: "Defective GALT can cause GALCT" RELATED []
+synonym: "Defective GALT can cause Galactosemia" RELATED []
 synonym: "galactose-1-phosphate uridylyl transferase deficiency pathway" EXACT []
 synonym: "GALT deficiency pathway" EXACT []
+synonym: "SMP:00182" RELATED []
 is_a: PW:0002091 ! galactosemias pathway
 created_by: VPetri
 creation_date: 2015-10-21T10:22:32Z
@@ -17798,7 +17815,9 @@ creation_date: 2015-10-21T10:22:32Z
 [Term]
 id: PW:0002093
 name: GALE deficiency pathway
-def: "A galactosemia resulting from defects in the UDP-galactose-4-epimerase enzyme GALE." [OMIM:230350, Reactome:R-HSA-5609977, SMP:00496]
+alt_id: Reactome:R-HSA-5609977
+alt_id: SMP:00496
+def: "A galactosemia resulting from defects in the UDP-galactose-4-epimerase enzyme GALE." [OMIM:230350]
 synonym: "Defective GALE can cause Epimerase-deficiency galactosemia (EDG)" RELATED []
 synonym: "galactose epimerase deficiency pathway" EXACT []
 synonym: "galactosemia III pathway" EXACT []
@@ -17879,9 +17898,11 @@ creation_date: 2015-10-21T11:29:17Z
 [Term]
 id: PW:0002101
 name: hereditary fructose intolerance syndrome pathway
-def: "An autosomal recessive disorder resulting from alterations in fructose metabolism and due to defects in the fructose-1-phosphate aldolase enzyme." [MeSH:D005633, OMIM:229600, Reactome:R-HSA-5657560, SMP:00725]
+alt_id: Reactome:R-HSA-5657560
+def: "An autosomal recessive disorder resulting from alterations in fructose metabolism and due to defects in the fructose-1-phosphate aldolase enzyme." [MeSH:D005633, OMIM:229600]
 synonym: "fructose intolerance pathway" EXACT []
 synonym: "Hereditary fructose intolerance" RELATED []
+synonym: "SMP:00725" RELATED []
 is_a: PW:0002099 ! inborn error of fructose metabolism pathway
 created_by: VPetri
 creation_date: 2015-10-21T11:32:59Z
@@ -19504,9 +19525,10 @@ creation_date: 2015-11-23T11:05:05Z
 [Term]
 id: PW:0002285
 name: porphyrin metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of porphyrins. Porphyrins represent a group of heterocyclic macrocycle organic compounds. Many are naturally occurring and one best example is the red blood cell heme pigment." [GO:0006778, https://en.wikipedia.org/wiki/Porphyrin "wikipedia", Reactome:R-HSA-189445, SMP:00024]
+alt_id: Reactome:R-HSA-189445
+alt_id: SMP:00024
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of porphyrin. Porphyrins represent a group of heterocyclic macrocycle organic compounds. Many are naturally occurring and one best example is the red blood cell heme pigment." [https://en.wikipedia.org/wiki/Porphyrin "wikipedia"]
 synonym: "Metabolism of porphyrins" RELATED []
-synonym: "porphyrin-containing compound metabolic process" RELATED []
 is_a: PW:0000190 ! porphyrin and chlorophyll metabolic pathway
 created_by: VPetri
 creation_date: 2015-11-23T11:36:53Z
@@ -19565,9 +19587,7 @@ creation_date: 2015-11-23T15:23:30Z
 [Term]
 id: PW:0002291
 name: carnitine metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of carnitine. Carnitine is derived from lysine and methionine and is important for fatty acid transport into the mitochondrial matrix." [GO:0009437, https://en.wikipedia.org/wiki/Carnitine "wikipedia", Reactome:R-HSA-200425]
-synonym: "carnitine metabolic process" RELATED []
-synonym: "Carnitine metabolism" RELATED []
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of carnitine. Carnitine is derived from lysine and methionine and is important for fatty acids transport into the mitochondrial matrix." [https://en.wikipedia.org/wiki/Carnitine "wikipedia"]
 is_a: PW:0000132 ! metabolic pathway of other amino acids
 created_by: VPetri
 creation_date: 2015-11-23T15:38:05Z
@@ -19575,9 +19595,12 @@ creation_date: 2015-11-23T15:38:05Z
 [Term]
 id: PW:0002292
 name: carnitine biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of carnitine. It involves the amino acids lysine and methionine and it largely occurs in the kidney and liver." [GO:0045329, https://en.wikipedia.org/wiki/Carnitine "wikipedia", Reactome:R-HSA-71262, SMP:00465]
+alt_id: GO:0045329
+alt_id: Reactome:R-HSA-71262
+def: "Those metabolic reactions involved in the synthesis of carnitine. It involves the amino acids lysine and methionine and it largely occurs in the kidney and liver." [https://en.wikipedia.org/wiki/Carnitine "wikipedia"]
 synonym: "carnitine biosynthetic process" RELATED []
 synonym: "Carnitine synthesis" RELATED []
+synonym: "SMP:00465" RELATED []
 is_a: PW:0002291 ! carnitine metabolic pathway
 created_by: VPetri
 creation_date: 2015-11-23T15:40:25Z
