@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.73
-date: 31:12:2022 20:13
+data-version: 7.72
+date: 17:12:2022 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: pathway
@@ -19585,8 +19585,7 @@ creation_date: 2015-11-23T15:40:25Z
 [Term]
 id: PW:0002293
 name: carnitine degradation pathway
-def: "Those metabolic reactions resulting in the breakdown of carnitine." [GO:0042413, https://en.wikipedia.org/wiki/Carnitine "wikipedia"]
-synonym: "carnitine catabolic process" RELATED []
+def: "Those metabolic reactions resulting in the breakdown of carnitine." [https://en.wikipedia.org/wiki/Carnitine "wikipedia"]
 is_a: PW:0002291 ! carnitine metabolic pathway
 created_by: VPetri
 creation_date: 2015-11-23T15:42:39Z
@@ -20494,8 +20493,7 @@ creation_date: 2016-01-06T10:48:59Z
 [Term]
 id: PW:0002396
 name: exocytosis pathway
-def: "The exocytosis pathway whereby cellular material is delivered in the extracellular space outside the cell. There are two main types of exocytosis: calcium-triggered, regulated and constitutive. They are also represented in the more specific protein exocytosis pathway." [GO:0006887, https://en.wikipedia.org/wiki/Exocytosis "wikipedia"]
-synonym: "exocytosis" RELATED []
+def: "The exocytosis pathway thereby cellular material is delivered in the extracellular space our outside the cell. There two main types of exocytosis: calcium-triggered, regulated and constitutive. They are also represented in the more specific protein exocytosis pathway." [https://en.wikipedia.org/wiki/Exocytosis "wikipedia"]
 is_a: PW:0002395 ! cellular trafficking cycle pathway
 created_by: VPetri
 creation_date: 2016-01-06T10:58:07Z
@@ -20503,8 +20501,7 @@ creation_date: 2016-01-06T10:58:07Z
 [Term]
 id: PW:0002397
 name: constitutive exocytosis pathway
-def: "A signal-independent exocytic pathway employed by all cell types." [GO:0045054, https://en.wikipedia.org/wiki/Exocytosis "wikipedia"]
-synonym: "constitutive secretory pathway" RELATED []
+def: "A signal-independent exocytic pathway employed by all cell types." [https://en.wikipedia.org/wiki/Exocytosis "wikipedia"]
 is_a: PW:0002396 ! exocytosis pathway
 created_by: VPetri
 creation_date: 2016-01-06T11:17:50Z
@@ -20512,8 +20509,7 @@ creation_date: 2016-01-06T11:17:50Z
 [Term]
 id: PW:0002398
 name: regulated exocytosis pathway
-def: "A signal-dependent exocytic pathway employed by particular cell types. For instance, the release of hormones and neurotransmitters by neuroendocrine cells is mediated by regulated exocytosis." [GO:0045055, https://en.wikipedia.org/wiki/Exocytosis "wikipedia", PMID:24062727]
-synonym: "regulated exocytosis" RELATED []
+def: "A signal-dependent exocytic pathway employed by particular cell types. For instance, the release of hormones and neurotransmitters by neuroendocrine cells is mediated by regulated exocytosis." [https://en.wikipedia.org/wiki/Exocytosis "wikipedia", PMID:24062727]
 is_a: PW:0002396 ! exocytosis pathway
 created_by: VPetri
 creation_date: 2016-01-06T11:19:37Z
@@ -20664,8 +20660,7 @@ creation_date: 2016-01-13T13:44:31Z
 [Term]
 id: PW:0002416
 name: phosphatidylserine metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of phosphatidylserine, an essential component of the membrane, also with roles in signaling." [GO:0006658, PMID:22960354, PMID:24747366]
-synonym: "phosphatidylserine metabolic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of phosphatidylserine, an essential component of the membrane, and also with roles in signaling." [PMID:22960354, PMID:24747366]
 is_a: PW:0000354 ! glycerophospholipid metabolic pathway
 created_by: VPetri
 creation_date: 2016-01-13T14:01:58Z
@@ -20673,8 +20668,8 @@ creation_date: 2016-01-13T14:01:58Z
 [Term]
 id: PW:0002417
 name: phosphatidylinositol metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of phosphatidylinositol (PtdIns). Phosphorylation of PtdIns can occur at the 3, 4, and/or 5 position of the inositol ring using one or multiple phosphate groups. These phosphorylated forms of PtdIns are known as phosphoinositides." [GO:0046488, https://en.wikipedia.org/wiki/Phosphatidylinositol#Phosphoinositides "wikipedia", Reactome:R-HSA-1483255]
-synonym: "phosphatidylinositol metabolic process" RELATED []
+alt_id: Reactome:R-HSA-1483255
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of phosphatidylinositol (PtdIns). Phosphorylation of PtdIns can occur at the 3, 4, and/or 4 position of the inositol ring using one or multiple phosphate groups. These phosphorylated forms of PtdIns are known as phosphoinositides." [https://en.wikipedia.org/wiki/Phosphatidylinositol#Phosphoinositides "wikipedia"]
 synonym: "PI Metabolism" RELATED []
 is_a: PW:0000354 ! glycerophospholipid metabolic pathway
 created_by: VPetri
@@ -20726,10 +20721,12 @@ creation_date: 2016-01-14T11:04:55Z
 [Term]
 id: PW:0002423
 name: synaptic vesicle cycle pathway
+alt_id: KEGG:04721
 alt_id: PW:0001072
-def: "The cycle of synaptic vesicle exocytosis and neurotransmitter release and the subsequent endocytosis and recycling of synaptic vesicles at nerve terminals." [GO:0099504, KEGG:04721, PMID:15217342, PMID:25339369, Reactome:R-HSA-112310]
+alt_id: Reactome:R-HSA-112310
+def: "The cycle of synaptic vesicle exocytosis and neurotransmitter release and the subsequent endocytosis and recycling of synaptic vesicles at nerve terminals." [PMID:15217342, PMID:25339369]
 synonym: "Neurotransmitter release cycle" RELATED []
-synonym: "synaptic vesicle cycle" RELATED []
+synonym: "synaptic vesicle cycle pathway" EXACT []
 is_a: PW:0001251 ! regulatory pathway pertinent to the brain
 relationship: part_of PW:0000274 ! neuron-to-neuron signaling pathway via the chemical synapse
 created_by: VPetri
@@ -20738,8 +20735,7 @@ creation_date: 2016-01-14T11:34:57Z
 [Term]
 id: PW:0002424
 name: synaptic vesicle endocytosis pathway
-def: "The endocytosis of synaptic vesicles, their recycling and refilling for another round of exocytosis. Two recycling pathways are documented: a fast endocytosis, also referred to as 'kiss-and-run' which is thought to be clathrin-independent, and a slower route, that is clathrin-dependent." [GO:0048488, PMID:15217342, PMID:22763746, PMID:25339369]
-synonym: "synaptic vesicle endocytosis" RELATED []
+def: "The endocytosis of synaptic vesicles, their recycle and refill for another round of exocytosis. Two recycling pathways are documented: a fast endocytosis, also referred to as 'kiss-and-run' which is thought to be clathrin-independent, and a slower route, that is clathrin-dependent." [PMID:15217342, PMID:22763746, PMID:25339369]
 is_a: PW:0002423 ! synaptic vesicle cycle pathway
 created_by: VPetri
 creation_date: 2016-01-14T11:48:34Z
@@ -20747,8 +20743,7 @@ creation_date: 2016-01-14T11:48:34Z
 [Term]
 id: PW:0002425
 name: synaptic vesicle exocytosis pathway
-def: "The release pathway of neurotransmitter-filled synaptic vesicles." [GO:0016079, PMID:15217342, PMID:25339369]
-synonym: "synaptic vesicle exocytosis" RELATED []
+def: "The release pathway of neurotransmitter filled synaptic vesicles." [PMID:15217342, PMID:25339369]
 is_a: PW:0002423 ! synaptic vesicle cycle pathway
 created_by: VPetri
 creation_date: 2016-01-14T11:49:08Z
@@ -20783,8 +20778,7 @@ creation_date: 2016-01-14T12:07:00Z
 [Term]
 id: PW:0002429
 name: synaptic vesicle trafficking pathway
-def: "Prior to exocytosis and following endocytosis, synaptic vesicles go through several trafficking steps that prepare them for neurotransmitter release." [GO:0048489, PMID:25339369]
-synonym: "synaptic vesicle transport" RELATED []
+def: "Prior to exocytosis and following endocytosis, synaptic vesicles go through several trafficking steps that prepare them for neurotransmitter release." [PMID:25339369]
 is_a: PW:0002423 ! synaptic vesicle cycle pathway
 created_by: VPetri
 creation_date: 2016-01-14T12:43:27Z
@@ -20810,7 +20804,7 @@ creation_date: 2016-01-14T14:56:54Z
 [Term]
 id: PW:0002432
 name: clathrin-dependent synaptic vesicle endocytosis
-def: "Clathrin-dependent endocytosis is a major route for synaptic vesicle endocytosis." [GO:0150007, PMID:22763746]
+def: "Clathrin-dependent endocytosis is a major route for synaptic vesicle endocytosis." [PMID:22763746]
 is_a: PW:0002424 ! synaptic vesicle endocytosis pathway
 created_by: VPetri
 creation_date: 2016-01-15T08:37:57Z
@@ -21478,8 +21472,7 @@ creation_date: 2016-02-12T08:53:23Z
 [Term]
 id: PW:0002510
 name: catecholamine degradation pathway
-def: "Those metabolic reactions involved in the degradation of catecholamines. Epinephrine, norepinephrine and dopamine are among the most abundant." [GO:0042424, PMID:19342614]
-synonym: "catecholamine catabolic process" RELATED []
+def: "Those metabolic reactions involved in the degradation of catecholamines. Epinephrine, norepinephrine and dopamine are among the most abundant." [PMID:19342614]
 is_a: PW:0000443 ! catecholamine metabolic pathway
 created_by: VPetri
 creation_date: 2016-02-16T11:08:22Z
@@ -21487,8 +21480,7 @@ creation_date: 2016-02-16T11:08:22Z
 [Term]
 id: PW:0002511
 name: dopamine degradation pathway
-def: "Those metabolic reactions involved in the degradation of dopamine. Dopamine degradation can be initiated by two enzymes. Dopamine can spontaneously oxidize and in the process, radicals are being produced. Storage of newly synthesized dopamine or degradation of excess cytosolic dopamine prevents oxidation of dopamine." [GO:0042420, PMID:24548101]
-synonym: "dopamine catabolic process" RELATED []
+def: "Those metabolic reactions involved in the degradation of dopamine. Dopamine degradation can be initiated by two enzymes. Dopamine can spontaneously oxidize and in the process, radicals are being produced. Storage of newly synthesized dopamine or degradation of excess cytosolic dopamine prevent oxidation of dopamine." [PMID:24548101]
 is_a: PW:0000409 ! dopamine metabolic pathway
 is_a: PW:0002510 ! catecholamine degradation pathway
 created_by: VPetri
@@ -21497,8 +21489,7 @@ creation_date: 2016-02-16T11:10:38Z
 [Term]
 id: PW:0002512
 name: epinephrine degradation pathway
-def: "Those metabolic reactions involved in the degradation of epinephrine." [GO:0038003, PMID:19342614]
-synonym: "epinephrine degradation pathway" RELATED []
+def: "Those metabolic reactions involved in the degradation of epinephrine." [PMID:19342614]
 is_a: PW:0000441 ! epinephrine metabolic pathway
 is_a: PW:0002510 ! catecholamine degradation pathway
 created_by: VPetri
@@ -21507,8 +21498,7 @@ creation_date: 2016-02-16T11:10:56Z
 [Term]
 id: PW:0002513
 name: norepinephrine degradation pathway
-def: "Those metabolic reactions involved in the degradation of norepinephrine." [GO:0042422, https://en.wikipedia.org/wiki/Norepinephrine#Degradation "wikipedia"]
-synonym: "norepinephrine catabolic process" RELATED []
+def: "Those metabolic reactions involved in the degradation of norepinephrine." [https://en.wikipedia.org/wiki/Norepinephrine#Degradation "wikipedia"]
 is_a: PW:0000442 ! norepinephrine metabolic pathway
 is_a: PW:0002510 ! catecholamine degradation pathway
 created_by: VPetri
