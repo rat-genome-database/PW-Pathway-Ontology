@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.73
-date: 07:01:2023 20:13
+data-version: 7.74
+date: 11:03:2023 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: pathway
@@ -22658,6 +22658,25 @@ def: "Acrolein is a reactive unsaturated aldehyde that is a dietary and environm
 is_a: PW:0001434 ! toxin and toxicant response pathway
 created_by: vpetri
 creation_date: 2016-10-20T13:11:04Z
+
+[Term]
+id: PW:0002641
+name: Toll-like receptor 1 signaling pathway
+def: "The series of molecular signals initiated by a ligand binding to pattern recognition receptor Toll-like receptor 1, which is expressed on monocytes and forms heterodimeric complexes with Toll-like receptor 2." [GO:0034130, Reactome:R-HSA-168179]
+synonym: "toll-like receptor 1 signaling pathway" RELATED []
+synonym: "Toll Like Receptor TLR1:TLR2 Cascade" RELATED []
+created_by: gthayman
+creation_date: 2023-03-11T19:20:01Z
+
+[Term]
+id: PW:0002642
+name: Toll-like receptor 2 signaling pathway
+def: "The series of molecular signals initiated by a ligand binding to pattern recognition receptor toll-like receptor 2, which is expressed constitutively on macrophages, dendritic cells, and B cells, and can be induced in some other cell types, including epithelial cells." [GO:0034134, Reactome:R-HSA-181438]
+synonym: "Toll Like Receptor 2 (TLR2) Cascade" RELATED []
+synonym: "toll-like receptor 2 signaling pathway" RELATED []
+is_a: PW:0000814 ! Toll-like receptor signaling pathway
+created_by: gthayman
+creation_date: 2023-03-11T19:42:20Z
 
 [Typedef]
 id: part_of
