@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.75
-date: 18:03:2023 20:13
+data-version: 7.74
+date: 11:03:2023 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: pathway
@@ -22665,7 +22665,6 @@ name: Toll-like receptor 1 signaling pathway
 def: "The series of molecular signals initiated by a ligand binding to pattern recognition receptor Toll-like receptor 1, which is expressed on monocytes and forms heterodimeric complexes with Toll-like receptor 2." [GO:0034130, Reactome:R-HSA-168179]
 synonym: "toll-like receptor 1 signaling pathway" RELATED []
 synonym: "Toll Like Receptor TLR1:TLR2 Cascade" RELATED []
-is_a: PW:0000814 ! Toll-like receptor signaling pathway
 created_by: gthayman
 creation_date: 2023-03-11T19:20:01Z
 
@@ -22678,36 +22677,6 @@ synonym: "toll-like receptor 2 signaling pathway" RELATED []
 is_a: PW:0000814 ! Toll-like receptor signaling pathway
 created_by: gthayman
 creation_date: 2023-03-11T19:42:20Z
-
-[Term]
-id: PW:0002643
-name: Toll-like receptor 3 signaling pathway
-def: "The series of molecular signals initiated by a ligand binding to the endolysosomal pattern recognition receptor toll-like receptor 3, expressed on myeloid dendritic cells, respiratory epithelium and macrophages." [GO:0034138, Reactome:R-HSA-168164]
-synonym: "Toll Like Receptor 3 (TLR3) Cascade" RELATED []
-synonym: "toll-like receptor 3 signaling pathway" RELATED []
-is_a: PW:0000814 ! Toll-like receptor signaling pathway
-created_by: gthayman
-creation_date: 2023-03-13T17:07:12Z
-
-[Term]
-id: PW:0002644
-name: Toll-like receptor 4 signaling pathway
-def: "The series of molecular signals initiated by a ligand binding to pattern recognition receptor toll-like receptor 4, well known for its sensitivity to bacterial lipopolysaccharides." [GO:0034142, Reactome:R-HSA-166016]
-synonym: "Toll Like Receptor 4 (TLR4) Cascade" RELATED []
-synonym: "toll-like receptor 4 signaling pathway" RELATED []
-is_a: PW:0000814 ! Toll-like receptor signaling pathway
-created_by: gthayman
-creation_date: 2023-03-13T17:13:25Z
-
-[Term]
-id: PW:0002645
-name: Toll-like receptor 5 signaling pathway
-def: "The series of molecular signals initiated by a ligand binding to pattern recognition receptor toll-like receptor 5, the receptor for flagellin, expressed on epithelial cells as well as on macrophages and dendritic cells." [GO:0034146, Reactome:R-HSA-168176]
-synonym: "Toll Like Receptor 5 (TLR5) Cascade" RELATED []
-synonym: "toll-like receptor 5 signaling pathway" RELATED []
-is_a: PW:0000814 ! Toll-like receptor signaling pathway
-created_by: gthayman
-creation_date: 2023-03-13T17:20:35Z
 
 [Typedef]
 id: part_of
