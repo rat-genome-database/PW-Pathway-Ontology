@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.76
-date: 25:03:2023 20:13
+data-version: 7.75
+date: 18:03:2023 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: pathway
@@ -22708,46 +22708,6 @@ synonym: "toll-like receptor 5 signaling pathway" RELATED []
 is_a: PW:0000814 ! Toll-like receptor signaling pathway
 created_by: gthayman
 creation_date: 2023-03-13T17:20:35Z
-
-[Term]
-id: PW:0002646
-name: Toll-like receptor 6 signaling pathway
-def: "The series of molecular signals initiated by a ligand binding to pattern recognition receptor toll-like receptor 6, which, in combination with Tlr2, has a role in recognizing microbial components." [GO:0034150, Reactome:R-HSA-168188]
-synonym: "toll-like receptor 6 signaling pathway" RELATED []
-synonym: "Toll Like Receptor TLR6:TLR2 Cascade" RELATED []
-is_a: PW:0000814 ! Toll-like receptor signaling pathway
-created_by: gthayman
-creation_date: 2023-03-20T17:06:59Z
-
-[Term]
-id: PW:0002647
-name: Toll-like receptor 7 signaling pathway
-def: "The series of molecular signals initiated by a ligand binding to the endolysosomal pattern recognition receptor toll-like receptor 7, which senses ssRNA oligonucleotides from RNA viruses." [GO:0034154, Reactome:R-HSA-168181]
-synonym: "Toll Like Receptor 7/8 (TLR7/8) Cascade" RELATED []
-synonym: "toll-like receptor 7 signaling pathway" RELATED []
-is_a: PW:0000814 ! Toll-like receptor signaling pathway
-created_by: gthayman
-creation_date: 2023-03-20T17:19:32Z
-
-[Term]
-id: PW:0002648
-name: Toll-like receptor 8 signaling pathway
-def: "The series of molecular signals initiated by a ligand binding to the endolysosomal pattern recognition receptor toll-like receptor 8, which senses ssRNA oligonucleotides from RNA viruses." [GO:0034158, Reactome:R-HSA-168181]
-synonym: "Toll Like Receptor 7/8 (TLR7/8) Cascade" RELATED []
-synonym: "toll-like receptor 8 signaling pathway" RELATED []
-is_a: PW:0000814 ! Toll-like receptor signaling pathway
-created_by: gthayman
-creation_date: 2023-03-20T17:42:48Z
-
-[Term]
-id: PW:0002649
-name: Toll-like receptor 9 signaling pathway
-def: "The series of molecular signals initiated by a ligand binding to the endolysosomal pattern recognition receptor toll-like receptor 9, which recognizes unmethylated CpG DNA motifs of bacterial or viral origin." [GO:0034162, Reactome:R-HSA-168138]
-synonym: "Toll Like Receptor 9 (TLR9) Cascade" RELATED []
-synonym: "toll-like receptor 9 signaling pathway" RELATED []
-is_a: PW:0000814 ! Toll-like receptor signaling pathway
-created_by: gthayman
-creation_date: 2023-03-20T17:46:02Z
 
 [Typedef]
 id: part_of
