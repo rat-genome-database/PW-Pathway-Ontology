@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.77
-date: 01:04:2023 20:13
+data-version: 7.76
+date: 25:03:2023 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: pathway
@@ -22662,8 +22662,9 @@ creation_date: 2016-10-20T13:11:04Z
 [Term]
 id: PW:0002641
 name: Toll-like receptor 1 signaling pathway
-def: "The series of molecular signals initiated by a ligand binding to pattern recognition receptor Toll-like receptor 1, which is expressed on monocytes." [GO:0034130]
+def: "The series of molecular signals initiated by a ligand binding to pattern recognition receptor Toll-like receptor 1, which is expressed on monocytes and forms heterodimeric complexes with Toll-like receptor 2." [GO:0034130, Reactome:R-HSA-168179]
 synonym: "toll-like receptor 1 signaling pathway" RELATED []
+synonym: "Toll Like Receptor TLR1:TLR2 Cascade" RELATED []
 is_a: PW:0000814 ! Toll-like receptor signaling pathway
 created_by: gthayman
 creation_date: 2023-03-11T19:20:01Z
@@ -22711,8 +22712,9 @@ creation_date: 2023-03-13T17:20:35Z
 [Term]
 id: PW:0002646
 name: Toll-like receptor 6 signaling pathway
-def: "The series of molecular signals initiated by a ligand binding to pattern recognition receptor toll-like receptor 6, which appears to participate in discriminating the subtle differences between dipalmitoyl and tripalmitoyl cysteinyl residues" [GO:0034150]
+def: "The series of molecular signals initiated by a ligand binding to pattern recognition receptor toll-like receptor 6, which, in combination with Tlr2, has a role in recognizing microbial components." [GO:0034150, Reactome:R-HSA-168188]
 synonym: "toll-like receptor 6 signaling pathway" RELATED []
+synonym: "Toll Like Receptor TLR6:TLR2 Cascade" RELATED []
 is_a: PW:0000814 ! Toll-like receptor signaling pathway
 created_by: gthayman
 creation_date: 2023-03-20T17:06:59Z
@@ -22746,46 +22748,6 @@ synonym: "toll-like receptor 9 signaling pathway" RELATED []
 is_a: PW:0000814 ! Toll-like receptor signaling pathway
 created_by: gthayman
 creation_date: 2023-03-20T17:46:02Z
-
-[Term]
-id: PW:0002650
-name: Toll-like receptor TLR1:TLR2 signaling pathway
-def: "The series of molecular signals initiated by a ligand such as a bacterial lipoprotein or peptide binding to a cotranslationally formed heterodimeric TLR1:TLR2 complex, followed by transmission of the signal by the activated receptor, and ending with the regulation of a downstream cellular process, e.g. transcription." [GO:0038123, Reactome:R-HSA-168179]
-synonym: "Toll Like Receptor TLR1:TLR2 Cascade" RELATED []
-synonym: "toll-like receptor TLR1:TLR2 signaling pathway" RELATED []
-is_a: PW:0000814 ! Toll-like receptor signaling pathway
-created_by: gthayman
-creation_date: 2023-03-27T13:35:35Z
-
-[Term]
-id: PW:0002651
-name: Toll-like receptor TLR6:TLR2 signaling pathway
-def: "The series of molecular signals initiated by a ligand such as a bacterial cell wall component binding to a heterodimeric TLR6:TLR2 complex, followed by transmission of the signal by the activated receptor, and ending with the regulation of a downstream cellular process, e.g. transcription." [GO:0038124, Reactome:R-HSA-168188]
-synonym: "toll-like receptor TLR6:TLR2 signaling pathway" RELATED []
-synonym: "Toll Like Receptor TLR6:TLR2 Cascade" RELATED []
-is_a: PW:0000814 ! Toll-like receptor signaling pathway
-created_by: gthayman
-creation_date: 2023-03-27T13:53:58Z
-
-[Term]
-id: PW:0002652
-name: Toll-like receptor 10 signaling pathway
-def: "The series of molecular signals initiated by a ligand binding to pattern recognition receptor toll-like receptor 10, causing homodimerization. It is expressed as a highly N-glycosylated protein detectable in B cells and dendritic cells" [GO:0034166, Reactome:R-HSA-168142]
-synonym: "Toll Like Receptor 10 (TLR10) Cascade" RELATED []
-synonym: "toll-like receptor 10 signaling pathway" RELATED []
-is_a: PW:0000814 ! Toll-like receptor signaling pathway
-created_by: gthayman
-creation_date: 2023-03-27T14:00:27Z
-
-[Term]
-id: PW:0002653
-name: sulfur amino acid metabolic pathway
-def: "The chemical reactions and pathways involving the breakdown, interconversion and synthesis of amino acids containing sulfur, comprising cysteine, homocysteine, methionine and selenocysteine. Only plants and microorganisms employ all processes." [GO:0000096, Reactome:R-HSA-1614635]
-synonym: "Sulfur amino acid metabolism" RELATED []
-is_a: PW:0000037 ! sulfur metabolic pathway
-is_a: PW:0000132 ! metabolic pathway of other amino acids
-created_by: gthayman
-creation_date: 2023-03-27T14:29:14Z
 
 [Typedef]
 id: part_of
