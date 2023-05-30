@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: 7.78
-date: 22:04:2023 20:13
+data-version: 7.79
+date: 30:05:2023 10:52
 saved-by: gthayman
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: pathway
 ontology: pw
 
@@ -95,7 +95,7 @@ is_a: PW:0000002 ! classic metabolic pathway
 [Term]
 id: PW:0000011
 name: amino acid metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of the primary or standard 20 amino acids found in proteins. Amino acids are described as non-essential or essential depending on whether humans can or can not synthesize them, respectively. Chemically, they are classified based on the polarity of their side chain or R group, as non-polar and hydrophobic and hydrophilic and charged or polar uncharged. Amino acid metabolic pathways are also listed with their KEGG entries." [GO:0006520, http://www.genome.jp/kegg/ "KEGG", MCW library:Handbooks of Biochemistry]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of the primary or standard 20 amino acids found in proteins. Amino acids are described as non-essential or essential depending on whether humans can or can not synthesize them, respectively. Chemically, they are classified based on the polarity of their side chain or R group, as non-polar and hydrophobic and hydrophilic and charged or polar uncharged. Amino acid metabolic pathways are also listed with their KEGG entries." [GO:0006520, http://www.genome.jp/kegg/ "KEGG", MCW_library:Handbooks_of_Biochemistry]
 synonym: "cellular amino acid metabolic process" RELATED []
 is_a: PW:0000002 ! classic metabolic pathway
 
@@ -110,7 +110,7 @@ is_a: PW:0000002 ! classic metabolic pathway
 [Term]
 id: PW:0000013
 name: disease pathway
-def: "Complex human diseases encompass a spectrum of genetic and environmental attributes that together affect the normal functioning of several molecular and cellular pathways. Their combined and accumulated effect is manifested in the anomalous phenotype of the complex condition." [InHouse:InHouse PW dictionary, Reactome:R-HSA-1643685]
+def: "Complex human diseases encompass a spectrum of genetic and environmental attributes that together affect the normal functioning of several molecular and cellular pathways. Their combined and accumulated effect is manifested in the anomalous phenotype of the complex condition." [InHouse:InHouse_PW_dictionary, Reactome:R-HSA-1643685]
 synonym: "complex human diseases" RELATED []
 synonym: "Disease" RELATED []
 is_a: PW:0000001 ! pathway
@@ -118,7 +118,7 @@ is_a: PW:0000001 ! pathway
 [Term]
 id: PW:0000014
 name: neurodegenerative pathway
-def: "Neurodegenerative diseases group together a number of conditions of various and many times poorly understood origins that are characterized by the progressive loss of particular neurons, the formation of particular structures such as plaques and fibrils, and protein aggregates. Proteosomal degradation, programmed cell death and oxidative stress are among a number of pathways thought to be disrupted." [inHouse:InHouse PW dictionary, Reactome:R-HSA-8863678]
+def: "Neurodegenerative diseases group together a number of conditions of various and many times poorly understood origins that are characterized by the progressive loss of particular neurons, the formation of particular structures such as plaques and fibrils, and protein aggregates. Proteosomal degradation, programmed cell death and oxidative stress are among a number of pathways thought to be disrupted." [inHouse:InHouse_PW_dictionary, Reactome:R-HSA-8863678]
 synonym: "neurodegenerative disease pathway" EXACT []
 synonym: "Neurodegenerative Diseases" RELATED []
 is_a: PW:0001412 ! nervous system disease pathway
@@ -126,7 +126,7 @@ is_a: PW:0001412 ! nervous system disease pathway
 [Term]
 id: PW:0000015
 name: Alzheimer's disease pathway
-def: "A mostly sporadic, late-onset condition affecting the central nervous system, that is the most prevalent neurodegenerative disease and the most common form of dementia. It is characterized by the presence of amyloid plaques and fibril tangles. Possible pathways affected range from protein mis-folding and aggregation, to oxidative stress and impaired metal homeostasis." [InHouse:InHouse PW dictionary, KEGG:map05010]
+def: "A mostly sporadic, late-onset condition affecting the central nervous system, that is the most prevalent neurodegenerative disease and the most common form of dementia. It is characterized by the presence of amyloid plaques and fibril tangles. Possible pathways affected range from protein mis-folding and aggregation, to oxidative stress and impaired metal homeostasis." [InHouse:InHouse_PW_dictionary, KEGG:map05010]
 synonym: "Alzheimer disease pathway" EXACT []
 synonym: "KEGG:05010" RELATED []
 is_a: PW:0000014 ! neurodegenerative pathway
@@ -134,7 +134,7 @@ is_a: PW:0000014 ! neurodegenerative pathway
 [Term]
 id: PW:0000016
 name: amyotrophic lateral sclerosis pathway
-def: "A late onset, mostly sporadic neurodegenerative disease characterized by the loss of motor neurons in the brain stem and spinal cord. Various pathways are thought to be deregulated and contribute to the condition; among them calcium and/or zinc homeostasis, apoptosis, Cdk5 and calcineurin dependent processes, and in the case of the more rare, genetically inherited form of the disease, mutations in the cytosolic Cu, Zn superoxide dismutase (SOD1) and the subsequent changes in the processes that involve SOD1." [InHouse:In House PW dictionary, KEGG:map05014]
+def: "A late onset, mostly sporadic neurodegenerative disease characterized by the loss of motor neurons in the brain stem and spinal cord. Various pathways are thought to be deregulated and contribute to the condition; among them calcium and/or zinc homeostasis, apoptosis, Cdk5 and calcineurin dependent processes, and in the case of the more rare, genetically inherited form of the disease, mutations in the cytosolic Cu, Zn superoxide dismutase (SOD1) and the subsequent changes in the processes that involve SOD1." [InHouse:In_House_PW_dictionary, KEGG:map05014]
 synonym: "ALS pathway" EXACT []
 synonym: "amyotrophic lateral sclerosis disease pathway" EXACT []
 synonym: "KEGG:05014" RELATED []
@@ -172,7 +172,7 @@ is_a: PW:0000014 ! neurodegenerative pathway
 [Term]
 id: PW:0000020
 name: cardiovascular system disease pathway
-def: "Cardiovascular diseases represent a very broad spectrum of conditions that can also combine with diabetes and renal failure." [InHouse:InHouse PW dictionary]
+def: "Cardiovascular diseases represent a very broad spectrum of conditions that can also combine with diabetes and renal failure." [InHouse:InHouse_PW_dictionary]
 is_a: PW:0000013 ! disease pathway
 
 [Term]
@@ -190,7 +190,7 @@ is_a: PW:0000020 ! cardiovascular system disease pathway
 [Term]
 id: PW:0000023
 name: immune response pathway
-def: "The Immune response pathways mediate the defense of host cells against infection and injury. The first line of defense is provided by the phylogenetically older innate immune response. The later, more versatile response is provided by the pathways of adaptive immunity: the B cell mediated humoral and the T cell mediated cellular or cell-mediated responses." [GO:0006955, MCW library:Handbook of cellular and molecular immunology, OneLook:www.onelook.com, Reactome:R-HSA-168256]
+def: "The Immune response pathways mediate the defense of host cells against infection and injury. The first line of defense is provided by the phylogenetically older innate immune response. The later, more versatile response is provided by the pathways of adaptive immunity: the B cell mediated humoral and the T cell mediated cellular or cell-mediated responses." [GO:0006955, MCW_library:Handbook_of_cellular_and_molecular_immunology, OneLook:www.onelook.com, Reactome:R-HSA-168256]
 synonym: "immune response" RELATED []
 synonym: "Immune System" RELATED []
 is_a: PW:0000004 ! regulatory pathway
@@ -198,7 +198,7 @@ is_a: PW:0000004 ! regulatory pathway
 [Term]
 id: PW:0000024
 name: inflammatory response pathway
-def: "Inflammation is the cellular response of the innate immune system to infection or injury. Sensing of infection by pattern recognition receptors triggers signaling cascades leading to the expression of mediator genes such as the pro-inflammatory cytokines." [GO:0006954, MCW library:Cellular and molecular immunology\, by Abbas\, Abul K, OneLook:www.onelook.com, PMID:15364056, PMID:16226680, PMID:16281932, PMID:20303867, PMID:20303872]
+def: "Inflammation is the cellular response of the innate immune system to infection or injury. Sensing of infection by pattern recognition receptors triggers signaling cascades leading to the expression of mediator genes such as the pro-inflammatory cytokines." [GO:0006954, MCW_library:Cellular_and_molecular_immunology\,_by_Abbas\,_Abul_K, OneLook:www.onelook.com, PMID:15364056, PMID:16226680, PMID:16281932, PMID:20303867, PMID:20303872]
 synonym: "CLR signaling pathway" RELATED []
 synonym: "inflammatory response" RELATED []
 relationship: part_of PW:0000234 ! innate immune response pathway
@@ -300,7 +300,7 @@ is_a: PW:0000033 ! energy metabolic pathway
 [Term]
 id: PW:0000038
 name: Sterol, vitamin K, vitamine E and cartenoids  biosynthesis
-def: "OBSOLETE. Originally found at KEGG, the term has since been deleted." [PW dictionary:InHouse dictionary]
+def: "OBSOLETE. Originally found at KEGG, the term has since been deleted." [PW_dictionary:InHouse_dictionary]
 is_obsolete: true
 
 [Term]
@@ -345,7 +345,7 @@ is_a: PW:0000556 ! glucose oxidation pathway
 [Term]
 id: PW:0000044
 name: Duplicated Glutamate Metabolism term
-def: "OBSOLETE. Duplicated term. Use PW:0000027." [PW dictionary:InHouse dictionary]
+def: "OBSOLETE. Duplicated term. Use PW:0000027." [PW_dictionary:InHouse_dictionary]
 is_obsolete: true
 
 [Term]
@@ -375,7 +375,7 @@ is_a: PW:0001077 ! amino acid metabolic pathway (KEGG)
 [Term]
 id: PW:0000048
 name: methionine cycle/metabolic pathway
-def: "Those metabolic reactions involved in the synthesis (remethylation), utilization and/or degradation of methionine, an essential amino acid for humans. The cycle produces S-adenosylmethionine (AdoMet),  the major methyl donor for proteins, nucleic acids, lipids and other small molecules. The cycle also produces homocysteine (Hcy) which either regenerates methionine via the  remethylation pathway or leads to the synthesis of cysteine and derivatives via the transsulfuration pathway. Homocysteine and folate metabolic pathways are intimately related to the methionine cycle." [MCW library book:Homocysteine in Health and Disease]
+def: "Those metabolic reactions involved in the synthesis (remethylation), utilization and/or degradation of methionine, an essential amino acid for humans. The cycle produces S-adenosylmethionine (AdoMet),  the major methyl donor for proteins, nucleic acids, lipids and other small molecules. The cycle also produces homocysteine (Hcy) which either regenerates methionine via the  remethylation pathway or leads to the synthesis of cysteine and derivatives via the transsulfuration pathway. Homocysteine and folate metabolic pathways are intimately related to the methionine cycle." [MCW_library_book:Homocysteine_in_Health_and_Disease]
 synonym: "SMP:00033" RELATED []
 is_a: PW:0001074 ! hydrophobic amino acid metabolic pathway
 relationship: part_of PW:0001693 ! S-adenosylmethionine homeostasis pathway
@@ -433,7 +433,7 @@ is_a: PW:0001077 ! amino acid metabolic pathway (KEGG)
 [Term]
 id: PW:0000055
 name: nucleotide sugar metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of nucleotide sugars. Nucleotide sugars are glycosyl donors usually classified depending on the type of the nucleoside forming them. Several are used in animals and many others can be found in plants and bacteria." [InHouse:PW dictionary, KEGG:map00520]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of nucleotide sugars. Nucleotide sugars are glycosyl donors usually classified depending on the type of the nucleoside forming them. Several are used in animals and many others can be found in plants and bacteria." [InHouse:PW_dictionary, KEGG:map00520]
 synonym: "KEGG:00520" RELATED []
 synonym: "SMP:00010" RELATED []
 is_a: PW:0000005 ! carbohydrate metabolic pathway
@@ -535,7 +535,7 @@ is_a: PW:0000033 ! energy metabolic pathway
 [Term]
 id: PW:0000069
 name: ketone bodies metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization or degradation of ketone bodies. The chemicals acetoacetate, acetone and beta-hydroxybutyrate are collectively known as ketone bodies, although only the first two are ketones. They provide fuel for heart and skeletal muscle and for the brain during starvation. Excessive accumulation of these acidic chemicals leads to dangerous diabetic conditions known as ketoacidosis." [GO:0046950, KEGG:map00072, MCW Libraries:QU4 V876f 2008, OneLook:www.onelook.com, Reactome:R-HSA-74182, SMP:00071]
+def: "Those metabolic reactions involved in the synthesis, utilization or degradation of ketone bodies. The chemicals acetoacetate, acetone and beta-hydroxybutyrate are collectively known as ketone bodies, although only the first two are ketones. They provide fuel for heart and skeletal muscle and for the brain during starvation. Excessive accumulation of these acidic chemicals leads to dangerous diabetic conditions known as ketoacidosis." [GO:0046950, KEGG:map00072, MCW_Libraries:QU4_V876f_2008, OneLook:www.onelook.com, Reactome:R-HSA-74182, SMP:00071]
 comment: The definition was compiled using the information from a number of biological/medical dictionaries available at OneLook
 synonym: "cellular ketone body metabolic process" RELATED []
 synonym: "Ketone body metabolism" RELATED []
@@ -610,19 +610,19 @@ is_a: PW:0000132 ! metabolic pathway of other amino acids
 [Term]
 id: PW:0000079
 name: Duplicated Selenoamino acid metabolism term
-def: "OBSOLETE. Duplicated term. Use PW:0000133" [PW dictionary:InHouse dictionary]
+def: "OBSOLETE. Duplicated term. Use PW:0000133" [PW_dictionary:InHouse_dictionary]
 is_obsolete: true
 
 [Term]
 id: PW:0000080
 name: Duplicated term - Selenoamino acid metabolism
-def: "OBSOLETE. Duplicated term. Use PW:0000133" [PW dictionary:InHouse dictionary]
+def: "OBSOLETE. Duplicated term. Use PW:0000133" [PW_dictionary:InHouse_dictionary]
 is_obsolete: true
 
 [Term]
 id: PW:0000081
 name: D-glutamine and D-glutamate metabolic pathway
-def: "Those metabolic reactions involving D-glutamine and D-glutamate as depicted in the KEGG diagram. D-glutamic acid is naturally found primarily in the cell wall of certain bacteria." [Human Metabolome Database:HMDB03339, KEGG:map00471]
+def: "Those metabolic reactions involving D-glutamine and D-glutamate as depicted in the KEGG diagram. D-glutamic acid is naturally found primarily in the cell wall of certain bacteria." [Human_Metabolome_Database:HMDB03339, KEGG:map00471]
 synonym: "KEGG:00471" RELATED []
 is_a: PW:0000132 ! metabolic pathway of other amino acids
 
@@ -644,19 +644,19 @@ is_a: PW:0000132 ! metabolic pathway of other amino acids
 [Term]
 id: PW:0000084
 name: Duplicated glutathione metabolism term
-def: "OBSOLETE. Duplicated term. Use PW:0000134" [PW dictionary:InHouse dictionary]
+def: "OBSOLETE. Duplicated term. Use PW:0000134" [PW_dictionary:InHouse_dictionary]
 is_obsolete: true
 
 [Term]
 id: PW:0000085
 name: pathway pertinent to DNA replication and repair, cell cycle, maintenance of genomic integrity, RNA and protein biosynthesis
-def: "Those pathways involved in and/or controlling DNA replication, cell cycle, DNA repair and maintenance of genomic integrity, RNA and protein biosynthesis." [Handbook:Handbook of Biochemistry]
+def: "Those pathways involved in and/or controlling DNA replication, cell cycle, DNA repair and maintenance of genomic integrity, RNA and protein biosynthesis." [Handbook:Handbook_of_Biochemistry]
 is_a: PW:0000004 ! regulatory pathway
 
 [Term]
 id: PW:0000086
 name: cell cycle pathway, mitotic
-def: "The series of events, collectively known as the cell cycle, that underlie the replication of the genome and the segregation of chromosomes into daughter cells. The cycle begins with a diploid cell and produces two identical diploid cells." [GO:0000278, Handbook:Essential Cell Biology, KEGG:map04110, Reactome:R-HSA-69278]
+def: "The series of events, collectively known as the cell cycle, that underlie the replication of the genome and the segregation of chromosomes into daughter cells. The cycle begins with a diploid cell and produces two identical diploid cells." [GO:0000278, Handbook:Essential_Cell_Biology, KEGG:map04110, Reactome:R-HSA-69278]
 comment: Adapted from O'Connell and Walwarth, Genome KnowledgeBase
 synonym: "Cell Cycle, Mitotic" RELATED []
 synonym: "mitotic cell cycle" RELATED []
@@ -727,21 +727,21 @@ relationship: part_of PW:0001317 ! cell cycle pathway
 [Term]
 id: PW:0000095
 name: G1/S DNA damage checkpoint pathway
-def: "Those pathways of DNA damage response that occur during the G1 phase." [InHouse:PW dictionary, Reactome:R-HSA-69615]
+def: "Those pathways of DNA damage response that occur during the G1 phase." [InHouse:PW_dictionary, Reactome:R-HSA-69615]
 synonym: "G1/S DNA Damage Checkpoints" RELATED []
 is_a: PW:0000094 ! cell cycle checkpoint pathway
 
 [Term]
 id: PW:0000096
 name: G2/M checkpoint pathway
-def: "Those pathways that assure the genome is replicated only once per cell cycle. The checkpoints control for damaged and un-replicated DNA." [InHouse:PW dictionary, Reactome:R-HSA-69481]
+def: "Those pathways that assure the genome is replicated only once per cell cycle. The checkpoints control for damaged and un-replicated DNA." [InHouse:PW_dictionary, Reactome:R-HSA-69481]
 synonym: "G2/M Checkpoints" RELATED []
 is_a: PW:0000094 ! cell cycle checkpoint pathway
 
 [Term]
 id: PW:0000097
 name: mitotic spindle checkpoint pathway
-def: "The pathway prevents cells with mis-aligned chromosomes from dividing. Defects of kinetochore function activate checkpoint proteins to initiate a cascade of events that eventually prevent separation of sister chromatids." [GO:0071174, InHouse:PW dictionary, Reactome:R-HSA-69618]
+def: "The pathway prevents cells with mis-aligned chromosomes from dividing. Defects of kinetochore function activate checkpoint proteins to initiate a cascade of events that eventually prevent separation of sister chromatids." [GO:0071174, InHouse:PW_dictionary, Reactome:R-HSA-69618]
 synonym: "Mitotic Spindle Checkpoint" RELATED []
 synonym: "mitotic spindle checkpoint signaling" RELATED []
 is_a: PW:0000094 ! cell cycle checkpoint pathway
@@ -851,7 +851,7 @@ is_a: PW:0000107 ! xenobiotics biodegradation pathway
 [Term]
 id: PW:0000112
 name: 3-chloroacrylic acid degradation pathway
-def: "Those enzymatic reactions involved in the degradation of 3-chloroacrylic acid." [KEGG:map00641, Online:Various sources]
+def: "Those enzymatic reactions involved in the degradation of 3-chloroacrylic acid." [KEGG:map00641, Online:Various_sources]
 is_a: PW:0000107 ! xenobiotics biodegradation pathway
 
 [Term]
@@ -864,7 +864,7 @@ is_a: PW:0000107 ! xenobiotics biodegradation pathway
 [Term]
 id: PW:0000114
 name: benzoate degradation pathway via hydroxylation
-def: "Those enzymatic reactions involved in the aerobic pathway of benzoate degradation." [GO:0043640, KEGG:map00362, Online:Appl. Env. Microbiology\, 2004\, v.70(9)\, p4861-70.]
+def: "Those enzymatic reactions involved in the aerobic pathway of benzoate degradation." [GO:0043640, KEGG:map00362, Online:Appl._Env._Microbiology\,_2004\,_v.70(9)\,_p4861-70.]
 synonym: "benzoate catabolic process via hydroxylation" RELATED []
 is_a: PW:0000282 ! benzoate degradation pathway
 
@@ -992,7 +992,7 @@ is_a: PW:0000661 ! single-strand DNA repair pathway
 [Term]
 id: PW:0000132
 name: metabolic pathway of other amino acids
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of amino acids other than the common 20 amino acids found in protein. Some of these amino acids like carnitine or homocysteine derive from primary amino acids." [InHouse:PW InHouse dictionary]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of amino acids other than the common 20 amino acids found in protein. Some of these amino acids like carnitine or homocysteine derive from primary amino acids." [InHouse:PW_InHouse_dictionary]
 is_a: PW:0000002 ! classic metabolic pathway
 
 [Term]
@@ -1093,14 +1093,14 @@ relationship: part_of PW:0000553 ! glucose homeostasis pathway
 [Term]
 id: PW:0000144
 name: ubiquitin/proteasome degradation pathway
-def: "The pathway for the ATP-dependent non-lysosomal proteolysis catalyzed by the 26S proteasome and for which ubiquitylation, the post-translational covalent conjugation of ubiquitin to target proteins is a key signal." [GO:0006511, GO:0006511, KEGG:03050, KEGG:ko04120, PubMed:2001\, v.27\, 171-179.]
+def: "The pathway for the ATP-dependent non-lysosomal proteolysis catalyzed by the 26S proteasome and for which ubiquitylation, the post-translational covalent conjugation of ubiquitin to target proteins is a key signal." [GO:0006511, GO:0006511, KEGG:03050, KEGG:ko04120, PubMed:2001\,_v.27\,_171-179.]
 synonym: "ubiquitin-dependent protein catabolic process" RELATED []
 is_a: PW:0000417 ! ubiquitin, ubiquitin-like/proteasome degradation pathway
 
 [Term]
 id: PW:0000145
 name: Metabolism of complex carbohydrates
-def: "OBSOLETE. Originally found at KEGG, the term has since been deleted" [PW dictionary:InHouse dictionary]
+def: "OBSOLETE. Originally found at KEGG, the term has since been deleted" [PW_dictionary:InHouse_dictionary]
 is_obsolete: true
 
 [Term]
@@ -1150,7 +1150,7 @@ is_a: PW:0000005 ! carbohydrate metabolic pathway
 [Term]
 id: PW:0000153
 name: triacylglycerol metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of triacylglycerols - esters of glycerols with three fatty acid molecules. Triglycerides are the common form of transport and storage of fatty acids. Esters with one or two fatty acid molecules are metabolic intermediates present in small amounts." [GO:0006641, KEGG:map00561, MCW library:QU4 M235b 2009, OneLook:www.onelook.com, Reactome:R-HSA-8979227]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of triacylglycerols - esters of glycerols with three fatty acid molecules. Triglycerides are the common form of transport and storage of fatty acids. Esters with one or two fatty acid molecules are metabolic intermediates present in small amounts." [GO:0006641, KEGG:map00561, MCW_library:QU4_M235b_2009, OneLook:www.onelook.com, Reactome:R-HSA-8979227]
 synonym: "triglyceride metabolic pathway" RELATED []
 synonym: "triglyceride metabolic process" RELATED []
 synonym: "Triglyceride metabolism" RELATED []
@@ -1173,7 +1173,7 @@ is_obsolete: true
 [Term]
 id: PW:0000156
 name: prostaglandin metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of prostaglandins - a family of prostanoid eicosanoids with many regulatory functions." [GO:0006693, MCW library:QU4 M235b 2009]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of prostaglandins - a family of prostanoid eicosanoids with many regulatory functions." [GO:0006693, MCW_library:QU4_M235b_2009]
 synonym: "prostaglandin metabolic process" RELATED []
 is_a: PW:0000461 ! cyclooxygenase mediated pathway of arachidonic acid metabolism
 is_a: PW:0001240 ! prostanoid metabolic pathway
@@ -1181,7 +1181,7 @@ is_a: PW:0001240 ! prostanoid metabolic pathway
 [Term]
 id: PW:0000157
 name: glycosaminoglycan metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of glycosaminoglycans - any of several high molecular weight linear polysaccharides of repeating disaccharide units. In many cases, the unit consists of an amino sugar and a uronic acid. When aggregating with proteins, they form proteoglycans." [GO:0030203, http://en.wikipedia.org/wiki/Glycosaminoglycan "wikipedia", MCW Libraries:QU4 V876f 2008, Reactome:R-HSA-1630316]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of glycosaminoglycans - any of several high molecular weight linear polysaccharides of repeating disaccharide units. In many cases, the unit consists of an amino sugar and a uronic acid. When aggregating with proteins, they form proteoglycans." [GO:0030203, http://en.wikipedia.org/wiki/Glycosaminoglycan "wikipedia", MCW_Libraries:QU4_V876f_2008, Reactome:R-HSA-1630316]
 synonym: "glycosaminoglycan metabolic process" RELATED []
 synonym: "Glycosaminoglycan metabolism" RELATED []
 is_a: PW:0000146 ! glycan metabolic pathway
@@ -1209,7 +1209,7 @@ is_a: PW:0000006 ! Ras superfamily mediated signaling pathway
 [Term]
 id: PW:0000161
 name: glycosylphosphatidylinositol anchor biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of glycosylphosphatidylinositol (GPI) anchors. The GPI anchor allows for the attachment of cell surface proteins to the cell membrane." [GO:0006506, InHouse:InHouse PW dictionary, KEGG:map00563, Reactome:R-HSA-162710]
+def: "Those metabolic reactions involved in the synthesis of glycosylphosphatidylinositol (GPI) anchors. The GPI anchor allows for the attachment of cell surface proteins to the cell membrane." [GO:0006506, InHouse:InHouse_PW_dictionary, KEGG:map00563, Reactome:R-HSA-162710]
 synonym: "GPI anchor biosynthesis" RELATED []
 synonym: "Synthesis of glycosylphosphatidylinositol (GPI)" RELATED []
 is_a: PW:0000146 ! glycan metabolic pathway
@@ -1239,7 +1239,7 @@ is_a: PW:0000733 ! glycosphingolipid metabolic pathway
 [Term]
 id: PW:0000165
 name: taurine and hypotaurine metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of taurine and hypotaurine." [InHouse:PW InHouse dictionary, KEGG:map00430]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of taurine and hypotaurine." [InHouse:PW_InHouse_dictionary, KEGG:map00430]
 synonym: "KEGG:00430" RELATED []
 synonym: "SMP:00021" RELATED []
 is_a: PW:0000132 ! metabolic pathway of other amino acids
@@ -1264,20 +1264,20 @@ is_a: PW:0000135 ! metabolic pathway of cofactors, vitamins, nutrients
 [Term]
 id: PW:0000168
 name: growth factor signaling pathway
-def: "Those pathways that are triggered through the binding of a growth factor to its particular receptor. Growth factors carry out mitogenic signaling via their largely tyrosine kinase receptors." [InHouse:PW dictionary, OneLook:www.onelook.com, PMID:16632420]
+def: "Those pathways that are triggered through the binding of a growth factor to its particular receptor. Growth factors carry out mitogenic signaling via their largely tyrosine kinase receptors." [InHouse:PW_dictionary, OneLook:www.onelook.com, PMID:16632420]
 is_a: PW:0000003 ! signaling pathway
 
 [Term]
 id: PW:0000169
 name: nerve growth factor signaling pathway
-def: "Nerve growth factor (NGF) signaling pathways control a variety of processes such as neuronal cell differentiation and axon growth. Members of the NGF family are best known for their anti-apoptotic role as mediators of neuronal cell survival." [GO:0038180, GO:0048011, PubMed:Neuron\, 2004\, v42\, p897-912; Cellular Signaling\, 2004\, v16\, p127-36., Reactome:REACT_11061.4]
+def: "Nerve growth factor (NGF) signaling pathways control a variety of processes such as neuronal cell differentiation and axon growth. Members of the NGF family are best known for their anti-apoptotic role as mediators of neuronal cell survival." [GO:0038180, GO:0048011, PubMed:Neuron\,_2004\,_v42\,_p897-912;_Cellular_Signaling\,_2004\,_v16\,_p127-36., Reactome:REACT_11061.4]
 synonym: "NGF signaling pathway" RELATED []
 is_a: PW:0000571 ! neurotrophic factor signaling pathway
 
 [Term]
 id: PW:0000170
 name: epidermal growth factor/neuregulin signaling pathway
-def: "Members of the EGF/neuregulin superfamily are important regulators of tissue development and repair. A characteristic feature is the presence of the EGF module, a 36-40 amino acid sequence with a disulfide-bonded three-loop structure necessary for receptor binding." [GO:0007173, KEGG:map04012, MCW e-journal:J. Mol. Evolo.2000\, v50\, p397-412, PID:200101, PID:200159, PMID:12814936, Reactome:R-HSA-177929]
+def: "Members of the EGF/neuregulin superfamily are important regulators of tissue development and repair. A characteristic feature is the presence of the EGF module, a 36-40 amino acid sequence with a disulfide-bonded three-loop structure necessary for receptor binding." [GO:0007173, KEGG:map04012, MCW_e-journal:J._Mol._Evolo.2000\,_v50\,_p397-412, PID:200101, PID:200159, PMID:12814936, Reactome:R-HSA-177929]
 synonym: "EGF/neuregulin signaling pathway" RELATED []
 synonym: "epidermal growth factor receptor signaling pathway" RELATED []
 synonym: "Signaling by EGFR" RELATED []
@@ -1316,7 +1316,7 @@ is_a: PW:0000171 ! polyglutamine repeat pathway
 [Term]
 id: PW:0000174
 name: metabolic syndrome X pathway
-def: "The metabolic syndrome is a multiphenotypic condition with concurrent features of several diseases and metabolic abnormalities. Insulin resistance, obesity and hypertension are considered risk factors. Alterations in lipid, glucose and cholesterol metabolic pathways, among others, can contribute to the multifactorial metabolic syndrome and the conditions associated with it." [PMID:16932765, PubMed:2004\, v. 17\, 38047]
+def: "The metabolic syndrome is a multiphenotypic condition with concurrent features of several diseases and metabolic abnormalities. Insulin resistance, obesity and hypertension are considered risk factors. Alterations in lipid, glucose and cholesterol metabolic pathways, among others, can contribute to the multifactorial metabolic syndrome and the conditions associated with it." [PMID:16932765, PubMed:2004\,_v._17\,_38047]
 synonym: "abdominal obesity-metabolic syndrome 1 pathway" EXACT []
 synonym: "dysmetabolic syndrome X pathway" EXACT []
 synonym: "metabolic syndrome pathway" EXACT []
@@ -1326,7 +1326,7 @@ is_a: PW:0001472 ! metabolic disease pathway
 [Term]
 id: PW:0000175
 name: familial combined hyperlipidemia pathway
-def: "A possible subset of the metabolic syndrome, characterized  by features such as hypertriglyceridemia, age-dependent changes in plasma total cholesterol, overproduction of triglyceride-rich lipoproteins. Several metabolic and possibly other pathways deviate from their normal functioning." [PubMed:2004\, v.17\, 38-47.]
+def: "A possible subset of the metabolic syndrome, characterized  by features such as hypertriglyceridemia, age-dependent changes in plasma total cholesterol, overproduction of triglyceride-rich lipoproteins. Several metabolic and possibly other pathways deviate from their normal functioning." [PubMed:2004\,_v.17\,_38-47.]
 synonym: "FCHL" RELATED []
 relationship: part_of PW:0000174 ! metabolic syndrome X pathway
 
@@ -1355,14 +1355,14 @@ is_a: PW:0001412 ! nervous system disease pathway
 [Term]
 id: PW:0000179
 name: tuberous sclerosis complex disease pathway
-def: "An autosomal dominant condition that often leads to seizure and other neurological symptoms and that may be linked to deregulations in the mTOR signaling pathway." [PubMed:2004\, v.29(1)\, 32-38.]
+def: "An autosomal dominant condition that often leads to seizure and other neurological symptoms and that may be linked to deregulations in the mTOR signaling pathway." [PubMed:2004\,_v.29(1)\,_32-38.]
 synonym: "TSC" RELATED []
 is_a: PW:0000178 ! neurological disorder pathway
 
 [Term]
 id: PW:0000180
 name: mTOR signaling pathway
-def: "The mTOR signaling pathway regulates cellular processes such as translation, ribosome biogenesis, cell growth and autophagy and is regulated by or responds to growth factors, energy metabolites and/or levels of nutrients." [GO:0031929, KEGG:map04150, PID:200096, PubMed:TIBS\, 2004\, v. 29(1)\, 32-38., Reactome:R-HSA-165159]
+def: "The mTOR signaling pathway regulates cellular processes such as translation, ribosome biogenesis, cell growth and autophagy and is regulated by or responds to growth factors, energy metabolites and/or levels of nutrients." [GO:0031929, KEGG:map04150, PID:200096, PubMed:TIBS\,_2004\,_v._29(1)\,_32-38., Reactome:R-HSA-165159]
 synonym: "MTOR signalling" RELATED []
 synonym: "TOR signaling" RELATED []
 is_a: PW:0000085 ! pathway pertinent to DNA replication and repair, cell cycle, maintenance of genomic integrity, RNA and protein biosynthesis
@@ -1371,19 +1371,19 @@ relationship: part_of PW:0000357 ! energy homeostasis pathway
 [Term]
 id: PW:0000181
 name: pathway pertinent to protein folding, sorting, modification, translocation and degradation
-def: "Those pathways that are involved in or mediate how protein fold or are maintained in a particular folding state, are sorted for translocation or degradation, are modified to regulate their function or to target them for degradation and finally, are degraded." [InHouse:InHouse PW dictionary]
+def: "Those pathways that are involved in or mediate how protein fold or are maintained in a particular folding state, are sorted for translocation or degradation, are modified to regulate their function or to target them for degradation and finally, are degraded." [InHouse:InHouse_PW_dictionary]
 is_a: PW:0000004 ! regulatory pathway
 
 [Term]
 id: PW:0000182
 name: lysosomes based pathway of protein degradation
-def: "A protein degradation pathway that involves proteases residing in lysosomes and exhibiting optimal activity at an acidic pH (e.g., cathepsins)." [PubMed:2003\, v. 285\, f1-f8.]
+def: "A protein degradation pathway that involves proteases residing in lysosomes and exhibiting optimal activity at an acidic pH (e.g., cathepsins)." [PubMed:2003\,_v._285\,_f1-f8.]
 is_a: PW:0000325 ! protein degradation pathway
 
 [Term]
 id: PW:0000183
 name: the proteolytic pathway involving calcium-dependent proteases
-def: "A protein degradation pathway that involves calcium-dependent proteases  (e.g., calpains) ," [PubMed:2003\, v. 285\, f1-f8.]
+def: "A protein degradation pathway that involves calcium-dependent proteases  (e.g., calpains) ," [PubMed:2003\,_v._285\,_f1-f8.]
 is_a: PW:0000325 ! protein degradation pathway
 
 [Term]
@@ -1445,20 +1445,20 @@ is_a: PW:0000157 ! glycosaminoglycan metabolic pathway
 [Term]
 id: PW:0000192
 name: N-linked glycan biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of N-linked glycans. A 14 residue sugar is first built on a dolichol carrier and then attached to the amide group of an asparagine of a nascent polypeptide chain. The asparagine is in a specific amino acid sequence. Subsequent processing involves removal as well as addition of various sugars and produces a wide range of N-glycan structures." [KEGG:map00510, MCW Libraries:QU4 V876f 2008]
+def: "Those metabolic reactions involved in the synthesis of N-linked glycans. A 14 residue sugar is first built on a dolichol carrier and then attached to the amide group of an asparagine of a nascent polypeptide chain. The asparagine is in a specific amino acid sequence. Subsequent processing involves removal as well as addition of various sugars and produces a wide range of N-glycan structures." [KEGG:map00510, MCW_Libraries:QU4_V876f_2008]
 synonym: "KEGG:00510" RELATED []
 is_a: PW:0000146 ! glycan metabolic pathway
 
 [Term]
 id: PW:0000193
 name: N-Glycan degradation pathway
-def: "Those metabolic reactions involved in the degradation of N-Glycans. N-Glycans are found attached to the R-group nitrogen of asparagine." [XPW InHouse Dictionary:InHouse Dictionary]
+def: "Those metabolic reactions involved in the degradation of N-Glycans. N-Glycans are found attached to the R-group nitrogen of asparagine." [XPW_InHouse_Dictionary:InHouse_Dictionary]
 is_obsolete: true
 
 [Term]
 id: PW:0000194
 name: O-linked glycan biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of O-linked glycans. Sugars are serially added to a fully synthesized polypeptide chain. The initial step involves the transfer of N-acetylgalactosamine to the carboxy group of a serine or threonine. The location of the residue appears to be dictated by structure rather than amino acid signature." [KEGG:map00512, MCW Libraries:QU4 V876f]
+def: "Those metabolic reactions involved in the synthesis of O-linked glycans. Sugars are serially added to a fully synthesized polypeptide chain. The initial step involves the transfer of N-acetylgalactosamine to the carboxy group of a serine or threonine. The location of the residue appears to be dictated by structure rather than amino acid signature." [KEGG:map00512, MCW_Libraries:QU4_V876f]
 synonym: "KEGG:00512" RELATED []
 synonym: "KEGG:00514" RELATED []
 is_a: PW:0000146 ! glycan metabolic pathway
@@ -1481,7 +1481,7 @@ is_a: PW:0000733 ! glycosphingolipid metabolic pathway
 [Term]
 id: PW:0000197
 name: sphingolipid metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of sphingolipids - important components of animal and plant membranes. They contain a long chain amino alcohol and a ceramide core. Ceramides are also the precursors of glycolipids, also referred to as glycosphingolipids, which have attached sugar(s)." [GO:0006665, KEGG:00600, MCW library:QU4 M235b 2009, OneLook:www.onelook.com, PMID:17976918, Reactome:R-HSA-428157, SMP:00034]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of sphingolipids - important components of animal and plant membranes. They contain a long chain amino alcohol and a ceramide core. Ceramides are also the precursors of glycolipids, also referred to as glycosphingolipids, which have attached sugar(s)." [GO:0006665, KEGG:00600, MCW_library:QU4_M235b_2009, OneLook:www.onelook.com, PMID:17976918, Reactome:R-HSA-428157, SMP:00034]
 synonym: "sphingolipid metabolic process" RELATED []
 synonym: "Sphingolipid metabolism" RELATED []
 is_a: PW:0000010 ! lipid metabolic pathway
@@ -1539,7 +1539,7 @@ is_a: PW:0000663 ! double-strand DNA repair pathway
 [Term]
 id: PW:0000204
 name: Notch signaling pathway
-def: "The Notch signaling pathway regulates processes involved in early embryonic development. It plays an important role in cell fate determination. Target genes of Notch have been implicated in angiogenesis, somitogenesis and gliogenesis. Deregulation of the Notch signaling pathway underlies a broad spectrum of diseases and clinical conditions." [GO:0007219, KEGG:map04330, PID:200015, PubMed:Several articles in PubMed, Reactome:R-HSA-157118]
+def: "The Notch signaling pathway regulates processes involved in early embryonic development. It plays an important role in cell fate determination. Target genes of Notch have been implicated in angiogenesis, somitogenesis and gliogenesis. Deregulation of the Notch signaling pathway underlies a broad spectrum of diseases and clinical conditions." [GO:0007219, KEGG:map04330, PID:200015, PubMed:Several_articles_in_PubMed, Reactome:R-HSA-157118]
 synonym: "Signaling by NOTCH" RELATED []
 is_a: PW:0000332 ! cell-cell signaling pathway
 is_a: PW:0000650 ! signaling pathway pertinent to development
@@ -1556,7 +1556,7 @@ is_a: PW:0000171 ! polyglutamine repeat pathway
 [Term]
 id: PW:0000206
 name: transforming growth factor-beta signaling pathway
-def: "The transforming growth factor-beta (TGF-beta) signaling pathway regulates numerous cellular processes such as proliferation, differentiation, migration and cell death. The SMAD-dependent pathway represents the core signaling cascade mediated by the TGF-beta superfamily. Mutations in the TGF-beta family are responsible for a number of human diseases." [GO:0007179, PMID:15130563, PMID:16678165, PubMed:TIBS\, 2004\, v29 (5)\, p265-273, Reactome:R-HSA-170834]
+def: "The transforming growth factor-beta (TGF-beta) signaling pathway regulates numerous cellular processes such as proliferation, differentiation, migration and cell death. The SMAD-dependent pathway represents the core signaling cascade mediated by the TGF-beta superfamily. Mutations in the TGF-beta family are responsible for a number of human diseases." [GO:0007179, PMID:15130563, PMID:16678165, PubMed:TIBS\,_2004\,_v29_(5)\,_p265-273, Reactome:R-HSA-170834]
 synonym: "Signaling by TGF-beta Receptor Complex" RELATED []
 synonym: "transforming growth factor beta receptor signaling pathway" RELATED []
 is_a: PW:0000329 ! transforming growth factor-beta superfamily mediated signaling pathway
@@ -1581,7 +1581,7 @@ relationship: part_of PW:0000174 ! metabolic syndrome X pathway
 [Term]
 id: PW:0000209
 name: Jak-Stat signaling pathway
-def: "The Jak-Stat pathway is a main intracellular cascade initiated primarily in response to cytokine and also other ligand signaling. Four Janus kinases (Jak) and seven signal transducers and activators of transcription (Stat) families of proteins mediate the action of almost 40 cytokine receptors, including the receptor for leptin. Combinations between four Jak(s) and seven Stat(s) shape the outcome of ligand- triggered signaling through the various receptors." [GO:0007259, KEGG:map04630, MCW library:Handbook of cellular and molecular immunology, PMID:12039028, PMID:14668806, PMID:14737178, PMID:17312100]
+def: "The Jak-Stat pathway is a main intracellular cascade initiated primarily in response to cytokine and also other ligand signaling. Four Janus kinases (Jak) and seven signal transducers and activators of transcription (Stat) families of proteins mediate the action of almost 40 cytokine receptors, including the receptor for leptin. Combinations between four Jak(s) and seven Stat(s) shape the outcome of ligand- triggered signaling through the various receptors." [GO:0007259, KEGG:map04630, MCW_library:Handbook_of_cellular_and_molecular_immunology, PMID:12039028, PMID:14668806, PMID:14737178, PMID:17312100]
 synonym: "receptor signaling pathway via JAK-STAT" RELATED []
 is_a: PW:0000818 ! signaling pathway pertinent to immunity
 is_a: PW:0001195 ! tyrosine-specific protein kinase mediated signaling pathway
@@ -1589,7 +1589,7 @@ is_a: PW:0001195 ! tyrosine-specific protein kinase mediated signaling pathway
 [Term]
 id: PW:0000210
 name: SMAD dependent signaling pathways
-def: "The core intracellular  signaling cascade mediated  by the TGF-beta superfamily. SMAD proteins function by carrying signals from the cell surface to the nucleus. There are eight vertebrate SMAD proteins and they are activated  by two types of  TGF-beta receptors in response to TGF cytokines binding.There are two known SMAD-dependent TGF-beta signaling pathways. SMAP pathways can also be activated via NGF signalign pathways" [PMID:14534577, PMID:15009204, PubMed:Science\, 2002\, v296\, p1564-7]
+def: "The core intracellular  signaling cascade mediated  by the TGF-beta superfamily. SMAD proteins function by carrying signals from the cell surface to the nucleus. There are eight vertebrate SMAD proteins and they are activated  by two types of  TGF-beta receptors in response to TGF cytokines binding.There are two known SMAD-dependent TGF-beta signaling pathways. SMAP pathways can also be activated via NGF signalign pathways" [PMID:14534577, PMID:15009204, PubMed:Science\,_2002\,_v296\,_p1564-7]
 is_obsolete: true
 
 [Term]
@@ -1729,7 +1729,7 @@ is_a: PW:0001539 ! heterotrimeric G protein mediated signaling pathway
 [Term]
 id: PW:0000231
 name: Rap1 pathways
-def: "A very close relative of Ras, Rap1 mediated pathway  appears to control diverse processes such as modulation of growth and differentiation, secretion, integrin linked cell adhesion, morphogenesis." [PubMed:Nature Reviews\, Mol. Cell Biology\, 2001\, v2\, p369-77.]
+def: "A very close relative of Ras, Rap1 mediated pathway  appears to control diverse processes such as modulation of growth and differentiation, secretion, integrin linked cell adhesion, morphogenesis." [PubMed:Nature_Reviews\,_Mol._Cell_Biology\,_2001\,_v2\,_p369-77.]
 is_obsolete: true
 
 [Term]
@@ -1766,7 +1766,7 @@ is_a: PW:0000023 ! immune response pathway
 [Term]
 id: PW:0000235
 name: adaptive immune response pathway
-def: "The adaptive immune response is an evolutionarily newer mechanism that provides great specificity and diversity of antigen recognition, immunological memory and specialized responses. The two types of adaptive immune response pathways are humoral and cellular or cell-mediated." [GO:0002250, MCW library:Handbook on cellular and molecular immunology, PMID:11861602, Reactome:R-HSA-1280218]
+def: "The adaptive immune response is an evolutionarily newer mechanism that provides great specificity and diversity of antigen recognition, immunological memory and specialized responses. The two types of adaptive immune response pathways are humoral and cellular or cell-mediated." [GO:0002250, MCW_library:Handbook_on_cellular_and_molecular_immunology, PMID:11861602, Reactome:R-HSA-1280218]
 synonym: "adaptive immune response" RELATED []
 synonym: "Adaptive Immune System" RELATED []
 is_a: PW:0000023 ! immune response pathway
@@ -1861,7 +1861,7 @@ is_a: PW:0000206 ! transforming growth factor-beta signaling pathway
 [Term]
 id: PW:0000248
 name: isoprenoid metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of isoprenoids or terpenoids - a large class of organic biomolecules. Isoprenoids are precursors of sterols such as cholesterol and its derivatives and also of non-sterol molecules, many of which are used in the post-translational modification of proteins. Plant isoprenoids are among the most commonly found and have a broad range of uses and applications in plants and beyond." [GO:0006720, MCW library:QU4 M235b 2009, PMID:20015036, PMID:21746700, PMID:22442388]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of isoprenoids or terpenoids - a large class of organic biomolecules. Isoprenoids are precursors of sterols such as cholesterol and its derivatives and also of non-sterol molecules, many of which are used in the post-translational modification of proteins. Plant isoprenoids are among the most commonly found and have a broad range of uses and applications in plants and beyond." [GO:0006720, MCW_library:QU4_M235b_2009, PMID:20015036, PMID:21746700, PMID:22442388]
 synonym: "isoprenoid metabolic process" RELATED []
 synonym: "terpenoid metabolic pathway" RELATED []
 is_a: PW:0000010 ! lipid metabolic pathway
@@ -1955,19 +1955,19 @@ is_a: PW:0001251 ! regulatory pathway pertinent to the brain
 [Term]
 id: PW:0000262
 name: altered metabolic pathway
-def: "Those metabolic pathways that deviate from what their normal course should be. Aberrant metabolic pathways, alone or in combination with other pathways, underlie many conditions, disorders and/or diseases." [PW Dictionary:InHouse dictionary]
+def: "Those metabolic pathways that deviate from what their normal course should be. Aberrant metabolic pathways, alone or in combination with other pathways, underlie many conditions, disorders and/or diseases." [PW_Dictionary:InHouse_dictionary]
 is_a: PW:0000002 ! classic metabolic pathway
 
 [Term]
 id: PW:0000263
 name: altered regulatory pathway
-def: "Those regulatory pathways that deviate from what their normal course should be. Aberrant regulatory pathways, alone or in combination with other pathways underlie many conditions, disorders and/or diseases." [PW Dictionary:InHouse Dictionary]
+def: "Those regulatory pathways that deviate from what their normal course should be. Aberrant regulatory pathways, alone or in combination with other pathways underlie many conditions, disorders and/or diseases." [PW_Dictionary:InHouse_Dictionary]
 is_a: PW:0000004 ! regulatory pathway
 
 [Term]
 id: PW:0000264
 name: altered signaling pathway
-def: "Those signaling pathways that deviate from what their normal course should be. Aberrant signaling pathways, alone or in combination with other pathways underlie many conditions, disorders and/or diseases." [PW Dictionary:InHouse Dictionary]
+def: "Those signaling pathways that deviate from what their normal course should be. Aberrant signaling pathways, alone or in combination with other pathways underlie many conditions, disorders and/or diseases." [PW_Dictionary:InHouse_Dictionary]
 is_a: PW:0000003 ! signaling pathway
 
 [Term]
@@ -2031,7 +2031,7 @@ is_a: PW:0000272 ! neuron-to-neuron signaling pathways
 [Term]
 id: PW:0000274
 name: neuron-to-neuron signaling pathway via the chemical synapse
-def: "A neurotransmitter-releasing pathway of neuron-to-neuron communication. It involves fusion of neurotransmitter-filled synaptic vesicles with the plasma membrane and activation of postsynaptic receptors. It also involves recycling and re-release of synaptic vesicles." [GO:0007268, PubMed:Annu. Rev. Neursci. 2003\, v26\, 701-28., Reactome:R-HSA-112315]
+def: "A neurotransmitter-releasing pathway of neuron-to-neuron communication. It involves fusion of neurotransmitter-filled synaptic vesicles with the plasma membrane and activation of postsynaptic receptors. It also involves recycling and re-release of synaptic vesicles." [GO:0007268, PubMed:Annu._Rev._Neursci._2003\,_v26\,_701-28., Reactome:R-HSA-112315]
 synonym: "chemical synaptic transmission" RELATED []
 synonym: "Neurotransmission pathway" RELATED []
 synonym: "Transmission across Chemical Synapses" RELATED []
@@ -2088,7 +2088,7 @@ is_a: PW:0002395 ! cellular trafficking cycle pathway
 [Term]
 id: PW:0000282
 name: benzoate degradation pathway
-def: "Those enzymatic reactions involved in the degradation of benzoate - a salt of benzoic acid or benzene carboxylic acid, a fungistatic compound widely used as a food preservative." [GO:0043639, InHouse:PW dictionary]
+def: "Those enzymatic reactions involved in the degradation of benzoate - a salt of benzoic acid or benzene carboxylic acid, a fungistatic compound widely used as a food preservative." [GO:0043639, InHouse:PW_dictionary]
 synonym: "benzoate catabolic process" RELATED []
 is_a: PW:0000107 ! xenobiotics biodegradation pathway
 
@@ -2234,7 +2234,7 @@ is_a: PW:0000300 ! kidney disease pathway
 [Term]
 id: PW:0000303
 name: p53-dependent G1/S DNA damage checkpoint pathway
-def: "The p53-dependent pathway of G1 arrest in response to damaged DNA." [InHouse:PW dictionary, Reactome:R-HSA-69580]
+def: "The p53-dependent pathway of G1 arrest in response to damaged DNA." [InHouse:PW_dictionary, Reactome:R-HSA-69580]
 synonym: "ATM pathway" RELATED []
 synonym: "p53-Dependent G1/S DNA damage checkpoint" RELATED []
 is_a: PW:0000095 ! G1/S DNA damage checkpoint pathway
@@ -2243,21 +2243,21 @@ is_a: PW:0000095 ! G1/S DNA damage checkpoint pathway
 id: PW:0000304
 name: p53-independent G1/S DNA damage checkpoint pathway
 alt_id: Reactome:R-HSA-69613
-def: "The p53-independent pathway of G1/S arrest in response to damaged DNA." [InHouse:PW dictionary, Reactome:REACT_1208.1]
+def: "The p53-independent pathway of G1/S arrest in response to damaged DNA." [InHouse:PW_dictionary, Reactome:REACT_1208.1]
 synonym: "p53-Independent G1/S DNA damage checkpoint" RELATED []
 is_a: PW:0000095 ! G1/S DNA damage checkpoint pathway
 
 [Term]
 id: PW:0000305
 name: altered carbohydrate metabolic pathway
-def: "Those pathways of carbohydrate metabolism that deviate from what their normal course should be. Aberrant carbohydrate metabolic pathways, alone or in combination with other pathways, underlie various diseases." [InHouse:PW dictionary]
+def: "Those pathways of carbohydrate metabolism that deviate from what their normal course should be. Aberrant carbohydrate metabolic pathways, alone or in combination with other pathways, underlie various diseases." [InHouse:PW_dictionary]
 is_a: PW:0000005 ! carbohydrate metabolic pathway
 is_a: PW:0000262 ! altered metabolic pathway
 
 [Term]
 id: PW:0000306
 name: altered galactose metabolic pathway
-def: "Those pathways of galactose metabolism that deviate from what their normal course should be. An aberrant galactose metabolic pathways, alone or in combination with other pathways underlies various diseases. One example is the involvement of aberrant galactose catabolism in cancer." [InHouse:PW dictionary]
+def: "Those pathways of galactose metabolism that deviate from what their normal course should be. An aberrant galactose metabolic pathways, alone or in combination with other pathways underlies various diseases. One example is the involvement of aberrant galactose catabolism in cancer." [InHouse:PW_dictionary]
 is_a: PW:0000042 ! galactose metabolic pathway
 is_a: PW:0000305 ! altered carbohydrate metabolic pathway
 
@@ -2345,7 +2345,7 @@ is_a: PW:0001313 ! transcription pathway via transcription factor mediated signa
 [Term]
 id: PW:0000318
 name: altered calcium/calmodulin dependent signaling pathway
-def: "Those calcium/CaM dependent pathways that deviate from what their normal course should be. Aberrant calcium/CaM dependent pathways, alone or in combination with other pathways underlie many diseases. One example is the potential role disruptions within these pathways play in cardiac hypertrophy." [PW dictionary:InHouse PW]
+def: "Those calcium/CaM dependent pathways that deviate from what their normal course should be. Aberrant calcium/CaM dependent pathways, alone or in combination with other pathways underlie many diseases. One example is the potential role disruptions within these pathways play in cardiac hypertrophy." [PW_dictionary:InHouse_PW]
 synonym: "altered Ca/CaM dependent pathway" RELATED []
 is_a: PW:0000314 ! calcium/calmodulin dependent signaling pathway
 is_a: PW:0001169 ! altered calcium/calcium-mediated signaling pathway
@@ -2400,7 +2400,7 @@ is_a: PW:0000673 ! altered signaling pathway pertinent to development
 [Term]
 id: PW:0000325
 name: protein degradation pathway
-def: "Those pathways involved in the degradation of proteins." [GO:0030163, InHouse:InHouse PW dictionary]
+def: "Those pathways involved in the degradation of proteins." [GO:0030163, InHouse:InHouse_PW_dictionary]
 synonym: "protein catabolic process" RELATED []
 is_a: PW:0000181 ! pathway pertinent to protein folding, sorting, modification, translocation and degradation
 
@@ -2454,7 +2454,7 @@ is_a: PW:0000650 ! signaling pathway pertinent to development
 [Term]
 id: PW:0000332
 name: cell-cell signaling pathway
-def: "The cell-cell signaling pathway conveys information between cells using cell adhesion molecules." [GO:0007267, Reactome:R-HSA-1500931, RGD:InHouse dictionary]
+def: "The cell-cell signaling pathway conveys information between cells using cell adhesion molecules." [GO:0007267, Reactome:R-HSA-1500931, RGD:InHouse_dictionary]
 synonym: "Cell-Cell communication" RELATED []
 synonym: "cell-cell signaling" RELATED []
 is_a: PW:0000648 ! cell adhesion signaling pathway
@@ -2481,7 +2481,7 @@ is_a: PW:0000329 ! transforming growth factor-beta superfamily mediated signalin
 [Term]
 id: PW:0000336
 name: altered cell-cell signaling pathway
-def: "Those cell-cell signaling pathways that deviate from what their normal course should be." [PW dictionary:InHouse PW dictionary]
+def: "Those cell-cell signaling pathways that deviate from what their normal course should be." [PW_dictionary:InHouse_PW_dictionary]
 is_a: PW:0000332 ! cell-cell signaling pathway
 is_a: PW:0000671 ! altered cell adhesion signaling pathway
 
@@ -2504,25 +2504,25 @@ is_a: PW:0000334 ! connexin signaling pathway
 [Term]
 id: PW:0000340
 name: altered Notch signaling pathway involving the main players
-def: "An altered Notch signaling pathway due to mutation(s) in the main players. They include receptor(s), ligand(s), and members of the CSL complex." [InHouse:PW dictionary]
+def: "An altered Notch signaling pathway due to mutation(s) in the main players. They include receptor(s), ligand(s), and members of the CSL complex." [InHouse:PW_dictionary]
 is_a: PW:0000324 ! altered Notch signaling pathway
 
 [Term]
 id: PW:0000341
 name: altered Notch signaling pathway involving the macromolecules modifying the main players
-def: "An altered Notch signaling pathway due to mutation(s) in the enzymes, macromolecules that act upon the main players. They include proteases, elements of the proteo- and glucosaminoglycan metabolic pathways, ubiquitin ligases, other proteins that modulate availability, sensitivity, endocytosis of ligands/receptors." [InHouse:PW dictionary]
+def: "An altered Notch signaling pathway due to mutation(s) in the enzymes, macromolecules that act upon the main players. They include proteases, elements of the proteo- and glucosaminoglycan metabolic pathways, ubiquitin ligases, other proteins that modulate availability, sensitivity, endocytosis of ligands/receptors." [InHouse:PW_dictionary]
 is_a: PW:0000324 ! altered Notch signaling pathway
 
 [Term]
 id: PW:0000342
 name: altered Notch signaling pathway involving target gene(s)
-def: "An altered Notch signaling pathway due to mutation(s) in the target gene(s). They may include members of the HES and HERP families of basic helix-loop-helix (bHLH) transcriptional repressors." [InHouse:PW dictionary]
+def: "An altered Notch signaling pathway due to mutation(s) in the target gene(s). They may include members of the HES and HERP families of basic helix-loop-helix (bHLH) transcriptional repressors." [InHouse:PW_dictionary]
 is_a: PW:0000324 ! altered Notch signaling pathway
 
 [Term]
 id: PW:0000343
 name: altered Notch signaling pathway involving promoters
-def: "An altered Notch signaling pathway due to mutation(s) in the promoters of target gene(s)." [InHouse:PW dictionary]
+def: "An altered Notch signaling pathway due to mutation(s) in the promoters of target gene(s)." [InHouse:PW_dictionary]
 is_a: PW:0000324 ! altered Notch signaling pathway
 
 [Term]
@@ -2570,28 +2570,28 @@ is_a: PW:0001538 ! altered cardiovascular system homeostasis pathway
 [Term]
 id: PW:0000351
 name: altered vascular endothelial growth factor signaling pathway involving the main players
-def: "An altered VEGF signaling pathway due to mutation(s) in the main players. They include the various VEGF molecules and VEGF receptors." [InHouse:InHouse PW dictionary]
+def: "An altered VEGF signaling pathway due to mutation(s) in the main players. They include the various VEGF molecules and VEGF receptors." [InHouse:InHouse_PW_dictionary]
 synonym: "altered VEGF signaling pathway involving the main players" RELATED []
 is_a: PW:0000350 ! altered vascular endothelial growth factor signaling pathway
 
 [Term]
 id: PW:0000352
 name: altered vascular endothelial growth factor signaling pathway involving the macromolecules modifying the main players
-def: "An altered VEGF signaling pathway due to mutation(s) in the enzymes that process VEGF, such as the plasmin and furin-like proteases." [InHouse:In House PW dictionary]
+def: "An altered VEGF signaling pathway due to mutation(s) in the enzymes that process VEGF, such as the plasmin and furin-like proteases." [InHouse:In_House_PW_dictionary]
 synonym: "altered VEGF signaling pathway involving the macromolecules modifying the main players" RELATED []
 is_a: PW:0000350 ! altered vascular endothelial growth factor signaling pathway
 
 [Term]
 id: PW:0000353
 name: altered vascular endothelial growth factor signaling pathway involving proteins affecting its expression
-def: "An altered VEGF signaling pathway due to mutation(s), any activity change in the proteins that regulate VEGF expression. They include transcription factors such as the hypoxia-inducible factor and the many proteins impacting on the stability and/or activity of these factors." [InHouse:InHouse PW dictionary]
+def: "An altered VEGF signaling pathway due to mutation(s), any activity change in the proteins that regulate VEGF expression. They include transcription factors such as the hypoxia-inducible factor and the many proteins impacting on the stability and/or activity of these factors." [InHouse:InHouse_PW_dictionary]
 synonym: "altered VEGF signaling pathway involving proteins affecting its expression" RELATED []
 is_a: PW:0000350 ! altered vascular endothelial growth factor signaling pathway
 
 [Term]
 id: PW:0000354
 name: glycerophospholipid metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of glycerophospholipids, also known as phospholipids. They are key components of membranes and some are also involved in signaling." [GO:0006650, KEGG:map00564, MCW library:QU4 M235b 2009, SMP:00025]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of glycerophospholipids, also known as phospholipids. They are key components of membranes and some are also involved in signaling." [GO:0006650, KEGG:map00564, MCW_library:QU4_M235b_2009, SMP:00025]
 synonym: "glycerophospholipid metabolic process" RELATED []
 synonym: "phospholipid metabolic pathway" RELATED []
 is_a: PW:0000010 ! lipid metabolic pathway
@@ -2620,7 +2620,7 @@ is_a: PW:0000355 ! homeostasis pathway
 [Term]
 id: PW:0000358
 name: altered homeostasis pathway
-def: "Those homeostatic pathways that deviate from what their normal course should be. Aberrant homeostatic pathways, alone or in combination with other pathways, underlie many conditions, disorders and/or diseases." [PW dictionary:PW InHouse dictionary]
+def: "Those homeostatic pathways that deviate from what their normal course should be. Aberrant homeostatic pathways, alone or in combination with other pathways, underlie many conditions, disorders and/or diseases." [PW_dictionary:PW_InHouse_dictionary]
 is_a: PW:0000263 ! altered regulatory pathway
 is_a: PW:0000355 ! homeostasis pathway
 
@@ -2688,7 +2688,7 @@ is_a: PW:0000511 ! altered peptide and protein hormone signaling pathway
 [Term]
 id: PW:0000367
 name: altered Jak-Stat signaling pathway
-def: "Jak-Stat signaling pathways that deviate from what their normal course should be." [InHouse:PW InHouse dictionary]
+def: "Jak-Stat signaling pathways that deviate from what their normal course should be." [InHouse:PW_InHouse_dictionary]
 is_a: PW:0000209 ! Jak-Stat signaling pathway
 is_a: PW:0001537 ! altered tyrosine-specific protein kinase mediated signaling pathway
 is_a: PW:0001543 ! altered signaling pathway pertinent to immunity
@@ -2738,7 +2738,7 @@ is_a: PW:0001832 ! altered metal homeostasis pathway
 [Term]
 id: PW:0000373
 name: glutathione conjugation pathway
-def: "The glutathione conjugation of endogenous and exogenous electrophilic compounds represents a major pathway phase II biotransformation. The glutathione conjugates may either be excreted or undergo further processing." [MCW - book:QV 600 C335t 2001, PMID:17482904, Reactome:R-HSA-156590]
+def: "The glutathione conjugation of endogenous and exogenous electrophilic compounds represents a major pathway phase II biotransformation. The glutathione conjugates may either be excreted or undergo further processing." [MCW_-_book:QV_600_C335t_2001, PMID:17482904, Reactome:R-HSA-156590]
 synonym: "Glutathione conjugation" RELATED []
 synonym: "phase II biotransformation" RELATED []
 is_a: PW:0000378 ! oxidative stress response pathway
@@ -2747,13 +2747,13 @@ is_a: PW:0000858 ! phase II biotransformation pathway
 [Term]
 id: PW:0000374
 name: alternate pathways of glutathione conjugates processing
-def: "Pathways of glutathione conjugates processing other than the mercapturic acid pathway." [InHouse dictionary:PW InHouse dictionary]
+def: "Pathways of glutathione conjugates processing other than the mercapturic acid pathway." [InHouse_dictionary:PW_InHouse_dictionary]
 is_a: PW:0000373 ! glutathione conjugation pathway
 
 [Term]
 id: PW:0000375
 name: phase I biotransformation pathway via cytochrome P450
-def: "The major phase I biotransformation pathway for the activation of endogenous and exogenous substances carried out by members of the cytochrome P450 superfamily." [Book:QV 600 C335t 2001, PMID:17482904, PMID:19835560, Reactome:REACT_13705.1]
+def: "The major phase I biotransformation pathway for the activation of endogenous and exogenous substances carried out by members of the cytochrome P450 superfamily." [Book:QV_600_C335t_2001, PMID:17482904, PMID:19835560, Reactome:REACT_13705.1]
 synonym: "KEGG:00980" RELATED []
 synonym: "KEGG:00982" RELATED []
 is_a: PW:0000857 ! phase I biotransformation pathway
@@ -2767,7 +2767,7 @@ is_a: PW:0000857 ! phase I biotransformation pathway
 [Term]
 id: PW:0000377
 name: glutathione conjugates processing - the mercapturic acid pathway
-def: "The mercapturic acid pathway of glutathione conjugates processing involves the sequential cleavage of glutamyl and glycine residues of glutathione followed by cysteine N-acetylation." [MCW book:QV 600 C335t 2001]
+def: "The mercapturic acid pathway of glutathione conjugates processing involves the sequential cleavage of glutamyl and glycine residues of glutathione followed by cysteine N-acetylation." [MCW_book:QV_600_C335t_2001]
 is_a: PW:0000373 ! glutathione conjugation pathway
 
 [Term]
@@ -2815,7 +2815,7 @@ is_a: PW:0000380 ! transport pathway for the elimination of drugs, endogenous or
 [Term]
 id: PW:0000384
 name: G2/M DNA damage checkpoint pathway
-def: "The G2/M checkpoint pathways assure the genome is replicated only once per cell cycle. The checkpoints control for damaged and un-replicated DNA. Various DNA damage checkpoints lead to inhibition of the cyclin-dependent kinases that regulate the next cell cycle point." [GO:0007095, InHouse:PW dictionary, Reactome:R-HSA-69473]
+def: "The G2/M checkpoint pathways assure the genome is replicated only once per cell cycle. The checkpoints control for damaged and un-replicated DNA. Various DNA damage checkpoints lead to inhibition of the cyclin-dependent kinases that regulate the next cell cycle point." [GO:0007095, InHouse:PW_dictionary, Reactome:R-HSA-69473]
 synonym: "G2/M DNA damage checkpoint" RELATED []
 synonym: "mitotic G2 DNA damage checkpoint signaling" RELATED []
 is_a: PW:0000096 ! G2/M checkpoint pathway
@@ -2823,7 +2823,7 @@ is_a: PW:0000096 ! G2/M checkpoint pathway
 [Term]
 id: PW:0000385
 name: G2/M DNA replication checkpoint pathway
-def: "Those pathways that assure the genome is replicated only once per cell cycle. The checkpoints control for damaged and un-replicated DNA. Un-replicated DNA signals to block the cell cycle from proceeding. The mechanism by which the cell detects un-replicated DNA is not known." [InHouse:PW dictionary, Reactome:R-HSA-69478]
+def: "Those pathways that assure the genome is replicated only once per cell cycle. The checkpoints control for damaged and un-replicated DNA. Un-replicated DNA signals to block the cell cycle from proceeding. The mechanism by which the cell detects un-replicated DNA is not known." [InHouse:PW_dictionary, Reactome:R-HSA-69478]
 synonym: "G2/M DNA replication checkpoint" RELATED []
 is_a: PW:0000096 ! G2/M checkpoint pathway
 
@@ -2950,14 +2950,14 @@ relationship: part_of PW:0000398 ! homocysteine metabolic pathway
 [Term]
 id: PW:0000402
 name: altered metabolic pathway of other amino acids
-def: "Those metabolic pathways of amino acids other than the common amino acids that deviate from what their normal course should be. Aberrant metabolic pathways of other amino acids, alone or in combination with other pathways, underlie various diseases." [InHouse:PW InHouse dictionary]
+def: "Those metabolic pathways of amino acids other than the common amino acids that deviate from what their normal course should be. Aberrant metabolic pathways of other amino acids, alone or in combination with other pathways, underlie various diseases." [InHouse:PW_InHouse_dictionary]
 is_a: PW:0000132 ! metabolic pathway of other amino acids
 is_a: PW:0000262 ! altered metabolic pathway
 
 [Term]
 id: PW:0000403
 name: altered amino acid metabolic pathway
-def: "Those pathways of amino acid metabolism that deviate from what their normal course should be. Aberrant amino acid metabolic pathways, alone or in combination with other pathways, underlie various diseases." [InHouse:PW InHouse dictionary]
+def: "Those pathways of amino acid metabolism that deviate from what their normal course should be. Aberrant amino acid metabolic pathways, alone or in combination with other pathways, underlie various diseases." [InHouse:PW_InHouse_dictionary]
 is_a: PW:0000011 ! amino acid metabolic pathway
 is_a: PW:0000262 ! altered metabolic pathway
 
@@ -3086,7 +3086,7 @@ is_a: PW:0000422 ! altered stress-regulated MAPK signaling pathway
 [Term]
 id: PW:0000421
 name: altered mitogen activated protein kinase pathway
-def: "A mitogen activated protein kinase pathway that deviates from what its normal course should be. Altered MAPK pathways have been linked to a spectrum of conditions." [PW InHouse dictionary:InHouse]
+def: "A mitogen activated protein kinase pathway that deviates from what its normal course should be. Altered MAPK pathways have been linked to a spectrum of conditions." [PW_InHouse_dictionary:InHouse]
 synonym: "altered MAPK signaling pathway" RELATED []
 is_a: PW:0000007 ! mitogen activated protein kinase signaling pathway
 is_a: PW:0000264 ! altered signaling pathway
@@ -3160,7 +3160,7 @@ is_obsolete: true
 [Term]
 id: PW:0000432
 name: protein modification pathway
-def: "The protein modification pathway exerts a central role in the regulation of protein function and the pathways these functions impinge upon. It is also used to target proteins for degradation. In the more specialized aspect of protein modification in the secretory pathway, it involves the final modification of glycoproteins and glycosaminoglycans as well as processing of proteins to their mature forms." [GO:0036211, InHouse:InHouse PW dictionary]
+def: "The protein modification pathway exerts a central role in the regulation of protein function and the pathways these functions impinge upon. It is also used to target proteins for degradation. In the more specialized aspect of protein modification in the secretory pathway, it involves the final modification of glycoproteins and glycosaminoglycans as well as processing of proteins to their mature forms." [GO:0036211, InHouse:InHouse_PW_dictionary]
 synonym: "protein modification process" RELATED []
 is_a: PW:0000181 ! pathway pertinent to protein folding, sorting, modification, translocation and degradation
 
@@ -3299,7 +3299,7 @@ is_a: PW:0000447 ! peptide neurotransmitter metabolic pathway
 [Term]
 id: PW:0000453
 name: isoprenoid biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of an isoprenoid. Isoprenoids are precursors of both sterols and non-sterol derivatives." [GO:0008299, MCW library:QU4 M235b 2009]
+def: "Those metabolic reactions involved in the synthesis of an isoprenoid. Isoprenoids are precursors of both sterols and non-sterol derivatives." [GO:0008299, MCW_library:QU4_M235b_2009]
 synonym: "isoprenoid biosynthetic process" RELATED []
 synonym: "steroid alcohol" RELATED []
 is_a: PW:0000248 ! isoprenoid metabolic pathway
@@ -3376,7 +3376,7 @@ is_a: PW:0000460 ! arachidonic acid metabolic pathway
 [Term]
 id: PW:0000464
 name: leukotriene metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of leukotrienes - a class of eicosanoids whose effects include vasoconstriction and bronchoconstriction." [GO:0006691, MCW library:QU4 M235b 2009, PMID:15896353]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of leukotrienes - a class of eicosanoids whose effects include vasoconstriction and bronchoconstriction." [GO:0006691, MCW_library:QU4_M235b_2009, PMID:15896353]
 synonym: "leukotriene metabolic process" RELATED []
 is_a: PW:0000462 ! lipoxygenase mediated pathway of arachidonic acid metabolism
 is_a: PW:0000485 ! eicosanoid metabolic pathway
@@ -3504,28 +3504,28 @@ is_a: PW:0000010 ! lipid metabolic pathway
 [Term]
 id: PW:0000483
 name: altered lipid metabolic pathway
-def: "Those lipid metabolic pathways that deviate from what their normal course should be. Aberrant lipid metabolic pathways, alone or in combination with other pathways underlie a number of diseases." [InHouse:PW InHouse dictionary]
+def: "Those lipid metabolic pathways that deviate from what their normal course should be. Aberrant lipid metabolic pathways, alone or in combination with other pathways underlie a number of diseases." [InHouse:PW_InHouse_dictionary]
 is_a: PW:0000010 ! lipid metabolic pathway
 is_a: PW:0000262 ! altered metabolic pathway
 
 [Term]
 id: PW:0000484
 name: altered lipoprotein metabolic pathway
-def: "Those lipoprotein metabolic pathways that deviate from what their normal course should be. Aberrant lipoprotein metabolic pathways, alone or in combination with other pathways underlie several diseases." [In House:PW In House dictionary]
+def: "Those lipoprotein metabolic pathways that deviate from what their normal course should be. Aberrant lipoprotein metabolic pathways, alone or in combination with other pathways underlie several diseases." [In_House:PW_In_House_dictionary]
 is_a: PW:0000482 ! lipoprotein metabolic pathway
 is_a: PW:0000483 ! altered lipid metabolic pathway
 
 [Term]
 id: PW:0000485
 name: eicosanoid metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of eicosanoids. Eicosanoids are derived from omega-6 or omega-3 fatty acids and derivatives. Examples include the leukotriene and the prostanoid classes, the latter represented by several families. Eicosanoids play important roles in the immune and vascular systems." [GO:0006690, MCW library:QU4 M235b 2009, OneLook:www.onelook.com, PMID:15896353]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of eicosanoids. Eicosanoids are derived from omega-6 or omega-3 fatty acids and derivatives. Examples include the leukotriene and the prostanoid classes, the latter represented by several families. Eicosanoids play important roles in the immune and vascular systems." [GO:0006690, MCW_library:QU4_M235b_2009, OneLook:www.onelook.com, PMID:15896353]
 synonym: "icosanoid metabolic process" RELATED []
 is_a: PW:0000010 ! lipid metabolic pathway
 
 [Term]
 id: PW:0000486
 name: class I major histocompatibility complex pathway
-def: "Peptides generated from proteolytic degradation of cytosolic proteins are translocated to the ER where they associate with class I MHC molecules. Peptide-class I MHC complexes move through the Golgi and are transported to the cell surface to be recognized by CD8+ T cells." [GO:0002474, MCW:Handbook on cellular nad molecular immunology, PMID:16181325, Reactome:R-HSA-983169]
+def: "Peptides generated from proteolytic degradation of cytosolic proteins are translocated to the ER where they associate with class I MHC molecules. Peptide-class I MHC complexes move through the Golgi and are transported to the cell surface to be recognized by CD8+ T cells." [GO:0002474, MCW:Handbook_on_cellular_nad_molecular_immunology, PMID:16181325, Reactome:R-HSA-983169]
 synonym: "antigen processing and presentation of peptide antigen via MHC class I" RELATED []
 synonym: "Class I MHC mediated antigen processing & presentation" RELATED []
 synonym: "class I MHC pathway" RELATED []
@@ -3535,7 +3535,7 @@ is_a: PW:0000825 ! antigen processing and presentation pathway
 [Term]
 id: PW:0000487
 name: class II major histocompatibility complex pathway
-def: "Peptides generated from enzymatic degradation of proteins internalized in late endosomes or lysosomes bind to class II MHC molecules. Peptide-class II MHC complexes are delivered to the cell surface to be recognized by CD4+ T cells." [GO:0002495, MCW:Handbook on cellular and molecular immunology, PMID:16181322, Reactome:R-HSA-2132295]
+def: "Peptides generated from enzymatic degradation of proteins internalized in late endosomes or lysosomes bind to class II MHC molecules. Peptide-class II MHC complexes are delivered to the cell surface to be recognized by CD4+ T cells." [GO:0002495, MCW:Handbook_on_cellular_and_molecular_immunology, PMID:16181322, Reactome:R-HSA-2132295]
 synonym: "antigen processing and presentation of peptide antigen via MHC class II" RELATED []
 synonym: "class II MHC pathway" RELATED []
 synonym: "MHC class II antigen presentation" RELATED []
@@ -3775,7 +3775,7 @@ is_a: PW:0000926 ! pro-inflammatory cytokine mediated pathway
 [Term]
 id: PW:0000517
 name: arterial occlusive disease pathway
-def: "A pathway leading to a general or specific artery occlusion." [MeSH:Medical Subject Headings]
+def: "A pathway leading to a general or specific artery occlusion." [MeSH:Medical_Subject_Headings]
 is_a: PW:0000020 ! cardiovascular system disease pathway
 
 [Term]
@@ -4027,7 +4027,7 @@ is_a: PW:0000546 ! mRNA decay pathway
 [Term]
 id: PW:0000551
 name: altered mRNA decay pathway
-def: "An mRNA decay pathway that deviates from what its normal course should be. An aberrant mRNA decay pathway would lead to the translation of erroneous mRNA with potentially serious consequences." [InHouse PW:InHouse PW]
+def: "An mRNA decay pathway that deviates from what its normal course should be. An aberrant mRNA decay pathway would lead to the translation of erroneous mRNA with potentially serious consequences." [InHouse_PW:InHouse_PW]
 is_a: PW:0000290 ! altered pathway pertinent to DNA replication and repair, cell cycle, maintenance of genomic integrity, RNA and protein biosynthesis
 is_a: PW:0000546 ! mRNA decay pathway
 
@@ -4164,7 +4164,7 @@ is_a: PW:0001313 ! transcription pathway via transcription factor mediated signa
 [Term]
 id: PW:0000570
 name: hexosamine metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of hexosamines, amino sugars created by adding an amino group to a hexose. Hexosamines, particularly N-acetylglucosamine, are used to modify proteins." [Onelook:www.onelook.com\, PubMed]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of hexosamines, amino sugars created by adding an amino group to a hexose. Hexosamines, particularly N-acetylglucosamine, are used to modify proteins." [Onelook:www.onelook.com\,_PubMed]
 is_a: PW:0000152 ! amino sugar metabolic pathway
 
 [Term]
@@ -4217,7 +4217,7 @@ is_a: PW:0000575 ! sugar transport pathway
 [Term]
 id: PW:0000577
 name: cytokine and chemokine mediated signaling pathway
-def: "Cytokines are small proteins released by the cell and acting as intercellular mediators. Chemokines are a subset of cytokine that can attract and activate leukocytes. They are characterized by a small size and the presence of four cysteines whose location is important for their structural folding. Cytokines or chemokines binding to cognate receptors triggers numerous downstream signaling cascades." [MCW library:Handbook on molecular and cellular immunology]
+def: "Cytokines are small proteins released by the cell and acting as intercellular mediators. Chemokines are a subset of cytokine that can attract and activate leukocytes. They are characterized by a small size and the presence of four cysteines whose location is important for their structural folding. Cytokines or chemokines binding to cognate receptors triggers numerous downstream signaling cascades." [MCW_library:Handbook_on_molecular_and_cellular_immunology]
 is_a: PW:0000003 ! signaling pathway
 
 [Term]
@@ -4352,7 +4352,7 @@ is_a: PW:0000541 ! signaling pathway involving second messengers
 [Term]
 id: PW:0000596
 name: altered insulin signaling pathway
-def: "An insulin signaling pathway that deviates from what its normal course should be. Deregulation of insulin signaling can have profound health consequences due to its potential to alter glucose and energy homeostasis." [InHouse:PW dictionary]
+def: "An insulin signaling pathway that deviates from what its normal course should be. Deregulation of insulin signaling can have profound health consequences due to its potential to alter glucose and energy homeostasis." [InHouse:PW_dictionary]
 is_a: PW:0000143 ! insulin signaling pathway
 is_a: PW:0000359 ! altered energy homeostasis pathway
 is_a: PW:0000511 ! altered peptide and protein hormone signaling pathway
@@ -4426,7 +4426,7 @@ is_a: PW:0000013 ! disease pathway
 [Term]
 id: PW:0000606
 name: urogenital cancer pathway
-def: "Urogenital cancer groups those malignancies that affect the urinary system and reproductive organs. Deregulation of several pathways along with genetic damage accumulated over time can lead to the development of these conditions." [InHouse:InHouse PW dictionary]
+def: "Urogenital cancer groups those malignancies that affect the urinary system and reproductive organs. Deregulation of several pathways along with genetic damage accumulated over time can lead to the development of these conditions." [InHouse:InHouse_PW_dictionary]
 synonym: "genitourinary cancer pathway" RELATED []
 synonym: "urinogenital cancer pathway" RELATED []
 is_a: PW:0000605 ! cancer pathway
@@ -4519,7 +4519,7 @@ is_a: PW:0000617 ! altered cytokine mediated signaling pathway
 [Term]
 id: PW:0000617
 name: altered cytokine mediated signaling pathway
-def: "A cytokine mediated signaling pathway that deviates from what its normal course should be. Aberrant cytokine signaling pathway, alone or in combination with other pathways underlie various diseases." [InHouse:PW dictionary]
+def: "A cytokine mediated signaling pathway that deviates from what its normal course should be. Aberrant cytokine signaling pathway, alone or in combination with other pathways underlie various diseases." [InHouse:PW_dictionary]
 is_a: PW:0000264 ! altered signaling pathway
 is_a: PW:0000828 ! cytokine mediated signaling pathway
 
@@ -4547,7 +4547,7 @@ is_a: PW:0001543 ! altered signaling pathway pertinent to immunity
 [Term]
 id: PW:0000620
 name: altered signaling pathway involving second messengers
-def: "Those signaling pathways involving second messengers that deviate from what their normal course should be. Deregulation of these pathways can have far reaching consequences." [InHouse:PW dictionary]
+def: "Those signaling pathways involving second messengers that deviate from what their normal course should be. Deregulation of these pathways can have far reaching consequences." [InHouse:PW_dictionary]
 is_a: PW:0000264 ! altered signaling pathway
 is_a: PW:0000541 ! signaling pathway involving second messengers
 
@@ -4719,28 +4719,28 @@ is_a: PW:0000058 ! fatty acid metabolic pathway
 [Term]
 id: PW:0000643
 name: altered glycogen metabolic pathway
-def: "A glycogen metabolic pathway that deviates from what its normal course should be. Aberrant glycogen metabolism has been associated with several glycogen storage diseases." [MCW libraries:Biochemistry Handbook]
+def: "A glycogen metabolic pathway that deviates from what its normal course should be. Aberrant glycogen metabolism has been associated with several glycogen storage diseases." [MCW_libraries:Biochemistry_Handbook]
 is_a: PW:0000305 ! altered carbohydrate metabolic pathway
 is_a: PW:0000533 ! glycogen metabolic pathway
 
 [Term]
 id: PW:0000644
 name: altered glycogen biosynthetic pathway
-def: "A glycogen biosynthetic pathway that deviates from what its normal course should be. Aberrant glycogen metabolism has been associated with several glycogen storage diseases." [MCW libraries:Biochemistry Handbook]
+def: "A glycogen biosynthetic pathway that deviates from what its normal course should be. Aberrant glycogen metabolism has been associated with several glycogen storage diseases." [MCW_libraries:Biochemistry_Handbook]
 is_a: PW:0000532 ! glycogen biosynthetic pathway
 is_a: PW:0000643 ! altered glycogen metabolic pathway
 
 [Term]
 id: PW:0000645
 name: altered glycogen degradation pathway
-def: "A glycogen degradation pathway that deviates from what its normal course should be. Aberrant glycogen metabolism has been associated with several glycogen storage diseases." [MCW libraries:Biochemistry Handbook]
+def: "A glycogen degradation pathway that deviates from what its normal course should be. Aberrant glycogen metabolism has been associated with several glycogen storage diseases." [MCW_libraries:Biochemistry_Handbook]
 is_a: PW:0000534 ! glycogen degradation pathway
 is_a: PW:0000643 ! altered glycogen metabolic pathway
 
 [Term]
 id: PW:0000646
 name: cell-extracellular matrix signaling pathway
-def: "Cell-extracellular matrix signaling pathway conveys information between cells and components of the extracellular matrix using cell adhesion molecules." [RGD:InHouse dictionary]
+def: "Cell-extracellular matrix signaling pathway conveys information between cells and components of the extracellular matrix using cell adhesion molecules." [RGD:InHouse_dictionary]
 synonym: "cell-ECM signaling pathway" RELATED []
 synonym: "KEGG:04512" RELATED []
 is_a: PW:0000648 ! cell adhesion signaling pathway
@@ -4884,7 +4884,7 @@ is_a: PW:0000663 ! double-strand DNA repair pathway
 [Term]
 id: PW:0000668
 name: altered mismatch repair pathway
-def: "A mismatch repair pathway that deviates from what its normal course should be. Mutations in several genes in the pathway have been implicated in cases of colorectal cancer, primarily the inherited forms. To a lesser extent they are found in other types of cancer, such as type 1 endometrial cancer." [PubMed:Several articles]
+def: "A mismatch repair pathway that deviates from what its normal course should be. Mutations in several genes in the pathway have been implicated in cases of colorectal cancer, primarily the inherited forms. To a lesser extent they are found in other types of cancer, such as type 1 endometrial cancer." [PubMed:Several_articles]
 synonym: "altered MMR pathway" RELATED []
 synonym: "Diseases of Mismatch Repair (MMR)" RELATED []
 is_a: PW:0000662 ! mismatch repair pathway
@@ -4992,7 +4992,7 @@ is_a: PW:0000236 ! tumor necrosis factor superfamily mediated signaling pathway
 [Term]
 id: PW:0000683
 name: integrin mediated cell-cell signaling pathway
-def: "A cell-cell signaling pathway mediated by integrins, a family of receptors that convey both 'outside-in' and 'inside-out' signals." [RGD:InHouse dictionary]
+def: "A cell-cell signaling pathway mediated by integrins, a family of receptors that convey both 'outside-in' and 'inside-out' signals." [RGD:InHouse_dictionary]
 is_a: PW:0000286 ! integrin mediated signaling pathway
 is_a: PW:0000332 ! cell-cell signaling pathway
 created_by: VPetri
@@ -5011,7 +5011,7 @@ creation_date: 2009-08-03T02:45:17Z
 [Term]
 id: PW:0000685
 name: glucose biosynthesis pathway
-def: "The metabolic pathways for generating glucose to meet the body's glucose needs. Gluconeogenesis in the liver and to some extent in kidney is the major pathway of glucose production; glycogenolysis is another route for generating glucose in these tissues." [GO:0006094, MCW Libraries:ISBN-13 978-0470-12930-2, Reactome:R-HSA-70263]
+def: "The metabolic pathways for generating glucose to meet the body's glucose needs. Gluconeogenesis in the liver and to some extent in kidney is the major pathway of glucose production; glycogenolysis is another route for generating glucose in these tissues." [GO:0006094, MCW_Libraries:ISBN-13_978-0470-12930-2, Reactome:R-HSA-70263]
 synonym: "Gluconeogenesis" RELATED []
 relationship: part_of PW:0000553 ! glucose homeostasis pathway
 created_by: VPetri
@@ -5030,7 +5030,7 @@ creation_date: 2009-08-27T09:07:02Z
 [Term]
 id: PW:0000687
 name: altered sugar transport pathway
-def: "A sugar transport pathway that deviates from what its normal course should be. Alterations in sugar transport, particularly glucose, can potentially have very harmful consequences." [InHouse:PW dictionary]
+def: "A sugar transport pathway that deviates from what its normal course should be. Alterations in sugar transport, particularly glucose, can potentially have very harmful consequences." [InHouse:PW_dictionary]
 is_a: PW:0000545 ! altered transport pathway
 is_a: PW:0000575 ! sugar transport pathway
 created_by: VPetri
@@ -5039,7 +5039,7 @@ creation_date: 2009-10-07T11:59:25Z
 [Term]
 id: PW:0000688
 name: altered facilitative sugar transporter mediated sugar transport pathway
-def: "A facilitative sugar transporter mediated sugar transport pathway that deviates from what its normal course should be. Alterations in sugar transport, particularly glucose, can potentially have very harmful consequences." [InHouse:PW dictionary]
+def: "A facilitative sugar transporter mediated sugar transport pathway that deviates from what its normal course should be. Alterations in sugar transport, particularly glucose, can potentially have very harmful consequences." [InHouse:PW_dictionary]
 is_a: PW:0000576 ! facilitative sugar transporter mediated sugar transport pathway
 is_a: PW:0000687 ! altered sugar transport pathway
 created_by: VPetri
@@ -5048,7 +5048,7 @@ creation_date: 2009-10-07T12:05:27Z
 [Term]
 id: PW:0000689
 name: altered glucose transport pathway
-def: "A glucose transport pathway that deviates from what its normal course should be. Alterations in glucose transport can potentially have very harmful consequences." [InHouse:PW dictionary]
+def: "A glucose transport pathway that deviates from what its normal course should be. Alterations in glucose transport can potentially have very harmful consequences." [InHouse:PW_dictionary]
 is_a: PW:0000554 ! glucose transport pathway
 is_a: PW:0000594 ! altered glucose homeostasis pathway
 is_a: PW:0000687 ! altered sugar transport pathway
@@ -5058,7 +5058,7 @@ creation_date: 2009-10-07T12:08:39Z
 [Term]
 id: PW:0000690
 name: altered facilitative sugar transporter mediated glucose transport pathway
-def: "A facilitative sugar transporter mediated glucose transport pathway that deviates from what its normal course should be. Alterations in glucose transport can potentially have very harmful consequences." [InHouse:PW dictionary]
+def: "A facilitative sugar transporter mediated glucose transport pathway that deviates from what its normal course should be. Alterations in glucose transport can potentially have very harmful consequences." [InHouse:PW_dictionary]
 is_a: PW:0000560 ! facilitative sugar transporter mediated glucose transport pathway
 is_a: PW:0000689 ! altered glucose transport pathway
 created_by: VPetri
@@ -5299,7 +5299,7 @@ creation_date: 2009-11-03T09:09:09Z
 [Term]
 id: PW:0000716
 name: transcription factor mediated signaling pathway
-def: "Transcription factors mediated signaling are components of transcription that, by controlling the expression of target genes, impact upon a wide range of processes." [InHouse:PW dictionary]
+def: "Transcription factors mediated signaling are components of transcription that, by controlling the expression of target genes, impact upon a wide range of processes." [InHouse:PW_dictionary]
 is_a: PW:0000003 ! signaling pathway
 created_by: VPetri
 creation_date: 2009-11-30T01:34:55Z
@@ -5329,7 +5329,7 @@ creation_date: 2009-11-30T03:01:53Z
 [Term]
 id: PW:0000719
 name: altered transcription factor mediated signaling pathway
-def: "A transcription factor mediated signaling pathway that deviates from what its normal course should be. Deregulation of such pathways has been linked to cancer and various other diseases." [InHouse:PW dictionary]
+def: "A transcription factor mediated signaling pathway that deviates from what its normal course should be. Deregulation of such pathways has been linked to cancer and various other diseases." [InHouse:PW_dictionary]
 is_a: PW:0000264 ! altered signaling pathway
 is_a: PW:0000716 ! transcription factor mediated signaling pathway
 created_by: VPetri
@@ -5447,7 +5447,7 @@ creation_date: 2010-01-20T12:42:55Z
 [Term]
 id: PW:0000732
 name: thromboxane metabolic pathway
-def: "Those metabolic reactions involving thromboxanes - a family of prostanoid eicosanoids whose effects include vasoconstriction and platelet aggregation." [MCW library:QU4 M235b 2009]
+def: "Those metabolic reactions involving thromboxanes - a family of prostanoid eicosanoids whose effects include vasoconstriction and platelet aggregation." [MCW_library:QU4_M235b_2009]
 is_a: PW:0001240 ! prostanoid metabolic pathway
 created_by: VPetri
 creation_date: 2010-02-17T11:26:21Z
@@ -5455,7 +5455,7 @@ creation_date: 2010-02-17T11:26:21Z
 [Term]
 id: PW:0000733
 name: glycosphingolipid metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of glycosphingolipids - glycolipids with sugar(s) attached to the ceramide core. Based on the sequences of the core carbohydrate residues, they are classified into a number of series such as lacto- and neolacto-, globo-, ganglio- or muco-series." [GO:0006687, MCW library:QU4 M235b 2009, PMID:15207828, PMID:17976918, PMID:18845618, Reactome:R-HSA-1660662]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of glycosphingolipids - glycolipids with sugar(s) attached to the ceramide core. Based on the sequences of the core carbohydrate residues, they are classified into a number of series such as lacto- and neolacto-, globo-, ganglio- or muco-series." [GO:0006687, MCW_library:QU4_M235b_2009, PMID:15207828, PMID:17976918, PMID:18845618, Reactome:R-HSA-1660662]
 synonym: "glycolipid metabolic pathway" RELATED []
 synonym: "glycosphingolipid metabolic process" RELATED []
 synonym: "Glycosphingolipid metabolism" RELATED []
@@ -5467,7 +5467,7 @@ creation_date: 2010-02-17T02:03:36Z
 [Term]
 id: PW:0000734
 name: cerebroside metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of cerebroside, sphingolipids in which the sugar is a monosaccharide." [MCW library:QU4 M235b 2009]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of cerebroside, sphingolipids in which the sugar is a monosaccharide." [MCW_library:QU4_M235b_2009]
 is_a: PW:0000733 ! glycosphingolipid metabolic pathway
 created_by: VPetri
 creation_date: 2010-02-17T02:05:26Z
@@ -5475,7 +5475,7 @@ creation_date: 2010-02-17T02:05:26Z
 [Term]
 id: PW:0000735
 name: altered sphingolipid metabolic pathway
-def: "A sphingolipid metabolic pathway that deviates from what its normal course should be. Altered sphingolipid metabolism has been associated with several lysosomal storage diseases and most appear to be fatal." [MCW library:QU4 M235b 2009, PW dictionary:InHouse dictionary]
+def: "A sphingolipid metabolic pathway that deviates from what its normal course should be. Altered sphingolipid metabolism has been associated with several lysosomal storage diseases and most appear to be fatal." [MCW_library:QU4_M235b_2009, PW_dictionary:InHouse_dictionary]
 is_a: PW:0000197 ! sphingolipid metabolic pathway
 is_a: PW:0000483 ! altered lipid metabolic pathway
 created_by: VPetri
@@ -5484,7 +5484,7 @@ creation_date: 2010-02-17T02:08:31Z
 [Term]
 id: PW:0000736
 name: triacylglycerol biosynthetic pathway
-def: "The de novo synthesis of triacylglycerol, the common form of fatty acid transport and storage. Most triacylglycerols are synthesized in the liver and stored in the adipose tissue." [GO:0019432, MCW library:QU4 M235b 2009, Reactome:R-HSA-75109]
+def: "The de novo synthesis of triacylglycerol, the common form of fatty acid transport and storage. Most triacylglycerols are synthesized in the liver and stored in the adipose tissue." [GO:0019432, MCW_library:QU4_M235b_2009, Reactome:R-HSA-75109]
 synonym: "lipogenesis pathway" RELATED []
 synonym: "Triglyceride biosynthesis" RELATED []
 synonym: "triglyceride biosynthetic process" RELATED []
@@ -5495,7 +5495,7 @@ creation_date: 2010-02-17T02:15:19Z
 [Term]
 id: PW:0000737
 name: triacylglycerol degradation pathway
-def: "Those enzymatic reactions involved in the degradation of triacylglycerols when energy reserves are low, such as in the fasting state, during exercise or in response to stress. Triacylglycerols are the common form of fatty acid transport and storage." [GO:0019433, MCW library:QU4 M235b 2009, Reactome:R-HSA-163560]
+def: "Those enzymatic reactions involved in the degradation of triacylglycerols when energy reserves are low, such as in the fasting state, during exercise or in response to stress. Triacylglycerols are the common form of fatty acid transport and storage." [GO:0019433, MCW_library:QU4_M235b_2009, Reactome:R-HSA-163560]
 synonym: "lipolysis pathway" RELATED []
 synonym: "triglyceride catabolic process" RELATED []
 synonym: "Triglyceride catabolism" RELATED []
@@ -5519,7 +5519,7 @@ creation_date: 2010-02-17T02:50:24Z
 [Term]
 id: PW:0000739
 name: fatty acid alpha degradation pathway
-def: "The degradation of branched-chain fatty acids is carried out by the alpha oxidation pathway. In humans, this pathway occurs in peroxisomes." [MCW library:QU4 M235b 2009]
+def: "The degradation of branched-chain fatty acids is carried out by the alpha oxidation pathway. In humans, this pathway occurs in peroxisomes." [MCW_library:QU4_M235b_2009]
 synonym: "fatty acid alpha oxidation pathway" RELATED []
 is_a: PW:0000642 ! fatty acid degradation pathway
 created_by: VPetri
@@ -5528,7 +5528,7 @@ creation_date: 2010-02-17T03:02:55Z
 [Term]
 id: PW:0000740
 name: unsaturated fatty acid degradation pathway
-def: "The pathway of unsaturated fatty acids requires additional enzymes." [MCW library:QU4 M235b 2009]
+def: "The pathway of unsaturated fatty acids requires additional enzymes." [MCW_library:QU4_M235b_2009]
 is_a: PW:0000642 ! fatty acid degradation pathway
 created_by: VPetri
 creation_date: 2010-02-17T03:06:21Z
@@ -5536,7 +5536,7 @@ creation_date: 2010-02-17T03:06:21Z
 [Term]
 id: PW:0000741
 name: altered ganglioside metabolic pathway
-def: "A ganglioside metabolic pathway that deviates from what its normal course should be. For instance, Tay-Sachs disease is caused by a deficiency in the enzyme that degrades ganglioside GM2. This and other conditions involving impaired sphingolipid metabolism are collectively known as sphingolipid storage disease." [MCW library:QU4 M235b 2009]
+def: "A ganglioside metabolic pathway that deviates from what its normal course should be. For instance, Tay-Sachs disease is caused by a deficiency in the enzyme that degrades ganglioside GM2. This and other conditions involving impaired sphingolipid metabolism are collectively known as sphingolipid storage disease." [MCW_library:QU4_M235b_2009]
 is_a: PW:0000164 ! ganglioside metabolic pathway
 is_a: PW:0000742 ! altered glycosphingolipid metabolic pathway
 created_by: vpetri
@@ -5545,7 +5545,7 @@ creation_date: 2010-02-18T12:39:44Z
 [Term]
 id: PW:0000742
 name: altered glycosphingolipid metabolic pathway
-def: "A glycoshingolipid metabolic pathway that deviates from what its normal course should be. Altered glycosphingolipid metabolism has been associated with several lysosomal storage diseases and most appear to be fatal." [MCW library:QU4 M235b 2009]
+def: "A glycoshingolipid metabolic pathway that deviates from what its normal course should be. Altered glycosphingolipid metabolism has been associated with several lysosomal storage diseases and most appear to be fatal." [MCW_library:QU4_M235b_2009]
 is_a: PW:0000733 ! glycosphingolipid metabolic pathway
 is_a: PW:0000735 ! altered sphingolipid metabolic pathway
 created_by: vpetri
@@ -5554,7 +5554,7 @@ creation_date: 2010-02-18T01:03:56Z
 [Term]
 id: PW:0000743
 name: galactocerebroside metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of galactocerebroside, a cerebroside in which the monosaccharide is galactose." [MCW library:QU4 M235b 2009]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of galactocerebroside, a cerebroside in which the monosaccharide is galactose." [MCW_library:QU4_M235b_2009]
 is_a: PW:0000734 ! cerebroside metabolic pathway
 created_by: vpetri
 creation_date: 2010-02-18T01:15:17Z
@@ -5562,7 +5562,7 @@ creation_date: 2010-02-18T01:15:17Z
 [Term]
 id: PW:0000744
 name: glucocerebroside metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of glucocerebroside, a cerebroside in which the monosaccharide is glucose." [MCW library:QU4 M235b 2009]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of glucocerebroside, a cerebroside in which the monosaccharide is glucose." [MCW_library:QU4_M235b_2009]
 is_a: PW:0000734 ! cerebroside metabolic pathway
 created_by: vpetri
 creation_date: 2010-02-18T01:15:47Z
@@ -5570,7 +5570,7 @@ creation_date: 2010-02-18T01:15:47Z
 [Term]
 id: PW:0000745
 name: sphingomyelin metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of sphingomyelin - a sphingolipid found abundantly in the myelin sheath of nerve cells." [GO:0006684, MCW library:QU4 M235b 2009]
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of sphingomyelin - a sphingolipid found abundantly in the myelin sheath of nerve cells." [GO:0006684, MCW_library:QU4_M235b_2009]
 synonym: "sphingomyelin metabolic process" RELATED []
 is_a: PW:0000197 ! sphingolipid metabolic pathway
 created_by: vpetri
@@ -5579,7 +5579,7 @@ creation_date: 2010-02-18T01:28:17Z
 [Term]
 id: PW:0000746
 name: altered sphingomyelin metabolic pathway
-def: "A sphingomyelin metabolic pathway that deviates from what its normal course should be. For instance, Niemann-Pick disease is caused by a deficiency in the enzyme that degrades sphingomyelin. This and other conditions involving impaired sphingolipid metabolism are collectively known as sphingolipid storage disease." [MCW library:QU4 M235b 2009]
+def: "A sphingomyelin metabolic pathway that deviates from what its normal course should be. For instance, Niemann-Pick disease is caused by a deficiency in the enzyme that degrades sphingomyelin. This and other conditions involving impaired sphingolipid metabolism are collectively known as sphingolipid storage disease." [MCW_library:QU4_M235b_2009]
 is_a: PW:0000735 ! altered sphingolipid metabolic pathway
 is_a: PW:0000745 ! sphingomyelin metabolic pathway
 created_by: vpetri
@@ -5588,7 +5588,7 @@ creation_date: 2010-02-18T01:34:19Z
 [Term]
 id: PW:0000747
 name: altered galactocerebroside metabolic pathway
-def: "A galactocerebroside metabolic pathway that deviates from what its normal course should be. For instance, Krabbe's disease is caused by a deficiency in the enzyme that degrades galactocerebroside. This and other conditions involving impaired sphingolipid metabolism are collectively known as sphingolipid storage disease." [MCW library:QU4 M235b]
+def: "A galactocerebroside metabolic pathway that deviates from what its normal course should be. For instance, Krabbe's disease is caused by a deficiency in the enzyme that degrades galactocerebroside. This and other conditions involving impaired sphingolipid metabolism are collectively known as sphingolipid storage disease." [MCW_library:QU4_M235b]
 is_a: PW:0000743 ! galactocerebroside metabolic pathway
 is_a: PW:0000748 ! altered cerebroside metabolic pathway
 created_by: vpetri
@@ -5597,7 +5597,7 @@ creation_date: 2010-02-18T01:41:25Z
 [Term]
 id: PW:0000748
 name: altered cerebroside metabolic pathway
-def: "A cerebroside metabolic pathway that deviates from what its normal course should be. Altered cerebroside metabolism has been associated with several lysosomal storage diseases and most appear to be fatal." [MCW library:QU4 M235b 2009]
+def: "A cerebroside metabolic pathway that deviates from what its normal course should be. Altered cerebroside metabolism has been associated with several lysosomal storage diseases and most appear to be fatal." [MCW_library:QU4_M235b_2009]
 is_a: PW:0000734 ! cerebroside metabolic pathway
 is_a: PW:0000742 ! altered glycosphingolipid metabolic pathway
 created_by: vpetri
@@ -5606,7 +5606,7 @@ creation_date: 2010-02-18T01:45:45Z
 [Term]
 id: PW:0000749
 name: altered glucocerebroside metabolic pathway
-def: "A glucocerebroside metabolic pathway that deviates from what its normal course should be. For instance, Gaucher's disease is caused by a deficiency in the enzyme that degrades glucocerebroside. This and other conditions involving impaired sphingolipid metabolism are collectively known as sphingolipid storage disease." [MCW library:QU4 M235b 2009]
+def: "A glucocerebroside metabolic pathway that deviates from what its normal course should be. For instance, Gaucher's disease is caused by a deficiency in the enzyme that degrades glucocerebroside. This and other conditions involving impaired sphingolipid metabolism are collectively known as sphingolipid storage disease." [MCW_library:QU4_M235b_2009]
 is_a: PW:0000744 ! glucocerebroside metabolic pathway
 is_a: PW:0000748 ! altered cerebroside metabolic pathway
 created_by: vpetri
@@ -5615,7 +5615,7 @@ creation_date: 2010-02-18T02:02:09Z
 [Term]
 id: PW:0000750
 name: altered isoprenoid metabolic pathway
-def: "An isoprenoid metabolic pathway that deviates from what its normal course should be. Aberrant isoprenoid metabolism, as evidenced in alterations in cholesterol metabolism, has been associated with a variety of conditions." [MCW library:QU85 B615 2008, PMID:16876788]
+def: "An isoprenoid metabolic pathway that deviates from what its normal course should be. Aberrant isoprenoid metabolism, as evidenced in alterations in cholesterol metabolism, has been associated with a variety of conditions." [MCW_library:QU85_B615_2008, PMID:16876788]
 is_a: PW:0000248 ! isoprenoid metabolic pathway
 is_a: PW:0000483 ! altered lipid metabolic pathway
 created_by: VPetri
@@ -5624,7 +5624,7 @@ creation_date: 2010-02-23T03:06:26Z
 [Term]
 id: PW:0000751
 name: altered isoprenoid biosynthetic pathway
-def: "An isoprenoid biosynthetic pathway that deviates from what its normal course should be. Aberrant isoprenoid biosynthetic pathway, as evidenced in altered cholesterol biosynthesis has been associated with several conditions." [MCW library:QU85 B615 2008, PMID:16876788]
+def: "An isoprenoid biosynthetic pathway that deviates from what its normal course should be. Aberrant isoprenoid biosynthetic pathway, as evidenced in altered cholesterol biosynthesis has been associated with several conditions." [MCW_library:QU85_B615_2008, PMID:16876788]
 is_a: PW:0000453 ! isoprenoid biosynthetic pathway
 is_a: PW:0000750 ! altered isoprenoid metabolic pathway
 created_by: VPetri
@@ -5633,7 +5633,7 @@ creation_date: 2010-02-23T03:12:58Z
 [Term]
 id: PW:0000752
 name: altered cholesterol biosynthetic pathway
-def: "A cholesterol biosynthetic pathway that deviates from what its normal course should be. Aberrant cholesterol biosynthesis involves defects in enzymes of both early and later steps leading to several disorders." [MCW library:QU 85 B615 2008, PMID:16876788]
+def: "A cholesterol biosynthetic pathway that deviates from what its normal course should be. Aberrant cholesterol biosynthesis involves defects in enzymes of both early and later steps leading to several disorders." [MCW_library:QU_85_B615_2008, PMID:16876788]
 is_a: PW:0000454 ! cholesterol biosynthetic pathway
 is_a: PW:0001306 ! altered steroid biosynthetic pathway
 created_by: VPetri
@@ -5840,7 +5840,7 @@ creation_date: 2010-04-20T04:49:53Z
 [Term]
 id: PW:0000775
 name: altered epidermal growth factor/neuregulin signaling pathway
-def: "An epidermal growth factor/neuregulin signaling pathway that deviates from what its normal course should be. Deregulation of the pathway, mostly as upregulation due to the increased expression or amplification of ligands and/or receptors, or mutations leading to such increases, has been linked to numerous forms of cancer, such as pancreatic, lung, endometrial and breast." [InHouse:PW dictionary]
+def: "An epidermal growth factor/neuregulin signaling pathway that deviates from what its normal course should be. Deregulation of the pathway, mostly as upregulation due to the increased expression or amplification of ligands and/or receptors, or mutations leading to such increases, has been linked to numerous forms of cancer, such as pancreatic, lung, endometrial and breast." [InHouse:PW_dictionary]
 is_a: PW:0000170 ! epidermal growth factor/neuregulin signaling pathway
 is_a: PW:0000298 ! altered growth factor signaling pathway
 created_by: VPetri
@@ -5849,7 +5849,7 @@ creation_date: 2010-04-26T10:53:15Z
 [Term]
 id: PW:0000776
 name: ketone bodies biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of acetoacetate and beta-hydroxybutyrate, also known as ketone bodies, although only acetoacetate is a ketone. Generally, the acetyl-CoA derived from fatty acid oxidation enters the citrate cycle. In the liver, a substantial fraction of acetyl-CoA is converted to ketone bodies which are then released into the bloodstream to supply peripheral tissues." [GO:0042181, KEGG:map00072, MCW Libraries:QU4 V876f 2008, Reactome:R-HSA-77111]
+def: "Those metabolic reactions involved in the synthesis of acetoacetate and beta-hydroxybutyrate, also known as ketone bodies, although only acetoacetate is a ketone. Generally, the acetyl-CoA derived from fatty acid oxidation enters the citrate cycle. In the liver, a substantial fraction of acetyl-CoA is converted to ketone bodies which are then released into the bloodstream to supply peripheral tissues." [GO:0042181, KEGG:map00072, MCW_Libraries:QU4_V876f_2008, Reactome:R-HSA-77111]
 synonym: "ketone biosynthetic process" RELATED []
 synonym: "Synthesis of Ketone Bodies" RELATED []
 is_a: PW:0000069 ! ketone bodies metabolic pathway
@@ -5859,7 +5859,7 @@ creation_date: 2010-05-20T01:06:48Z
 [Term]
 id: PW:0000777
 name: ketone bodies degradation pathway
-def: "Those metabolic reactions that convert acetoacetate and beta-hydroxybutyrate back to acetyl-CoA, which then can enter the citrate cycle for energy production. Ketone bodies are synthesized in the liver and released into the bloodstream to supply fuel to peripheral tissues, heart and skeletal muscle in particular and during starvation, the brain." [GO:0046952, KEGG:map00072, MCW Libraries:QU4 V876f 2008, Reactome:R-HSA-77108]
+def: "Those metabolic reactions that convert acetoacetate and beta-hydroxybutyrate back to acetyl-CoA, which then can enter the citrate cycle for energy production. Ketone bodies are synthesized in the liver and released into the bloodstream to supply fuel to peripheral tissues, heart and skeletal muscle in particular and during starvation, the brain." [GO:0046952, KEGG:map00072, MCW_Libraries:QU4_V876f_2008, Reactome:R-HSA-77108]
 synonym: "ketone body catabolic process" RELATED []
 synonym: "Utilization of Ketone Bodies" RELATED []
 is_a: PW:0000069 ! ketone bodies metabolic pathway
@@ -6164,7 +6164,7 @@ creation_date: 2010-10-15T03:37:08Z
 [Term]
 id: PW:0000811
 name: Piwi-interacting RNA pathway
-def: "Piwi-RNA (piRNAs) are believed to play a role in gene silencing, particularly the silencing of transposons as many" [Cell:new article]
+def: "Piwi-RNA (piRNAs) are believed to play a role in gene silencing, particularly the silencing of transposons as many" [Cell:new_article]
 synonym: "piRNA pathway" RELATED []
 is_a: PW:0000809 ! small non-coding RNA pathway
 created_by: VPetri
@@ -6231,7 +6231,7 @@ creation_date: 2010-10-27T11:45:03Z
 [Term]
 id: PW:0000818
 name: signaling pathway pertinent to immunity
-def: "Those signaling pathways that are involved in or mediate the various aspects of immune responses." [MCW library:Cellular and molecular immunology\, by Abbas\, Abul K]
+def: "Those signaling pathways that are involved in or mediate the various aspects of immune responses." [MCW_library:Cellular_and_molecular_immunology\,_by_Abbas\,_Abul_K]
 is_a: PW:0000003 ! signaling pathway
 created_by: VPetri
 creation_date: 2010-10-27T03:08:21Z
@@ -6253,7 +6253,7 @@ creation_date: 2010-10-27T03:09:29Z
 [Term]
 id: PW:0000821
 name: T cell receptor signaling pathway
-def: "T cell receptor (TCR) signaling in developing thymocytes is important for the establishment of CD4 and CD8 lineages. Mature T cells express either CD4 or CD8 co-receptors which are essential for the interaction with peptide-bound class II or class I MHC complexes to elicit CD4 T helper (Th) or CD8 cytotoxic T lymphocyte responses, respectively. In either case, T cell-initiated signaling activates the expression of genes whose products mediate these responses." [GO:0050852, KEGG:04660, MCW library:Handbook of cellular and molecular immunology, PMID:16448548, PMID:20537906, Reactome:R-HSA-202403]
+def: "T cell receptor (TCR) signaling in developing thymocytes is important for the establishment of CD4 and CD8 lineages. Mature T cells express either CD4 or CD8 co-receptors which are essential for the interaction with peptide-bound class II or class I MHC complexes to elicit CD4 T helper (Th) or CD8 cytotoxic T lymphocyte responses, respectively. In either case, T cell-initiated signaling activates the expression of genes whose products mediate these responses." [GO:0050852, KEGG:04660, MCW_library:Handbook_of_cellular_and_molecular_immunology, PMID:16448548, PMID:20537906, Reactome:R-HSA-202403]
 synonym: "TCR signaling" RELATED []
 synonym: "TCR signaling pathway" RELATED []
 is_a: PW:0000820 ! signaling pathway in the adaptive immune response
@@ -6264,7 +6264,7 @@ creation_date: 2010-10-27T03:28:43Z
 [Term]
 id: PW:0000822
 name: B cell receptor signaling pathway
-def: "Antigen recognition by B cell receptors initiates signaling cascades that activate the expression of genes whose products are important for B cell functional responses." [GO:0050853, KEGG:04662, MCW library:Handbook on cellular and molecular immunology, PMID:19827951, PMID:20591989, Reactome:R-HSA-983705]
+def: "Antigen recognition by B cell receptors initiates signaling cascades that activate the expression of genes whose products are important for B cell functional responses." [GO:0050853, KEGG:04662, MCW_library:Handbook_on_cellular_and_molecular_immunology, PMID:19827951, PMID:20591989, Reactome:R-HSA-983705]
 synonym: "BCR signaling pathway" RELATED []
 synonym: "Signaling by the B Cell Receptor (BCR)" RELATED []
 is_a: PW:0000820 ! signaling pathway in the adaptive immune response
@@ -6275,7 +6275,7 @@ creation_date: 2010-10-27T04:44:51Z
 [Term]
 id: PW:0000823
 name: humoral immunity pathway
-def: "Humoral immunity is mediated by antibodies secreted by the B cell lymphocytes. Antibodies recognize antigens of extracellular microbes and act to neutralize and eliminate them. Activation of B cells can occur in a T cell dependent or independent manner." [MCW library:Textbook on cellular and molecular immunology]
+def: "Humoral immunity is mediated by antibodies secreted by the B cell lymphocytes. Antibodies recognize antigens of extracellular microbes and act to neutralize and eliminate them. Activation of B cells can occur in a T cell dependent or independent manner." [MCW_library:Textbook_on_cellular_and_molecular_immunology]
 is_a: PW:0000235 ! adaptive immune response pathway
 created_by: VPetri
 creation_date: 2010-11-01T01:49:11Z
@@ -6283,7 +6283,7 @@ creation_date: 2010-11-01T01:49:11Z
 [Term]
 id: PW:0000824
 name: cell-mediated immunity pathway
-def: "Cell-mediated immune response pathways are carried out by T cell lymphocytes. T cells receptors recognize peptides bound to a major histocompatibility complex (MHC) on the antigen presenting cell. Depending on whether the co-receptor is CD4 or CD8, the receptors will interact with MHC class II or class I to elicit distinct responses against intracellular pathogens." [MCW library:Handbook of cellular and molecular immunology]
+def: "Cell-mediated immune response pathways are carried out by T cell lymphocytes. T cells receptors recognize peptides bound to a major histocompatibility complex (MHC) on the antigen presenting cell. Depending on whether the co-receptor is CD4 or CD8, the receptors will interact with MHC class II or class I to elicit distinct responses against intracellular pathogens." [MCW_library:Handbook_of_cellular_and_molecular_immunology]
 is_a: PW:0000235 ! adaptive immune response pathway
 created_by: VPetri
 creation_date: 2010-11-01T01:49:42Z
@@ -6291,7 +6291,7 @@ creation_date: 2010-11-01T01:49:42Z
 [Term]
 id: PW:0000825
 name: antigen processing and presentation pathway
-def: "The pathways of antigen processing and presentation assure the generation of peptides that have the structural attributes necessary for the association with and their placement near major histocompatibility complex (MHC) molecules. Protein antigens present in vesicular compartments generate class II peptides, those in cytosol, class I." [GO:0019882, KEGG:04612, MCW library:Handbook on cellular and molecular immunology]
+def: "The pathways of antigen processing and presentation assure the generation of peptides that have the structural attributes necessary for the association with and their placement near major histocompatibility complex (MHC) molecules. Protein antigens present in vesicular compartments generate class II peptides, those in cytosol, class I." [GO:0019882, KEGG:04612, MCW_library:Handbook_on_cellular_and_molecular_immunology]
 synonym: "antigen processing and presentation" RELATED []
 relationship: part_of PW:0000824 ! cell-mediated immunity pathway
 created_by: VPetri
@@ -6300,7 +6300,7 @@ creation_date: 2010-11-01T05:17:15Z
 [Term]
 id: PW:0000826
 name: T cell receptor signaling pathway in CD4+ T cells
-def: "T cells that express the CD4 co-receptor, also called T helper cells, recognize class II MHC presented antigens derived from internalized microbes to initiate a signaling cascade that results in enhanced microbicidal capacity of phagocytes. T helper cells can be further subdivided into subsets of CD4+ T cells based on the distinct cytokines they produce and effector functions they perform." [MCW:Handbook on cellular and molecular immunology]
+def: "T cells that express the CD4 co-receptor, also called T helper cells, recognize class II MHC presented antigens derived from internalized microbes to initiate a signaling cascade that results in enhanced microbicidal capacity of phagocytes. T helper cells can be further subdivided into subsets of CD4+ T cells based on the distinct cytokines they produce and effector functions they perform." [MCW:Handbook_on_cellular_and_molecular_immunology]
 is_a: PW:0000821 ! T cell receptor signaling pathway
 created_by: VPetri
 creation_date: 2010-11-03T10:24:41Z
@@ -6308,7 +6308,7 @@ creation_date: 2010-11-03T10:24:41Z
 [Term]
 id: PW:0000827
 name: T cell receptor signaling pathway in CD8+ T cells
-def: "T cells that express the CD8 co-receptor, also called cytotoxic or cytolytic T cells, recognize class I MHC presented antigens derived from cytosolic proteins to initiate a signaling cascade that results in killing of the target cell." [MCW:Handbook on cellular and molecular immunology]
+def: "T cells that express the CD8 co-receptor, also called cytotoxic or cytolytic T cells, recognize class I MHC presented antigens derived from cytosolic proteins to initiate a signaling cascade that results in killing of the target cell." [MCW:Handbook_on_cellular_and_molecular_immunology]
 is_a: PW:0000821 ! T cell receptor signaling pathway
 created_by: VPetri
 creation_date: 2010-11-03T10:44:22Z
@@ -6316,7 +6316,7 @@ creation_date: 2010-11-03T10:44:22Z
 [Term]
 id: PW:0000828
 name: cytokine mediated signaling pathway
-def: "Cytokine-initiated signaling pathways play important roles in innate and adaptive immunity, as well as cell proliferation and apoptosis." [GO:0019221, KEGG:04060, MCW library:Handbook on molecular and cellular immunology, Reactome:R-HSA-1280215]
+def: "Cytokine-initiated signaling pathways play important roles in innate and adaptive immunity, as well as cell proliferation and apoptosis." [GO:0019221, KEGG:04060, MCW_library:Handbook_on_molecular_and_cellular_immunology, Reactome:R-HSA-1280215]
 synonym: "cytokine-mediated signaling pathway" RELATED []
 synonym: "Cytokine Signaling in Immune system" RELATED []
 is_a: PW:0000577 ! cytokine and chemokine mediated signaling pathway
@@ -6327,7 +6327,7 @@ creation_date: 2010-11-03T03:48:57Z
 [Term]
 id: PW:0000829
 name: chemokine mediated signaling pathway
-def: "Chemokine-initiated pathways play important roles in innate and adaptive immunity. They are also involved in development and tissue maintenance. The presence and localization of four cysteines is important for structural folding and is also the basis for chemokine classification. The spacing between the first two cysteine residues divides the family members into four groups. Most mammalian chemokines belong to the CC and CXC families. Chemokines signal via G-protein-coupled receptors to engage distinct G-protein signaling and downstream cascades." [GO:0070098, KEGG:04062, MCW library:Handbook on molecular and cellular immunology, PMID:15062643, Reactome:R-HSA-380108]
+def: "Chemokine-initiated pathways play important roles in innate and adaptive immunity. They are also involved in development and tissue maintenance. The presence and localization of four cysteines is important for structural folding and is also the basis for chemokine classification. The spacing between the first two cysteine residues divides the family members into four groups. Most mammalian chemokines belong to the CC and CXC families. Chemokines signal via G-protein-coupled receptors to engage distinct G-protein signaling and downstream cascades." [GO:0070098, KEGG:04062, MCW_library:Handbook_on_molecular_and_cellular_immunology, PMID:15062643, Reactome:R-HSA-380108]
 synonym: "chemokine-mediated signaling pathway" RELATED []
 synonym: "Chemokine receptors bind chemokines" RELATED []
 is_a: PW:0000577 ! cytokine and chemokine mediated signaling pathway
@@ -6338,7 +6338,7 @@ creation_date: 2010-11-03T04:27:00Z
 [Term]
 id: PW:0000830
 name: CXC chemokine mediated signaling pathway
-def: "The CXC family members are characterized by the presence of two cysteine resides separated by one amino acid. CXC and CC are the two most prominent families. This family of chemokines is also subdivided into two subgroups: the one with the ELR motif - ELR (+) and the one without - ELR(-), respectively. Generally, ELR(+) and ELR(-) members bind to distinct chemokine, G-coupled protein, receptors. The effects of their signaling is for the most part angiogenic or angiostatic, respectively." [MCW:Handbook on cellular and molecular immunology, PMID:15062643, PMID:18579287]
+def: "The CXC family members are characterized by the presence of two cysteine resides separated by one amino acid. CXC and CC are the two most prominent families. This family of chemokines is also subdivided into two subgroups: the one with the ELR motif - ELR (+) and the one without - ELR(-), respectively. Generally, ELR(+) and ELR(-) members bind to distinct chemokine, G-coupled protein, receptors. The effects of their signaling is for the most part angiogenic or angiostatic, respectively." [MCW:Handbook_on_cellular_and_molecular_immunology, PMID:15062643, PMID:18579287]
 is_a: PW:0000829 ! chemokine mediated signaling pathway
 created_by: VPetri
 creation_date: 2010-11-04T11:30:26Z
@@ -6346,7 +6346,7 @@ creation_date: 2010-11-04T11:30:26Z
 [Term]
 id: PW:0000831
 name: CC chemokine mediated signaling pathway
-def: "The CC family members are characterized by the presence of two adjacent cysteine residues. The CC and the CXC family are the two most prominent families. Chemokines signal via G-protein coupled receptors to engage distinct G protein signaling and downstream cascades." [MCW:Handbook on cellular and molecular biology]
+def: "The CC family members are characterized by the presence of two adjacent cysteine residues. The CC and the CXC family are the two most prominent families. Chemokines signal via G-protein coupled receptors to engage distinct G protein signaling and downstream cascades." [MCW:Handbook_on_cellular_and_molecular_biology]
 is_a: PW:0000829 ! chemokine mediated signaling pathway
 created_by: VPetri
 creation_date: 2010-11-04T11:30:33Z
@@ -6354,7 +6354,7 @@ creation_date: 2010-11-04T11:30:33Z
 [Term]
 id: PW:0000832
 name: C chemokine mediated signaling pathway
-def: "The C family of chemokine is small and its members have two rather than four cysteines residues. Chemokines signal via G-protein coupled receptors to engage distinct G protein signaling and downstream cascades." [MCW:Handbook on cellular and molecular immunology, PMID:15062643]
+def: "The C family of chemokine is small and its members have two rather than four cysteines residues. Chemokines signal via G-protein coupled receptors to engage distinct G protein signaling and downstream cascades." [MCW:Handbook_on_cellular_and_molecular_immunology, PMID:15062643]
 is_a: PW:0000829 ! chemokine mediated signaling pathway
 created_by: VPetri
 creation_date: 2010-11-04T11:32:38Z
@@ -6362,7 +6362,7 @@ creation_date: 2010-11-04T11:32:38Z
 [Term]
 id: PW:0000833
 name: CX3C chemokine mediated signaling pathway
-def: "The CX3X family of chemokine is small and characterized by the presence of three residues separating the first two cysteines. Currently, only one member is known in mammals. Chemokines signal via G-protein coupled receptors to engage distinct G protein signaling and downstream cascades." [MCW:Handbook on cellular and molecular immunology, PMID:15062643]
+def: "The CX3X family of chemokine is small and characterized by the presence of three residues separating the first two cysteines. Currently, only one member is known in mammals. Chemokines signal via G-protein coupled receptors to engage distinct G protein signaling and downstream cascades." [MCW:Handbook_on_cellular_and_molecular_immunology, PMID:15062643]
 is_a: PW:0000829 ! chemokine mediated signaling pathway
 created_by: VPetri
 creation_date: 2010-11-12T05:03:05Z
@@ -6660,7 +6660,7 @@ creation_date: 2011-06-06T04:49:00Z
 [Term]
 id: PW:0000866
 name: purine degradation pathway
-def: "Those enzymatic reactions involved in the degradation pathway of purines. Several enzymes are involved in the breakdown of adenine and guanine to uric acid. Primates, birds and other animal excrete uric acid. In other species uric acid is further metabolized to allantoin." [GO:0006145, OneLook:www.onelook.com, Reactome:R-HSA-74259, RGD library:Lehringer Principles of Biochemistry]
+def: "Those enzymatic reactions involved in the degradation pathway of purines. Several enzymes are involved in the breakdown of adenine and guanine to uric acid. Primates, birds and other animal excrete uric acid. In other species uric acid is further metabolized to allantoin." [GO:0006145, OneLook:www.onelook.com, Reactome:R-HSA-74259, RGD_library:Lehringer_Principles_of_Biochemistry]
 synonym: "Purine catabolism" RELATED []
 synonym: "purine nucleobase catabolic process" RELATED []
 is_a: PW:0000031 ! purine metabolic pathway
@@ -6971,7 +6971,7 @@ creation_date: 2011-12-06T02:41:48Z
 [Term]
 id: PW:0000901
 name: altered interleukin mediated signaling pathway
-def: "An interleukin mediated signaling pathway that deviates from what its normal course should be. Aberrant interleukin signaling pathway, alone or in combination with other pathways underlie various diseases." [InHouse:PW dictionary]
+def: "An interleukin mediated signaling pathway that deviates from what its normal course should be. Aberrant interleukin signaling pathway, alone or in combination with other pathways underlie various diseases." [InHouse:PW_dictionary]
 is_a: PW:0000512 ! Interleukin mediated signaling pathway
 is_a: PW:0000617 ! altered cytokine mediated signaling pathway
 created_by: VPetri
@@ -7198,7 +7198,7 @@ creation_date: 2012-04-05T03:45:08Z
 [Term]
 id: PW:0000925
 name: pattern recognition receptor mediated signaling pathway
-def: "Pattern recognition receptors (PRR) respond to a diverse array of exogenous molecules and also several endogenous ones. PRR's 'sensing' of pathogen-associated molecular patterns (PAMP) or damage-associated (DAMP) prompts signaling cascades leading to the expression of pro-inflammatory genes." [MCW library:Cellular and molecular immunology\, by Abbas\, Abul K, PMID:20303867, PMID:20303872]
+def: "Pattern recognition receptors (PRR) respond to a diverse array of exogenous molecules and also several endogenous ones. PRR's 'sensing' of pathogen-associated molecular patterns (PAMP) or damage-associated (DAMP) prompts signaling cascades leading to the expression of pro-inflammatory genes." [MCW_library:Cellular_and_molecular_immunology\,_by_Abbas\,_Abul_K, PMID:20303867, PMID:20303872]
 is_a: PW:0000024 ! inflammatory response pathway
 is_a: PW:0000819 ! signaling pathway in the innate immune response
 created_by: VPetri
@@ -7207,7 +7207,7 @@ creation_date: 2012-04-24T11:34:22Z
 [Term]
 id: PW:0000926
 name: pro-inflammatory cytokine mediated pathway
-def: "An early response of the innate immunity is the secretion of cytokines critical for the acute inflammatory response. The major pro-inflammatory cytokines are tumor necrosis factor alpha and the interleukins 1 and 6." [MCW library:Cellular and molecular immunology\, by Abbas\, Abul K, PMID:20303867]
+def: "An early response of the innate immunity is the secretion of cytokines critical for the acute inflammatory response. The major pro-inflammatory cytokines are tumor necrosis factor alpha and the interleukins 1 and 6." [MCW_library:Cellular_and_molecular_immunology\,_by_Abbas\,_Abul_K, PMID:20303867]
 is_a: PW:0000024 ! inflammatory response pathway
 created_by: VPetri
 creation_date: 2012-04-24T11:43:45Z
@@ -8620,7 +8620,7 @@ creation_date: 2012-07-31T09:43:57Z
 [Term]
 id: PW:0001074
 name: hydrophobic amino acid metabolic pathway
-def: "Those metabolic reactions involving hydrophobic, uncharged amino acids. Hydrophobic amino acids include alanine, valine, isoleucine, leucine and methionine with hydrocarbon side chains and the phenylalanine, tyrosine and tryptophan with bulky, aromatic side chains." [MCE library:Handbooks of biochemistry]
+def: "Those metabolic reactions involving hydrophobic, uncharged amino acids. Hydrophobic amino acids include alanine, valine, isoleucine, leucine and methionine with hydrocarbon side chains and the phenylalanine, tyrosine and tryptophan with bulky, aromatic side chains." [MCE_library:Handbooks_of_biochemistry]
 is_a: PW:0000011 ! amino acid metabolic pathway
 created_by: VPetri
 creation_date: 2012-07-31T10:30:19Z
@@ -8628,7 +8628,7 @@ creation_date: 2012-07-31T10:30:19Z
 [Term]
 id: PW:0001075
 name: hydrophilic amino acid metabolic pathway
-def: "Those metabolic reactions involving hydrophilic, polar amino acids. The hydrophilic amino acids include the negatively charged (acidic) aspartic acid and glutamic acid whose salts are glutamate and aspartate, respectively, the positively charged (basic) lysine and arginine and the uncharged polar asparagine, cysteine, glutamine, serine and threonine. Histidine, whose side chain contains an imidazole can shift from positively charged to neutral." [MCW library:Handbooks of biochemistry]
+def: "Those metabolic reactions involving hydrophilic, polar amino acids. The hydrophilic amino acids include the negatively charged (acidic) aspartic acid and glutamic acid whose salts are glutamate and aspartate, respectively, the positively charged (basic) lysine and arginine and the uncharged polar asparagine, cysteine, glutamine, serine and threonine. Histidine, whose side chain contains an imidazole can shift from positively charged to neutral." [MCW_library:Handbooks_of_biochemistry]
 is_a: PW:0000011 ! amino acid metabolic pathway
 created_by: VPetri
 creation_date: 2012-07-31T10:39:29Z
@@ -8636,7 +8636,7 @@ creation_date: 2012-07-31T10:39:29Z
 [Term]
 id: PW:0001076
 name: special amino acid metabolic pathway
-def: "Those metabolic reactions involving special amino acids. The special amino acids include cysteine whose side chain contains a sulfhydryl group, glycine whose side chain is a hydrogen atom and proline whose side chain bends to form a ring and hose rigidity limits the folding abilities of proteins around proline residues." [MCW library:Nahdbooks of biochemistry]
+def: "Those metabolic reactions involving special amino acids. The special amino acids include cysteine whose side chain contains a sulfhydryl group, glycine whose side chain is a hydrogen atom and proline whose side chain bends to form a ring and hose rigidity limits the folding abilities of proteins around proline residues." [MCW_library:Nahdbooks_of_biochemistry]
 is_obsolete: true
 created_by: VPetri
 creation_date: 2012-07-31T10:47:08Z
@@ -9881,7 +9881,7 @@ creation_date: 2013-04-05T09:38:36Z
 [Term]
 id: PW:0001218
 name: pralatrexate pharmacodynamics pathway
-def: "The pathway of pralatrexed-target interactions and of the biochemical or physiological responses to drug. The drug is an antifolate that targets dihydrofolate reductase (DHFR) and is used in the treatment of some cancers. Genetic variations can cause differences in the response of the organism to the drug." [NCI; wikipedia:www.cancer.gov]
+def: "The pathway of pralatrexed-target interactions and of the biochemical or physiological responses to drug. The drug is an antifolate that targets dihydrofolate reductase (DHFR) and is used in the treatment of some cancers. Genetic variations can cause differences in the response of the organism to the drug." [NCI;_wikipedia:www.cancer.gov]
 synonym: "Folotyn pharmacodynamics pathway" RELATED []
 is_a: PW:0001216 ! pralatrexate drug pathway
 created_by: VPetri
@@ -10796,7 +10796,7 @@ creation_date: 2013-05-21T13:48:54Z
 [Term]
 id: PW:0001317
 name: cell cycle pathway
-def: "The series of events, collectively known as the cell cycle, that underlie the replication of the genome and the segregation of chromosomes into daughter cells. The mitotic cell cycle pathway underlies the generation of new cells. The meiotic cell cycle pathway is a special type of cell division that takes place in germ cells." [GO:0007049, Handbook:Essential Cell Biology, Reactome:R-HSA-1640170]
+def: "The series of events, collectively known as the cell cycle, that underlie the replication of the genome and the segregation of chromosomes into daughter cells. The mitotic cell cycle pathway underlies the generation of new cells. The meiotic cell cycle pathway is a special type of cell division that takes place in germ cells." [GO:0007049, Handbook:Essential_Cell_Biology, Reactome:R-HSA-1640170]
 synonym: "Cell Cycle" RELATED []
 is_a: PW:0000085 ! pathway pertinent to DNA replication and repair, cell cycle, maintenance of genomic integrity, RNA and protein biosynthesis
 created_by: VPetri
@@ -10805,7 +10805,7 @@ creation_date: 2013-05-22T09:56:40Z
 [Term]
 id: PW:0001318
 name: cell cycle pathway, meiotic
-def: "The series of events that take place in the germ cells resulting in the production of four non-identical haploid cells from each diploid cell that enters the cycle. Meiosis involves chromosomal pairing and exchange of DNA segments or recombination." [GO:1903046, Handbook:Essential cell Biology, Reactome:R-HSA-1500620]
+def: "The series of events that take place in the germ cells resulting in the production of four non-identical haploid cells from each diploid cell that enters the cycle. Meiosis involves chromosomal pairing and exchange of DNA segments or recombination." [GO:1903046, Handbook:Essential_cell_Biology, Reactome:R-HSA-1500620]
 synonym: "Meiosis" RELATED []
 synonym: "meiotic cell cycle process" RELATED []
 is_a: PW:0001317 ! cell cycle pathway
@@ -11660,7 +11660,7 @@ creation_date: 2013-07-01T10:08:33Z
 [Term]
 id: PW:0001414
 name: brain disease pathway
-def: "The congenital and acquired diseases affecting the brain, including but not limited to the cerebral cortex, basal ganglia, thalamus and hypothalamus, brain stem, cerebellum." [MeSH:MeSH descriptor]
+def: "The congenital and acquired diseases affecting the brain, including but not limited to the cerebral cortex, basal ganglia, thalamus and hypothalamus, brain stem, cerebellum." [MeSH:MeSH_descriptor]
 is_a: PW:0001412 ! nervous system disease pathway
 created_by: VPetri
 creation_date: 2013-07-01T10:10:37Z
@@ -12215,7 +12215,7 @@ creation_date: 2013-10-31T10:12:50Z
 [Term]
 id: PW:0001476
 name: congenital disease pathway
-def: "Those diseases present at birth and also before birth, or those that develop during the first month of life. Alteration(s) in one or several pathways can contribute to the development of the condition usually manifested in structural deformities." [MeSH:Medical Subject Headings]
+def: "Those diseases present at birth and also before birth, or those that develop during the first month of life. Alteration(s) in one or several pathways can contribute to the development of the condition usually manifested in structural deformities." [MeSH:Medical_Subject_Headings]
 synonym: "congenital disorder pathway" RELATED []
 is_a: PW:0000013 ! disease pathway
 created_by: VPetri
