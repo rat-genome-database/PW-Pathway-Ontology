@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.79
-date: 30:05:2023 10:52
+data-version: 7.80
+date: 29:07:2023 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: pathway
@@ -3208,7 +3208,7 @@ is_a: PW:0001074 ! hydrophobic amino acid metabolic pathway
 id: PW:0000439
 name: aspartic acid/aspartate metabolic pathway
 def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of aspartic acid/aspartate. Aspartic acid is a non-essential amino acid with roles in glucose, protein and nucleotide metabolism. In the brain, it can act as a neurotransmitter." [OneLook:www.onelook.com]
-synonym: "<new synonym>SMP:00067" RELATED []
+synonym: "SMP:00067" RELATED []
 is_a: PW:0000445 ! excitatory neurotransmitter metabolic pathway
 is_a: PW:0001075 ! hydrophilic amino acid metabolic pathway
 
@@ -8620,7 +8620,7 @@ creation_date: 2012-07-31T09:43:57Z
 [Term]
 id: PW:0001074
 name: hydrophobic amino acid metabolic pathway
-def: "Those metabolic reactions involving hydrophobic, uncharged amino acids. Hydrophobic amino acids include alanine, valine, isoleucine, leucine and methionine with hydrocarbon side chains and the phenylalanine, tyrosine and tryptophan with bulky, aromatic side chains." [MCE_library:Handbooks_of_biochemistry]
+def: "Those metabolic reactions involving hydrophobic, uncharged amino acids. Hydrophobic amino acids include alanine, valine, isoleucine, leucine and methionine with hydrocarbon side chains and the phenylalanine, tyrosine and tryptophan with bulky, aromatic side chains." [MCW_library:Handbooks_of_biochemistry]
 is_a: PW:0000011 ! amino acid metabolic pathway
 created_by: VPetri
 creation_date: 2012-07-31T10:30:19Z
@@ -8636,7 +8636,7 @@ creation_date: 2012-07-31T10:39:29Z
 [Term]
 id: PW:0001076
 name: special amino acid metabolic pathway
-def: "Those metabolic reactions involving special amino acids. The special amino acids include cysteine whose side chain contains a sulfhydryl group, glycine whose side chain is a hydrogen atom and proline whose side chain bends to form a ring and hose rigidity limits the folding abilities of proteins around proline residues." [MCW_library:Nahdbooks_of_biochemistry]
+def: "Those metabolic reactions involving special amino acids. The special amino acids include cysteine whose side chain contains a sulfhydryl group, glycine whose side chain is a hydrogen atom and proline whose side chain bends to form a ring and hose rigidity limits the folding abilities of proteins around proline residues." [MCW_library:Handbooks_of_biochemistry]
 is_obsolete: true
 created_by: VPetri
 creation_date: 2012-07-31T10:47:08Z
