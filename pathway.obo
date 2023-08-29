@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.80
-date: 29:07:2023 20:13
+data-version: 7.81
+date: 26:08:2023 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: pathway
@@ -208,7 +208,7 @@ id: PW:0000025
 name: glycolysis/gluconeogenesis pathway
 def: "Those metabolic reactions involved in the energy-yielding conversion of glucose to pyruvate or in the formation of glucose from non-carbohydrate precursors such as pyruvate, lactate, citric acid cycle intermediates, the carbon skeleton of many amino acids. While many enzymes are shared by the two pathways, a few steps are carried out by pathway-specific enzymes. The two pathways are independently regulated." [KEGG:map00010]
 synonym: "KEGG:00010" RELATED []
-is_a: PW:0000005 ! carbohydrate metabolic pathway
+is_a: PW:0002655 ! glucose metabolic pathway
 
 [Term]
 id: PW:0000026
@@ -355,7 +355,7 @@ def: "Those metabolic reactions involved in the generation of reducing equivalen
 synonym: "hexose monophosphate pathway (shunt)" RELATED []
 synonym: "pentose phosphate shunt" RELATED []
 synonym: "phosphogluconate pathway" RELATED []
-is_a: PW:0000005 ! carbohydrate metabolic pathway
+is_a: PW:0002655 ! glucose metabolic pathway
 
 [Term]
 id: PW:0000046
@@ -4058,6 +4058,7 @@ relationship: part_of PW:0000553 ! glucose homeostasis pathway
 id: PW:0000555
 name: glucose utilization pathway
 def: "The various pathways thereby glucose is oxidized to produce energy, is converted to other molecules or is stored for further use." [PMID:15466941]
+is_a: PW:0002655 ! glucose metabolic pathway
 relationship: part_of PW:0000553 ! glucose homeostasis pathway
 
 [Term]
@@ -5013,6 +5014,7 @@ id: PW:0000685
 name: glucose biosynthesis pathway
 def: "The metabolic pathways for generating glucose to meet the body's glucose needs. Gluconeogenesis in the liver and to some extent in kidney is the major pathway of glucose production; glycogenolysis is another route for generating glucose in these tissues." [GO:0006094, MCW_Libraries:ISBN-13_978-0470-12930-2, Reactome:R-HSA-70263]
 synonym: "Gluconeogenesis" RELATED []
+is_a: PW:0002655 ! glucose metabolic pathway
 relationship: part_of PW:0000553 ! glucose homeostasis pathway
 created_by: VPetri
 creation_date: 2009-08-05T08:54:36Z
@@ -7912,8 +7914,8 @@ def: "Those metabolic reactions involving the fat-soluble vitamin A and its meta
 synonym: "retinoid metabolic process" RELATED []
 synonym: "Retinoid metabolism and transport" RELATED []
 synonym: "vitamin A metabolic pathway" RELATED []
-is_a: PW:0000135 ! metabolic pathway of cofactors, vitamins, nutrients
 is_a: PW:0000406 ! metabolic pathway pertinent to the brain
+is_a: PW:0002665 ! fat-soluble vitamin metabolic pathway
 relationship: part_of PW:0001007 ! vitamin A homeostasis
 created_by: VPetri
 creation_date: 2012-06-04T10:52:32Z
@@ -7991,7 +7993,7 @@ name: vitamin D metabolic pathway
 def: "Those metabolic reactions involving vitamin D - a fat-soluble vitamin. Vitamin D represents a group of fat-soluble compounds that can be synthesized from cholesterol and exposure to sunlight. In view of the latter source, it is not considered a true vitamin. One of its metabolites, calcitriol, acts in a hormone-like manner as a signaling molecule." [GO:0042359, https://en.wikipedia.org/wiki/Vitamin_D "wikipedia", Reactome:R-HSA-196791]
 synonym: "Vitamin D (calciferol) metabolism" RELATED []
 synonym: "vitamin D metabolic process" RELATED []
-is_a: PW:0000135 ! metabolic pathway of cofactors, vitamins, nutrients
+is_a: PW:0002665 ! fat-soluble vitamin metabolic pathway
 created_by: VPetri
 creation_date: 2012-06-05T12:01:10Z
 
@@ -8033,7 +8035,7 @@ name: vitamin E metabolic pathway
 def: "Those metabolic reactions involving vitamin E - a fat-soluble vitamin which represents a class of chemical compounds known as tocopherols. The alpha- and gamma-tocopherols appear to be the main dietary forms. Vitamin E is best known for its antioxidant properties." [GO:0042360, PMID:15256801]
 synonym: "tocopherol metabolic pathway" RELATED []
 synonym: "vitamin E metabolic process" RELATED []
-is_a: PW:0000135 ! metabolic pathway of cofactors, vitamins, nutrients
+is_a: PW:0002665 ! fat-soluble vitamin metabolic pathway
 created_by: VPetri
 creation_date: 2012-06-11T01:34:39Z
 
@@ -8043,7 +8045,7 @@ name: vitamin K metabolic pathway
 def: "Those metabolic reactions involving vitamin K - a fat-soluble vitamin which represents a group of related compounds. The K1 form is found in plants; other forms are synthesized by bacteria, including species present in the microflora of the human gut. Vitamin K is an essential cofactor in the modification reaction of vitamin K-dependent proteins." [GO:0042373, PMID:24489112, Reactome:R-HSA-6806664, SMP:00464]
 synonym: "Metabolism of vitamin K" RELATED []
 synonym: "vitamin K metabolic process" RELATED []
-is_a: PW:0000135 ! metabolic pathway of cofactors, vitamins, nutrients
+is_a: PW:0002665 ! fat-soluble vitamin metabolic pathway
 created_by: VPetri
 creation_date: 2012-06-11T01:46:25Z
 
@@ -22786,6 +22788,155 @@ is_a: PW:0000037 ! sulfur metabolic pathway
 is_a: PW:0000132 ! metabolic pathway of other amino acids
 created_by: gthayman
 creation_date: 2023-03-27T14:29:14Z
+
+[Term]
+id: PW:0002654
+name: ethanol oxidation pathway
+def: "Those metabolic reactions involved in oxidizing ethanol to acetaldehyde, which is oxidized to acetate. This is then condensed with coenzyme A to form acetyl-CoA." [GO:0006069, Reactome:R-HSA-71384]
+synonym: "Ethanol oxidation" RELATED []
+is_a: PW:0000005 ! carbohydrate metabolic pathway
+created_by: gthayman
+creation_date: 2023-08-23T15:47:32Z
+
+[Term]
+id: PW:0002655
+name: glucose metabolic pathway
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of glucose, also known as dextrose. It is an important source of energy for living organisms and is found free as well as combined in homo- and hetero-oligosaccharides and polysaccharides." [GO:0006006, Reactome:R-HSA-70326]
+synonym: "glucose metabolic process" RELATED []
+synonym: "Glucose metabolism" RELATED []
+is_a: PW:0000005 ! carbohydrate metabolic pathway
+created_by: gthayman
+creation_date: 2023-08-23T17:00:34Z
+
+[Term]
+id: PW:0002656
+name: DNA biosynthetic pathway
+def: "Those reactions involved in the biosynthesis of DNA." [GO:0071897, Reactome:R-HSA-69239]
+synonym: "DNA biosynthetic process" RELATED []
+synonym: "Synthesis of DNA" RELATED []
+is_a: PW:0000085 ! pathway pertinent to DNA replication and repair, cell cycle, maintenance of genomic integrity, RNA and protein biosynthesis
+is_a: PW:0000875 ! deoxyribonucleotide metabolic pathway
+created_by: gthayman
+creation_date: 2023-08-24T15:46:08Z
+
+[Term]
+id: PW:0002657
+name: fructose degradation pathway
+def: "Those metabolic reactions involved in the degradation of fructose." [GO:0006001, Reactome:R-HSA-70350]
+synonym: "fructose catabolic process" RELATED []
+synonym: "Fructose catabolism" RELATED []
+is_a: PW:0002666 ! fructose metabolic pathway
+created_by: gthayman
+creation_date: 2023-08-24T16:18:10Z
+
+[Term]
+id: PW:0002658
+name: galactose degradation pathway
+def: "Those metabolic reactions involved in the degradation of galactose." [GO:0019388, Reactome:R-HSA-70370]
+synonym: "galactose catabolic process " RELATED []
+synonym: "Galactose catabolism" RELATED []
+is_a: PW:0000042 ! galactose metabolic pathway
+created_by: gthayman
+creation_date: 2023-08-24T16:23:52Z
+
+[Term]
+id: PW:0002659
+name: proline degradation pathway
+def: "Those metabolic reactions involved in the degradation of proline." [GO:0006562, Reactome:R-HSA-70688]
+synonym: "proline catabolic process" RELATED []
+synonym: "Proline catabolism" RELATED []
+is_a: PW:0001079 ! proline metabolic pathway
+is_a: PW:0001258 ! hydrophobic amino acid degradation pathway
+created_by: gthayman
+creation_date: 2023-08-24T16:33:51Z
+
+[Term]
+id: PW:0002660
+name: DNA strand elongation pathway
+def: "Those reactions involved in extending an existing DNA strand by activities including the addition of nucleotides to the 3' end of the strand." [GO:0022616, Reactome:R-HSA-69190]
+synonym: "DNA strand elongation" RELATED []
+is_a: PW:0000098 ! DNA replication pathway
+created_by: gthayman
+creation_date: 2023-08-24T16:43:23Z
+
+[Term]
+id: PW:0002661
+name: DNA replication initiation pathway
+def: "The pathway in which DNA-dependent DNA replication is started; it begins when specific sequences, known as origins of replication, are recognized and bound by the origin recognition complex, followed by DNA unwinding." [GO:0006270, Reactome:R-HSA-68952]
+synonym: "DNA replication initiation" RELATED []
+is_a: PW:0000098 ! DNA replication pathway
+created_by: gthayman
+creation_date: 2023-08-24T16:57:50Z
+
+[Term]
+id: PW:0002662
+name: glycerophospholipid degradation pathway
+def: "Those metabolic reactions involved in the degradation of glycerophospholipids." [GO:0046475, Reactome:R-HSA-6814848]
+synonym: "glycerophospholipid catabolic process" RELATED []
+synonym: "Glycerophospholipid catabolism" RELATED []
+is_a: PW:0000354 ! glycerophospholipid metabolic pathway
+created_by: gthayman
+creation_date: 2023-08-24T17:09:55Z
+
+[Term]
+id: PW:0002663
+name: choline degradation pathway
+def: "Those metabolic reactions involved in the degradation of choline." [GO:0042426, Reactome:R-HSA-6798163]
+synonym: "choline catabolic process" RELATED []
+synonym: "Choline catabolism" RELATED []
+is_a: PW:0000212 ! choline metabolic pathway
+created_by: gthayman
+creation_date: 2023-08-24T17:15:50Z
+
+[Term]
+id: PW:0002664
+name: deubiquitination pathway
+def: "A pathway of protein modification via removal of conjugated ubiquitin." [GO:0016579, Reactome:R-HSA-5688426]
+synonym: "Deubiquitination" RELATED []
+synonym: "protein deubiquitination" RELATED []
+is_a: PW:0000433 ! protein modification pathway via conjugation with ubiquitin and ubiqutin-like molecules
+created_by: gthayman
+creation_date: 2023-08-24T17:25:28Z
+
+[Term]
+id: PW:0002665
+name: fat-soluble vitamin metabolic pathway
+def: "Those metabolic reactions involving the fat-soluble vitamins. These include vitamins A, D, E and K." [GO:0006775, Reactome:R-HSA-6806667]
+synonym: "fat-soluble vitamin metabolic process" RELATED []
+synonym: "Metabolism of fat-soluble vitamins" RELATED []
+is_a: PW:0000135 ! metabolic pathway of cofactors, vitamins, nutrients
+created_by: gthayman
+creation_date: 2023-08-25T16:38:34Z
+
+[Term]
+id: PW:0002666
+name: fructose metabolic pathway
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of fructose." [GO:0006000, Reactome:R-HSA-5652084]
+synonym: "fructose metabolic process " RELATED []
+synonym: "Fructose metabolism" RELATED []
+is_a: PW:0000041 ! fructose and mannose metabolic pathway
+created_by: gthayman
+creation_date: 2023-08-25T16:54:51Z
+
+[Term]
+id: PW:0002667
+name: fructose biosynthetic pathway
+def: "Those metabolic reactions involved in the biosynthesis of fructose." [GO:0046370, Reactome:R-HSA-5652227]
+synonym: "Fructose biosynthesis" RELATED []
+synonym: "fructose biosynthetic process " RELATED []
+is_a: PW:0002666 ! fructose metabolic pathway
+created_by: gthayman
+creation_date: 2023-08-25T17:01:45Z
+
+[Term]
+id: PW:0002668
+name: retinoic acid biosynthetic pathway
+def: "The reactions involved in the biosynthesis of retinoic acid (RA)." [GO:0002138, Reactome:R-HSA-5365859]
+synonym: "RA biosynthesis pathway" RELATED []
+synonym: "retinoic acid biosynthetic pathway" RELATED []
+is_a: PW:0001004 ! retinoic acid metabolic pathway
+created_by: gthayman
+creation_date: 2023-08-25T17:12:14Z
 
 [Typedef]
 id: part_of
