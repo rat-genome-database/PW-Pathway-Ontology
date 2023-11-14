@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.81
-date: 26:08:2023 20:13
+data-version: 7.82
+date: 11:11:2023 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: pathway
@@ -22937,6 +22937,45 @@ synonym: "retinoic acid biosynthetic pathway" RELATED []
 is_a: PW:0001004 ! retinoic acid metabolic pathway
 created_by: gthayman
 creation_date: 2023-08-25T17:12:14Z
+
+[Term]
+id: PW:0002669
+name: selenocysteine biosynthetic pathway
+synonym: "selenocysteine biosynthetic process" RELATED []
+synonym: "Selenocysteine synthesis" RELATED []
+is_a: PW:0000133 ! selenoamino acid metabolic pathway
+created_by: gthayman
+creation_date: 2023-11-09T13:44:19Z
+
+[Term]
+id: PW:0002670
+name: hyaluronan metabolic pathway
+def: "The chemical reactions and pathways involving hyaluronan, the naturally occurring anionic form of hyaluronic acid, which is not sulfated and is not found covalently attached to proteins as a proteoglycan. This includes any member of a group of glycosaminoglycans, the repeat units of which consist of beta-1,4 linked D-glucuronyl-beta-(1,3)-N-acetyl-D-glucosamine." [GO:0030212, Reactome:R-HSA-2142845]
+synonym: "hyaluronan metabolic process" RELATED []
+synonym: "Hyaluronan metabolism" RELATED []
+is_a: PW:0000157 ! glycosaminoglycan metabolic pathway
+created_by: gthayman
+creation_date: 2023-11-09T14:26:03Z
+
+[Term]
+id: PW:0002671
+name: oncogene-induced cell senescence pathway
+def: "A cellular senescence pathway associated with the dismantling of a cell as a response to oncogenic stress, such as the activation of the Ras oncogenic family, which can be caused by oncogenic mutations in RAS or RAF proteins, or by oncogenic mutations in growth factor receptors, such as EGFR, that act upstream of RAS/RAF/MAPK cascade." [GO:0090402, Reactome:R-HSA-2559585]
+synonym: "oncogene-induced cell senescence" RELATED []
+synonym: "Oncogene Induced Senescence" RELATED []
+is_a: PW:0000277 ! cellular senescence pathway
+created_by: gthayman
+creation_date: 2023-11-09T15:23:41Z
+
+[Term]
+id: PW:0002672
+name: cellular response to heat stress pathway
+def: "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a heat stimulus, a temperature stimulus above the optimal temperature for that organism. In response to exposure to elevated temperature, cells activate a number of cytoprotective mechanisms known collectively as the \"heat shock response\"." [GO:0034605, Reactome:R-HSA-3371556]
+synonym: "Cellular response to heat stress" RELATED []
+synonym: "cellular response to heat�" RELATED []
+is_a: PW:0000237 ! stress response pathway
+created_by: gthayman
+creation_date: 2023-11-09T15:40:27Z
 
 [Typedef]
 id: part_of
