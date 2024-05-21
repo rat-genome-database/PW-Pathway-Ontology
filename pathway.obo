@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.82
-date: 11:11:2023 20:13
+data-version: 7.83
+date: 18:05:2024 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: pathway
@@ -16770,11 +16770,11 @@ creation_date: 2015-09-25T10:49:47Z
 [Term]
 id: PW:0001979
 name: homocarnosinosis pathway
-alt_id: OMIM:236130
 def: "The pathway involved in a progressive neurologic disorder resulting from a deficiency of homocarnosinase." [OMIM:212200]
 synonym: "HOMOCARNOSINASE DEFICIENCY PATHWAY" EXACT []
 synonym: "homocarnosinosis disease pathway" EXACT []
 synonym: "SMP:00385" RELATED []
+xref: OMIM:236130
 is_a: PW:0001645 ! inborn error of amino acid metabolism pathway
 is_a: PW:0001646 ! inborn error of brain metabolic pathway
 created_by: VPetri
