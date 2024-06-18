@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.84
-date: 08:06:2024 20:13
+data-version: 7.83
+date: 18:05:2024 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: pathway
@@ -22971,126 +22971,11 @@ creation_date: 2023-11-09T15:23:41Z
 id: PW:0002672
 name: cellular response to heat stress pathway
 def: "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a heat stimulus, a temperature stimulus above the optimal temperature for that organism. In response to exposure to elevated temperature, cells activate a number of cytoprotective mechanisms known collectively as the \"heat shock response\"." [GO:0034605, Reactome:R-HSA-3371556]
-synonym: "cellular response to heat" RELATED []
 synonym: "Cellular response to heat stress" RELATED []
+synonym: "cellular response to heat�" RELATED []
 is_a: PW:0000237 ! stress response pathway
 created_by: gthayman
 creation_date: 2023-11-09T15:40:27Z
-
-[Term]
-id: PW:0002673
-name: mitotic metaphase pathway
-def: "The series of events underlying mitotic metaphase, the cell cycle phase following prophase or prometaphase, during which chromosomes become aligned via spindle fibers on the equatorial or metaphase plate of the cell. Such an organization helps to ensure that later, when the chromosomes are separated, each new nucleus that is formed receives one copy of each chromosome. " [GO:0000089, Reactome:R-HSA-2555396]
-synonym: "mitotic metaphase" RELATED []
-synonym: "Mitotic Metaphase and Anaphase" RELATED []
-is_a: PW:0000092 ! M phase pathway
-created_by: gthayman
-creation_date: 2024-06-05T10:52:35Z
-
-[Term]
-id: PW:0002674
-name: mitotic anaphase pathway
-def: "The series of events underlying mitotic anaphase, following metaphase, during which the chromosomes separate and migrate towards the poles of the spindle at the opposite sides of the cell. The movement of the chromosomes is facilitated by a combination of kinetochore movement along the spindle microtubules and through the physical interaction of polar microtubules." [GO:0000090, Reactome:R-HSA-68882]
-synonym: "Mitotic Anaphase" RELATED []
-is_a: PW:0000092 ! M phase pathway
-created_by: gthayman
-creation_date: 2024-06-05T12:59:52Z
-
-[Term]
-id: PW:0002675
-name: altered cobalamin metabolic pathway
-def: "A cobalamin (Cbl) metabolic pathway that deviates from what its normal course should be. Cbl deficiency results in hyperhomocysteinemia (due to defects in the conversion of homocysteine to methionine which requires Cbl as a cofactor) and increased levels of methylmalonic acid. Symptoms of Cbl deficiency are bone marrow promegaloblastosis (megaloblastic anemia) due to the inhibition of DNA synthesis (specifically purines and thymidine) and neurological symptoms." [Reactome:R-HSA-3296469]
-synonym: "Defects in cobalamin (B12) metabolism" RELATED []
-is_a: PW:0000397 ! cobalamin metabolic pathway
-is_a: PW:0000429 ! altered metabolic pathway of cofactors, vitamins, nutrients
-created_by: gthayman
-creation_date: 2024-06-05T13:11:50Z
-
-[Term]
-id: PW:0002676
-name: altered biotin metabolic pathway
-created_by: gthayman
-creation_date: 2024-06-05T13:27:19Z
-
-[Term]
-id: PW:0002677
-name: agmatine biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of agmatine, which is the decarboxylation product of the amino acid arginine and is an intermediate in polyamine biosynthesis. It is synthesized in the brain, stored in synaptic vesicles, accumulated by uptake, released by membrane depolarization, and hydrolyzed by agmatinase to putrescine. Agmatine binds to several target receptors in the brain and has been proposed as a novel neuromodulator. It has the potential to serve in the coordination of the early and repair phase pathways of arginine in inflammation." [GO:0097055, Reactome:R-HSA-351143]
-synonym: "Agmatine biosynthesis" RELATED []
-synonym: "agmatine biosynthetic process" RELATED []
-is_a: PW:0001234 ! biogenic amine biosynthetic pathway
-created_by: gthayman
-creation_date: 2024-06-05T13:52:45Z
-
-[Term]
-id: PW:0002678
-name: glycogen storage disease type XV pathway
-def: "A type of glycogen storage disease pathway involving glycogenin 1." [Reactome:R-HSA-3814836]
-synonym: "Glycogen storage disease type XV (GYG1)" RELATED []
-is_a: PW:0001991 ! glycogen storage disease pathway
-created_by: gthayman
-creation_date: 2024-06-05T14:37:35Z
-
-[Term]
-id: PW:0002679
-name: glycogen storage disease type 0 pathway
-def: "A type of glycogen storage disease pathway involving glycogen synthase 1." [Reactome:R-HSA-3828062]
-synonym: "Glycogen storage disease type 0 (muscle GYS1)" RELATED []
-is_a: PW:0001991 ! glycogen storage disease pathway
-created_by: gthayman
-creation_date: 2024-06-05T15:06:19Z
-
-[Term]
-id: PW:0002680
-name: NADPH regeneration pathway
-def: "Those metabolic reactions involved in the generation of a pool of NADPH by the reduction of NADP+." [GO:0006740, Reactome:R-HSA-389542]
-synonym: "NADPH regeneration" RELATED []
-is_a: PW:0002580 ! nicotinamide adenine dinucleotide metabolic pathway
-created_by: gthayman
-creation_date: 2024-06-05T15:14:47Z
-
-[Term]
-id: PW:0002681
-name: very long-chain fatty acid beta degradation pathway
-def: "Fatty acid degradation via beta oxidation, acting on very long-chain fatty acids having an aliphatic tail containing more than 22 carbons." [GO:0140493, Reactome:R-HSA-390247]
-synonym: "Beta-oxidation of very long chain fatty acids" RELATED []
-synonym: "very long-chain fatty acid beta-oxidation" RELATED []
-is_a: PW:0000738 ! fatty acid beta degradation pathway
-created_by: gthayman
-creation_date: 2024-06-05T15:32:58Z
-
-[Term]
-id: PW:0002682
-name: muscle contraction pathway
-def: "A pathway in which force is generated within muscle tissue, resulting in a change in muscle geometry. Force generation involves a calcium-triggered chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis." [GO:0006936, Reactome:R-HSA-397014]
-synonym: "Muscle contraction" RELATED []
-is_a: PW:0001140 ! calcium/calcium-mediated signaling pathway
-created_by: gthayman
-creation_date: 2024-06-05T15:59:56Z
-
-[Term]
-id: PW:0002683
-name: striated muscle contraction pathway
-def: "A pathway in which force is generated within striated muscle tissue, resulting in a change in muscle geometry. Force generation involves a calcium-triggered chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis. Striated muscle contains repeating units (sarcomeres) of the contractile myofibrils that are arranged in registry throughout the cell, resulting in transverse or oblique striations observable by light microscope." [GO:0006941, Reactome:R-HSA-390522]
-synonym: "Striated Muscle Contraction" RELATED []
-is_a: PW:0002682 ! muscle contraction pathway
-created_by: gthayman
-creation_date: 2024-06-05T16:29:11Z
-
-[Term]
-id: PW:0002684
-name: smooth muscle contraction pathway
-def: "A pathway in which force is generated within smooth muscle tissue, resulting in a change in muscle geometry. Force generation involves a calcium-triggered chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis. Smooth muscle differs from striated muscle in the much higher actin/myosin ratio, the absence of conspicuous sarcomeres and the ability to contract to a much smaller fraction of its resting length." [GO:0006939, Reactome:R-HSA-445355]
-synonym: "Smooth Muscle Contraction" RELATED []
-is_a: PW:0002682 ! muscle contraction pathway
-created_by: gthayman
-creation_date: 2024-06-05T16:35:17Z
-
-[Term]
-id: PW:0002685
-name: mitotic sister chromatid segregation pathway
-created_by: gthayman
-creation_date: 2024-06-05T17:01:45Z
 
 [Typedef]
 id: part_of
