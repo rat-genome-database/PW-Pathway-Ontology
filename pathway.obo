@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.84
-date: 08:06:2024 20:13
+data-version: 7.85
+date: 22:06:2024 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: pathway
@@ -4577,14 +4577,14 @@ is_a: PW:0000578 ! scatter factor/hepatocyte growth factor signaling pathway
 [Term]
 id: PW:0000624
 name: breast cancer pathway
-def: "Breast cancer or neoplasm is the most common cancer among women and the second worldwide after lung cancer. Deregulated pathways such estrogen or PI3K-Akt signaling have been implicated in breast cancer. In many cases, the disease is estrogen-dependent and it is possible that dysregulation of miRNA may correlate with the expression of estrogen receptor. Mutations in a number of other genes such as Brca1, 2 and 3 or p53 have also been associated with breast cancer." [OMIM:114480, PMID:17275086, PMID:20739888]
+def: "Breast cancer or neoplasm is the most common cancer among women and the second worldwide after lung cancer. Deregulated pathways such estrogen or PI3K-Akt signaling have been implicated in breast cancer. In many cases, the disease is estrogen-dependent and it is possible that dysregulation of miRNA may correlate with the expression of estrogen receptor. Mutations in a number of other genes such as Brca1, 2 and 3 or p53 have also been associated with breast cancer." [MIM:114480, PMID:17275086, PMID:20739888]
 synonym: "breast neoplasm" RELATED []
 is_a: PW:0000605 ! cancer pathway
 
 [Term]
 id: PW:0000625
 name: digestive system cancer pathway
-def: "A general term grouping neoplastic pathways of the biliary tract, liver, pancreas and the gastrointestinal system." [http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi "MeSH", OMIM:OMIM]
+def: "A general term grouping neoplastic pathways of the biliary tract, liver, pancreas and the gastrointestinal system." [http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi "MeSH", MIM:OMIM]
 synonym: "digestive system neoplasm pathway" RELATED []
 synonym: "gastrointestinal neoplasm pathway" RELATED []
 is_a: PW:0000605 ! cancer pathway
@@ -4602,7 +4602,7 @@ is_a: PW:0000700 ! endocrine gland cancer pathway
 [Term]
 id: PW:0000627
 name: gastrointestinal cancer pathway
-def: "A general term grouping neoplastic pathways of the esophagus, gastric or stomach and intestinal system." [MeSH:MeSH, OMIM:OMIM]
+def: "A general term grouping neoplastic pathways of the esophagus, gastric or stomach and intestinal system." [MeSH:MeSH, MIM:OMIM]
 synonym: "gastrointestinal neoplasm pathway" RELATED []
 is_a: PW:0000625 ! digestive system cancer pathway
 
@@ -4632,7 +4632,7 @@ is_a: PW:0000625 ! digestive system cancer pathway
 [Term]
 id: PW:0000631
 name: head and neck cancer pathway
-def: "A general term grouping neoplastic pathways of the upper aerodigestive system. Deregulated pathways, such as TGF-B, PI3K-Akt or epidermal growth factor (EGF) signaling, have been implicated in the of head and neck cancer." [MeSH:MeSH, OMIM:OMIM, PMID:18662538]
+def: "A general term grouping neoplastic pathways of the upper aerodigestive system. Deregulated pathways, such as TGF-B, PI3K-Akt or epidermal growth factor (EGF) signaling, have been implicated in the of head and neck cancer." [MeSH:MeSH, MIM:OMIM, PMID:18662538]
 synonym: "head and neck neoplasm pathway" RELATED []
 is_a: PW:0000605 ! cancer pathway
 
@@ -13342,7 +13342,7 @@ creation_date: 2015-02-12T09:47:16Z
 [Term]
 id: PW:0001603
 name: beta-ureidopropionase deficiency pathway
-def: "A rare, autosomal recessive inborn metabolic disease caused by alterations in pyrimidine metabolic pathway." [OMIM:613161]
+def: "A rare, autosomal recessive inborn metabolic disease caused by alterations in pyrimidine metabolic pathway." [MIM:613161]
 synonym: "SMP:00172" RELATED []
 synonym: "ureidopropionase deficiency pathway" RELATED []
 is_a: PW:0001414 ! brain disease pathway
@@ -13363,7 +13363,7 @@ creation_date: 2015-02-12T10:34:32Z
 [Term]
 id: PW:0001605
 name: orotic aciduria 1 pathway
-def: "The most common form of the orotic acid inborn error metabolic disease pathway is due to deficiency in the uridine monophosphate (UMP) synthase enzyme." [OMIM:258900, PMID:25030255]
+def: "The most common form of the orotic acid inborn error metabolic disease pathway is due to deficiency in the uridine monophosphate (UMP) synthase enzyme." [MIM:258900, PMID:25030255]
 synonym: "orotic aciduria 1 disease pathway" EXACT []
 synonym: "SMP:00219" RELATED []
 synonym: "UMP synthase deficiency pathway" RELATED []
@@ -13399,7 +13399,7 @@ creation_date: 2015-02-12T11:13:29Z
 [Term]
 id: PW:0001608
 name: tyrosinemia type I pathway
-def: "Type I tyrosinemia results from defects in the fumarylacetoacetate hydrolase (FAH) enzyme that catalyzes the last step in the tyrosine degradation pathway." [OMIM:276700, PMID:9101289]
+def: "Type I tyrosinemia results from defects in the fumarylacetoacetate hydrolase (FAH) enzyme that catalyzes the last step in the tyrosine degradation pathway." [MIM:276700, PMID:9101289]
 synonym: "hepatorenal tyrosinemia pathway" EXACT []
 synonym: "SMP:00218" RELATED []
 synonym: "tyrosinemia type I disease pathway" EXACT []
@@ -13410,7 +13410,7 @@ creation_date: 2015-02-12T11:24:18Z
 [Term]
 id: PW:0001609
 name: tyrosinemia type II pathway
-def: "Type II tyrosinemia results from defects in the tyrosine aminotransferase (TAT) enzyme that catalyzes the conversion of tyrosine to 4-hydroxyphenylpyruvate in the tyrosine degradation pathway." [OMIM:276600, PMID:7648039]
+def: "Type II tyrosinemia results from defects in the tyrosine aminotransferase (TAT) enzyme that catalyzes the conversion of tyrosine to 4-hydroxyphenylpyruvate in the tyrosine degradation pathway." [MIM:276600, PMID:7648039]
 synonym: "oculocutaneous tyrosinemia pathway" EXACT []
 synonym: "Richner-Hanhart syndrome pathway" RELATED []
 synonym: "SMP:00369" RELATED []
@@ -13422,7 +13422,7 @@ creation_date: 2015-02-12T11:24:39Z
 [Term]
 id: PW:0001610
 name: tyrosinemia type III pathway
-def: "Type III tyrosinemia results from defects in the 4-hydroxyohenylpyruvate dioxygenase (HPD) enzyme that catalyzes the second step in the tyrosine degradation pathway." [OMIM:276710, PMID:11916315]
+def: "Type III tyrosinemia results from defects in the 4-hydroxyohenylpyruvate dioxygenase (HPD) enzyme that catalyzes the second step in the tyrosine degradation pathway." [MIM:276710, PMID:11916315]
 synonym: "SMP:00370" RELATED []
 synonym: "SMP:00434" RELATED []
 synonym: "tyrosinemia type III disease pathway" EXACT []
@@ -13441,7 +13441,7 @@ creation_date: 2015-02-12T12:59:09Z
 [Term]
 id: PW:0001612
 name: Segawa syndrome pathway
-def: "A movement disorder caused by defects in the tyrosine hydroxylase enzyme that converts tyrosine to L-DOPA, the precursor of dopamine in the dopamine biosynthetic pathway of the other two catecholamines downstream of it, norepinephrine and epinephrine." [OMIM:605407, PMID:21176768, PMID:9732974]
+def: "A movement disorder caused by defects in the tyrosine hydroxylase enzyme that converts tyrosine to L-DOPA, the precursor of dopamine in the dopamine biosynthetic pathway of the other two catecholamines downstream of it, norepinephrine and epinephrine." [MIM:605407, PMID:21176768, PMID:9732974]
 synonym: "dopamine-responsive dystonia pathway" RELATED []
 synonym: "SMP:00490" RELATED []
 synonym: "tyrosine hydroxylase deficiency pathway" RELATED []
@@ -13577,7 +13577,7 @@ creation_date: 2015-02-19T13:40:41Z
 [Term]
 id: PW:0001627
 name: trifunctional protein deficiency pathway
-def: "Trifunctional protein deficiency is caused by alteration in the fatty acid beta degradation pathway. Specifically, mutations in the alpha and beta subunits of the mitochondrial enzyme that catalyzes the last three steps, have been linked to this inherited metabolic condition." [OMIM:609015]
+def: "Trifunctional protein deficiency is caused by alteration in the fatty acid beta degradation pathway. Specifically, mutations in the alpha and beta subunits of the mitochondrial enzyme that catalyzes the last three steps, have been linked to this inherited metabolic condition." [MIM:609015]
 synonym: "SMP:00545" RELATED []
 is_a: PW:0001643 ! inborn error of lipid metabolism pathway
 created_by: VPetri
@@ -13586,7 +13586,7 @@ creation_date: 2015-02-19T14:03:09Z
 [Term]
 id: PW:0001628
 name: triosephosphate isomerase deficiency pathway
-def: "The rare autosomal recessive condition is caused by mutations in the triosephosphate isomerase enzyme involved in glycolysis/gluconeogenesis metabolic pathways." [OMIM:615512]
+def: "The rare autosomal recessive condition is caused by mutations in the triosephosphate isomerase enzyme involved in glycolysis/gluconeogenesis metabolic pathways." [MIM:615512]
 synonym: "SMP:00563" RELATED []
 synonym: "triose phosphate-isomerase deficiency pathway" RELATED []
 is_a: PW:0001644 ! inborn error of carbohydrate metabolism pathway
@@ -13596,7 +13596,7 @@ creation_date: 2015-02-19T14:43:55Z
 [Term]
 id: PW:0001629
 name: transaldolase deficiency pathway
-def: "Transaldolase deficiency results from alteration in the pentose phosphate metabolic pathway, an alternative route of glucose oxidation that produces reducing equivalents. The condition affects many systems." [OMIM:506003]
+def: "Transaldolase deficiency results from alteration in the pentose phosphate metabolic pathway, an alternative route of glucose oxidation that produces reducing equivalents. The condition affects many systems." [MIM:506003]
 synonym: "Eyaid syndrome pathway" EXACT []
 synonym: "SMP:00520" RELATED []
 synonym: "TALDO deficiency pathway" EXACT []
@@ -13756,7 +13756,7 @@ creation_date: 2015-03-04T13:26:26Z
 [Term]
 id: PW:0001647
 name: sulfite oxidase deficiency pathway
-def: "An autosomal recessive inherited condition resulting from alteration in sulfur metabolism. It exhibits severe neurological symptoms in the neonatal period and is possibly fatal." [OMIM:272300]
+def: "An autosomal recessive inherited condition resulting from alteration in sulfur metabolism. It exhibits severe neurological symptoms in the neonatal period and is possibly fatal." [MIM:272300]
 synonym: "isolated sulfite oxidase deficiency pathway" EXACT []
 synonym: "SMP:00532" RELATED []
 synonym: "sulfocysteinuria pathway" EXACT []
@@ -13767,7 +13767,7 @@ creation_date: 2015-03-04T13:41:42Z
 [Term]
 id: PW:0001648
 name: congenital sucrase-isomaltase deficiency pathway
-def: "A congenital disorder of sucrose metabolism resulting from mutations in the enzyme involved in the hydrolysis of dietary sugars." [OMIM:222900]
+def: "A congenital disorder of sucrose metabolism resulting from mutations in the enzyme involved in the hydrolysis of dietary sugars." [MIM:222900]
 synonym: "congenital sucrose intolerance pathway" RELATED []
 synonym: "congenital sucrose-isomaltose malabsorption pathway" RELATED []
 synonym: "disaccharide intolerance I pathway" RELATED []
@@ -13781,7 +13781,7 @@ creation_date: 2015-03-04T13:47:13Z
 [Term]
 id: PW:0001649
 name: succinic semialdehyde dehydrogenase deficiency pathway
-def: "A rare autosomal recessive condition resulting from mutations in the enzyme involved in the metabolism of the neurotransmitter 4-aminobutyric acid (GABA)." [OMIM:271980]
+def: "A rare autosomal recessive condition resulting from mutations in the enzyme involved in the metabolism of the neurotransmitter 4-aminobutyric acid (GABA)." [MIM:271980]
 synonym: "4-hydroxybutyric aciduria pathway" EXACT []
 synonym: "gamma-hydroxybutyric aciduria pathway" EXACT []
 synonym: "SMP:00243" RELATED []
@@ -13942,7 +13942,7 @@ creation_date: 2015-03-09T16:10:13Z
 [Term]
 id: PW:0001667
 name: short-chain acyl-CoA dehydrogenase deficiency pathway
-def: "An autosomal recessive metabolic disease due to alteration in the fatty acid beta oxidation pathway." [OMIM:201470]
+def: "An autosomal recessive metabolic disease due to alteration in the fatty acid beta oxidation pathway." [MIM:201470]
 synonym: "ACADS deficiency pathway" EXACT []
 synonym: "SCAD deficiency pathway" RELATED []
 synonym: "SCADH deficiency pathway" EXACT []
@@ -13970,7 +13970,7 @@ creation_date: 2015-03-10T15:10:26Z
 [Term]
 id: PW:0001670
 name: sarcosinemia pathway
-def: "A rare autosomal recessive metabolic disorder due to mutations in sarcosine dehydrogenase resulting in alterations of sarcosine metabolism." [OMIM:268900]
+def: "A rare autosomal recessive metabolic disorder due to mutations in sarcosine dehydrogenase resulting in alterations of sarcosine metabolism." [MIM:268900]
 synonym: "hypersarcosinemia pathway" EXACT []
 synonym: "sarcosine dehydrogenase complex deficiency pathway" EXACT []
 synonym: "sarcosinemia disease pathway" EXACT []
@@ -14265,7 +14265,7 @@ creation_date: 2015-06-04T14:21:31Z
 [Term]
 id: PW:0001703
 name: saccharopinuria pathway
-def: "Saccharopinuria, also known as hyperlysinemia type II, is an autosomal recessive condition due to alteration in metabolic pathways of lysine and its derivatives." [OMIM:268700]
+def: "Saccharopinuria, also known as hyperlysinemia type II, is an autosomal recessive condition due to alteration in metabolic pathways of lysine and its derivatives." [MIM:268700]
 synonym: "alpha-aminoadipic semialdehyde synthase deficiency pathway" EXACT []
 synonym: "hyperlysinemia type II disease pathway" RELATED []
 synonym: "hyperlysinemia type II pathway" EXACT []
@@ -14280,7 +14280,7 @@ creation_date: 2015-06-04T14:47:14Z
 [Term]
 id: PW:0001704
 name: ribose 5-phosphate isomerase deficiency pathway
-def: "A disorder due to alteration in the pentose phosphate metabolic pathway." [OMIM:608611]
+def: "A disorder due to alteration in the pentose phosphate metabolic pathway." [MIM:608611]
 synonym: "SMP:00519" RELATED []
 is_a: PW:0001644 ! inborn error of carbohydrate metabolism pathway
 created_by: VPetri
@@ -14302,7 +14302,7 @@ creation_date: 2015-06-04T15:06:28Z
 [Term]
 id: PW:0001706
 name: pyruvate kinase deficiency of red cells pathway
-def: "An inherited disorder affecting the red blood cells, resulting from alteration in the pyruvate metabolic pathway and manifesting in hemolytic anemia." [OMIM:266200]
+def: "An inherited disorder affecting the red blood cells, resulting from alteration in the pyruvate metabolic pathway and manifesting in hemolytic anemia." [MIM:266200]
 synonym: "hemolytic anemia due to red cell pyruvate kinase deficiency pathway" EXACT []
 synonym: "PK deficiency pathway" EXACT []
 synonym: "pyruvate kinase deficiency of erythrocyte pathway" EXACT []
@@ -14906,7 +14906,7 @@ creation_date: 2015-08-07T13:42:12Z
 [Term]
 id: PW:0001775
 name: pyruvate carboxylase deficiency pathway
-def: "An autosomal recessive metabolic disorder resulting from impaired pyruvate metabolism. An absent or decreased activity of pyruvate carboxylase results in an altered pyruvate pathway." [PMIM:266150]
+def: "An autosomal recessive metabolic disorder resulting from impaired pyruvate metabolism. An absent or decreased activity of pyruvate carboxylase results in an altered pyruvate pathway." [MIM:266150]
 synonym: "pyruvate carboxylase deficiency disease pathway" EXACT []
 synonym: "SMP:00350" RELATED []
 is_a: PW:0001751 ! inborn error of pyruvate metabolism pathway
@@ -14925,7 +14925,7 @@ creation_date: 2015-08-07T14:20:56Z
 [Term]
 id: PW:0001777
 name: purine nucleoside phosphorylase deficiency pathway
-def: "A rather rare autosomal recessive immunodeficiency resulting from decreased T-cell function. Disruption of purine nucleoside phosphorylase results in an altered purine salvage pathway." [OMIM:613179]
+def: "A rather rare autosomal recessive immunodeficiency resulting from decreased T-cell function. Disruption of purine nucleoside phosphorylase results in an altered purine salvage pathway." [MIM:613179]
 synonym: "deficiency of inosine phosphorylase pathway" EXACT []
 synonym: "PNP deficiency pathway" EXACT []
 synonym: "SMP:00210" RELATED []
@@ -14936,7 +14936,7 @@ creation_date: 2015-08-07T14:23:48Z
 [Term]
 id: PW:0001778
 name: propionic acidemia pathway
-def: "An autosomal recessive metabolic disorder due to mutations in propionyl CoA carboxylase genes resulting in alteration of amino acid metabolic pathways." [OMIM:606054]
+def: "An autosomal recessive metabolic disorder due to mutations in propionyl CoA carboxylase genes resulting in alteration of amino acid metabolic pathways." [MIM:606054]
 synonym: "ketotic glycinemia pathway" EXACT []
 synonym: "ketotic hyperglycinemia pathway" EXACT []
 synonym: "propionic acidemia disease pathway" EXACT []
@@ -14979,7 +14979,7 @@ creation_date: 2015-08-07T15:53:23Z
 [Term]
 id: PW:0001782
 name: primary hyperoxaluria type 1 pathway
-def: "Hyperoxaluria results from alteration in the glyoxylate metabolic pathway. Type 1 is due to mutations in the alanine-glyoxylate aminotransferase (AGXT) enzyme." [OMIM:259900]
+def: "Hyperoxaluria results from alteration in the glyoxylate metabolic pathway. Type 1 is due to mutations in the alanine-glyoxylate aminotransferase (AGXT) enzyme." [MIM:259900]
 synonym: "primary hyperoxaluria type 1 disease pathway" EXACT []
 synonym: "SMP:00352" RELATED []
 is_a: PW:0001781 ! primary hyperoxaluria pathway
@@ -14989,7 +14989,7 @@ creation_date: 2015-08-07T15:58:55Z
 [Term]
 id: PW:0001783
 name: primary hyperoxaluria type 2 pathway
-def: "Hyperoxaluria results from alteration in the glyoxylate metabolic pathway. Type 2 is due to mutations in the glyoxylate reductase/hydroxypyruvate reductase (GRHPR) enzyme." [OMIM:260000]
+def: "Hyperoxaluria results from alteration in the glyoxylate metabolic pathway. Type 2 is due to mutations in the glyoxylate reductase/hydroxypyruvate reductase (GRHPR) enzyme." [MIM:260000]
 synonym: "primary hyperoxaluria type 2 disease pathway" EXACT []
 synonym: "SMP:00558" RELATED []
 is_a: PW:0001781 ! primary hyperoxaluria pathway
@@ -15178,7 +15178,7 @@ creation_date: 2015-08-19T15:17:47Z
 [Term]
 id: PW:0001805
 name: phenylketonuria pathway
-def: "A group of autosomal recessive disorders resulting from alterations in amino acid metabolism, mostly due to deficiency of hepatic phenylalanine hydroxylase. The enzyme catalyzes the hydroxylation of phenylalanine to tyrosine." [OMIM:261600, Reactome:R-HSA-2160456, SMP:00206]
+def: "A group of autosomal recessive disorders resulting from alterations in amino acid metabolism, mostly due to deficiency of hepatic phenylalanine hydroxylase. The enzyme catalyzes the hydroxylation of phenylalanine to tyrosine." [MIM:261600, Reactome:R-HSA-2160456, SMP:00206]
 synonym: "Følling's disease pathway" EXACT []
 synonym: "phenylalaninemia pathway" EXACT []
 synonym: "Phenylketonuria" RELATED []
@@ -15204,7 +15204,7 @@ creation_date: 2015-08-20T08:14:07Z
 [Term]
 id: PW:0001807
 name: gyrate atrophy pathway
-def: "A progressive atrophy of the choroid and retina resulting from alterations in amino acid metabolic pathways involving ornithine aminotransferase enzyme." [OMIM:258870]
+def: "A progressive atrophy of the choroid and retina resulting from alterations in amino acid metabolic pathways involving ornithine aminotransferase enzyme." [MIM:258870]
 synonym: "ornithine aminotransferase deficiency pathway" RELATED []
 synonym: "SMP:00363" RELATED []
 is_a: PW:0001496 ! sensory system disease pathway
@@ -15215,7 +15215,7 @@ creation_date: 2015-08-20T08:19:38Z
 id: PW:0001808
 name: nonketotic hyperglycinemia pathway
 alt_id: PW:0001934
-def: "An autosomal recessive disorder resulting from alterations in the glycine metabolic pathway." [OMIM:605899]
+def: "An autosomal recessive disorder resulting from alterations in the glycine metabolic pathway." [MIM:605899]
 synonym: "nonketotic hyperglycinemia disease pathway" EXACT []
 synonym: "non-ketotic hyperglycinemia pathway" EXACT []
 synonym: "nonketotic hyperglycinemia pathway" EXACT []
@@ -15229,7 +15229,7 @@ creation_date: 2015-08-20T08:25:59Z
 [Term]
 id: PW:0001809
 name: methylmalonate semialdehyde dehydrogenase deficiency pathway
-def: "A rare autosomal recessive disorder resulting from alterations purine-pyrimidine and/or amino acid metabolic pathways." [OMIM:614105]
+def: "A rare autosomal recessive disorder resulting from alterations purine-pyrimidine and/or amino acid metabolic pathways." [MIM:614105]
 synonym: "MMSDH deficiency pathway" RELATED []
 synonym: "SMP:00384" RELATED []
 is_a: PW:0001645 ! inborn error of amino acid metabolism pathway
@@ -15251,7 +15251,7 @@ creation_date: 2015-08-20T08:42:09Z
 [Term]
 id: PW:0001811
 name: methylmalonic aciduria, cobalamin-related pathway
-def: "A form of methylmalonic aciduria disease pathway involving cobalamin (vitamin B12) in the methionine and homocysteine metabolic pathways." [OMIM:613646]
+def: "A form of methylmalonic aciduria disease pathway involving cobalamin (vitamin B12) in the methionine and homocysteine metabolic pathways." [MIM:613646]
 synonym: "methylmalonic aciduria, cobalamin-related disease pathway" EXACT []
 synonym: "methylmalonic aciduria, cobalamin-related, disease pathway" EXACT []
 synonym: "SMP:00201" RELATED []
@@ -15262,7 +15262,7 @@ creation_date: 2015-08-20T08:50:16Z
 [Term]
 id: PW:0001812
 name: mevalonic aciduria pathway
-def: "An autosomal recessive disorder resulting from defects in mevalonate kinase, one of the two kinases sequentially phosphorylating mevalonate to isopentenyl pyrophosphate in the isoprenoid and cholesterol biosynthetic pathways." [OMIM:610377]
+def: "An autosomal recessive disorder resulting from defects in mevalonate kinase, one of the two kinases sequentially phosphorylating mevalonate to isopentenyl pyrophosphate in the isoprenoid and cholesterol biosynthetic pathways." [MIM:610377]
 synonym: "hyper-IgD syndrome pathway" RELATED []
 synonym: "hyperimmunoglobulinemia D disease pathway" RELATED []
 synonym: "mevalonate kinase deficiency pathway" EXACT []
@@ -15276,7 +15276,7 @@ creation_date: 2015-08-20T09:03:28Z
 [Term]
 id: PW:0001813
 name: mitochondrial complex I deficiency pathway
-def: "A condition resulting from alterations in the electron transport chain metabolic pathway involving the NADH ubiquinone oxidoreductase complex I." [OMIM:252010]
+def: "A condition resulting from alterations in the electron transport chain metabolic pathway involving the NADH ubiquinone oxidoreductase complex I." [MIM:252010]
 is_a: PW:0001669 ! mitochondrial disease pathway
 created_by: VPetri
 creation_date: 2015-08-20T09:20:06Z
@@ -15284,7 +15284,7 @@ creation_date: 2015-08-20T09:20:06Z
 [Term]
 id: PW:0001814
 name: mitochondrial complex II deficiency pathway
-def: "A condition resulting from alterations in the electron transport chain metabolic pathway involving the succinate dehydrogenase complex II." [OMIM:252011]
+def: "A condition resulting from alterations in the electron transport chain metabolic pathway involving the succinate dehydrogenase complex II." [MIM:252011]
 synonym: "isolated mitochondrial respiratory chain complex II deficiency pathway" EXACT []
 synonym: "isolated succinate-coenzyme Q reductase deficiency pathway" EXACT []
 synonym: "isolated succinate-CoQ reductase deficiency pathway" EXACT []
@@ -15297,7 +15297,7 @@ creation_date: 2015-08-20T09:20:28Z
 [Term]
 id: PW:0001815
 name: mitochondrial complex III deficiency pathway
-def: "A condition resulting from alterations in the electron transport chain metabolic pathway involving complex III." [OMIM:124000]
+def: "A condition resulting from alterations in the electron transport chain metabolic pathway involving complex III." [MIM:124000]
 is_a: PW:0001669 ! mitochondrial disease pathway
 created_by: VPetri
 creation_date: 2015-08-20T09:21:16Z
@@ -15314,7 +15314,7 @@ creation_date: 2015-08-20T09:35:09Z
 [Term]
 id: PW:0001817
 name: molybdenum cofactor deficiency pathway
-def: "A disorder resulting from alterations in the molybdenum biosynthetic pathway." [OMIM:252150]
+def: "A disorder resulting from alterations in the molybdenum biosynthetic pathway." [MIM:252150]
 synonym: "combined deficiency of sulfite oxidase, xanthine dehydrogenase and aldehyde oxidase pathway" EXACT []
 synonym: "MOCOD pathway" EXACT []
 synonym: "SMP:00203" RELATED []
@@ -15526,7 +15526,7 @@ creation_date: 2015-08-24T16:01:46Z
 [Term]
 id: PW:0001841
 name: homocystinuria pathway
-def: "An autosomal recessive condition downstream of homocysteine and involving alterations in the transsulfuration pathway. Usually, it is due to defects in the first enzyme of the transsulfuration pathway, cystathione beta synthase." [OMIM:236200]
+def: "An autosomal recessive condition downstream of homocysteine and involving alterations in the transsulfuration pathway. Usually, it is due to defects in the first enzyme of the transsulfuration pathway, cystathione beta synthase." [MIM:236200]
 synonym: "CBS deficiency pathway" EXACT []
 synonym: "cystathionine beta-synthase deficiency pathway" RELATED []
 synonym: "cystathionine synthase deficiency pathway" EXACT []
@@ -15766,7 +15766,7 @@ creation_date: 2015-09-01T12:09:08Z
 [Term]
 id: PW:0001868
 name: hypermethioninemia pathway
-def: "An inborn metabolic disorder resulting from alterations in the methionine cycle/metabolic pathway." [OMIM:250850]
+def: "An inborn metabolic disorder resulting from alterations in the methionine cycle/metabolic pathway." [MIM:250850]
 synonym: "isolated persistent hypermethioninemia pathway" EXACT []
 synonym: "MAT deficiency pathway" EXACT []
 synonym: "MAT I/III deficiency pathway" EXACT []
@@ -15780,7 +15780,7 @@ creation_date: 2015-09-01T13:13:56Z
 [Term]
 id: PW:0001869
 name: medium chain acyl-CoA dehydrogenase deficiency pathway
-def: "An inherited condition resulting from impaired lipid metabolic pathways." [OMIM:201450]
+def: "An inherited condition resulting from impaired lipid metabolic pathways." [MIM:201450]
 synonym: "ACADM deficiency pathway" EXACT []
 synonym: "MCAD deficiency pathway" RELATED []
 synonym: "MCADH deficiency pathway" EXACT []
@@ -15793,7 +15793,7 @@ creation_date: 2015-09-01T13:18:45Z
 [Term]
 id: PW:0001870
 name: maple syrup urine disease pathway
-def: "An autosomal recessive condition resulting from alterations in branched-chain amino acid metabolic pathways. It has several forms and a range of phenotypes." [OMIM:248600]
+def: "An autosomal recessive condition resulting from alterations in branched-chain amino acid metabolic pathways. It has several forms and a range of phenotypes." [MIM:248600]
 synonym: "branched chain ketoaciduria pathway" EXACT []
 synonym: "dihydrolipoamide dehydrogenase deficiency pathway" EXACT []
 synonym: "ketoacidemia pathway" EXACT []
@@ -15806,7 +15806,7 @@ creation_date: 2015-09-01T13:26:10Z
 [Term]
 id: PW:0001871
 name: lysinuric protein intolerance pathway
-def: "A disorder resulting from an impaired transport pathway of positively charged amino acids." [OMIM:222700]
+def: "A disorder resulting from an impaired transport pathway of positively charged amino acids." [MIM:222700]
 synonym: "dibasic amino aciduria II pathway" EXACT []
 synonym: "hyperdibasic aminoaciduria pathway" EXACT []
 synonym: "LPI pathway" EXACT []
@@ -15836,7 +15836,7 @@ creation_date: 2015-09-01T14:27:37Z
 [Term]
 id: PW:0001874
 name: isovaleric acidemia pathway
-def: "A rare autosomal condition resulting from an impaired amino acid metabolism." [OMIM:243500]
+def: "A rare autosomal condition resulting from an impaired amino acid metabolism." [MIM:243500]
 synonym: "isovaleric acid CoA dehydrogenase deficiency pathway" EXACT []
 synonym: "isovaleric acidemia disease pathway" EXACT []
 synonym: "isovaleric aciduria disease pathway" RELATED []
@@ -15887,7 +15887,7 @@ creation_date: 2015-09-02T13:15:41Z
 [Term]
 id: PW:0001879
 name: Lesch-Nyhan syndrome pathway
-def: "An inherited disorder with several psychomotor phenotypes resulting from altered purine metabolism, particularly the salvage pathway, due to defects in the hypoxanthine phosphoribosyltransferase 1 (HPRT1) gene, located on the X chromosome." [OMIM:300322]
+def: "An inherited disorder with several psychomotor phenotypes resulting from altered purine metabolism, particularly the salvage pathway, due to defects in the hypoxanthine phosphoribosyltransferase 1 (HPRT1) gene, located on the X chromosome." [MIM:300322]
 synonym: "complete hypoxanthine-guanine phosphoribosyltransferase deficiency pathway" EXACT []
 synonym: "deficiency of IMP pyrophosphorylase pathway" EXACT []
 synonym: "HG-PRT deficiency pathway" EXACT []
@@ -15903,7 +15903,7 @@ creation_date: 2015-09-02T13:22:28Z
 [Term]
 id: PW:0001880
 name: iminoglycinuria pathway
-def: "A condition associated with impaired renal tubular transport." [OMIM:242600]
+def: "A condition associated with impaired renal tubular transport." [MIM:242600]
 synonym: "iminoglycinuria disease pathway" EXACT []
 synonym: "SMP:00193" RELATED []
 is_a: PW:0000300 ! kidney disease pathway
@@ -16332,7 +16332,7 @@ creation_date: 2015-09-17T14:35:54Z
 [Term]
 id: PW:0001931
 name: hyperprolinemia type I pathway
-def: "A condition resulting from alterations in the proline amino acid metabolic pathway and involving the enzyme proline oxidase." [OMIM:239510]
+def: "A condition resulting from alterations in the proline amino acid metabolic pathway and involving the enzyme proline oxidase." [MIM:239510]
 synonym: "hyperprolinemia disease pathway" EXACT []
 synonym: "hyperprolinemia pathway" EXACT []
 synonym: "hyperprolinemia type I disease pathway" RELATED []
@@ -16344,7 +16344,7 @@ creation_date: 2015-09-17T15:21:03Z
 [Term]
 id: PW:0001932
 name: hyperprolinemia type II pathway
-def: "A rare condition resulting from alterations in the proline amino acid metabolic pathway leading to high levels of proline and the related compound pyrroline-5-carboxylase in the circulation." [OMIM:239510]
+def: "A rare condition resulting from alterations in the proline amino acid metabolic pathway leading to high levels of proline and the related compound pyrroline-5-carboxylase in the circulation." [MIM:239510]
 synonym: "1-pyrroline-5-carboxylate dehydrogenase deficiency pathway" EXACT []
 synonym: "hyperprolinemia type II disease pathway" EXACT []
 synonym: "SMP:00360" RELATED []
@@ -16382,7 +16382,7 @@ creation_date: 2015-09-18T09:39:35Z
 [Term]
 id: PW:0001936
 name: hyperlysinemia pathway
-def: "A group of inherited disorders resulting from alterations in the lysine metabolic pathway." [OMIM:238700]
+def: "A group of inherited disorders resulting from alterations in the lysine metabolic pathway." [MIM:238700]
 synonym: "familial hyperlysinemia disease pathway" RELATED []
 synonym: "hyperlysinemia disease pathway" EXACT []
 synonym: "SMP:00527" RELATED []
@@ -16748,7 +16748,7 @@ creation_date: 2015-09-25T10:11:59Z
 [Term]
 id: PW:0001977
 name: Hartnup disease pathway
-def: "An autosomal recessive disorder caused by alterations in the transport of neutral amino acids in the intestine and proximal renal tubules. The condition is associated with psychosis and mental retardation." [MeSH:D006250, OMIM:234500]
+def: "An autosomal recessive disorder caused by alterations in the transport of neutral amino acids in the intestine and proximal renal tubules. The condition is associated with psychosis and mental retardation." [MeSH:D006250, MIM:234500]
 synonym: "SMP:00189" RELATED []
 is_a: PW:0000300 ! kidney disease pathway
 is_a: PW:0001646 ! inborn error of brain metabolic pathway
@@ -16759,7 +16759,7 @@ creation_date: 2015-09-25T10:14:47Z
 [Term]
 id: PW:0001978
 name: histidinemia pathway
-def: "An autosomal recessive condition resulting from alterations in the histidine metabolic pathway and characterized by increased levels of histidine in blood, cerebrospinal fluid and urine." [OMIM:235800]
+def: "An autosomal recessive condition resulting from alterations in the histidine metabolic pathway and characterized by increased levels of histidine in blood, cerebrospinal fluid and urine." [MIM:235800]
 synonym: "histidinemia disease pathway" EXACT []
 synonym: "histidinuria pathway" EXACT []
 synonym: "SMP:00191" RELATED []
@@ -16770,11 +16770,11 @@ creation_date: 2015-09-25T10:49:47Z
 [Term]
 id: PW:0001979
 name: homocarnosinosis pathway
-def: "The pathway involved in a progressive neurologic disorder resulting from a deficiency of homocarnosinase." [OMIM:212200]
+def: "The pathway involved in a progressive neurologic disorder resulting from a deficiency of homocarnosinase." [MIM:212200]
 synonym: "HOMOCARNOSINASE DEFICIENCY PATHWAY" EXACT []
 synonym: "homocarnosinosis disease pathway" EXACT []
 synonym: "SMP:00385" RELATED []
-xref: OMIM:236130
+xref: MIM:236130
 is_a: PW:0001645 ! inborn error of amino acid metabolism pathway
 is_a: PW:0001646 ! inborn error of brain metabolic pathway
 created_by: VPetri
@@ -16793,7 +16793,7 @@ creation_date: 2015-09-25T11:04:44Z
 [Term]
 id: PW:0001981
 name: hereditary coproporphyria pathway
-def: "An autosomal dominant liver porphyria due to deficiency in the coproporphyrinogen oxidase gene." [MeSH:D046349, OMIM:121300]
+def: "An autosomal dominant liver porphyria due to deficiency in the coproporphyrinogen oxidase gene." [MeSH:D046349, MIM:121300]
 synonym: "coproporphyrinogen oxidase deficiency pathway" EXACT []
 synonym: "hereditary coproporphyria disease pathway" EXACT []
 synonym: "hereditary coproporphyria porphyria pathway" EXACT []
@@ -16890,7 +16890,7 @@ creation_date: 2015-09-29T15:05:20Z
 [Term]
 id: PW:0001992
 name: glycogen storage disease  type Ia pathway
-def: "One of the two forms of the type I glycogen storage disease pathway involving glucose-6-phosphate, here due to mutations in glucose-6-phosphatase. It is characterized by the accumulation of glycogen in particular organs and tissues." [OMIM:232200, Reactome:R-HSA-3274531, SMP:00374, SMP:00581]
+def: "One of the two forms of the type I glycogen storage disease pathway involving glucose-6-phosphate, here due to mutations in glucose-6-phosphatase. It is characterized by the accumulation of glycogen in particular organs and tissues." [MIM:232200, Reactome:R-HSA-3274531, SMP:00374, SMP:00581]
 synonym: "glucose-6-phosphatase deficiency pathway" RELATED []
 synonym: "glycogen storage disease pathway, type IA" EXACT []
 synonym: "Glycogen storage disease type Ia (G6PC)" RELATED []
@@ -16903,7 +16903,7 @@ creation_date: 2015-09-29T15:12:57Z
 [Term]
 id: PW:0001993
 name: glycogen storage disease type Ib pathway
-def: "One of the two forms of the type I glycogen storage disease pathway involving glucose-6-phosphate, here due to mutations affecting the glucose-6-phosphate transporter. It is characterized by the accumulation of glycogen in particular organs and tissues." [OMIM:232220, Reactome:R-HSA-3229133, SMP:00573]
+def: "One of the two forms of the type I glycogen storage disease pathway involving glucose-6-phosphate, here due to mutations affecting the glucose-6-phosphate transporter. It is characterized by the accumulation of glycogen in particular organs and tissues." [MIM:232220, Reactome:R-HSA-3229133, SMP:00573]
 synonym: "glucose-6-phosphate transport defect pathway" EXACT []
 synonym: "glycogen storage disease pathway, type IB" EXACT []
 synonym: "Glycogen storage disease type Ib (SLC37A4)" RELATED []
@@ -16914,7 +16914,7 @@ creation_date: 2015-09-29T15:19:58Z
 [Term]
 id: PW:0001994
 name: glycogen storage disease type III pathway
-def: "A type of glycogen disease pathway that involves the glycogen debranching enzyme. There are further subdivisions, to delineate the clinical manifestations." [OMIM:232400]
+def: "A type of glycogen disease pathway that involves the glycogen debranching enzyme. There are further subdivisions, to delineate the clinical manifestations." [MIM:232400]
 synonym: "amylo 1,6 glucosidase deficiency pathway" EXACT []
 synonym: "Cori disease pathway" RELATED []
 synonym: "deficiency of debranching enzyme pathway" EXACT []
@@ -16928,7 +16928,7 @@ creation_date: 2015-09-29T15:37:11Z
 [Term]
 id: PW:0001995
 name: glycogen storage disease type IV pathway
-def: "A type of glycogen storage disease pathway involving glycogen branching enzyme 1." [OMIM:232500, Reactome:R-HSA-3878781, SMP:00554]
+def: "A type of glycogen storage disease pathway involving glycogen branching enzyme 1." [MIM:232500, Reactome:R-HSA-3878781, SMP:00554]
 synonym: "amylopectinosis pathway" EXACT []
 synonym: "Andersen disease pathway" RELATED []
 synonym: "brancher deficiency glycogenosis pathway" EXACT []
@@ -16943,7 +16943,7 @@ creation_date: 2015-09-29T15:47:11Z
 [Term]
 id: PW:0001996
 name: glycogen storage disease type VI pathway
-def: "A type of glycogen storage disease pathway involving the liver phosphorylase." [OMIM:232700]
+def: "A type of glycogen storage disease pathway involving the liver phosphorylase." [MIM:232700]
 synonym: "glycogen storage disease pathway, type VI" EXACT []
 synonym: "hepatic glycogen phosphorylase deficiency pathway" EXACT []
 synonym: "hepatophosphorylase deficiency glycogenosis pathway" EXACT []
@@ -16956,7 +16956,7 @@ creation_date: 2015-09-29T15:50:38Z
 [Term]
 id: PW:0001997
 name: glycogen storage disease type VII pathway
-def: "A type of glycogen storage disease pathway involving muscle phosphofructokinase." [OMIM:232800]
+def: "A type of glycogen storage disease pathway involving muscle phosphofructokinase." [MIM:232800]
 synonym: "glycogen storage disease pathway, type VII" EXACT []
 synonym: "muscle phosphofructokinase deficiency pathway" EXACT []
 synonym: "phosphofructokinase myopathy pathway" EXACT []
@@ -17132,7 +17132,7 @@ creation_date: 2015-10-02T13:13:35Z
 [Term]
 id: PW:0002017
 name: acute intermittent porphyria pathway
-def: "A rather common autosomal dominant porphyria resulting from defects in hydroxymethybilane synthase in the heme biosynthetic pathway." [OMIM:176000]
+def: "A rather common autosomal dominant porphyria resulting from defects in hydroxymethybilane synthase in the heme biosynthetic pathway." [MIM:176000]
 synonym: "acute intermittent porphyria disease pathway" EXACT []
 synonym: "SMP:00344" RELATED []
 is_a: PW:0001980 ! hepatic porphyria pathway
@@ -17142,7 +17142,7 @@ creation_date: 2015-10-02T13:27:53Z
 [Term]
 id: PW:0002018
 name: glycerol kinase deficiency pathway
-def: "A rare metabolic disease due to alterations in the glycerol metabolic pathway resulting from defects in the glycerol kinase enzyme." [OMIM:307030]
+def: "A rare metabolic disease due to alterations in the glycerol metabolic pathway resulting from defects in the glycerol kinase enzyme." [MIM:307030]
 synonym: "GK deficiency pathway" EXACT []
 synonym: "GKD pathway" EXACT []
 synonym: "glycerol kinase deficiency pathway" RELATED []
@@ -17156,7 +17156,7 @@ creation_date: 2015-10-02T13:36:38Z
 [Term]
 id: PW:0002019
 name: glutathione synthase deficiency pathway
-def: "A condition resulting from alterations in the glutathione biosynthesis pathway." [OMIM:266130]
+def: "A condition resulting from alterations in the glutathione biosynthesis pathway." [MIM:266130]
 synonym: "5-oxoprolinemia disease pathway" RELATED []
 synonym: "5-oxoprolinuria disease pathway" RELATED []
 synonym: "pyroglutamic aciduria pathway" EXACT []
@@ -17788,7 +17788,7 @@ creation_date: 2015-10-21T10:18:44Z
 [Term]
 id: PW:0002092
 name: galactosemia pathway
-def: "A galactosemia resulting from defects in the galactose-1-phosphate uridylyltransferase enzyme GALT." [OMIM:230400, Reactome:R-HSA-5609978, SMP:00182]
+def: "A galactosemia resulting from defects in the galactose-1-phosphate uridylyltransferase enzyme GALT." [MIM:230400, Reactome:R-HSA-5609978, SMP:00182]
 synonym: "classic galactosemia pathway" EXACT []
 synonym: "Defective GALT can cause GALCT" RELATED []
 synonym: "galactose-1-phosphate uridylyl transferase deficiency pathway" EXACT []
@@ -17800,7 +17800,7 @@ creation_date: 2015-10-21T10:22:32Z
 [Term]
 id: PW:0002093
 name: GALE deficiency pathway
-def: "A galactosemia resulting from defects in the UDP-galactose-4-epimerase enzyme GALE." [OMIM:230350, Reactome:R-HSA-5609977, SMP:00496]
+def: "A galactosemia resulting from defects in the UDP-galactose-4-epimerase enzyme GALE." [MIM:230350, Reactome:R-HSA-5609977, SMP:00496]
 synonym: "Defective GALE can cause Epimerase-deficiency galactosemia (EDG)" RELATED []
 synonym: "galactose epimerase deficiency pathway" EXACT []
 synonym: "galactosemia III pathway" EXACT []
@@ -17812,7 +17812,7 @@ creation_date: 2015-10-21T10:23:26Z
 [Term]
 id: PW:0002094
 name: galactokinase deficiency pathway
-def: "A galactosemia resulting from defects in the galactokinase enzyme GALK1." [OMIM:230200]
+def: "A galactosemia resulting from defects in the galactokinase enzyme GALK1." [MIM:230200]
 synonym: "GALK deficiency pathway" EXACT []
 synonym: "SMP:00495" RELATED []
 is_a: PW:0002091 ! galactosemias pathway
@@ -17822,7 +17822,7 @@ creation_date: 2015-10-21T10:23:54Z
 [Term]
 id: PW:0002095
 name: GABA aminotransferase deficiency pathway
-def: "A condition caused by alterations in gamma aminobutyric acid metabolism due to defects in the 4-aminobutyrate aminotransferase enzyme." [OMIM:613163]
+def: "A condition caused by alterations in gamma aminobutyric acid metabolism due to defects in the 4-aminobutyrate aminotransferase enzyme." [MIM:613163]
 synonym: "GABA transaminase deficiency pathway" RELATED []
 synonym: "gamma aminobutyric acid transaminase deficiency pathway" EXACT []
 synonym: "SMP:00351" RELATED []
@@ -17850,7 +17850,7 @@ creation_date: 2015-10-21T11:12:28Z
 [Term]
 id: PW:0002098
 name: fumaric aciduria pathway
-def: "A severe autosomal recessive metabolic disorder resulting from defects in the fumarate hydratase enzyme and manifesting in early-onset hypotonia, psychomotor and brain abnormalities." [OMIM:606812]
+def: "A severe autosomal recessive metabolic disorder resulting from defects in the fumarate hydratase enzyme and manifesting in early-onset hypotonia, psychomotor and brain abnormalities." [MIM:606812]
 synonym: "fumarase deficiency pathway" RELATED []
 synonym: "fumaric aciduria disease pathway" EXACT []
 synonym: "SMP:00547" RELATED []
@@ -17871,7 +17871,7 @@ creation_date: 2015-10-21T11:27:44Z
 [Term]
 id: PW:0002100
 name: fructose-1,6-bisphosphatase deficiency pathway
-def: "An autosomal recessive condition resulting from alterations in fructose metabolism due to defects in the enzyme fructose-1,6-bisphosphatase." [MeSH:D015319, OMIM:229700]
+def: "An autosomal recessive condition resulting from alterations in fructose metabolism due to defects in the enzyme fructose-1,6-bisphosphatase." [MeSH:D015319, MIM:229700]
 synonym: "fructose-1,6-diphosphatase deficiency pathway" EXACT []
 synonym: "SMP:00562" RELATED []
 is_a: PW:0002099 ! inborn error of fructose metabolism pathway
@@ -17881,7 +17881,7 @@ creation_date: 2015-10-21T11:29:17Z
 [Term]
 id: PW:0002101
 name: hereditary fructose intolerance syndrome pathway
-def: "An autosomal recessive disorder resulting from alterations in fructose metabolism and due to defects in the fructose-1-phosphate aldolase enzyme." [MeSH:D005633, OMIM:229600, Reactome:R-HSA-5657560, SMP:00725]
+def: "An autosomal recessive disorder resulting from alterations in fructose metabolism and due to defects in the fructose-1-phosphate aldolase enzyme." [MeSH:D005633, MIM:229600, Reactome:R-HSA-5657560, SMP:00725]
 synonym: "fructose intolerance pathway" EXACT []
 synonym: "Hereditary fructose intolerance" RELATED []
 is_a: PW:0002099 ! inborn error of fructose metabolism pathway
@@ -17900,7 +17900,7 @@ creation_date: 2015-10-21T12:53:22Z
 [Term]
 id: PW:0002103
 name: Fabry disease pathway
-def: "An X-linked inherited metabolic disorder resulting from alterations in lipid metabolic pathways. It is due to defects in alpha-galactosidase leading to accumulation of glycosphingolipids in blood vessels." [MeSH:D000795, OMIM:301500]
+def: "An X-linked inherited metabolic disorder resulting from alterations in lipid metabolic pathways. It is due to defects in alpha-galactosidase leading to accumulation of glycosphingolipids in blood vessels." [MeSH:D000795, MIM:301500]
 synonym: "SMP:00525" RELATED []
 is_a: PW:0001872 ! X-linked genetic disease pathway
 is_a: PW:0002301 ! sphingolipidosis pathway
@@ -17929,7 +17929,7 @@ creation_date: 2015-10-22T12:42:09Z
 [Term]
 id: PW:0002106
 name: desmosterolosis pathway
-def: "A rare autosomal recessive disorder likely resulting from alteration in cholesterol metabolism. Desmosterol, a precursor of cholesterol, is present in elevated amounts." [OMIM:602398]
+def: "A rare autosomal recessive disorder likely resulting from alteration in cholesterol metabolism. Desmosterol, a precursor of cholesterol, is present in elevated amounts." [MIM:602398]
 synonym: "desmosterolosis disease pathway" EXACT []
 synonym: "SMP:00386" RELATED []
 is_a: PW:0001643 ! inborn error of lipid metabolism pathway
@@ -18249,7 +18249,7 @@ creation_date: 2015-11-02T08:59:19Z
 [Term]
 id: PW:0002143
 name: citrullinemia pathway
-def: "The condition represents a group of disorders due to argininosuccinate synthase deficiency. The enzyme is a component of the urea cycle pathway." [MeSH:D020159, OMIM:215700]
+def: "The condition represents a group of disorders due to argininosuccinate synthase deficiency. The enzyme is a component of the urea cycle pathway." [MeSH:D020159, MIM:215700]
 synonym: "citrullinemia disease pathway" EXACT []
 synonym: "citrullinemia type I disease pathway" RELATED []
 synonym: "SMP:00001" RELATED []
@@ -18260,7 +18260,7 @@ creation_date: 2015-11-02T09:04:28Z
 [Term]
 id: PW:0002144
 name: carbamoyl phosphate synthase I deficiency pathway
-def: "An autosomal recessive disorder resulting from alterations in the urea cycle pathway and due to defects in the hepatic mitochondrial enzyme carbamoyl phosphate synthetase 1." [MeSH:D020165, OMIM:23730]
+def: "An autosomal recessive disorder resulting from alterations in the urea cycle pathway and due to defects in the hepatic mitochondrial enzyme carbamoyl phosphate synthetase 1." [MeSH:D020165, MIM:23730]
 is_obsolete: true
 created_by: VPetri
 creation_date: 2015-11-02T09:11:32Z
@@ -18268,7 +18268,7 @@ creation_date: 2015-11-02T09:11:32Z
 [Term]
 id: PW:0002145
 name: argininosuccinic aciduria pathway
-def: "A rare autosomal recessive disorder resulting from alterations in the urea cycle pathway and due to defects in the argininosuccinate lyase enzyme." [MeSH:D056807, OMIM:207900]
+def: "A rare autosomal recessive disorder resulting from alterations in the urea cycle pathway and due to defects in the argininosuccinate lyase enzyme." [MeSH:D056807, MIM:207900]
 synonym: "argininosuccinic aciduria disease pathway" EXACT []
 synonym: "SMP:00003" RELATED []
 is_a: PW:0002142 ! inborn error of urea cycle pathway
@@ -18447,7 +18447,7 @@ creation_date: 2015-11-03T08:59:40Z
 [Term]
 id: PW:0002166
 name: 17-alpha-hydroxylase deficiency pathway
-def: "A form of congenital hyperplasia resulting from defects in the CYP17A1 gene." [OMIM:202110]
+def: "A form of congenital hyperplasia resulting from defects in the CYP17A1 gene." [MIM:202110]
 synonym: "SMP:00372" RELATED []
 is_a: PW:0001478 ! congenital adrenal hyperplasia pathway
 created_by: VPetri
@@ -18456,7 +18456,7 @@ creation_date: 2015-11-04T15:18:23Z
 [Term]
 id: PW:0002167
 name: 21-alpha-hydroxylase deficiency pathway
-def: "A form of congenital hyperplasia resulting from defects in the CYP21A2 gene." [OMIM:201910]
+def: "A form of congenital hyperplasia resulting from defects in the CYP21A2 gene." [MIM:201910]
 synonym: "SMP:00373" RELATED []
 is_a: PW:0001478 ! congenital adrenal hyperplasia pathway
 created_by: VPetri
@@ -18465,7 +18465,7 @@ creation_date: 2015-11-04T15:18:29Z
 [Term]
 id: PW:0002168
 name: 11-beta-hydroxylase deficiency pathway
-def: "A form of congenital hyperplasia resulting from defects in the CYP11B1 gene." [OMIM:202010]
+def: "A form of congenital hyperplasia resulting from defects in the CYP11B1 gene." [MIM:202010]
 synonym: "SMP:00575" RELATED []
 is_a: PW:0001478 ! congenital adrenal hyperplasia pathway
 created_by: VPetri
@@ -18575,7 +18575,7 @@ creation_date: 2015-11-05T15:05:48Z
 [Term]
 id: PW:0002181
 name: prolidase deficiency pathway
-def: "A rare autosomal recessive disorder resulting from alterations in collagen metabolism and due to defects in the prolidase PEPD gene. The condition is manifested in skin ulcers and mental retardation." [MeSH:D056732, OMIM:170100]
+def: "A rare autosomal recessive disorder resulting from alterations in collagen metabolism and due to defects in the prolidase PEPD gene. The condition is manifested in skin ulcers and mental retardation." [MeSH:D056732, MIM:170100]
 synonym: "SMP:00207" RELATED []
 is_a: PW:0001645 ! inborn error of amino acid metabolism pathway
 is_a: PW:0002180 ! genetic skin disease pathway
@@ -18769,7 +18769,7 @@ creation_date: 2015-11-09T09:51:11Z
 [Term]
 id: PW:0002204
 name: 2-aminoadipic 2-oxoadipic aciduria pathway
-def: "An inherited condition resulting from alterations in lysine metabolism. Mutations in the DHTKD1 gene, encoding an enzyme involved in the lysine degradation pathway, have been associated with the condition." [OMIM:204750]
+def: "An inherited condition resulting from alterations in lysine metabolism. Mutations in the DHTKD1 gene, encoding an enzyme involved in the lysine degradation pathway, have been associated with the condition." [MIM:204750]
 synonym: "2-aminoadipic 2-oxoadipic aciduria disease pathway" EXACT []
 synonym: "SMP:00719" RELATED []
 is_a: PW:0001645 ! inborn error of amino acid metabolism pathway
@@ -18779,7 +18779,7 @@ creation_date: 2015-11-10T08:53:07Z
 [Term]
 id: PW:0002205
 name: 2-hydroxyglutaric aciduria pathway
-def: "An autosomal recessive neurometabolic disorder with several phenotypes and due to mutations in the L2HGDH gene (the L-type), D2HGDH and IDH2 genes (the D-type). A combined L- and D-type has also been observed and has been attributed to mutations in the SLC25A1 gene." [OMIM:236792, OMIM:600721, OMIM:613657, OMIM:615182]
+def: "An autosomal recessive neurometabolic disorder with several phenotypes and due to mutations in the L2HGDH gene (the L-type), D2HGDH and IDH2 genes (the D-type). A combined L- and D-type has also been observed and has been attributed to mutations in the SLC25A1 gene." [MIM:236792, MIM:600721, MIM:613657, MIM:615182]
 synonym: "2-hydroxyglutaricaciduria disease pathway" EXACT []
 synonym: "2-hydroxyglutaricaciduria pathway" EXACT []
 synonym: "SMP:00136" RELATED []
@@ -18790,7 +18790,7 @@ creation_date: 2015-11-10T09:02:17Z
 [Term]
 id: PW:0002206
 name: ethylmalonic encephalopathy pathway
-def: "An autosomal recessive metabolic disorder affecting the brain and peripheral vessels and manifested in infancy. Genetic studies identify defects in the ETHE1 gene, a mitochondrial resident gene product, thus pointing to implications in many aspects of mitochondrial metabolism and homeostasis." [OMIM:602473]
+def: "An autosomal recessive metabolic disorder affecting the brain and peripheral vessels and manifested in infancy. Genetic studies identify defects in the ETHE1 gene, a mitochondrial resident gene product, thus pointing to implications in many aspects of mitochondrial metabolism and homeostasis." [MIM:602473]
 synonym: "ethylmalonic encephalopathy disease pathway" EXACT []
 synonym: "SMP:00181" RELATED []
 is_a: PW:0001646 ! inborn error of brain metabolic pathway
@@ -18808,7 +18808,7 @@ creation_date: 2015-11-10T09:55:32Z
 [Term]
 id: PW:0002208
 name: dopamine beta-hydroxylase deficiency pathway
-def: "A condition resulting from alterations in the pathways of norepinephrine and epinephrine biosynthesis due to defects in the dopamine beta-hydroxylase gene (DBH). DBH catalyzes the conversion of dopamine to norepinephrine, in turn the precursor to epinephrine." [OMIM:223360, PMID:19342614]
+def: "A condition resulting from alterations in the pathways of norepinephrine and epinephrine biosynthesis due to defects in the dopamine beta-hydroxylase gene (DBH). DBH catalyzes the conversion of dopamine to norepinephrine, in turn the precursor to epinephrine." [MIM:223360, PMID:19342614]
 synonym: "dopamine beta hydroxylase deficiency pathway" EXACT []
 synonym: "SMP:00498" RELATED []
 is_a: PW:0002207 ! autonomic nervous system disease pathway
@@ -18818,7 +18818,7 @@ creation_date: 2015-11-10T09:57:28Z
 [Term]
 id: PW:0002209
 name: dimethylglycine dehydrogenase deficiency pathway
-def: "An autosomal recessive disorder resulting in alterations in glycine, choline and folate metabolism and due to mutations in DMGDH gene." [OMIM:605850]
+def: "An autosomal recessive disorder resulting in alterations in glycine, choline and folate metabolism and due to mutations in DMGDH gene." [MIM:605850]
 synonym: "SMP:00242" RELATED []
 synonym: "SMP:00484" RELATED []
 is_a: PW:0001645 ! inborn error of amino acid metabolism pathway
@@ -18828,7 +18828,7 @@ creation_date: 2015-11-10T10:08:49Z
 [Term]
 id: PW:0002210
 name: dihydropyrimidine dehydrogenase deficiency pathway
-def: "An autosomal recessive disorder resulting from alterations in pyrimidine degradation pathway due to mutations in dihydropyrimidine gene (DPYD). DPYD catalyzes the initial and rate-limiting step in pyrimidine bases (uracil and thymine) catabolism." [MeSH:D054067, OMIM:274270]
+def: "An autosomal recessive disorder resulting from alterations in pyrimidine degradation pathway due to mutations in dihydropyrimidine gene (DPYD). DPYD catalyzes the initial and rate-limiting step in pyrimidine bases (uracil and thymine) catabolism." [MeSH:D054067, MIM:274270]
 synonym: "SMP:00179" RELATED []
 is_a: PW:0001776 ! inborn error of purine-pyrimidine metabolism pathway
 created_by: VPetri
@@ -18837,7 +18837,7 @@ creation_date: 2015-11-10T10:22:12Z
 [Term]
 id: PW:0002211
 name: dihydropyrimidinase deficiency pathway
-def: "An autosomal recessive disorder resulting from alterations in pyrimidine degradation pathway due to mutations in dihydropyrimidinase gene (DPYS). DPYS catalyzes the second step in pyrimidine bases (uracil and thymine) catabolism." [OMIM:222748]
+def: "An autosomal recessive disorder resulting from alterations in pyrimidine degradation pathway due to mutations in dihydropyrimidinase gene (DPYS). DPYS catalyzes the second step in pyrimidine bases (uracil and thymine) catabolism." [MIM:222748]
 synonym: "SMP:00178" RELATED []
 is_a: PW:0001776 ! inborn error of purine-pyrimidine metabolism pathway
 created_by: VPetri
@@ -18846,7 +18846,7 @@ creation_date: 2015-11-10T10:29:04Z
 [Term]
 id: PW:0002212
 name: D-glycericacidemia pathway
-def: "A very rare autosomal recessive condition resulting from alterations in glycerolipid metabolism due to defects in the glycerate kinase (GLYCTK) gene." [OMIM:220120]
+def: "A very rare autosomal recessive condition resulting from alterations in glycerolipid metabolism due to defects in the glycerate kinase (GLYCTK) gene." [MIM:220120]
 synonym: "D-glycericacidemia disease pathway" EXACT []
 synonym: "D-glyceric aciduria disease pathway" RELATED []
 synonym: "SMP:00529" RELATED []
@@ -18867,7 +18867,7 @@ creation_date: 2015-11-11T15:21:59Z
 [Term]
 id: PW:0002214
 name: cystinuria pathway
-def: "An autosomal condition resulting from impaired epithelial transport of cystine and dibasic amino acids in the proximal renal tubule. It is further classified based on differences in the genetic basis of the disorder." [MeSH:D003555, OMIM:220100]
+def: "An autosomal condition resulting from impaired epithelial transport of cystine and dibasic amino acids in the proximal renal tubule. It is further classified based on differences in the genetic basis of the disorder." [MeSH:D003555, MIM:220100]
 synonym: "cystinuria disease pathway" EXACT []
 synonym: "SMP:00723" RELATED []
 is_a: PW:0002213 ! inborn error of renal tubular transport pathway
@@ -18877,7 +18877,7 @@ creation_date: 2015-11-11T15:22:06Z
 [Term]
 id: PW:0002215
 name: guanidinoacetate methyltransferase deficiency pathway
-def: "An autosomal recessive condition resulting from alterations in creatine metabolism due to mutations in the GAMT gene." [OMIM:612736]
+def: "An autosomal recessive condition resulting from alterations in creatine metabolism due to mutations in the GAMT gene." [MIM:612736]
 synonym: "creatine deficiency syndrome pathway due to GMAT deficiency" RELATED []
 synonym: "GAMT deficiency pathway" RELATED []
 synonym: "SMP:00188" RELATED []
@@ -18900,7 +18900,7 @@ creation_date: 2015-11-11T15:48:23Z
 [Term]
 id: PW:0002217
 name: cystinosis pathway
-def: "A condition resulting from alterations in the transport of cystine across the lysosomal membrane due to defects in the lysosomal cystine transporter, cystinosin (CTNS)." [MeSH:D003554, OMIM:219800]
+def: "A condition resulting from alterations in the transport of cystine across the lysosomal membrane due to defects in the lysosomal cystine transporter, cystinosin (CTNS)." [MeSH:D003554, MIM:219800]
 synonym: "cystinosis disease pathway" EXACT []
 is_a: PW:0001630 ! lysosomal storage disease pathway
 created_by: VPetri
@@ -18909,7 +18909,7 @@ creation_date: 2015-11-12T08:12:25Z
 [Term]
 id: PW:0002218
 name: ocular nonnephropathic cystinosis pathway
-def: "A variant of the classic nephropathic cystinosis type." [OMIM:219750]
+def: "A variant of the classic nephropathic cystinosis type." [MIM:219750]
 synonym: "ocular non-nephropathic cystinosis pathway" EXACT []
 synonym: "SMP:00722" RELATED []
 is_a: PW:0002217 ! cystinosis pathway
@@ -19065,7 +19065,7 @@ creation_date: 2015-11-17T08:26:19Z
 [Term]
 id: PW:0002236
 name: hereditary folate malabsorption pathway
-def: "An autosomal recessive condition likely due to alterations in folate transport and exhibiting the symptoms of folate deficiency." [OMIM:229050]
+def: "An autosomal recessive condition likely due to alterations in folate transport and exhibiting the symptoms of folate deficiency." [MIM:229050]
 synonym: "hereditary folate malabsorption disease pathway" EXACT []
 synonym: "SMP:00724" RELATED []
 is_a: PW:0002234 ! folic acid deficiency pathway
@@ -19221,7 +19221,7 @@ creation_date: 2015-11-20T10:05:33Z
 [Term]
 id: PW:0002254
 name: biotinidase deficiency pathway
-def: "A late onset form of multiple carboxylase deficiency due to defects in the biotin recycling biotinidase enzyme." [MeSH:D028921, OMIM:253260]
+def: "A late onset form of multiple carboxylase deficiency due to defects in the biotin recycling biotinidase enzyme." [MeSH:D028921, MIM:253260]
 synonym: "SMP:00174" RELATED []
 is_a: PW:0002253 ! multiple carboxylase deficiency pathway
 created_by: VPetri
@@ -19230,7 +19230,7 @@ creation_date: 2015-11-20T10:16:33Z
 [Term]
 id: PW:0002255
 name: holocarboxylase synthetase deficiency pathway
-def: "The neonatal form of multiple carboxylase deficiency due to defects in holocarboxylase synthetase, the enzyme catalyzing the covalent attachment of biotin to biotin-dependent carboxylases." [MeSH:D028922, OMIM:253270]
+def: "The neonatal form of multiple carboxylase deficiency due to defects in holocarboxylase synthetase, the enzyme catalyzing the covalent attachment of biotin to biotin-dependent carboxylases." [MeSH:D028922, MIM:253270]
 synonym: "Biotin-(propionyl-CoA-carboxylase) ligase deficiency pathway" EXACT []
 synonym: "multiple carboxylase deficiency (neonatal onset) pathway" EXACT []
 synonym: "SMP:00564" RELATED []
@@ -19392,7 +19392,7 @@ creation_date: 2015-11-23T08:31:58Z
 [Term]
 id: PW:0002274
 name: 3-methylglutaconic aciduria type 1 pathway
-def: "A rare autosomal recessive condition resulting from alterations in leucine metabolism." [OMIM:250950]
+def: "A rare autosomal recessive condition resulting from alterations in leucine metabolism." [MIM:250950]
 synonym: "3-methylglutaconyl-CoA hydratase deficiency pathway" EXACT []
 synonym: "3MG-CoA hydratase deficiency pathway" EXACT []
 synonym: "MGA1 pathway" EXACT []
@@ -19407,7 +19407,7 @@ creation_date: 2015-11-23T08:42:36Z
 [Term]
 id: PW:0002275
 name: 3-methylglutaconic aciduria type 3 pathway
-def: "A syndrome consisting of early-onset bilateral optic atrophy associated with later-onset spasticity and cognitive deficit." [OMIM:258502]
+def: "A syndrome consisting of early-onset bilateral optic atrophy associated with later-onset spasticity and cognitive deficit." [MIM:258502]
 synonym: "3-methylglutaconic aciduria type III pathway" EXACT []
 synonym: "autosomal recessive optic atrophy plus syndrome pathway" EXACT []
 synonym: "autosomal recessive optic atrophy type 3 pathway" EXACT []
@@ -19429,7 +19429,7 @@ creation_date: 2015-11-23T08:46:19Z
 [Term]
 id: PW:0002276
 name: adenylosuccinate lyase deficiency pathway
-def: "An autosomal recessive condition resulting from alteration in the de novo purine biosynthetic pathway." [OMIM:103050]
+def: "An autosomal recessive condition resulting from alteration in the de novo purine biosynthetic pathway." [MIM:103050]
 synonym: "SMP:00167" RELATED []
 is_a: PW:0001776 ! inborn error of purine-pyrimidine metabolism pathway
 created_by: VPetri
@@ -19438,7 +19438,7 @@ creation_date: 2015-11-23T08:58:22Z
 [Term]
 id: PW:0002277
 name: alkaptonuria pathway
-def: "An autosomal recessive condition resulting from alterations in the metabolism of phenylalanine and tyrosine." [MeSH:D000474, OMIM:203500]
+def: "An autosomal recessive condition resulting from alterations in the metabolism of phenylalanine and tyrosine." [MeSH:D000474, MIM:203500]
 synonym: "alkaptonuria disease pathway" EXACT []
 synonym: "SMP:00169" RELATED []
 is_a: PW:0001645 ! inborn error of amino acid metabolism pathway
@@ -19542,7 +19542,7 @@ creation_date: 2015-11-23T14:30:02Z
 id: PW:0002289
 name: malonic aciduria pathway
 alt_id: PW:0002550
-def: "A rare inherited metabolic condition due to alterations in the activity of malonyl-CoA decarboxylase." [OMIM:248360]
+def: "A rare inherited metabolic condition due to alterations in the activity of malonyl-CoA decarboxylase." [MIM:248360]
 synonym: "malonic aciduria disease pathway" EXACT []
 synonym: "malonyl-CoA decarboxylase deficiency pathway" RELATED []
 synonym: "SMP:00198" RELATED []
@@ -19554,7 +19554,7 @@ creation_date: 2015-11-23T15:11:20Z
 [Term]
 id: PW:0002290
 name: hyperargininemia pathway
-def: "A rare autosomal condition resulting from alterations in the urea cycle pathway and due to defects in the arginase enzyme." [MeSH:D020162, OMIM:207800]
+def: "A rare autosomal condition resulting from alterations in the urea cycle pathway and due to defects in the arginase enzyme." [MeSH:D020162, MIM:207800]
 synonym: "arginase deficiency pathway" RELATED []
 synonym: "argininemia disease pathway" RELATED []
 synonym: "deficiency of canavanase pathway" EXACT []
@@ -19596,7 +19596,7 @@ creation_date: 2015-11-23T15:42:39Z
 [Term]
 id: PW:0002294
 name: AICA-ribosuria pathway
-def: "A condition resulting from alterations in the de novo purine biosynthetic pathway and due to defects in the enzyme catalyzing the final steps." [OMIM:608688]
+def: "A condition resulting from alterations in the de novo purine biosynthetic pathway and due to defects in the enzyme catalyzing the final steps." [MIM:608688]
 synonym: "AICAR Transformylase/IMP Cyclohydrloase Deficiency Pathway" EXACT []
 synonym: "AICAR Transformylase Inosine Monophosphate Cyclohydrolase Deficiency Pathway" EXACT []
 synonym: "SMP:00168" RELATED []
@@ -19642,7 +19642,7 @@ creation_date: 2015-11-24T09:57:45Z
 [Term]
 id: PW:0002299
 name: glycine N-methyltransferase deficiency pathway
-def: "A condition due to defects in glycine N-methyltransferase (GNMT). As a component of methionine, homocysteine and folate metabolism among others, the defective enzyme potentially disrupts many metabolic pathways." [OMIM:606664]
+def: "A condition due to defects in glycine N-methyltransferase (GNMT). As a component of methionine, homocysteine and folate metabolism among others, the defective enzyme potentially disrupts many metabolic pathways." [MIM:606664]
 synonym: "hypermethioninemia due to glycine N-methyltransferase deficiency pathway" EXACT []
 synonym: "hypermethioninemia due to GNMT deficiency pathway" EXACT []
 synonym: "SMP:00222" RELATED []
@@ -19673,7 +19673,7 @@ creation_date: 2015-11-24T14:00:39Z
 [Term]
 id: PW:0002302
 name: familial hypercholanemia pathway
-def: "A condition characterized by elevated serum bile acid concentration that can be due to defects in any of several genes." [OMIM:607748]
+def: "A condition characterized by elevated serum bile acid concentration that can be due to defects in any of several genes." [MIM:607748]
 synonym: "familial hypercholanemia disease pathway" EXACT []
 synonym: "FHCA disease pathway" RELATED []
 synonym: "SMP:00317" RELATED []
@@ -19710,7 +19710,7 @@ creation_date: 2015-12-02T14:35:36Z
 [Term]
 id: PW:0002306
 name: glutaric aciduria type I pathway
-def: "An autosomal recessive condition resulting from alterations in several metabolic pathways due to defects in the GCDH gene." [OMIM:231670]
+def: "An autosomal recessive condition resulting from alterations in several metabolic pathways due to defects in the GCDH gene." [MIM:231670]
 synonym: "glutaric acidemia I pathway" EXACT []
 synonym: "glutaric aciduria I pathway" EXACT []
 synonym: "glutaric aciduria type I disease pathway" EXACT []
@@ -19862,7 +19862,7 @@ creation_date: 2015-12-07T08:59:19Z
 [Term]
 id: PW:0002323
 name: 3-hydroxy-3-methylglutaryl-CoA lyase deficiency pathway
-def: "A rare autosomal condition resulting from alterations in several metabolic pathways and due to defects in the HMGCL gene." [OMIM:246450]
+def: "A rare autosomal condition resulting from alterations in several metabolic pathways and due to defects in the HMGCL gene." [MIM:246450]
 synonym: "SMP:00138" RELATED []
 is_a: PW:0001645 ! inborn error of amino acid metabolism pathway
 created_by: VPetri
@@ -19871,7 +19871,7 @@ creation_date: 2015-12-07T09:04:52Z
 [Term]
 id: PW:0002324
 name: aromatic L-amino acid decarboxylase deficiency pathway
-def: "An autosomal recessive condition resulting from alterations in neurotransmitter metabolism and due to defects in the AADC gene." [OMIM:608643]
+def: "An autosomal recessive condition resulting from alterations in neurotransmitter metabolism and due to defects in the AADC gene." [MIM:608643]
 synonym: "aromatic amino acid decarboxylase deficiency pathway" EXACT []
 synonym: "Dopa decarboxylase deficiency pathway" RELATED []
 synonym: "SMP:00170" RELATED []
@@ -20032,7 +20032,7 @@ creation_date: 2015-12-09T14:42:18Z
 [Term]
 id: PW:0002343
 name: methylenetetrahydrofolate reductase deficiency pathway
-def: "A rather common condition resulting from alterations in folate metabolism and due to defects in methylenetetrahydrofolate reductase (MTHFR) gene." [OMIM:236250]
+def: "A rather common condition resulting from alterations in folate metabolism and due to defects in methylenetetrahydrofolate reductase (MTHFR) gene." [MIM:236250]
 synonym: "SMP:00340" RELATED []
 is_a: PW:0001841 ! homocystinuria pathway
 is_a: PW:0002342 ! muscle spasticity disorder pathway
@@ -20170,7 +20170,7 @@ creation_date: 2015-12-15T14:21:38Z
 [Term]
 id: PW:0002359
 name: AGAT deficiency pathway
-def: "An autosomal recessive condition characterized by developmental delay and mental retardation due to defects in the GATM gene." [OMIM:612718]
+def: "An autosomal recessive condition characterized by developmental delay and mental retardation due to defects in the GATM gene." [MIM:612718]
 synonym: "arginine:glycine amidinotransferase deficiency pathway" EXACT []
 synonym: "SMP:00362" RELATED []
 synonym: "SMP:00507" RELATED []
@@ -20227,7 +20227,7 @@ creation_date: 2015-12-17T08:13:19Z
 [Term]
 id: PW:0002365
 name: mitochondrial neurogastrointestinal encephalopathy syndrome pathway
-def: "A severe autosomal recessive disorder due to defects in the p53-inducible ribonucleotide reductase RRM2B." [OMIM:612075]
+def: "A severe autosomal recessive disorder due to defects in the p53-inducible ribonucleotide reductase RRM2B." [MIM:612075]
 synonym: "MNGIE syndrome pathway" RELATED []
 synonym: "SMP:00202" RELATED []
 is_a: PW:0002364 ! mitochondrial encephalomyopathy pathway
@@ -20353,7 +20353,7 @@ creation_date: 2015-12-21T08:52:11Z
 [Term]
 id: PW:0002380
 name: hawkinsinuria pathway
-def: "An autosomal dominant condition resulting from alterations in amino acid metabolism due to defects in the 4-hydroxyphenylpyruvate dioxygenase (HPD) gene." [OMIM:140350]
+def: "An autosomal dominant condition resulting from alterations in amino acid metabolism due to defects in the 4-hydroxyphenylpyruvate dioxygenase (HPD) gene." [MIM:140350]
 synonym: "hawkinsinuria disease pathway" EXACT []
 synonym: "SMP:00190" RELATED []
 is_a: PW:0001645 ! inborn error of amino acid metabolism pathway
@@ -20424,7 +20424,7 @@ creation_date: 2015-12-21T10:01:06Z
 [Term]
 id: PW:0002388
 name: fructosuria pathway
-def: "An autosomal recessive condition resulting from alterations in fructose metabolism and associated with defects in the ketohexokinase (KHK) gene." [OMIM:229800]
+def: "An autosomal recessive condition resulting from alterations in fructose metabolism and associated with defects in the ketohexokinase (KHK) gene." [MIM:229800]
 synonym: "fructosuria disease pathway" EXACT []
 synonym: "SMP:00561" RELATED []
 is_a: PW:0002099 ! inborn error of fructose metabolism pathway
@@ -20871,7 +20871,7 @@ creation_date: 2016-01-25T15:15:01Z
 [Term]
 id: PW:0002439
 name: congenital hemidysplasia with ichthyosiform erythroderma and limb defects pathway
-def: "An X-linked dominant disorder with a range of phenotypes and reduced activities of several enzymes in a number of metabolic pathways." [OMIM:308050]
+def: "An X-linked dominant disorder with a range of phenotypes and reduced activities of several enzymes in a number of metabolic pathways." [MIM:308050]
 synonym: "CHILD syndrome pathway" RELATED []
 synonym: "congenital hemidysplasia with ichthyosiform erythroderma and limb defects disease pathway" EXACT []
 synonym: "SMP:00387" RELATED []
@@ -21102,7 +21102,7 @@ creation_date: 2016-01-29T08:41:33Z
 [Term]
 id: PW:0002466
 name: apparent mineralocorticoid excess syndrome pathway
-def: "An autosomal recessive condition resulting from alterations in steroid metabolism due to defects in HSD11B2 gene." [OMIM:218030]
+def: "An autosomal recessive condition resulting from alterations in steroid metabolism due to defects in HSD11B2 gene." [MIM:218030]
 synonym: "SMP:00717" RELATED []
 is_a: PW:0002102 ! inborn error of steroid metabolism pathway
 created_by: VPetri
@@ -21111,7 +21111,7 @@ creation_date: 2016-01-29T09:12:36Z
 [Term]
 id: PW:0002467
 name: Glut1 deficiency syndrome pathway
-def: "A hereditary, usually autosomal dominant condition, resulting from alterations in glucose transport, affecting the nervous system and exhibiting a wide phenotypic variability." [OMIM:606777]
+def: "A hereditary, usually autosomal dominant condition, resulting from alterations in glucose transport, affecting the nervous system and exhibiting a wide phenotypic variability." [MIM:606777]
 synonym: "SMP:00580" RELATED []
 is_a: PW:0001644 ! inborn error of carbohydrate metabolism pathway
 created_by: VPetri
@@ -21229,7 +21229,7 @@ creation_date: 2016-02-03T15:22:30Z
 [Term]
 id: PW:0002481
 name: congenital bile acid synthesis defect pathway
-def: "Autosomal recessive disorders resulting from alterations in bile acid synthesis due to defects in one or several enzymes. Type 1 is due to mutations in the HSD3B7 gene, type 2 is due to mutations in the AKR1D1 gene, type 3 is due to mutations in the CYP7B1 gene." [OMIM:235555, OMIM:607765, OMIM:613812]
+def: "Autosomal recessive disorders resulting from alterations in bile acid synthesis due to defects in one or several enzymes. Type 1 is due to mutations in the HSD3B7 gene, type 2 is due to mutations in the AKR1D1 gene, type 3 is due to mutations in the CYP7B1 gene." [MIM:235555, MIM:607765, MIM:613812]
 synonym: "SMP:00314" RELATED []
 synonym: "SMP:00318" RELATED []
 is_a: PW:0002102 ! inborn error of steroid metabolism pathway
@@ -21313,7 +21313,7 @@ creation_date: 2016-02-05T13:27:11Z
 [Term]
 id: PW:0002491
 name: leukotriene C4 synthase deficiency pathway
-def: "An autosomal recessive condition resulting from alteration in leukotriene C4 synthesis due to defects in the LTC4 synthase gene." [OMIM:614037]
+def: "An autosomal recessive condition resulting from alteration in leukotriene C4 synthesis due to defects in the LTC4 synthase gene." [MIM:614037]
 synonym: "LTC4 synthase deficiency pathway" EXACT []
 synonym: "SMP:00353" RELATED []
 is_a: PW:0001589 ! inborn error of metabolism pathway
@@ -21446,7 +21446,7 @@ creation_date: 2016-02-10T10:59:15Z
 [Term]
 id: PW:0002506
 name: carnitine-acylcarnitine translocase deficiency
-def: "A rare autosomal recessive condition resulting from alteration in long-fatty acid oxidation and due to defects in the SLC25A20 gene." [OMIM:212138]
+def: "A rare autosomal recessive condition resulting from alteration in long-fatty acid oxidation and due to defects in the SLC25A20 gene." [MIM:212138]
 synonym: "SMP:00517" RELATED []
 is_a: PW:0001643 ! inborn error of lipid metabolism pathway
 created_by: VPetri
@@ -21672,7 +21672,7 @@ creation_date: 2016-02-24T09:57:15Z
 [Term]
 id: PW:0002532
 name: metachromatic leukodystrophy pathway
-def: "An autosomal recessive condition resulting from alterations in cerebroside metabolism due to defects in the cerebroside sulfatase enzyme." [MeSH:D007966, OMIM:25010]
+def: "An autosomal recessive condition resulting from alterations in cerebroside metabolism due to defects in the cerebroside sulfatase enzyme." [MeSH:D007966, MIM:25010]
 synonym: "arylsulfatase A deficiency pathway" EXACT []
 synonym: "deficiency of cerebroside-sulfatase pathway" EXACT []
 synonym: "metachromatic leukodystrophy disease pathway" EXACT []
@@ -21825,7 +21825,7 @@ creation_date: 2016-02-26T09:33:07Z
 [Term]
 id: PW:0002549
 name: succinyl-CoA:3-oxoacid transferase deficiency pathway
-def: "An acidosis caused by alteration in the ketone bodies metabolic pathway due to defects in the 3-oxoacid CoA transferase 1 enzyme." [OMIM:245050]
+def: "An acidosis caused by alteration in the ketone bodies metabolic pathway due to defects in the 3-oxoacid CoA transferase 1 enzyme." [MIM:245050]
 synonym: "ketoacidosis due to SCOT deficiency pathway" EXACT []
 synonym: "SCOT deficiency pathway" EXACT []
 synonym: "SMP:00569" RELATED []
@@ -21838,7 +21838,7 @@ creation_date: 2016-02-26T09:35:50Z
 [Term]
 id: PW:0002550
 name: malonic aciduria pathway
-def: "A rare acidosis resulting from defects in malonyl-CoA decarboxylase enzyme." [OMIM:248360]
+def: "A rare acidosis resulting from defects in malonyl-CoA decarboxylase enzyme." [MIM:248360]
 synonym: "malonyl-CoA decarboxylase deficiency pathway" RELATED []
 synonym: "SMP:00502" RELATED []
 is_obsolete: true
@@ -21947,7 +21947,7 @@ creation_date: 2016-03-02T09:10:31Z
 [Term]
 id: PW:0002561
 name: cystathioninuria pathway
-def: "An autosomal recessive condition resulting from alterations in the transsulfuration pathway of homocysteine metabolism." [OMIM:219500]
+def: "An autosomal recessive condition resulting from alterations in the transsulfuration pathway of homocysteine metabolism." [MIM:219500]
 synonym: "cystathionase deficiency pathway" EXACT []
 synonym: "cystathione gamma-lyase deficiency syndrome pathway" EXACT []
 synonym: "gamma-cystathionase deficiency pathway" EXACT []
@@ -21959,7 +21959,7 @@ creation_date: 2016-03-07T10:24:56Z
 [Term]
 id: PW:0002562
 name: glutathionuria disease pathway
-def: "An inherited condition resulting from alterations in glutathione metabolism." [OMIM:231950]
+def: "An inherited condition resulting from alterations in glutathione metabolism." [MIM:231950]
 synonym: "gamma-glutamyltransferase deficiency pathway" EXACT []
 synonym: "gamma-glutamyltranspeptidase deficiency pathway" EXACT []
 synonym: "SMP:00501" RELATED []
@@ -21970,7 +21970,7 @@ creation_date: 2016-03-07T10:33:20Z
 [Term]
 id: PW:0002563
 name: ornithine translocase deficiency pathway
-def: "An inherited condition resulting from alterations in the urea cycle pathway." [OMIM:238970]
+def: "An inherited condition resulting from alterations in the urea cycle pathway." [MIM:238970]
 synonym: "HHH syndrome pathway" RELATED []
 synonym: "hyperornithinemia-hyperammonemia-homocitrullinemia syndrome pathway" EXACT []
 synonym: "SMP:00506" RELATED []
@@ -21990,7 +21990,7 @@ creation_date: 2016-03-07T10:52:11Z
 [Term]
 id: PW:0002565
 name: carnosinemia pathway
-def: "An inherited condition resulting from alterations in carnosine metabolism due to defects in the enzyme carnosinase and manifested in neurological disorders." [OMIM:212200]
+def: "An inherited condition resulting from alterations in carnosine metabolism due to defects in the enzyme carnosinase and manifested in neurological disorders." [MIM:212200]
 synonym: "aminoacyl-histidine dipeptidase deficiency pathway" EXACT []
 synonym: "carnosinase deficiency pathway" EXACT []
 synonym: "carnosinemia disease pathway" EXACT []
@@ -22003,7 +22003,7 @@ creation_date: 2016-03-07T11:05:38Z
 [Term]
 id: PW:0002566
 name: adenine phoshoribosyltransferase deficiency pathway
-def: "An autosomal recessive disorder leading to the formation of urinary stones." [OMIM:614723]
+def: "An autosomal recessive disorder leading to the formation of urinary stones." [MIM:614723]
 synonym: "SMP:00535" RELATED []
 is_a: PW:0001589 ! inborn error of metabolism pathway
 is_a: PW:0002567 ! urolithiasis pathway
@@ -22075,7 +22075,7 @@ creation_date: 2016-03-28T09:22:01Z
 [Term]
 id: PW:0002574
 name: carnitine palmitoyltransferase I deficiency pathway
-def: "An autosomal recessive disorder resulting from alterations in long chain fatty acid oxidation due to defects in the carnitine palmitoyltransferase 1A (CPT1A) enzyme." [OMIM:255120]
+def: "An autosomal recessive disorder resulting from alterations in long chain fatty acid oxidation due to defects in the carnitine palmitoyltransferase 1A (CPT1A) enzyme." [MIM:255120]
 synonym: "carnitine palmitoyl transferase deficiency type I pathway" EXACT []
 synonym: "SMP:00538" RELATED []
 is_a: PW:0001643 ! inborn error of lipid metabolism pathway
@@ -22094,7 +22094,7 @@ creation_date: 2016-03-29T11:14:20Z
 [Term]
 id: PW:0002576
 name: 3-methylcrotonyl CoA carboxylase 1 deficiency pathway
-def: "An inheritied condition resulting from alterations in the degradation of branched-chain amino acid due to defects in the alpha subunit of methylcrotonyl CoA carboxylase (MCCC1). MCCC is a biotin-requiring enzyme in the mitochondria." [https://en.wikipedia.org/wiki/Methylcrotonyl-CoA_carboxylase "wikipedia", OMIM:210200]
+def: "An inheritied condition resulting from alterations in the degradation of branched-chain amino acid due to defects in the alpha subunit of methylcrotonyl CoA carboxylase (MCCC1). MCCC is a biotin-requiring enzyme in the mitochondria." [https://en.wikipedia.org/wiki/Methylcrotonyl-CoA_carboxylase "wikipedia", MIM:210200]
 synonym: "3-methylcrotonyl CoA carboxylase type I deficiency pathway" RELATED []
 synonym: "SMP:00237" RELATED []
 is_a: PW:0002142 ! inborn error of urea cycle pathway
@@ -22104,7 +22104,7 @@ creation_date: 2016-03-31T15:17:59Z
 [Term]
 id: PW:0002577
 name: 3-methylcrotonyl CoA carboxylase 2 deficiency pathway
-def: "An inheritied condition resulting from alterations in the degradation of branched-chain amino acid due to defects in the beta subunit of methylcrotonyl CoA carboxylase (MCCC2). MCCC is a biotin-requiring enzyme in the mitochondria." [https://en.wikipedia.org/wiki/Methylcrotonyl-CoA_carboxylase "wikipedia", OMIM:210210]
+def: "An inheritied condition resulting from alterations in the degradation of branched-chain amino acid due to defects in the beta subunit of methylcrotonyl CoA carboxylase (MCCC2). MCCC is a biotin-requiring enzyme in the mitochondria." [https://en.wikipedia.org/wiki/Methylcrotonyl-CoA_carboxylase "wikipedia", MIM:210210]
 synonym: "3-methylcrotonyl CoA carboxylase type II deficiency pathway" RELATED []
 is_a: PW:0002142 ! inborn error of urea cycle pathway
 created_by: vpetri
@@ -22227,7 +22227,7 @@ creation_date: 2016-06-09T08:59:39Z
 [Term]
 id: PW:0002591
 name: X-linked dominant chondrodysplasia punctata 2 pathway
-def: "The better characterized form of chondrodysplasia punctata due to defects in the Ebp gene involved in the cholesterol biosynthetic pathway." [OMIM:302960]
+def: "The better characterized form of chondrodysplasia punctata due to defects in the Ebp gene involved in the cholesterol biosynthetic pathway." [MIM:302960]
 synonym: "CDPXD pathway" EXACT []
 synonym: "CONRADI-HUNERMANN-HAPPLE SYNDROME pathway" EXACT []
 synonym: "CONRADI-HUNERMANN SYNDROME pathway" EXACT []
@@ -22460,7 +22460,7 @@ creation_date: 2016-08-17T13:50:09Z
 [Term]
 id: PW:0002617
 name: phosphoenolpyruvate carboxykinase deficiency pathway
-def: "A condition resulting from alterations in the gluconeogenesis pathway due to defects in the cytosolic PCK1 gene." [OMIM:261680]
+def: "A condition resulting from alterations in the gluconeogenesis pathway due to defects in the cytosolic PCK1 gene." [MIM:261680]
 synonym: "PCK1 deficiency pathway" EXACT []
 synonym: "PCK deficiency pathway" EXACT []
 synonym: "PEPCK deficiency pathway" EXACT []
