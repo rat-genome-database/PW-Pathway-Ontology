@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.85
-date: 22:06:2024 20:13
+data-version: 7.86
+date: 19:10:2024 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: pathway
@@ -22992,7 +22992,7 @@ id: PW:0002674
 name: mitotic anaphase pathway
 def: "The series of events underlying mitotic anaphase, following metaphase, during which the chromosomes separate and migrate towards the poles of the spindle at the opposite sides of the cell. The movement of the chromosomes is facilitated by a combination of kinetochore movement along the spindle microtubules and through the physical interaction of polar microtubules." [GO:0000090, Reactome:R-HSA-68882]
 synonym: "Mitotic Anaphase" RELATED []
-is_a: PW:0000092 ! M phase pathway
+relationship: part_of PW:0000092 ! M phase pathway
 created_by: gthayman
 creation_date: 2024-06-05T12:59:52Z
 
@@ -23009,6 +23009,10 @@ creation_date: 2024-06-05T13:11:50Z
 [Term]
 id: PW:0002676
 name: altered biotin metabolic pathway
+def: "A biotin metabolic pathway that deviates from what its normal course should be." [Reactome:R-HSA-3323169]
+synonym: "Defects in biotin (Btn) metabolism" RELATED []
+is_a: PW:0000139 ! biotin metabolic pathway
+is_a: PW:0000429 ! altered metabolic pathway of cofactors, vitamins, nutrients
 created_by: gthayman
 creation_date: 2024-06-05T13:27:19Z
 
@@ -23089,6 +23093,9 @@ creation_date: 2024-06-05T16:35:17Z
 [Term]
 id: PW:0002685
 name: mitotic sister chromatid segregation pathway
+synonym: "mitotic sister chromatid segregation" RELATED []
+synonym: "Separation of Sister Chromatids" RELATED []
+relationship: part_of PW:0002674 ! mitotic anaphase pathway
 created_by: gthayman
 creation_date: 2024-06-05T17:01:45Z
 
