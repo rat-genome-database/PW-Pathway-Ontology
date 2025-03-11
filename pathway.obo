@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.86
-date: 19:10:2024 20:13
+data-version: 7.87
+date: 08:03:2025 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: pathway
@@ -1440,7 +1440,7 @@ name: keratan sulfate biosynthetic pathway
 def: "Those metabolic reactions involved in the biosynthesis of keratan sulfate - a glycosaminoglycan found in the cornea, in cartilage, and in the nucleus pulposus and also as the accumulation product in Morquio's syndrome. It consists of repeating disaccharide units in specific linkage, each composed of a sulfated N-acetylglucosamine residue linked to one of galactose, which is usually sulfated. There are two forms, keratan sulfate I and keratan sulfate II, which differ in carbohydrate content and localization; the former occurs in the cornea and the latter in skeletal tissues." [GO:0018146, KEGG:map00533, OneLook:www.onelook.com, Reactome:R-HSA-2022854]
 synonym: "Keratan sulfate biosynthesis" RELATED []
 synonym: "keratan sulfate biosynthetic process" RELATED []
-is_a: PW:0000157 ! glycosaminoglycan metabolic pathway
+is_a: PW:0002686 ! glycosaminoglycan biosynthetic pathway
 
 [Term]
 id: PW:0000192
@@ -23098,6 +23098,37 @@ synonym: "Separation of Sister Chromatids" RELATED []
 relationship: part_of PW:0002674 ! mitotic anaphase pathway
 created_by: gthayman
 creation_date: 2024-06-05T17:01:45Z
+
+[Term]
+id: PW:0002686
+name: glycosaminoglycan biosynthetic pathway
+def: "Those metabolic reactions involved in the biosynthesis of glycosaminoglycans." [GO:0006024]
+synonym: "glycosaminoglycan biosynthetic process" RELATED []
+is_a: PW:0000157 ! glycosaminoglycan metabolic pathway
+created_by: gthayman
+creation_date: 2025-03-04T17:07:39Z
+
+[Term]
+id: PW:0002687
+name: hyaluronan biosynthetic pathway
+def: "Those metabolic reactions involved in the biosynthesis of hyaluronan." [GO:0030213, Reactome:R-HSA-2142850]
+synonym: "Hyaluronan biosynthesis and export" RELATED []
+synonym: "hyaluronan biosynthetic process" RELATED []
+is_a: PW:0002670 ! hyaluronan metabolic pathway
+is_a: PW:0002686 ! glycosaminoglycan biosynthetic pathway
+created_by: gthayman
+creation_date: 2025-03-04T17:36:48Z
+
+[Term]
+id: PW:0002688
+name: hyaluronan degradation pathway
+def: "Those metabolic reactions involved in the degradation of hyaluronan." [GO:0030214, Reactome:R-HSA-2160916]
+synonym: "hyaluronan catabolic process" RELATED []
+synonym: "Hyaluronan uptake and degradation" RELATED []
+is_a: PW:0001154 ! glycosaminoglycan degradation pathway
+is_a: PW:0002670 ! hyaluronan metabolic pathway
+created_by: gthayman
+creation_date: 2025-03-04T17:44:13Z
 
 [Typedef]
 id: part_of
