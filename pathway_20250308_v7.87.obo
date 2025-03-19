@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.88
-date: 15:03:2025 20:13
+data-version: 7.87
+date: 08:03:2025 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: pathway
@@ -1441,7 +1441,6 @@ def: "Those metabolic reactions involved in the biosynthesis of keratan sulfate 
 synonym: "Keratan sulfate biosynthesis" RELATED []
 synonym: "keratan sulfate biosynthetic process" RELATED []
 is_a: PW:0002686 ! glycosaminoglycan biosynthetic pathway
-is_a: PW:0002689 ! keratan sulfate metabolic pathway
 
 [Term]
 id: PW:0000192
@@ -3825,11 +3824,10 @@ is_a: PW:0000058 ! fatty acid metabolic pathway
 [Term]
 id: PW:0000524
 name: heparan sulfate biosynthetic pathway
-def: "Those metabolic reactions involved in the biosynthesis of heparan sulfate. Heparan sulfate is a glycosaminoglycan occurring in the cell membrane of most cells. It consists of repeating disaccharide units in specific linkage, each composed of a glucosamine residue linked to a uronic acid, either glucuronic acid or L-iduronic acid, which may be sulfated." [GO:0015012, KEGG:map00534, OneLook:www.onelook.com, Reactome:R-HSA-2022928]
-synonym: "heparan sulfate proteoglycan biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the biosynthesis of heparan sulfate. Heparan sulfate is a glycosaminoglycan occurring in the cell membrane of most cells. It consists of repeating disaccharide units in specific linkage, each composed of a glucosamine residue linked to a uronic acid, either glucuronic acid or L-iduronic acid, which may be sulfated." [GO:0030210, KEGG:map00534, OneLook:www.onelook.com, Reactome:R-HSA-2022928]
+synonym: "heparin biosynthetic process" RELATED []
 synonym: "HS-GAG biosynthesis" RELATED []
-is_a: PW:0002686 ! glycosaminoglycan biosynthetic pathway
-is_a: PW:0002691 ! heparan sulfate metabolic pathway
+is_a: PW:0000157 ! glycosaminoglycan metabolic pathway
 
 [Term]
 id: PW:0000525
@@ -23131,77 +23129,6 @@ is_a: PW:0001154 ! glycosaminoglycan degradation pathway
 is_a: PW:0002670 ! hyaluronan metabolic pathway
 created_by: gthayman
 creation_date: 2025-03-04T17:44:13Z
-
-[Term]
-id: PW:0002689
-name: keratan sulfate metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of keratan sulfate - a glycosaminoglycan found in the cornea, in cartilage, and in the nucleus pulposus and also as the accumulation product in Morquio's syndrome. It consists of repeating disaccharide units in specific linkage, each composed of a sulfated N-acetylglucosamine residue linked to one of galactose, which is usually sulfated. There are two forms, keratan sulfate I and keratan sulfate II, which differ in carbohydrate content and localization; the former occurs in the cornea and the latter in skeletal tissues." [GO:0042339, Reactome:R-HSA-1638074]
-synonym: "Keratan sulfate/keratin metabolism" RELATED []
-synonym: "keratan sulfate proteoglycan metabolic process" RELATED []
-is_a: PW:0000157 ! glycosaminoglycan metabolic pathway
-created_by: gthayman
-creation_date: 2025-03-11T16:21:33Z
-
-[Term]
-id: PW:0002690
-name: keratan sulfate degradation pathway
-def: "Those metabolic reactions involved in the degradation of keratan sulfate." [GO:0042340, Reactome:R-HSA-2022857]
-synonym: "keratan sulfate catabolic process" RELATED []
-synonym: "Keratan sulfate degradation" RELATED []
-is_a: PW:0001154 ! glycosaminoglycan degradation pathway
-is_a: PW:0002689 ! keratan sulfate metabolic pathway
-created_by: gthayman
-creation_date: 2025-03-11T16:36:54Z
-
-[Term]
-id: PW:0002691
-name: heparan sulfate metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of heparan sulfate. Heparan sulfate is a glycosaminoglycan occurring in the cell membrane of most cells. It consists of repeating disaccharide units in specific linkage, each composed of a glucosamine residue linked to a uronic acid, either glucuronic acid or L-iduronic acid, which may be sulfated." [GO:0030201, Reactome:R-HSA-1638091]
-synonym: "Heparan sulfate/heparin (HS-GAG) metabolism" RELATED []
-synonym: "heparan sulfate proteoglycan metabolic process" RELATED []
-is_a: PW:0000157 ! glycosaminoglycan metabolic pathway
-created_by: gthayman
-creation_date: 2025-03-13T13:23:08Z
-
-[Term]
-id: PW:0002692
-name: heparan sulfate degradation pathway
-def: "Those metabolic reactions involved in the degradation of heparan sulfate." [GO:0030200, Reactome:R-HSA-2024096]
-synonym: "heparan sulfate proteoglycan catabolic process" RELATED []
-synonym: "HS-GAG degradation" RELATED []
-is_a: PW:0001154 ! glycosaminoglycan degradation pathway
-is_a: PW:0002691 ! heparan sulfate metabolic pathway
-created_by: gthayman
-creation_date: 2025-03-13T13:38:17Z
-
-[Term]
-id: PW:0002693
-name: heparin metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of heparin. Heparin is similar to heparan sulfates but is of somewhat higher average Mr (6000-20000) and contains fewer N-acetyl groups and more N-sulfate and O-sulfate groups. It is found mainly as an intracellular component of mast cells." [GO:0030202]
-synonym: "heparin proteoglycan metabolic process" RELATED []
-is_a: PW:0000157 ! glycosaminoglycan metabolic pathway
-created_by: gthayman
-creation_date: 2025-03-13T15:52:53Z
-
-[Term]
-id: PW:0002694
-name: heparin degradation pathway
-def: "Those metabolic reactions involved in the degradation of heparin." [GO:0030211]
-synonym: "heparin proteoglycan catabolic process" RELATED []
-is_a: PW:0001154 ! glycosaminoglycan degradation pathway
-is_a: PW:0002693 ! heparin metabolic pathway
-created_by: gthayman
-creation_date: 2025-03-13T16:04:02Z
-
-[Term]
-id: PW:0002695
-name: heparin biosynthetic pathway
-def: "Those metabolic reactions involved in the biosynthesis of heparin." [GO:0030210]
-synonym: "heparin proteoglycan biosynthetic process" RELATED []
-is_a: PW:0002686 ! glycosaminoglycan biosynthetic pathway
-is_a: PW:0002693 ! heparin metabolic pathway
-created_by: gthayman
-creation_date: 2025-03-13T16:14:52Z
 
 [Typedef]
 id: part_of
