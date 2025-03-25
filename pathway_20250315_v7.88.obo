@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.89
-date: 22:03:2025 20:13
+data-version: 7.88
+date: 15:03:2025 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: pathway
@@ -1467,11 +1467,10 @@ is_a: PW:0000146 ! glycan metabolic pathway
 [Term]
 id: PW:0000195
 name: chondroitin sulfate biosynthetic pathway
-def: "Those metabolic reactions involved in the biosynthesis of chondroitin sulfate. Chondroitin is a mucopolysaccharide occurring in sulfated form in various animal tissues (such as cartilage)." [GO:0030206, KEGG:map00532, OneLook:www.onelook.com, Reactome:R-HSA-2022870]
+def: "Those metabolic reactions involved in the biosynthesis of chondroitin. Chondroitin is a mucopolysaccharide occurring in sulfated form in various animal tissues (such as cartilage)." [GO:0030206, KEGG:map00532, OneLook:www.onelook.com, Reactome:R-HSA-2022870]
 synonym: "Chondroitin sulfate biosynthesis" RELATED []
 synonym: "chondroitin sulfate biosynthetic process" RELATED []
-is_a: PW:0002686 ! glycosaminoglycan biosynthetic pathway
-is_a: PW:0002696 ! chondroitin sulfate metabolic pathway
+is_a: PW:0000157 ! glycosaminoglycan metabolic pathway
 
 [Term]
 id: PW:0000196
@@ -12619,8 +12618,7 @@ name: dermatan sulfate biosynthetic pathway
 def: "Those metabolic reactions involved in the biosynthesis of dermatan sulfate - a mucopolysaccharide found primarily in skin but also in tendons, lungs, heart valves and blood vessels." [GO:0030208, http://en.wikipedia.org/wiki/Dermatan_sulfate "wikipedia", Reactome:R-HSA-2022923]
 synonym: "Dermatan sulfate biosynthesis" RELATED []
 synonym: "dermatan sulfate biosynthetic process" RELATED []
-is_a: PW:0002686 ! glycosaminoglycan biosynthetic pathway
-is_a: PW:0002698 ! dermatan sulfate metabolic pathway
+is_a: PW:0000157 ! glycosaminoglycan metabolic pathway
 created_by: VPetri
 creation_date: 2014-03-20T13:05:32Z
 
@@ -23204,56 +23202,6 @@ is_a: PW:0002686 ! glycosaminoglycan biosynthetic pathway
 is_a: PW:0002693 ! heparin metabolic pathway
 created_by: gthayman
 creation_date: 2025-03-13T16:14:52Z
-
-[Term]
-id: PW:0002696
-name: chondroitin sulfate metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of chondroitin sulfate. Chondroitin is a mucopolysaccharide occurring in sulfated form in various animal tissues (such as cartilage)." [GO:0050654, Reactome:R-HSA-1793185]
-synonym: "chondroitin sulfate proteoglycan metabolic process" RELATED []
-synonym: "Chondroitin sulfate/dermatan sulfate metabolism" RELATED []
-is_a: PW:0000157 ! glycosaminoglycan metabolic pathway
-created_by: gthayman
-creation_date: 2025-03-19T13:58:25Z
-
-[Term]
-id: PW:0002697
-name: chondroitin sulfate degradation pathway
-def: "Those metabolic reactions involved in the degradation of chondroitin sulfate." [GO:0030207, Reactome:R-HSA-2024101]
-synonym: "chondroitin sulfate catabolic process" RELATED []
-synonym: "CS/DS degradation" RELATED []
-is_a: PW:0001154 ! glycosaminoglycan degradation pathway
-is_a: PW:0002696 ! chondroitin sulfate metabolic pathway
-created_by: gthayman
-creation_date: 2025-03-19T14:09:03Z
-
-[Term]
-id: PW:0002698
-name: dermatan sulfate metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of dermatan sulfate - a mucopolysaccharide found primarily in skin but also in tendons, lungs, heart valves and blood vessels." [GO:0050655]
-synonym: "dermatan sulfate proteoglycan metabolic process" RELATED []
-is_a: PW:0000157 ! glycosaminoglycan metabolic pathway
-created_by: gthayman
-creation_date: 2025-03-19T14:27:52Z
-
-[Term]
-id: PW:0002699
-name: dermatan sulfate degradation pathway
-def: "Those metabolic reactions involved in the degradation of dermatan sulfate." [GO:0030209]
-synonym: "dermatan sulfate catabolic process" RELATED []
-is_a: PW:0001154 ! glycosaminoglycan degradation pathway
-is_a: PW:0002698 ! dermatan sulfate metabolic pathway
-created_by: gthayman
-creation_date: 2025-03-19T14:33:41Z
-
-[Term]
-id: PW:0002700
-name: hypusinylation pathway
-def: "Cytosolic eukaryotic translation initiation factor 5A (eIF5A) undergoes a unique two-step post-translational modification at Lysine 50 via deoxyhypusine to form hypusine. eIF5A is the only protein known to undergo hypusinylation." [GO:0008612, Reactome:R-HSA-204626]
-synonym: "Hypusine synthesis from eIF5A-lysine" RELATED []
-synonym: "peptidyl-lysine modification to peptidyl-hypusine" RELATED []
-is_a: PW:0000432 ! protein modification pathway
-created_by: gthayman
-creation_date: 2025-03-19T15:00:19Z
 
 [Typedef]
 id: part_of
