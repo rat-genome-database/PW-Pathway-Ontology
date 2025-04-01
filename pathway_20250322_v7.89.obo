@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.90
-date: 29:03:2025 20:13
+data-version: 7.89
+date: 22:03:2025 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: pathway
@@ -10914,8 +10914,7 @@ creation_date: 2013-05-22T14:27:01Z
 [Term]
 id: PW:0001329
 name: guanosine diphosphate mannose metabolic pathway
-def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of guanosine diphosphate mannose, a nucleotide sugar." [http://en.wikipedia.org/wiki/GDP-mannose "wikipedia"]
-synonym: "GDP-mannose metabolic pathway" EXACT []
+def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of  guanosine diphosphate mannose, a nucleotide sugar." [http://en.wikipedia.org/wiki/GDP-mannose "wikipedia"]
 is_a: PW:0000055 ! nucleotide sugar metabolic pathway
 created_by: VPetri
 creation_date: 2013-05-22T14:32:54Z
@@ -23255,53 +23254,6 @@ synonym: "peptidyl-lysine modification to peptidyl-hypusine" RELATED []
 is_a: PW:0000432 ! protein modification pathway
 created_by: gthayman
 creation_date: 2025-03-19T15:00:19Z
-
-[Term]
-id: PW:0002701
-name: epigenetic regulation of gene expression pathway
-def: "Those metabolic reactions involved in modulating the frequency, rate or extent of gene expression through chromatin remodeling either by modifying higher order chromatin fiber structure or nucleosomal histones, cytosine methylation of DNA or RNA interference. Once established, this regulation may be maintained over many cell divisions. It can also be heritable in the absence of the instigating signal." [GO:0040029, Reactome:R-HSA-212165]
-synonym: "Epigenetic regulation of gene expression" RELATED []
-is_a: PW:0001337 ! chromatin modification/remodeling pathway
-created_by: gthayman
-creation_date: 2025-03-24T13:57:16Z
-
-[Term]
-id: PW:0002702
-name: hepoxilin biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of hepoxilins, a class of bioactive non-classic icosanoid signaling molecules with roles in the regulation of cell physiology." [GO:0051122, Reactome:R-HSA-2142696]
-synonym: "hepoxilin biosynthetic process" RELATED []
-synonym: "Synthesis of Hepoxilins (HX) and Trioxilins (TrX)" RELATED []
-is_a: PW:0001137 ! unsaturated fatty acid biosynthetic pathway
-is_a: PW:0001239 ! eicosanoid biosynthetic pathway
-created_by: gthayman
-creation_date: 2025-03-24T14:26:30Z
-
-[Term]
-id: PW:0002703
-name: hepoxilin biosynthetic pathway
-created_by: gthayman
-creation_date: 2025-03-24T15:51:53Z
-
-[Term]
-id: PW:0002704
-name: lipoxin biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of lipoxins. Lipoxins are non-classic eicosanoid signaling molecules that have four conjugated double bonds and are derived from arachidonic acid. They form during, then act to resolve, inflammatory responses." [GO:2001301, Reactome:R-HSA-2142700]
-synonym: "lipoxin biosynthetic process" RELATED []
-synonym: "Synthesis of Lipoxins (LX)" RELATED []
-is_a: PW:0001137 ! unsaturated fatty acid biosynthetic pathway
-is_a: PW:0001239 ! eicosanoid biosynthetic pathway
-created_by: gthayman
-creation_date: 2025-03-24T15:52:28Z
-
-[Term]
-id: PW:0002705
-name: guanosine diphosphate mannose biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of guanosine diphosphate mannose." [GO:0009298, Reactome:R-HSA-446205]
-synonym: "GDP-mannose biosynthetic process" RELATED []
-synonym: "Synthesis of GDP-mannose" RELATED []
-is_a: PW:0001329 ! guanosine diphosphate mannose metabolic pathway
-created_by: gthayman
-creation_date: 2025-03-25T15:56:25Z
 
 [Typedef]
 id: part_of
