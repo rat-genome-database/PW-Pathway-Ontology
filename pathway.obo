@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 7.90
-date: 29:03:2025 20:13
+date: 05:04:2025 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: pathway
@@ -2811,8 +2811,10 @@ is_a: PW:0000380 ! transport pathway for the elimination of drugs, endogenous or
 [Term]
 id: PW:0000383
 name: multispecific organic anion transporter mediated transport pathway
+def: "Those metabolic reactions involved in the the elimination of a variety of endogenous anionic substances, xenobiotics and their metabolites from the body, mediated by families of multi-specific transporters." []
 synonym: "OAT mediated pathway" RELATED []
 is_a: PW:0000380 ! transport pathway for the elimination of drugs, endogenous or exogenous compounds and metabolites
+is_a: PW:0002708 ! organic anion transport pathway
 
 [Term]
 id: PW:0000384
@@ -5854,8 +5856,8 @@ creation_date: 2010-04-26T10:53:15Z
 [Term]
 id: PW:0000776
 name: ketone bodies biosynthetic pathway
-def: "Those metabolic reactions involved in the synthesis of acetoacetate and beta-hydroxybutyrate, also known as ketone bodies, although only acetoacetate is a ketone. Generally, the acetyl-CoA derived from fatty acid oxidation enters the citrate cycle. In the liver, a substantial fraction of acetyl-CoA is converted to ketone bodies which are then released into the bloodstream to supply peripheral tissues." [GO:0042181, KEGG:map00072, MCW_Libraries:QU4_V876f_2008, Reactome:R-HSA-77111]
-synonym: "ketone biosynthetic process" RELATED []
+def: "Those metabolic reactions involved in the synthesis of acetoacetate and beta-hydroxybutyrate, also known as ketone bodies, although only acetoacetate is a ketone. Generally, the acetyl-CoA derived from fatty acid oxidation enters the citrate cycle. In the liver, a substantial fraction of acetyl-CoA is converted to ketone bodies which are then released into the bloodstream to supply peripheral tissues." [GO:0046952, KEGG:map00072, MCW_Libraries:QU4_V876f_2008, Reactome:R-HSA-77111]
+synonym: "ketone body biosynthetic process" RELATED []
 synonym: "Synthesis of Ketone Bodies" RELATED []
 is_a: PW:0000069 ! ketone bodies metabolic pathway
 created_by: VPetri
@@ -15222,8 +15224,8 @@ name: nonketotic hyperglycinemia pathway
 alt_id: PW:0001934
 def: "An autosomal recessive disorder resulting from alterations in the glycine metabolic pathway." [MIM:605899]
 synonym: "nonketotic hyperglycinemia disease pathway" EXACT []
-synonym: "non-ketotic hyperglycinemia pathway" EXACT []
 synonym: "nonketotic hyperglycinemia pathway" EXACT []
+synonym: "non-ketotic hyperglycinemia pathway" EXACT []
 synonym: "SMP:00223" RELATED []
 synonym: "SMP:00485" RELATED []
 is_a: PW:0001645 ! inborn error of amino acid metabolism pathway
@@ -23302,6 +23304,35 @@ synonym: "Synthesis of GDP-mannose" RELATED []
 is_a: PW:0001329 ! guanosine diphosphate mannose metabolic pathway
 created_by: gthayman
 creation_date: 2025-03-25T15:56:25Z
+
+[Term]
+id: PW:0002706
+name: protein methylation pathway
+def: "Those metabolic reactions involved in the addition of methyl groups to protein amino acids. A methyl group is derived from methane by the removal of a hydrogen atom." [GO:0006479, Reactome:R-HSA-8876725]
+synonym: "Protein methylation" RELATED []
+is_a: PW:0000432 ! protein modification pathway
+created_by: gthayman
+creation_date: 2025-03-31T18:30:47Z
+
+[Term]
+id: PW:0002707
+name: fatty acid transport pathway
+def: "Those metabolic reactions involved in the directed movement of fatty acids into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Fatty acids are aliphatic monocarboxylic acids liberated from naturally occurring fats and oils by hydrolysis." [GO:0015908, Reactome:R-HSA-804914]
+synonym: "fatty acid transport" RELATED []
+synonym: "Transport of fatty acids" RELATED []
+is_a: PW:0000103 ! transport pathway
+created_by: gthayman
+creation_date: 2025-04-01T15:18:37Z
+
+[Term]
+id: PW:0002708
+name: organic anion transport pathway
+def: "Those metabolic reactions involved in the the elimination of a variety of endogenous anionic substances, xenobiotics and their metabolites from the body, mediated by families of transporters." [GO:0015711, Reactome:R-HSA-879518]
+synonym: "organic anion transport" RELATED []
+synonym: "Transport of organic anions" RELATED []
+is_a: PW:0001348 ! ion transport pathway
+created_by: gthayman
+creation_date: 2025-04-01T15:36:46Z
 
 [Typedef]
 id: part_of
