@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.93
-date: 17:05:2025 20:13
+data-version: 7.91
+date: 19:04:2025 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: pathway
@@ -1371,7 +1371,7 @@ relationship: part_of PW:0000357 ! energy homeostasis pathway
 [Term]
 id: PW:0000181
 name: pathway pertinent to protein folding, sorting, modification, translocation and degradation
-def: "Those pathways that are involved in or mediate how proteins fold or are maintained in a particular folding state, are sorted for translocation or degradation, are modified to regulate their function or to target them for degradation and finally, are degraded." [InHouse:InHouse_PW_dictionary]
+def: "Those pathways that are involved in or mediate how protein fold or are maintained in a particular folding state, are sorted for translocation or degradation, are modified to regulate their function or to target them for degradation and finally, are degraded." [InHouse:InHouse_PW_dictionary]
 is_a: PW:0000004 ! regulatory pathway
 
 [Term]
@@ -4048,7 +4048,7 @@ id: PW:0000553
 name: glucose homeostasis pathway
 def: "Those pathways involved in the balanced maintenance of glucose levels, transport and processing as demanded by the needs of the cells, tissues and organs. Glucose is an important and the most efficient fuel source. Disruption of glucose homeostasis underlies many complex disorders." [GO:0042593, PMID:15466941]
 synonym: "glucose homeostasis" RELATED []
-is_a: PW:0001691 ! organic chemical homeostasis pathway
+is_a: PW:0000355 ! homeostasis pathway
 
 [Term]
 id: PW:0000554
@@ -8884,7 +8884,7 @@ creation_date: 2012-10-04T11:04:37Z
 [Term]
 id: PW:0001103
 name: acid-base homeostasis pathway
-def: "The pathways that respond to and control the levels of protons, bicarbonate, carbon dioxide and ammonia in cells. Several sensing pathways, i.e., prompting intracellular signaling cascades and transport have been identified as critical players. The kidneys play a major role along with the respiratory system." [PMID:22362904]
+def: "The pathways that respond to and control the levels of protons, bicarbonate and carbon dioxide and of ammonia the cells. Several sensing pathways, i.e., prompting intracellular signaling cascade, and transport have been identified as critical players. The kidneys play a major role along with the respiratory system." [PMID:22362904]
 is_a: PW:0000355 ! homeostasis pathway
 created_by: VPetri
 creation_date: 2012-10-04T12:58:08Z
@@ -15225,8 +15225,8 @@ name: nonketotic hyperglycinemia pathway
 alt_id: PW:0001934
 def: "An autosomal recessive disorder resulting from alterations in the glycine metabolic pathway." [MIM:605899]
 synonym: "nonketotic hyperglycinemia disease pathway" EXACT []
-synonym: "non-ketotic hyperglycinemia pathway" EXACT []
 synonym: "nonketotic hyperglycinemia pathway" EXACT []
+synonym: "non-ketotic hyperglycinemia pathway" EXACT []
 synonym: "SMP:00223" RELATED []
 synonym: "SMP:00485" RELATED []
 is_a: PW:0001645 ! inborn error of amino acid metabolism pathway
@@ -22991,7 +22991,7 @@ name: mitotic metaphase pathway
 def: "The series of events underlying mitotic metaphase, the cell cycle phase following prophase or prometaphase, during which chromosomes become aligned via spindle fibers on the equatorial or metaphase plate of the cell. Such an organization helps to ensure that later, when the chromosomes are separated, each new nucleus that is formed receives one copy of each chromosome. " [GO:0000089, Reactome:R-HSA-2555396]
 synonym: "mitotic metaphase" RELATED []
 synonym: "Mitotic Metaphase and Anaphase" RELATED []
-relationship: part_of PW:0000092 ! M phase pathway
+is_a: PW:0000092 ! M phase pathway
 created_by: gthayman
 creation_date: 2024-06-05T10:52:35Z
 
@@ -23385,7 +23385,7 @@ creation_date: 2025-04-17T16:05:46Z
 [Term]
 id: PW:0002714
 name: tRNA modification pathway
-def: "The covalent alteration of one or more nucleotides within a tRNA molecule to produce a tRNA molecule with a sequence that differs from that encoded genetically. At least 92 distinct tRNA nucleotide base modifications have been found, made post-transcriptionally by a large group of disparate enzymes located in the nucleus, cytosol, and mitochondria." [GO:0006400, Reactome:R-HSA-6782315]
+def: "The covalent alteration of one or more nucleotides within a tRNA molecule to produce a tRNA molecule with a sequence that differs from that coded genetically. At least 92 distinct tRNA nucleotide base modifications have been found, made post-transcriptionally by a large group of disparate enzymes located in the nucleus, cytosol, and mitochondria." [GO:0006400, Reactome:R-HSA-6782315]
 synonym: "tRNA modification" RELATED []
 synonym: "tRNA modification in the nucleus and cytosol" RELATED []
 is_a: PW:0001573 ! tRNA maturation pathway
@@ -23400,232 +23400,6 @@ synonym: "Post-translational protein modification" RELATED []
 is_a: PW:0000432 ! protein modification pathway
 created_by: gthayman
 creation_date: 2025-04-17T16:51:18Z
-
-[Term]
-id: PW:0002716
-name: glycogen storage disease type II pathway
-def: "A type of glycogen storage disease pathway involving mutations in lysosomal alpha-glucosidase (GAA)." [Reactome:R-HSA-5357609]
-synonym: "Glycogen storage disease type II (GAA)" RELATED []
-is_a: PW:0001991 ! glycogen storage disease pathway
-created_by: gthayman
-creation_date: 2025-04-25T10:03:29Z
-
-[Term]
-id: PW:0002717
-name: regulation of mitotic cell cycle pathway
-def: "Those pathways involved in modulating the rate or extent of progress through the mitotic cell cycle." [GO:0007346, Reactome:R-HSA-453276]
-synonym: "Regulation of mitotic cell cycle" RELATED []
-is_a: PW:0000086 ! cell cycle pathway, mitotic
-created_by: gthayman
-creation_date: 2025-04-25T10:11:14Z
-
-[Term]
-id: PW:0002718
-name: mitochondrial translation initiation pathway
-def: "The series of events preceding formation of the peptide bond between the first two amino acids of a protein in a mitochondrion. This includes the formation of a complex of the ribosome, mRNA, and an initiation complex that contains the first aminoacyl-tRNA." [GO:0070124, Reactome:R-HSA-5368286]
-synonym: "mitochondrial translational initiation" RELATED []
-synonym: "Mitochondrial translation initiation" RELATED []
-is_a: PW:0000580 ! translation initiation pathway
-relationship: part_of PW:0001323 ! mitochondrial translation pathway
-created_by: gthayman
-creation_date: 2025-04-25T10:54:04Z
-
-[Term]
-id: PW:0002719
-name: mitochondrial translation termination pathway
-def: "The series of events resulting in the release of a polypeptide chain from the ribosome in a mitochondrion, usually in response to a termination codon (note that mitochondria use variants of the universal genetic code that differ between different taxa)." [GO:0070126, Reactome:R-HSA-5419276]
-synonym: "Mitochondrial translation termination" RELATED []
-is_a: PW:0000582 ! translation termination pathway
-relationship: part_of PW:0001323 ! mitochondrial translation pathway
-created_by: gthayman
-creation_date: 2025-04-25T11:07:48Z
-
-[Term]
-id: PW:0002720
-name: xylulose 5-phosphate biosynthetic pathway
-def: "Those metabolic reactions and pathways resulting in the formation of xylulose 5-phosphate." [GO:1901159, Reactome:R-HSA-5661270]
-synonym: "D-xylulose 5-phosphate biosynthetic process" RELATED []
-synonym: "Formation of xylulose-5-phosphate" RELATED []
-relationship: part_of PW:0000188 ! pentose and glucuronate interconversion pathway
-relationship: part_of PW:0000574 ! pentose phosphate pathway - non-oxidative phase
-created_by: gthayman
-creation_date: 2025-04-25T12:27:38Z
-
-[Term]
-id: PW:0002721
-name: melanin biosynthetic pathway
-def: "The metabolic reactions and pathways resulting in the formation of melanins, pigments largely of animal origin. High molecular weight polymers of indole quinone, they are irregular polymeric structures and are divided into three groups: allomelanins in plants and fungi, and eumelanins and pheomelanins in animals." [GO:0042438, Reactome:R-HSA-5662702]
-synonym: "Melanin biosynthesis" RELATED []
-synonym: "melanin biosynthetic process" RELATED []
-is_a: PW:0000052 ! tyrosine metabolic pathway
-created_by: gthayman
-creation_date: 2025-04-25T13:00:54Z
-
-[Term]
-id: PW:0002722
-name: protein O-linked glycosylation pathway
-def: "Those pathways involved in the post-translational addition of a carbohydrate or carbohydrate derivative unit to a protein via the hydroxyl group of peptidyl-serine, peptidyl-threonine, peptidyl-hydroxylysine, or peptidyl-hydroxyproline, or via the phenol group of peptidyl-tyrosine, forming an O-glycan." [GO:0006493, Reactome:R-HSA-5173105]
-synonym: "O-linked glycosylation" RELATED []
-synonym: "protein O-linked glycosylation" RELATED []
-is_a: PW:0002715 ! post-translational protein modification pathway
-created_by: gthayman
-creation_date: 2025-05-05T12:57:53Z
-
-[Term]
-id: PW:0002723
-name: ion homeostasis pathway
-def: "Those pathways involved in the maintenance of an internal steady state of ions within an organism or cell." [GO:0050801, Reactome:R-HSA-5578775]
-synonym: "Ion homeostasis" RELATED []
-synonym: "monoatomic ion homeostasis" RELATED []
-is_a: PW:0000355 ! homeostasis pathway
-created_by: gthayman
-creation_date: 2025-05-06T12:30:22Z
-
-[Term]
-id: PW:0002724
-name: mitochondrial tRNA modification pathway
-def: "The covalent alteration of one or more nucleotides within a mitochondrial tRNA molecule to produce a mitochondrial tRNA molecule with a sequence that differs from that encoded genetically." [GO:0070900, Reactome:R-HSA-6787450]
-synonym: "mitochondrial tRNA modification" RELATED []
-synonym: "tRNA modification in the mitochondrion" RELATED []
-is_a: PW:0002714 ! tRNA modification pathway
-created_by: gthayman
-creation_date: 2025-05-06T12:42:20Z
-
-[Term]
-id: PW:0002725
-name: protein repair pathway
-def: "Those pathways involved in restoring a protein to its original state after damage by such things as oxidation or spontaneous decomposition of residues." [GO:0030091, Reactome:R-HSA-5676934]
-synonym: "Protein repair" RELATED []
-is_a: PW:0000181 ! pathway pertinent to protein folding, sorting, modification, translocation and degradation
-is_a: PW:0001756 ! peptide and protein metabolic pathway
-created_by: gthayman
-creation_date: 2025-05-07T13:07:30Z
-
-[Term]
-id: PW:0002726
-name: rRNA modification pathway
-def: "The covalent alteration of one or more nucleotides within an rRNA molecule to produce an rRNA molecule with a sequence that differs from that encoded genetically." [GO:0000154, Reactome:R-HSA-6790901]
-synonym: "rRNA modification" RELATED []
-synonym: "rRNA modification in the nucleus and cytosol" RELATED []
-is_a: PW:0001574 ! rRNA maturation pathway
-created_by: gthayman
-creation_date: 2025-05-07T13:20:26Z
-
-[Term]
-id: PW:0002727
-name: mitotic telophase pathway
-def: "The series of events underlying mitotic telophase, which follows anaphase, during which the chromosomes arrive at the poles of the cell and the division of the cytoplasm starts." [GO:0000093, Reactome:R-HSA-68884]
-synonym: "mitotic telophase" RELATED []
-synonym: "Mitotic Telophase/Cytokinesis" RELATED []
-relationship: part_of PW:0000092 ! M phase pathway
-created_by: gthayman
-creation_date: 2025-05-07T14:26:40Z
-
-[Term]
-id: PW:0002728
-name: mitotic prophase pathway
-def: "The series of events underlying mitotic prophase, which is the first stage of mitosis, during which chromosomes condense and the two daughter centrioles and their asters migrate toward the poles of the cell." [GO:0000088, Reactome:R-HSA-68875]
-synonym: "Mitotic Prophase" RELATED []
-relationship: part_of PW:0000092 ! M phase pathway
-created_by: gthayman
-creation_date: 2025-05-07T14:38:44Z
-
-[Term]
-id: PW:0002729
-name: mitotic prometaphase pathway
-def: "The series of events underlying mitotic prometaphase in higher eukaryotes, which follows mitotic prophase, during which the nuclear envelope is disrupted and breaks into membrane vesicles, and the spindle microtubules enter the nuclear region. Kinetochores mature on each centromere and attach to some of the spindle microtubules. Kinetochore microtubules begin the process of aligning chromosomes in one plane halfway between the poles." [GO:0000236, Reactome:R-HSA-68877]
-synonym: "Mitotic Prometaphase" RELATED []
-relationship: part_of PW:0000092 ! M phase pathway
-created_by: gthayman
-creation_date: 2025-05-07T14:47:31Z
-
-[Term]
-id: PW:0002730
-name: mitotic metaphase/anaphase transition pathway
-def: "The series of events underlying the progression of a cell from metaphase to anaphase during mitosis, triggered by the activation of the anaphase promoting complex by Cdc20/Sleepy homolog, which results in the degradation of cyclin B and securin." [GO:0007091, Reactome:R-HSA-68881]
-synonym: "metaphase/anaphase transition of mitotic cell cycle" RELATED []
-synonym: "Mitotic Metaphase/Anaphase Transition" RELATED []
-relationship: part_of PW:0000092 ! M phase pathway
-created_by: gthayman
-creation_date: 2025-05-07T14:55:51Z
-
-[Term]
-id: PW:0002731
-name: cell division pathway
-def: "The series of events resulting in division and partitioning of components of a cell to form more cells; this may or may not be accompanied by the physical separation of a cell into distinct, individually membrane-bounded daughter cells." [GO:0051301, Reactome:R-HSA-68884]
-synonym: "Cell Division" RELATED []
-is_a: PW:0000085 ! pathway pertinent to DNA replication and repair, cell cycle, maintenance of genomic integrity, RNA and protein biosynthesis
-created_by: gthayman
-creation_date: 2025-05-08T16:53:37Z
-
-[Term]
-id: PW:0002732
-name: propionyl-CoA degradation pathway
-def: "Those metabolic reactions involved in the breakdown of propionyl-CoA." [GO:1902859, Reactome:R-HSA-71032]
-synonym: "propionyl-CoA catabolic process" RELATED []
-synonym: "Propionyl-CoA catabolism" RELATED []
-is_a: PW:0000064 ! propanoate metabolic pathway
-is_a: PW:0000738 ! fatty acid beta degradation pathway
-created_by: gthayman
-creation_date: 2025-05-09T11:19:42Z
-
-[Term]
-id: PW:0002733
-name: translation initiation complex formation pathway
-def: "Joining of the large ribosomal subunit with the translation preinitiation complex, with release of IF2/eIF2 and IF3/eIF3 or IF5B/eIF5B. This leaves the functional ribosome at the AUG, with the methionyl/formyl-methionyl-tRNA positioned at the P site." [GO:0001732, Reactome:R-HSA-72649]
-synonym: "formation of cytoplasmic translation initiation complex" RELATED []
-synonym: "Translation initiation complex formation" RELATED []
-relationship: part_of PW:0000580 ! translation initiation pathway
-created_by: gthayman
-creation_date: 2025-05-09T12:00:50Z
-
-[Term]
-id: PW:0002734
-name: nucleotide sugar transport pathway
-def: "Those reactions involved in the directed movement of a nucleotide, any compound consisting of a nucleoside esterified with (ortho) phosphate, into, out of or within a cell." [GO:0006862, Reactome:R-HSA-727802]
-synonym: "nucleotide transport" RELATED []
-synonym: "Transport of nucleotide sugars" RELATED []
-is_a: PW:0000055 ! nucleotide sugar metabolic pathway
-created_by: gthayman
-creation_date: 2025-05-09T13:43:36Z
-
-[Term]
-id: PW:0002735
-name: RNA polymerase I promoter clearance pathway
-def: "The series of events mediating the transition from the initiation to the elongation phases of transcription by RNA polymerase I, generally including a conformational change from the initiation conformation to the elongation conformation. Promoter clearance often involves breaking contact with transcription factors involved only in the initiation phase and making contacts with elongation specific factors." [GO:0001182, Reactome:R-HSA-73854]
-synonym: "RNA Polymerase I Promoter Clearance" RELATED []
-relationship: part_of PW:0000126 ! RNA polymerase I transcription pathway
-created_by: gthayman
-creation_date: 2025-05-12T11:44:06Z
-
-[Term]
-id: PW:0002736
-name: RNA polymerase II promoter clearance pathway
-def: "The series of events mediating the transition from the initiation to the elongation phases of transcription by RNA polymerase II, generally including a conformational change from the initiation conformation to the elongation conformation. Promoter clearance often involves breaking contact with transcription factors involved only in the initiation phase and making contacts with elongation specific factors." [GO:0001111, Reactome:R-HSA-76042]
-synonym: "RNA polymerase II promoter clearance" RELATED []
-synonym: "RNA Polymerase II Transcription Initiation And Promoter Clearance" RELATED []
-relationship: part_of PW:0000127 ! RNA polymerase II transcription pathway
-created_by: gthayman
-creation_date: 2025-05-13T13:59:32Z
-
-[Term]
-id: PW:0002737
-name: fatty-acyl-CoA biosynthetic pathway
-def: "The chemical reactions resulting in the formation of a fatty-acyl-CoA, any derivative of coenzyme A in which the sulfhydryl group is in thioester linkage with a fatty-acyl group." []
-synonym: "Fatty acyl-CoA biosynthesis" RELATED []
-synonym: "fatty-acyl-CoA biosynthetic process" RELATED []
-relationship: has_component PW:0000029 ! fatty acid biosynthetic pathway
-created_by: gthayman
-creation_date: 2025-05-16T16:10:38Z
-
-[Term]
-id: PW:0002738
-name: nucleosome assembly pathway
-def: "The events involved in the aggregation, arrangement and bonding together of a nucleosome, the beadlike structural units of eukaryotic chromatin composed of histones and DNA." [GO:0006334, Reactome:R-HSA-774815]
-synonym: "Nucleosome assembly" RELATED []
-relationship: part_of PW:0001337 ! chromatin modification/remodeling pathway
-created_by: gthayman
-creation_date: 2025-05-16T16:56:25Z
 
 [Typedef]
 id: part_of

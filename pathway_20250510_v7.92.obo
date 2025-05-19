@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.93
-date: 17:05:2025 20:13
+data-version: 7.92
+date: 10:05:2025 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: pathway
@@ -23588,44 +23588,6 @@ synonym: "Transport of nucleotide sugars" RELATED []
 is_a: PW:0000055 ! nucleotide sugar metabolic pathway
 created_by: gthayman
 creation_date: 2025-05-09T13:43:36Z
-
-[Term]
-id: PW:0002735
-name: RNA polymerase I promoter clearance pathway
-def: "The series of events mediating the transition from the initiation to the elongation phases of transcription by RNA polymerase I, generally including a conformational change from the initiation conformation to the elongation conformation. Promoter clearance often involves breaking contact with transcription factors involved only in the initiation phase and making contacts with elongation specific factors." [GO:0001182, Reactome:R-HSA-73854]
-synonym: "RNA Polymerase I Promoter Clearance" RELATED []
-relationship: part_of PW:0000126 ! RNA polymerase I transcription pathway
-created_by: gthayman
-creation_date: 2025-05-12T11:44:06Z
-
-[Term]
-id: PW:0002736
-name: RNA polymerase II promoter clearance pathway
-def: "The series of events mediating the transition from the initiation to the elongation phases of transcription by RNA polymerase II, generally including a conformational change from the initiation conformation to the elongation conformation. Promoter clearance often involves breaking contact with transcription factors involved only in the initiation phase and making contacts with elongation specific factors." [GO:0001111, Reactome:R-HSA-76042]
-synonym: "RNA polymerase II promoter clearance" RELATED []
-synonym: "RNA Polymerase II Transcription Initiation And Promoter Clearance" RELATED []
-relationship: part_of PW:0000127 ! RNA polymerase II transcription pathway
-created_by: gthayman
-creation_date: 2025-05-13T13:59:32Z
-
-[Term]
-id: PW:0002737
-name: fatty-acyl-CoA biosynthetic pathway
-def: "The chemical reactions resulting in the formation of a fatty-acyl-CoA, any derivative of coenzyme A in which the sulfhydryl group is in thioester linkage with a fatty-acyl group." []
-synonym: "Fatty acyl-CoA biosynthesis" RELATED []
-synonym: "fatty-acyl-CoA biosynthetic process" RELATED []
-relationship: has_component PW:0000029 ! fatty acid biosynthetic pathway
-created_by: gthayman
-creation_date: 2025-05-16T16:10:38Z
-
-[Term]
-id: PW:0002738
-name: nucleosome assembly pathway
-def: "The events involved in the aggregation, arrangement and bonding together of a nucleosome, the beadlike structural units of eukaryotic chromatin composed of histones and DNA." [GO:0006334, Reactome:R-HSA-774815]
-synonym: "Nucleosome assembly" RELATED []
-relationship: part_of PW:0001337 ! chromatin modification/remodeling pathway
-created_by: gthayman
-creation_date: 2025-05-16T16:56:25Z
 
 [Typedef]
 id: part_of
