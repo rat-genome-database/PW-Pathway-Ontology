@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.94
-date: 26:07:2025 20:13
+data-version: 7.95
+date: 11:10:2025 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: pathway
@@ -23271,7 +23271,9 @@ creation_date: 2025-03-24T13:57:16Z
 [Term]
 id: PW:0002702
 name: hepoxilin biosynthetic pathway
+alt_id: PW:0002703
 def: "Those metabolic reactions involved in the synthesis of hepoxilins, a class of bioactive non-classic icosanoid signaling molecules with roles in the regulation of cell physiology." [GO:0051122, Reactome:R-HSA-2142696]
+synonym: "hepoxilin biosynthetic pathway" EXACT []
 synonym: "hepoxilin biosynthetic process" RELATED []
 synonym: "Synthesis of Hepoxilins (HX) and Trioxilins (TrX)" RELATED []
 is_a: PW:0001137 ! unsaturated fatty acid biosynthetic pathway
@@ -23282,6 +23284,7 @@ creation_date: 2025-03-24T14:26:30Z
 [Term]
 id: PW:0002703
 name: hepoxilin biosynthetic pathway
+is_obsolete: true
 created_by: gthayman
 creation_date: 2025-03-24T15:51:53Z
 
