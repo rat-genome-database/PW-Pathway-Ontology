@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 7.96
-date: 13:12:2025 20:13
+data-version: 7.97
+date: 10:01:2026 20:13
 saved-by: gthayman
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: pathway
@@ -11895,8 +11895,11 @@ creation_date: 2013-07-10T13:58:48Z
 
 [Term]
 id: PW:0001439
-name: cerium oxide nanoparticle response pathway
+name: ceric oxide nanoparticle response pathway
 def: "A pathway triggered by exposure to cerium oxide nanoparticles, also known as nanoceria. Like other nanoparticles, nanoceria has a broad range of applications. A peculiar feature is the anti-oxidant property; by catalytically reacting with superoxide and hydrogen peroxide, it mimics the activities of superoxide dismutase and catalase enzymes. In addition, beneficial effects on cell differentiation and dopamine production have been shown. However, toxic effects have also been demonstrated." [PMID:19802857, PMID:21369578, PMID:23416263, PMID:23661146]
+synonym: "cerium oxide nanoparticle response pathway" EXACT []
+xref: CHEBI:79089
+xref: MESH:C030583
 is_a: PW:0001435 ! nanomaterial response pathway
 created_by: VPetri
 creation_date: 2013-07-12T10:55:42Z
