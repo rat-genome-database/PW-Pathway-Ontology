@@ -1,13 +1,13 @@
 format-version: 1.2
-data-version: releases/2026-05-16
-date: 16:05:2026 20:13
+data-version: releases/2026-11-14
+date: 14:11:2026 20:13
 saved-by: gthayman
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-05-05 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-10-26 --
 default-namespace: pathway
 ontology: pw
 property_value: dc:creator "G. Thomas Hayman" xsd:string
 property_value: dc:creator "Victoria Petri" xsd:string
-property_value: owl:versionInfo "2026-05-16" xsd:string
+property_value: owl:versionInfo "2026-11-14" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -732,7 +732,7 @@ relationship: part_of PW:0001317 ! cell cycle pathway
 id: PW:0000095
 name: G1/S DNA damage checkpoint pathway
 def: "Those pathways of DNA damage response that occur during the G1 phase." [InHouse:PW_dictionary, Reactome:R-HSA-69615]
-synonym: "G1/S DNA Damage Checkpoints" RELATED []
+synonym: "G1/S DNA Damage Checkpoints" RELATED []
 is_a: PW:0000094 ! cell cycle checkpoint pathway
 
 [Term]
@@ -813,7 +813,7 @@ is_a: PW:0000006 ! Ras superfamily mediated signaling pathway
 id: PW:0000106
 name: extrinsic apoptotic pathway
 def: "The apoptotic pathway involving the death receptors-mediated route of caspase activation. Members of the tumor necrosis superfamily such as the better known Tnf-alpha (Tnf), Fas ligand or Trail elicit apoptosis via receptor-associated adapters." [GO:0097191, KEGG:map04210, PMID:14744432, Reactome:R-HSA-5357769]
-synonym: "Caspase activation via extrinsic apoptotic signalling pathway" RELATED []
+synonym: "Caspase activation via extrinsic apoptotic signalling pathway" RELATED []
 synonym: "death receptor mediated apoptotic pathway" RELATED []
 synonym: "extrinsic apoptotic signaling pathway" RELATED []
 is_a: PW:0000009 ! apoptotic cell death pathway
@@ -3796,7 +3796,7 @@ is_a: PW:0000517 ! arterial occlusive disease pathway
 id: PW:0000519
 name: 1,1,1-trichloro-2,2-bis(4-chlorophenyl)ethane degradation pathway
 def: "Those enzymatic reactions involved in the degradation of DDT - a chlorinated organic insecticide and environmental pollutant. Although it is banned in the United States, it is still widely used in developing countries." [GO:0042188, http://umbbd.msi.umn.edu/ddt/ddt_map.html "KEGG", KEGG:map00351]
-synonym: "1,1,1-trichloro-2,2-bis-(4-chlorophenyl)ethane catabolic process " RELATED []
+synonym: "1,1,1-trichloro-2,2-bis-(4-chlorophenyl)ethane catabolic process" RELATED []
 synonym: "DDT degradation pathway" RELATED []
 is_a: PW:0000107 ! xenobiotics biodegradation pathway
 
@@ -4325,7 +4325,7 @@ id: PW:0000591
 name: iron transport pathway
 def: "The uptake and efflux routes of iron transport. Several systems mediate uptake of recycled and dietary iron. One system is involved in the efflux." [GO:0006826, PMID:25661197, PMID:26437604, Reactome:R-HSA-917937]
 synonym: "iron ion transport" RELATED []
-synonym: "Iron uptake and transport" RELATED []
+synonym: "Iron uptake and transport" RELATED []
 is_a: PW:0000593 ! metal ion transport pathway
 relationship: part_of PW:0000590 ! iron homeostasis pathway
 
@@ -6647,7 +6647,7 @@ id: PW:0000863
 name: pyrimidine salvage pathway
 def: "The salvage pathway of pyrimidine biosynthesis, mostly used in resting and differentiated cells, allows for the synthesis of pyrimidines from intermediates derived from DNA and RNA degradation pathways." [GO:0008655, PMID:15096496, PMID:16098809, Reactome:R-HSA-73614]
 synonym: "pyrimidine-containing compound salvage" RELATED []
-synonym: "Pyrimidine salvage" RELATED []
+synonym: "Pyrimidine salvage" RELATED []
 is_a: PW:0000861 ! pyrimidine biosynthetic pathway
 created_by: vpetri
 creation_date: 2011-06-03T04:12:23Z
@@ -7971,7 +7971,7 @@ creation_date: 2012-06-04T01:30:04Z
 id: PW:0001008
 name: photosignal transduction pathway
 def: "The series of reactions within a cell required to convert absorbed photons into molecular signals." [GO:0007602, Reactome:R-HSA-2514856]
-synonym: "phototransduction " RELATED []
+synonym: "phototransduction" RELATED []
 synonym: "The phototransduction cascade" RELATED []
 is_a: PW:0000003 ! signaling pathway
 created_by: vpetri
@@ -9220,7 +9220,7 @@ id: PW:0001142
 name: clathrin-mediated endocytosis pathway
 def: "The clathrin-mediated endocytosis pathway involves clathrin-coated vesicles used for the engulfment of material." [GO:0072583, http://en.wikipedia.org/wiki/Endocytosis "Wikipedia", PMID:16985500, Reactome:R-HSA-8856828]
 synonym: "clathrin-dependent endocytosis" RELATED []
-synonym: "Clathrin-mediated endocytosis" RELATED []
+synonym: "Clathrin-mediated endocytosis" RELATED []
 is_a: PW:0000281 ! endocytosis pathway
 created_by: vpetri
 creation_date: 2012-11-08T15:18:18Z
@@ -10478,7 +10478,7 @@ id: PW:0001281
 name: tryptophan degradation pathway
 def: "Those metabolic reactions involved in the degradation of tryptophan, an essential amino acid. Tryptophan undergoes oxidative catabolism carried out by several hemeprotein enzymes. In plants, tyrosine is the precursor for several secondary metabolites." [GO:0006569, PMID:20817774, PMID:22889220, Reactome:R-HSA-71240]
 synonym: "tryptophan catabolic process" RELATED []
-synonym: "Tryptophan catabolism" RELATED []
+synonym: "Tryptophan catabolism" RELATED []
 is_a: PW:0000054 ! tryptophan metabolic pathway
 is_a: PW:0001258 ! hydrophobic amino acid degradation pathway
 created_by: vpetri
@@ -10880,7 +10880,7 @@ id: PW:0001324
 name: mitochondrial aminoacyl-tRNA biosynthetic pathway
 def: "Aminoacyl-tRNA, or transfer RNA (tRNA) carries amino acids to ribosomes and is part of the translation pathway. tRNAs are specific for the amino acids with which they are associated. Their synthesis involves adenylation of the amino acid followed by its transfer; both steps require ATP. There are 22 tRNA genes encoded by the mitochondrial genome. Mutations in these genes have been implicated in a number of disorders and may affect various steps of tRNA biosynthesis." [GO:0070127, PMID:22258151, Reactome:R-HSA-379726]
 synonym: "Mitochondrial tRNA aminoacylation" RELATED []
-synonym: "tRNA aminoacylation for mitochondrial protein translation " RELATED []
+synonym: "tRNA aminoacylation for mitochondrial protein translation" RELATED []
 relationship: part_of PW:0001323 ! mitochondrial translation pathway
 created_by: vpetri
 creation_date: 2013-05-22T13:16:35Z
@@ -12438,7 +12438,7 @@ creation_date: 2014-01-30T14:32:56Z
 id: PW:0001499
 name: altered retinoid metabolic pathway
 def: "A retinoid metabolic pathway that deviates from what its normal course should be." [Reactome:R-HSA-6809583]
-synonym: "Retinoid metabolism disease events" RELATED []
+synonym: "Retinoid metabolism disease events" RELATED []
 is_a: PW:0000429 ! altered metabolic pathway of cofactors, vitamins, nutrients
 is_a: PW:0001003 ! retinoid metabolic pathway
 is_a: PW:0001501 ! altered vitamin A homeostasis
@@ -12541,7 +12541,7 @@ id: PW:0001511
 name: bisphenol A response pathway
 def: "A pathway triggered by exposure to bisphenol A - a synthetic compound used in the production of plastics and certain resins. It mimics estrogen and has negative health effects with the early developmental stages being the more sensitive to its effects. It may be implicated in the etiology of several chronic diseases." [GO:1903925, PMID:24382480]
 synonym: "BPA response pathway" RELATED []
-synonym: "response to bisphenol A " RELATED []
+synonym: "response to bisphenol A" RELATED []
 is_a: PW:0001434 ! toxin and toxicant response pathway
 created_by: vpetri
 creation_date: 2014-02-26T10:36:07Z
@@ -15887,7 +15887,7 @@ creation_date: 2015-09-01T15:50:36Z
 id: PW:0001877
 name: plasmalogen biosynthetic pathway
 def: "Those metabolic reactions involved in the synthesis of plasmalogen." [https://en.wikipedia.org/wiki/Plasmalogen "wikipedia", Reactome:R-HSA-75896, SMP:00479]
-synonym: "Plasmalogen biosynthesis" RELATED []
+synonym: "Plasmalogen biosynthesis" RELATED []
 is_a: PW:0001876 ! plasmalogen metabolic pathway
 created_by: vpetri
 creation_date: 2015-09-01T15:54:44Z
@@ -22780,8 +22780,8 @@ creation_date: 2023-03-27T13:35:35Z
 id: PW:0002651
 name: Toll-like receptor TLR6:TLR2 signaling pathway
 def: "The series of molecular signals initiated by a ligand such as a bacterial cell wall component binding to a heterodimeric TLR6:TLR2 complex, followed by transmission of the signal by the activated receptor, and ending with the regulation of a downstream cellular process, e.g. transcription." [GO:0038124, Reactome:R-HSA-168188]
+synonym: "Toll Like Receptor TLR6:TLR2 Cascade" RELATED []
 synonym: "toll-like receptor TLR6:TLR2 signaling pathway" RELATED []
-synonym: "Toll Like Receptor TLR6:TLR2 Cascade" RELATED []
 is_a: PW:0000814 ! Toll-like receptor signaling pathway
 created_by: gthayman
 creation_date: 2023-03-27T13:53:58Z
@@ -22850,7 +22850,7 @@ creation_date: 2023-08-24T16:18:10Z
 id: PW:0002658
 name: galactose degradation pathway
 def: "Those metabolic reactions involved in the degradation of galactose." [GO:0019388, Reactome:R-HSA-70370]
-synonym: "galactose catabolic process " RELATED []
+synonym: "galactose catabolic process" RELATED []
 synonym: "Galactose catabolism" RELATED []
 is_a: PW:0000042 ! galactose metabolic pathway
 created_by: gthayman
@@ -22929,7 +22929,7 @@ creation_date: 2023-08-25T16:38:34Z
 id: PW:0002666
 name: fructose metabolic pathway
 def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of fructose." [GO:0006000, Reactome:R-HSA-5652084]
-synonym: "fructose metabolic process " RELATED []
+synonym: "fructose metabolic process" RELATED []
 synonym: "Fructose metabolism" RELATED []
 is_a: PW:0000041 ! fructose and mannose metabolic pathway
 created_by: gthayman
@@ -22940,7 +22940,7 @@ id: PW:0002667
 name: fructose biosynthetic pathway
 def: "Those metabolic reactions involved in the biosynthesis of fructose." [GO:0046370, Reactome:R-HSA-5652227]
 synonym: "Fructose biosynthesis" RELATED []
-synonym: "fructose biosynthetic process " RELATED []
+synonym: "fructose biosynthetic process" RELATED []
 is_a: PW:0002666 ! fructose metabolic pathway
 created_by: gthayman
 creation_date: 2023-08-25T17:01:45Z
@@ -23172,7 +23172,7 @@ creation_date: 2025-03-11T16:36:54Z
 id: PW:0002691
 name: heparan sulfate metabolic pathway
 def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of heparan sulfate. Heparan sulfate is a glycosaminoglycan occurring in the cell membrane of most cells. It consists of repeating disaccharide units in specific linkage, each composed of a glucosamine residue linked to a uronic acid, either glucuronic acid or L-iduronic acid, which may be sulfated." [GO:0030201, Reactome:R-HSA-1638091]
-synonym: "Heparan sulfate/heparin (HS-GAG) metabolism" RELATED []
+synonym: "Heparan sulfate/heparin (HS-GAG) metabolism" RELATED []
 synonym: "heparan sulfate proteoglycan metabolic process" RELATED []
 is_a: PW:0000157 ! glycosaminoglycan metabolic pathway
 created_by: gthayman
@@ -23222,8 +23222,8 @@ creation_date: 2025-03-13T16:14:52Z
 id: PW:0002696
 name: chondroitin sulfate metabolic pathway
 def: "Those metabolic reactions involved in the synthesis, utilization and/or degradation of chondroitin sulfate. Chondroitin is a mucopolysaccharide occurring in sulfated form in various animal tissues (such as cartilage)." [GO:0050654, Reactome:R-HSA-1793185]
+synonym: "Chondroitin sulfate/dermatan sulfate metabolism" RELATED []
 synonym: "chondroitin sulfate proteoglycan metabolic process" RELATED []
-synonym: "Chondroitin sulfate/dermatan sulfate metabolism" RELATED []
 is_a: PW:0000157 ! glycosaminoglycan metabolic pathway
 created_by: gthayman
 creation_date: 2025-03-19T13:58:25Z
@@ -23270,7 +23270,7 @@ creation_date: 2025-03-19T15:00:19Z
 
 [Term]
 id: PW:0002701
-name: epigenetic regulation of gene expression pathway
+name: epigenetic regulation of gene expression pathway
 def: "Those metabolic reactions involved in modulating the frequency, rate or extent of gene expression through chromatin remodeling either by modifying higher order chromatin fiber structure or nucleosomal histones, cytosine methylation of DNA or RNA interference. Once established, this regulation may be maintained over many cell divisions. It can also be heritable in the absence of the instigating signal." [GO:0040029, Reactome:R-HSA-212165]
 synonym: "Epigenetic regulation of gene expression" RELATED []
 is_a: PW:0001337 ! chromatin modification/remodeling pathway
@@ -23446,7 +23446,7 @@ creation_date: 2025-04-25T10:54:04Z
 id: PW:0002719
 name: mitochondrial translation termination pathway
 def: "The series of events resulting in the release of a polypeptide chain from the ribosome in a mitochondrion, usually in response to a termination codon (note that mitochondria use variants of the universal genetic code that differ between different taxa)." [GO:0070126, Reactome:R-HSA-5419276]
-synonym: "Mitochondrial translation termination" RELATED []
+synonym: "Mitochondrial translation termination" RELATED []
 is_a: PW:0000582 ! translation termination pathway
 relationship: part_of PW:0001323 ! mitochondrial translation pathway
 created_by: gthayman
@@ -23528,14 +23528,14 @@ id: PW:0002727
 name: mitotic telophase pathway
 def: "The series of events underlying mitotic telophase, which follows anaphase, during which the chromosomes arrive at the poles of the cell and the division of the cytoplasm starts." [GO:0000093, Reactome:R-HSA-68884]
 synonym: "mitotic telophase" RELATED []
-synonym: "Mitotic Telophase/Cytokinesis" RELATED []
+synonym: "Mitotic Telophase/Cytokinesis" RELATED []
 relationship: part_of PW:0000092 ! M phase pathway
 created_by: gthayman
 creation_date: 2025-05-07T14:26:40Z
 
 [Term]
 id: PW:0002728
-name: mitotic prophase pathway
+name: mitotic prophase pathway
 def: "The series of events underlying mitotic prophase, which is the first stage of mitosis, during which chromosomes condense and the two daughter centrioles and their asters migrate toward the poles of the cell." [GO:0000088, Reactome:R-HSA-68875]
 synonym: "Mitotic Prophase" RELATED []
 relationship: part_of PW:0000092 ! M phase pathway
@@ -23670,9 +23670,9 @@ creation_date: 2025-05-29T11:26:17Z
 
 [Term]
 id: PW:0002742
-name: mitochondrial calcium ion transport pathway
+name: mitochondrial calcium ion transport pathway
 def: "The events involved in the transport of a calcium ion (Ca2+) across a mitochondrial membrane, into or out of the mitochondrion." [GO:0006851, Reactome:R-HSA-8949215]
-synonym: "mitochondrial calcium ion transmembrane transport " RELATED []
+synonym: "mitochondrial calcium ion transmembrane transport" RELATED []
 synonym: "Mitochondrial calcium ion transport" RELATED []
 is_a: PW:0001139 ! calcium transport pathway
 created_by: gthayman
